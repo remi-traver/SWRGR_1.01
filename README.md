@@ -1,6 +1,10 @@
-#SWRGR_1.01
+# SWRGR_1.01
 Base SWRFUSS version 1.4, Modified by Remi
 Skill integration from SW:GD and SWL
+
+
+
+
 
 
 # SWRFUSS
