@@ -1,0 +1,4908 @@
+#AREA   Algarine (algara II)~
+
+
+
+#AUTHOR Revan~
+
+#RANGES
+1 36 1 36
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 9602609
+
+#MOBILES
+#31100
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31101
+female twi'lek slave~
+a female twi'lek slave~
+A female twi'lek slave is standing here.
+~
+~
+3 0 0 Z
+10 0 75 2d10+100 1d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+2 2 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31102
+female zeltron slave~
+a female zeltron slave~
+A female zeltron slave is standing here.
+~
+~
+3 0 0 Z
+9 0 77 1d10+90 0d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+1 1 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31103
+male twi'lek slave~
+a male twi'lek slave~
+A male twi'lek slave is standing here.
+~
+~
+3 0 0 Z
+11 0 72 2d10+110 1d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+2 2 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31104
+male zeltron slave~
+a male zeltron slave~
+A male zeltron slave is standing here.
+~
+~
+3 0 0 Z
+8 0 80 1d10+80 0d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+1 1 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31105
+a Gamorrean slave overseer~
+a gamorrean slave overseer~
+A gamorrean slave overseer is standing here, watching the slaves.
+~
+~
+3 0 0 Z
+30 0 25 6d10+300 3d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+6 6 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31106
+Czerka corporation m-934 merchant droid~
+a czerka corporation m-934 merchant droid~
+A czerka corporation m-934 merchant droid is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31107
+a Xan Merchant is standing here.~
+a xan merchant~
+A xan merchant is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31108
+an algaran merchant~
+an algaran merchant~
+An algaran merchant is standing here.
+~
+~
+3 0 0 Z
+23 0 42 4d10+230 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+4 4 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31109
+Dak~
+Dak~
+Dak is standing here amongst the furniture.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31110
+altia~
+Altia~
+Altia is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31111
+Red~
+Red~
+Red, a coyote male is standing here.
+~
+~
+3 0 0 Z
+23 0 42 4d10+230 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+4 4 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31112
+a tk astromech droid~
+a tk astromech droid~
+A tk astromech droid is sitting here.
+~
+~
+3 0 0 Z
+4 0 90 0d10+40 0d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31113
+a C-7 protocol droid~
+a C-7 protocol droid~
+A C-7 protocol droid is standing here.
+~
+~
+3 0 0 Z
+15 0 62 3d10+150 1d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+3 3 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31114
+a R-7 astromech droid~
+a R-7 astromech droid~
+A R-7 astromech droid is sitting here.
+~
+~
+3 0 0 Z
+8 0 80 1d10+80 0d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+1 1 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31115
+a R-2 astromech droid~
+a R-2 astromech droid~
+A R-2 astromech droid is sitting here.
+~
+~
+3 0 0 Z
+5 0 87 1d10+50 0d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+1 1 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31116
+a lom protocol droid~
+a lom protocol droid~
+A lom protocol droid is standing here.
+~
+~
+3 0 0 Z
+5 0 87 1d10+50 0d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+1 1 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31117
+liara~
+Liara~
+Liara is repairing an astromech droid here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31118
+Czerka corporation m-934 merchant droid~
+a czerka corporation m-934 merchant droid~
+A czerka corporation m-934 merchant droid is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31119
+an algaran merchant~
+an algaran merchant~
+An algaran merchant is standing here.
+~
+~
+3 0 0 Z
+23 0 42 4d10+230 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31120
+Czerka corporation m-934 merchant droid~
+a czerka corporation m-934 merchant droid~
+A czerka corporation m-934 merchant droid is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31121
+Algarine Starport Security Guard~
+an Algarine starport security guard~
+An Algarine starport security guard is standing here.
+~
+~
+65537 0 0 Z
+23 0 43 4d10+230 2d4+2
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31122
+Starport Security Chief~
+Starport Security Chief~
+The starport security chief is sitting here.
+~
+~
+3 0 0 Z
+30 0 25 6d10+300 3d4+2
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+2 0 0 0 5 4 5
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31123
+a shady character~
+shady character~
+A shady character is moving about here.
+~
+~
+65537 0 0 Z
+20 0 50 4d10+200 2d4+2
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 3
+4 4 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+mpoload 31145
+mpecho the shady figure drops a imperial badge.
+~
+|
+#31124
+ada waclawa~
+ada waclawa~
+Ada waclawa  the head of planet concerns is here.
+~
+~
+136314883 4194304 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+mpecho  ada waclawa says "If i can take down some of these Pro-imperial terrorists the planet would be a better place."
+mpsleep 4
+mpecho  ada waclawa says "If you find any of the terrorists.. bring me their badges and i'll see what i can do to get you credits."
+~
+> act_prog p gives you Imperial Badge.~
+mpecho  ada waclawa says "Thank you for your assistance"
+mpwithdraw 800
+give 800 credits $n
+mpadvance $n 8 5000
+mpechoat $n you gain 5000 assassin exp.
+drop badge
+mppurge badge
+~
+|
+#31125
+a male citizen~
+A male citizen~
+A male citizen is standing here.
+~
+~
+65537 0 0 Z
+18 0 55 3d10+180 1d4+2
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31126
+a female citizen~
+a female citizen~
+A female citizen stands here.
+~
+~
+65537 0 0 Z
+10 0 75 2d10+100 1d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31127
+Czerka corporation m-934 merchant droid ~
+a czerka corporation m-934 merchant droid~
+A czerka corporation m-934 merchant droid is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31282
+a key dispenser ~
+a key dispenser~
+A key dispenser is sitting here.
+~
+~
+169869315 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+21 0 0 0 1 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> speech_prog p key~
+if clan($n) == sorosuub engineering
+mpoload 31146
+give key $n
+mpecho the machine spits out a key.
+else
+mpecho the machine beeps.
+endif
+~
+|
+#31283
+Police Droid~
+a 501-Z Police Droid~
+A 501-Z Police Droid is standing here.
+~
+~
+65537 0 0 Z
+23 0 42 4d10+230 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+4 4 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31299
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#31100
+first obj~
+a first obj~
+A first obj is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#31101
+a wrist mounted datapad~
+a wrist mounted datapad~
+A wrist mounted datapad is laying here.~
+~
+89 8192 4097
+0 0 0 0
+2 10000 1000
+A
+17 -5
+#31102
+a datapad~
+a datapad~
+A datapad used for recording message disks is here.~
+~
+21 0 1
+15 15 0 0
+2 1000 100
+#31103
+a slicer's datapad~
+a slicer's datapad~
+A slicer's datapad is laying here.~
+~
+89 8192 16385
+0 0 0 0
+1 3000 300
+#31104
+a comlink~
+a comlink~
+A comlink was left here~
+~
+72 0 16385
+0 0 0 0
+1 500 50
+#31105
+a wrist comlink~
+A Wrist Comlink~
+A Wrist Comlink has been left here.~
+~
+72 8192 4097
+0 0 0 0
+1 1100 110
+#31106
+wrist mounted commsystem~
+a wrist mounted commsystem~
+A wrist mounted commsystem is laying here.~
+~
+88 0 4097
+0 0 0 0
+2 3000 300
+#31107
+A long sharp vibro-blade~
+a long sharp vibro-blade~
+A sharp looking blade is here.~
+~
+5 8192 8193
+12 15 35 2 100 110
+4 130 13
+A
+18 -1
+A
+18 3
+#31108
+A force pike~
+A Force Pike~
+A force pike lies on the ground here, humming quietly.~
+~
+5 0 8193
+0 5 10 11
+1 7300 730
+#31109
+a holdout defence blaster~
+a holdout defence blaster~
+A defence blaster is laying here.~
+~
+5 0 8193
+0 20 90 6 1000 1000
+1 6700 670
+#31110
+large chair~
+a large chair~
+A large chair is sitting here.~
+~
+12 0 1
+0 0 9 0
+1 100 10
+#31111
+large bed~
+a large bed~
+A large bed is sitting here.~
+~
+12 0 0
+0 0 1153 0
+1 1124 112
+#31112
+a loveseat~
+a loveseat~
+A large loveseat is sitting here.~
+~
+12 0 1
+2 2 2 0
+1 1200 120
+#31113
+a large table~
+a table~
+A large table is sitting here.~
+~
+12 0 1
+0 0 41 0
+1 1000 100
+#31114
+a tight pink shirt~
+&PA Tight Pink Shirt&d~
+&PA Tight Pink Shirt&d has been left here.~
+~
+9 8192 9
+3 3 0 0
+1 150 15
+#31115
+a tight red shirt~
+&RA Tight Red Shirt&d~
+&RA Tight Red Shirt&d has been left here.~
+~
+9 8192 9
+3 3 0 0
+1 150 15
+#31116
+a pair of black pants~
+&dA Pair Of &zBlack Pants&d~
+&dA Pair Of &zBlack Pants&d have been left here.~
+~
+9 8192 33
+8 8 0 0
+1 1300 130
+#31117
+a pair of white pants~
+&dA Pair Of &WWhite Pants&d~
+&dA Pair Of &WWhite Pants&d have been left here.~
+~
+9 8192 33
+8 8 0 0
+1 1300 130
+#31118
+a pair of brown pants~
+&w A Pair Of &OBrown Pants&W~
+&w A Pair Of &OBrown Pants&w have been left here.~
+~
+9 8192 33
+8 8 0 0
+1 1300 130
+#31119
+a circuit~
+a circuit~
+A circuit is here.~
+~
+70 8192 16385
+0 0 0 0
+1 10 1
+#31120
+an advanced power cell~
+an advanced power cell~
+An advanced power cell is here~
+~
+65 8192 16385
+5000 0 0 0
+1 160 16
+#31121
+a superconductor~
+a superconductor~
+A superconductor was dropped here~
+~
+71 0 1
+0 0 0 0
+1 23 2
+#31122
+a lens~
+a lens~
+A lens was dropped here~
+~
+62 0 1
+0 0 0 0
+1 5 0
+#31123
+a toolkit~
+a toolkit~
+A toolkit was dropped here~
+~
+66 0 1
+0 0 0 0
+3 214 21
+#31130
+Sarlacc skin~
+Sarlacc skin~
+A piece of armor is laying here.~
+~
+74 8192 1 8
+0 15 0 0
+1 23400 2340
+#31131
+BioS arm enhancer~
+a BioS arm enhancer~
+A BioS arm enhancer is here.~
+~
+9 2 257
+15 15 0 0
+1 120000 12000
+A
+1 1
+> wear_prog 100~
+if race($n) == protocol droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else
+if race($n) == astromech droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else 
+if race($n) == intera droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else 
+if race($n) == assassin droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else 
+endif
+endif
+endif
+endif
+~
+|
+#31132
+BioD arm enhancer~
+a BioD arm enhancer~
+A BioD arm enhancer is here.~
+~
+9 2 257
+15 15 0 0
+1 120000 12000
+A
+2 1
+> wear_prog 100~
+if race($n) == protocol droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else
+if race($n) == astromech droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else 
+if race($n) == intera droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else 
+if race($n) == assassin droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else 
+endif
+endif
+endif
+endif
+~
+|
+#31133
+BioC Body enhancer~
+a BioC Body enhancer~
+A BioC Body enhancer is here.~
+~
+9 2 524297
+15 15 0 0
+1 120000 12000
+A
+5 1
+> wear_prog 100~
+if race($n) == protocol droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else
+if race($n) == astromech droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else 
+if race($n) == intera droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else 
+if race($n) == assassin droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else 
+endif
+endif
+endif
+endif
+~
+|
+#31134
+BioS Leg enhancer~
+a BioS Leg enhancer~
+A BioS Leg enhancer is here.~
+~
+9 2 33
+15 15 0 0
+1 120000 12000
+A
+1 1
+> wear_prog 100~
+if race($n) == protocol droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else
+if race($n) == astromech droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else 
+if race($n) == intera droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else 
+if race($n) == assassin droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else 
+endif
+endif
+endif
+endif
+~
+|
+#31135
+BioD Leg enhancer~
+a BioD Leg enhancer~
+A BioD Leg enhancer is here.~
+~
+9 2 33
+15 15 0 0
+1 120000 12000
+A
+2 1
+> wear_prog 100~
+if race($n) == protocol droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else
+if race($n) == astromech droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else 
+if race($n) == intera droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else 
+if race($n) == assassin droid
+mpforce $n remove enhancer
+mpechoat $n droids can't wear enhancers.
+else 
+endif
+endif
+endif
+endif
+~
+|
+#31136
+A droid renewable shield.~
+a Droid Renewable Shield~
+A Droid Renewable Shield is here.~
+~
+9 8192 513
+54 54 0 0
+1 12000 1200
+#31137
+A droid defense barrier~
+a Droid Defense Barrier~
+A Droid Defense Barrier is here.~
+~
+9 8192 513
+40 40 0 0
+1 14140 1414
+#31138
+Diatium plating~
+Diatium Plating~
+A piece of Diatium Plating is here.~
+~
+9 8192 526841 32
+20 20 0 0
+1 12700 1270
+#31139
+Modular plating mark ii~
+Modular Plating Mark II~
+A piece of Modular Plating Mark II is here.~
+~
+9 8192 526841 32
+9 9 0 0
+1 12300 1230
+#31140
+Agrinium armor plating~
+Agrinium Armor Plating~
+A piece of agrinium plating is here.~
+~
+9 8192 526841 32
+13 13 0 0
+1 11606 1160
+#31141
+Carbonite Emitter~
+&Oa wrist mounted carbonite emitter&W~
+A wrist mounted carbonite emitter is here.~
+~
+9 0 4097
+15 15 0 0
+1 9000 900
+A
+19 3
+A
+18 -2
+#31142
+Toxin Emitter~
+&ga wrist mounted Toxin Emitter&W~
+A wrist mounted Toxin Emitter is here.~
+~
+9 0 4097
+15 15 0 0
+1 9000 900
+A
+18 2
+A
+19 -1
+#31143
+Blowtorch~
+&Ya wrist mounted blowtorch&W~
+A wrist mounted blowtorch is here.~
+~
+9 0 4097
+15 15 0 0
+1 1800 180
+A
+19 3
+A
+18 -2
+#31144
+A holonet transmitter~
+a holonet transmitter~
+A holonet transmitter is here.~
+~
+99 3 16384
+0 236 236 236
+3 300000 30000
+#31145
+Imperial Badge~
+Imperial Badge~
+An imperial resistance badge is laying here.~
+~
+13 0 1
+0 0 0 0
+1 0 0
+#31146
+S.E.A.B key~
+a S.E.A.B key~
+A S.E.A.B key is here.~
+~
+18 0 1
+0 0 0 0
+1 1 0
+#31147
+A beautifully carved desk~
+a Beautifully Carved Desk~
+A beautifully carved desk is here.~
+~
+12 0 0
+0 0 0 0
+500 1000 100
+#31148
+a large black chair~
+&zA large black chair&w~
+&zA large black chair sits behind the desk&w~
+~
+12 0 0
+100 100 2 0
+1 0 0
+#31149
+a piece of duraplast)~
+a piece of duraplast~
+A piece of duraplast was dropped here~
+~
+64 8192 1
+0 0 0 0
+1 5 0
+#31150
+a piece of durasteel)~
+a piece of durasteel~
+A piece of durasteel was dropped here~
+~
+67 8192 1
+0 0 0 0
+1 5 0
+#31151
+a vial containing some chemicals~
+a vial containing some chemicals~
+Some chemicals are laying here.~
+~
+87 8192 1
+40 0 0 0
+1 150 15
+#31152
+a piece of metal~
+a piece of metal~
+A piece of metal was dropped here~
+~
+75 8192 1
+0 0 0 0
+1 15 1
+#31153
+a master's oven~
+a master's oven~
+An oven was dropped here~
+~
+68 8195 1
+0 0 0 0
+5 5000 500
+#31154
+a master's toolkit~
+a master's toolkit~
+A toolkit was dropped here~
+~
+66 8195 1
+0 0 0 0
+3 5500 550
+#31155
+a cheap looking crystal~
+a cheap looking crystal~
+A a cheap looking crystal is here.~
+~
+63 8192 1
+1 0 0 0
+1 5 0
+#31156
+a needle and some thread~
+a needle and some thread~
+A needle and some thread was dropped here~
+~
+77 8192 1
+0 0 0 0
+1 5 0
+#31157
+a small mirror~
+A small mirror~
+A small mirror was left here~
+~
+69 8192 1
+0 0 0 0
+1 120 12
+#31299
+last obj~
+a last obj~
+A last obj is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#31100
+Floating in a void~
+~
+0 4 1 0 0 0 19336
+S
+#31101
+Sorosuub Landing Platform~
+The pad is high above the city on its own tower. A large spearlike
+structure is errected one on each of the four corners each with
+landing lights to guide starcraft in. A large door sits on the
+east side leading to the cargo and personel lift.
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31102 0
+R M 0 31283 35 31101
+R M 0 31283 35 31101
+R M 0 31283 35 31101
+R M 0 31283 35 31101
+S
+#31102
+&gM&Oain &gT&Ourbolift&W~
+The bottom of the turbolift is made of a durasteel grate. the
+walls are near bare and the turbolift moves fairly fast. a small
+note sits by the door next to a voice reconizing system.
+
+Turbolift only reconizes &YUP &Wand &YDOWN &W
+~
+0 12 1 0 0 0 19336
+> speech_prog up~
+mpecho the lift spins as it rotates up to the surface.
+mpsleep 8
+mpe the lift slows to a halt and the doors open.
+mptransfer $n 31101
+~
+> speech_prog down~
+mpecho the lift spins as it rotates down into the depths.
+mpsleep 8
+mpe the lift slows to a halt and the doors open.
+mptransfer $n 31103
+~
+|
+S
+#31103
+&gL&Oarge &gB&Oay&W~
+Large crate sit about the room probably containing supplies ranging
+from equipment and food to materials needed for orders. Each
+crate is marked and rapidly identifyable.A few clerks move about
+the crates to check them in and have them go through customs.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31104 0
+D2
+~
+~
+0 -1 31102 0
+R M 0 31283 35 31103
+R M 0 31283 35 31103
+S
+#31104
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31105 0
+D2
+~
+~
+0 -1 31103 0
+D6
+~
+~
+0 -1 31137 0
+D7
+~
+~
+0 -1 31117 0
+D8
+~
+~
+0 -1 31130 0
+D9
+~
+~
+0 -1 31111 0
+R M 0 31283 35 31104
+R M 0 31283 35 31104
+R M 0 31283 35 31104
+S
+#31105
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31107 0
+D2
+~
+~
+0 -1 31104 0
+D6
+~
+~
+0 -1 31108 0
+D7
+~
+~
+0 -1 31106 0
+D8
+~
+~
+0 -1 31109 0
+D9
+~
+~
+0 -1 31110 0
+R M 0 31283 35 31105
+S
+#31106
+&gO&Office&W~
+~
+0 12 1 0 0 0 19336
+D8
+~
+~
+0 -1 31105 0
+S
+#31107
+&gC&OEO's &gO&Office&W~
+~
+0 12 1 0 0 0 19336
+D2
+~
+~
+0 -1 31105 0
+R O 0 31147 1 31107
+R O 0 31148 1 31107
+S
+#31108
+&gO&Office&W~
+~
+0 12 1 0 0 0 19336
+D9
+~
+~
+0 -1 31105 0
+S
+#31109
+&gO&Office&W~
+~
+0 12 1 0 0 0 19336
+D7
+~
+~
+0 -1 31105 0
+S
+#31110
+&gO&Office&W~
+~
+0 12 1 0 0 0 19336
+D6
+~
+~
+0 -1 31105 0
+S
+#31111
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D6
+~
+~
+0 -1 31104 0
+D9
+~
+~
+0 -1 31112 0
+R M 0 31283 35 31111
+S
+#31112
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D3
+~
+~
+0 -1 31114 0
+D6
+~
+~
+0 -1 31111 0
+D8
+~
+~
+0 -1 31113 0
+R M 0 31283 35 31112
+S
+#31113
+&gS&Oupply &gD&Oepot&W~
+The room is filled with small crates on shelves. a large rack
+of supplies sit against the wall. A small counter sits in the
+middle of the room with a lone droid attendant.
+~
+0 8 1 0 0 0 19336
+D7
+~
+~
+0 -1 31112 0
+R M 0 31127 1 31113
+  R G 0 31153 1
+  R G 0 31154 1
+  R G 0 31122 1
+  R G 0 31121 1
+  R G 0 31119 1
+  R G 0 31157 1
+  R G 0 31156 1
+  R G 0 31155 1
+  R G 0 31152 1
+  R G 0 31151 1
+  R G 0 31150 1
+  R G 0 31149 1
+  R G 0 31120 1
+S
+#31114
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31115 0
+D1
+~
+~
+0 -1 31112 0
+D2
+~
+~
+0 -1 31116 0
+S
+#31115
+&gW&Oorkshop&W~
+As you step into this quiet workshop, you notice many tables,
+spread out amongst the walls, each with a lamp and rack of tools
+above it. Each table is also immaculately kept.
+~
+0 67108872 1 0 0 0 19336
+D2
+~
+~
+0 -1 31114 0
+S
+#31116
+&gR&Oefinery&W~
+A small processing station lies here, ready for refining that
+illegal substance known as Glitterstim. The room seems deserted
+other than your own footsteps.
+~
+0 33554440 1 0 0 0 19336
+D0
+~
+~
+0 -1 31114 0
+S
+#31117
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D3
+~
+~
+0 -1 31118 0
+D8
+~
+~
+0 -1 31104 0
+S
+#31118
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D1
+~
+~
+0 -1 31117 0
+D3
+~
+~
+0 -1 31119 0
+R M 0 31283 35 31118
+S
+#31119
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31126 0
+D1
+~
+~
+0 -1 31118 0
+D2
+~
+~
+0 -1 31120 0
+R M 0 31283 35 31119
+S
+#31120
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31119 0
+D2
+~
+~
+0 -1 31121 0
+R M 0 31283 35 31120
+S
+#31121
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31120 0
+D3
+~
+~
+0 -1 31122 0
+S
+#31122
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D1
+~
+~
+0 -1 31121 0
+D3
+~
+~
+0 -1 31123 0
+R M 0 31283 35 31122
+S
+#31123
+&gS&O.E &gM&Oedical &gD&Oepartment&W&W~
+his small hospital can accommodate a small number of people.Small
+beds lay against the walls ready for the wounded or the sick.The
+clean duracrete walls are illuminated by small lighting fixtures.A
+few nurses are on hand to lend aid.
+~
+0 8 1 0 0 0 19336
+D1
+~
+~
+0 -1 31122 0
+D7
+~
+~
+0 -1 31124 0
+D9
+~
+~
+0 -1 31125 0
+R M 0 31283 35 31123
+R M 0 31283 35 31123
+R M 0 31283 35 31123
+S
+#31124
+&gB&Oacta &gT&Oank&W~
+Bright blue fluid presses against the skin and slowly heals the
+wounds of its occupants. a breath mask is here for you to breathe
+in the thick gooey bacta.A few nurses run about checking charts
+on other occupants.
+~
+0 8 1 0 0 0 19336
+D8
+~
+~
+0 -1 31123 0
+> rand_prog 100~
+mpechoat $n the bacta heals some of your wounds.
+mprestore $n 100
+~
+|
+S
+#31125
+&gB&Oacta &gT&Oank&W~
+Bright blue fluid presses against the skin and slowly heals the
+wounds of its occupants. a breath mask is here for you to breathe
+in the thick gooey bacta.A few nurses run about checking charts
+on other occupants.
+~
+0 8 1 0 0 0 19336
+D6
+~
+~
+0 -1 31123 0
+> rand_prog 100~
+mpechoat $n the bacta heals some of your wounds.
+mprestore $n 100
+~
+|
+S
+#31126
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31127 0
+D2
+~
+~
+0 -1 31119 0
+S
+#31127
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31128 0
+D2
+~
+~
+0 -1 31126 0
+S
+#31128
+&gG&Ouard &gS&Otation&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls. A large counter sits near the door to the northeast surrounding
+it are monitors and computer screens. A few attendants sit watching
+the screens.
+~
+0 8 1 0 0 0 19336
+D2
+~
+~
+0 -1 31127 0
+D6
+~
+~
+8388615 31146 31129 0
+R M 0 31282 1 31128
+R D 0 31128 6 2
+S
+#31129
+Jail Cell~
+~
+0 8 1 0 0 0 19336
+D9
+~
+~
+8388615 31146 31128 0
+R D 0 31129 9 2
+S
+#31130
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D7
+~
+~
+0 -1 31104 0
+D8
+~
+~
+0 -1 31131 0
+R M 0 31283 35 31130
+S
+#31131
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D2
+~
+~
+0 -1 31132 0
+D7
+~
+~
+0 -1 31130 0
+R M 0 31283 35 31131
+R M 0 31283 35 31131
+R M 0 31283 35 31131
+S
+#31132
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31131 0
+D1
+~
+~
+3 -1 31134 0
+R M 0 31283 35 31132
+R M 0 31283 35 31132
+R D 0 31132 1 1
+S
+#31133
+&BS&Wtarport &BH&Wotel~
+The lodge is a great place to stay overnight, with comfortable
+beds and great holovision channels! The fare here is cheap too.Finally,
+there is a small check in/out counter to the right.
+~
+0 8388616 1 0 0 0 19336
+D2
+~
+~
+0 -1 31175 0
+R M 0 31125 158 31133
+R M 0 31125 158 31133
+R M 0 31125 158 31133
+R M 0 31126 104 31133
+R M 0 31121 13 31133
+R M 0 31121 13 31133
+R M 0 31125 158 31133
+R M 0 31125 158 31133
+S
+#31134
+&gS&Oecurity &gC&Oheckpoint&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D2
+~
+~
+0 -1 31135 0
+D3
+~
+~
+3 -1 31132 0
+R D 0 31134 3 1
+S
+#31135
+&gC&Oorridor&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31134 0
+D2
+~
+~
+0 -1 31136 0
+S
+#31136
+&gS&Oorrosuub &gE&Ongineering &gC&Oorporation &gE&Ontrance&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 12 1 0 0 0 19336
+D0
+~
+~
+0 -1 31135 0
+D2
+~
+~
+0 -1 31198 0
+S
+#31137
+&gH&Oallway&W~
+Bright white durasteel make up the walls and small vertical lights
+sit on the wall projecting a bright blue glow. Engineers, technicians
+and other personel are moving about on their routines.Small
+tapestries and small images of personel are hanging from the
+walls.
+~
+0 8 1 0 0 0 19336
+D6
+~
+~
+0 -1 31138 0
+D9
+~
+~
+0 -1 31104 0
+R M 0 31283 35 31137
+R M 0 31283 35 31137
+S
+#31138
+&CAltiaum Plaza&W~
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31140 0
+D1
+~
+~
+0 -1 31141 0
+D2
+~
+~
+0 -1 31153 0
+D3
+~
+~
+0 -1 31144 0
+D6
+~
+~
+0 -1 31139 0
+D9
+~
+~
+0 -1 31137 0
+S
+#31139
+&CAltiaum Plaza&W~
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31142 0
+D1
+~
+~
+0 -1 31150 0
+D2
+~
+~
+0 -1 31141 0
+D3
+~
+~
+0 -1 31140 0
+D7
+~
+~
+0 -1 31143 0
+D9
+~
+~
+0 -1 31138 0
+R M 0 31283 35 31139
+R M 0 31283 35 31139
+S
+#31140
+&CAltiaum Plaza&W~
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31143 0
+D1
+~
+~
+0 -1 31139 0
+D2
+~
+~
+0 -1 31138 0
+D3
+~
+~
+0 -1 31145 0
+D6
+~
+~
+0 -1 31142 0
+D8
+~
+~
+0 -1 31141 0
+S
+#31141
+&CAltiaum Plaza&W~
+~
+0 12 1 0 0 0 19336
+D0
+~
+~
+0 -1 31139 0
+D1
+~
+~
+0 -1 31151 0
+D2
+~
+~
+0 -1 31152 0
+D3
+~
+~
+0 -1 31138 0
+D7
+~
+~
+0 -1 31140 0
+S
+#31142
+&CAltiaum Plaza&W~
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31148 0
+D1
+~
+~
+0 -1 31149 0
+D2
+~
+~
+0 -1 31139 0
+D3
+~
+~
+0 -1 31143 0
+D9
+~
+~
+0 -1 31140 0
+R M 0 31283 35 31142
+S
+#31143
+&CAltiaum Plaza&W~
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31147 0
+D1
+~
+~
+0 -1 31142 0
+D2
+~
+~
+0 -1 31140 0
+D3
+~
+~
+0 -1 31146 0
+D8
+~
+~
+0 -1 31139 0
+R M 0 31283 35 31143
+R M 0 31283 35 31143
+R M 0 31283 35 31143
+R M 0 31283 35 31143
+S
+#31144
+Empty Shop~
+~
+0 8 1 1 0 0 19336
+D1
+~
+~
+0 -1 31138 0
+R M 0 31283 35 31144
+S
+#31145
+Empty Shop~
+~
+0 8 1 1 0 0 19336
+D1
+~
+~
+0 -1 31140 0
+S
+#31146
+A small house~
+~
+0 76546056 1 0 0 0 19336
+D1
+~
+~
+0 -1 31143 0
+S
+#31147
+&rK&weep &rS&wafe &rA&wrmory~
+~
+0 8 1 3 0 0 19336
+D2
+~
+~
+0 -1 31143 0
+R M 0 83 5 31147
+  R G 0 28 1
+  R G 0 28 1
+  R G 0 765 1
+    R P 0 763 1 765
+    R P 0 763 1 765
+    R P 0 763 1 765
+    R P 0 763 1 765
+    R P 0 763 1 765
+    R P 0 763 1 765
+    R P 0 763 1 765
+    R P 0 763 1 765
+    R P 0 763 1 765
+    R P 0 763 1 765
+  R G 0 765 1
+    R P 0 764 1 765
+    R P 0 764 1 765
+    R P 0 764 1 765
+    R P 0 764 1 765
+    R P 0 764 1 765
+    R P 0 764 1 765
+    R P 0 764 1 765
+    R P 0 764 1 765
+    R P 0 764 1 765
+    R P 0 764 1 765
+  R G 0 765 1
+    R P 0 765 1 765
+    R P 0 765 1 765
+    R P 0 765 1 765
+    R P 0 765 1 765
+    R P 0 765 1 765
+    R P 0 765 1 765
+    R P 0 765 1 765
+    R P 0 765 1 765
+    R P 0 765 1 765
+    R P 0 765 1 765
+  R G 0 765 1
+    R P 0 10504 1 765
+    R P 0 10504 1 765
+    R P 0 10504 1 765
+    R P 0 10504 1 765
+    R P 0 10504 1 765
+    R P 0 10504 1 765
+    R P 0 10504 1 765
+    R P 0 10504 1 765
+    R P 0 10504 1 765
+    R P 0 10504 1 765
+    R P 0 8074 1 765
+  R G 0 763 1
+    R P 0 763 1 763
+    R P 0 763 1 763
+    R P 0 763 1 763
+    R P 0 763 1 763
+    R P 0 763 1 763
+    R P 0 763 1 763
+    R P 0 763 1 763
+    R P 0 763 1 763
+    R P 0 763 1 763
+    R P 0 763 1 763
+  R G 0 763 1
+    R P 0 764 1 763
+    R P 0 764 1 763
+    R P 0 764 1 763
+    R P 0 764 1 763
+    R P 0 764 1 763
+    R P 0 764 1 763
+    R P 0 764 1 763
+    R P 0 764 1 763
+    R P 0 764 1 763
+    R P 0 764 1 763
+  R G 0 763 1
+    R P 0 765 1 763
+    R P 0 765 1 763
+    R P 0 765 1 763
+    R P 0 765 1 763
+    R P 0 765 1 763
+    R P 0 765 1 763
+    R P 0 765 1 763
+    R P 0 765 1 763
+    R P 0 765 1 763
+    R P 0 765 1 763
+  R G 0 763 1
+    R P 0 10504 1 763
+    R P 0 10504 1 763
+    R P 0 10504 1 763
+    R P 0 10504 1 763
+    R P 0 10504 1 763
+    R P 0 10504 1 763
+    R P 0 10504 1 763
+    R P 0 10504 1 763
+    R P 0 10504 1 763
+    R P 0 10504 1 763
+    R P 0 8074 1 763
+  R G 0 74 1
+S
+#31148
+&gE&Ompty &gH&Oome&W~
+~
+0 8 1 0 0 0 19336
+D2
+~
+~
+0 -1 31142 0
+S
+#31149
+&gE&Ompty &gH&Oome&W~
+~
+0 8 1 0 0 0 19336
+D3
+~
+~
+0 -1 31142 0
+S
+#31150
+Empty Shop~
+~
+0 8 1 1 0 0 19336
+D3
+~
+~
+0 -1 31139 0
+S
+#31151
+Empty Shop~
+~
+0 8 1 1 0 0 19336
+D3
+~
+~
+0 -1 31141 0
+S
+#31152
+Empty Shop~
+~
+0 8 1 1 0 0 19336
+D0
+~
+~
+0 -1 31141 0
+S
+#31153
+Empty Shop~
+~
+0 8 1 1 0 0 19336
+D0
+~
+~
+0 -1 31138 0
+S
+#31154
+Algarine Starport Landing Pad~
+The pad is vast with several smaller landing platforms on the
+outlying sections.  Large droids move about the area getting
+visitor information and registering the vistors and their companions.
+Large loading cranes are loading cargo into ships and some even
+unloading cargo.
+~
+0 52 1 -2147479552 0 0 19336
+D2
+~
+~
+0 -1 31155 0
+R M 0 31125 158 31154
+R M 0 31126 104 31154
+R M 0 31125 158 31154
+R M 0 31125 158 31154
+S
+#31155
+&BC&Worridor&D~
+The long corridor leads through the bowels of the starport. Buerocratic
+regulation officers move about and identifying and registering
+the visitors to Algara II. Small droids move constantly to pick
+up any debris. Lights shine down from recesses in the ceiling.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31154 0
+D2
+~
+~
+0 -1 31156 0
+R M 0 31126 104 31155
+R M 0 31125 158 31155
+R M 0 31125 158 31155
+R M 0 31125 158 31155
+R M 0 31125 158 31155
+R M 0 31126 104 31155
+S
+#31156
+&BC&Worridor&D~
+The long corridor leads through the bowels of the starport.Large
+plants sit around the corridor to give a homely feel. Small
+droids move constantly to pick up any debris. Lights shine down
+from recesses in the ceiling.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31155 0
+D1
+~
+~
+0 -1 31159 0
+D2
+~
+~
+0 -1 31160 0
+D3
+~
+~
+0 -1 31157 0
+R M 0 31125 158 31156
+R M 0 31125 158 31156
+S
+#31157
+&BS&Wtarport &BS&Wecurity&W~
+A dozen pairs of desks and chair sit around the room. along the
+outer wall a few chairs have been set up for prisoners to sit
+and wait for booking into the jail cells.Several officers are
+moving about the office to get their assignments done. A large
+desk sits at the west wall where the security chief sits.
+~
+0 8 1 0 0 0 19336
+D1
+~
+~
+0 -1 31156 0
+D7
+~
+~
+7 -1 31158 0
+R M 0 31122 1 31157
+R M 0 31126 104 31157
+R M 0 31125 158 31157
+R M 0 31125 158 31157
+R M 0 31125 158 31157
+R D 0 31157 7 2
+S
+#31158
+Jail Cell~
+~
+0 8 1 0 0 0 19336
+D8
+~
+~
+3 -1 31157 0
+R D 0 31158 8 1
+S
+#31159
+&BC&Wustoms &BO&Wffice&W~
+a large wide desk sits against the east wall with several roped
+off lanes for beings to get inspected. a few working customs
+officers stand behind the desk inspecting arms and ship manifests.
+~
+0 8 1 0 0 0 19336
+D3
+~
+~
+0 -1 31156 0
+R M 0 31126 104 31159
+R M 0 31126 104 31159
+R M 0 31121 13 31159
+S
+#31160
+&BM&Wain &BI&Wntersection&D~
+The long corridor leads through the bowels of the starport.Large
+plants sit around the corridor to give a homely feel. Small
+droids move constantly to pick up any debris. Lights shine down
+from recesses in the ceiling.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31156 0
+D1
+~
+~
+0 -1 31175 0
+D2
+~
+~
+0 -1 31165 0
+D3
+~
+~
+0 -1 31161 0
+R M 0 31125 158 31160
+R M 0 31126 104 31160
+S
+#31161
+&BC&Worridor&D~
+The long corridor leads through the bowels of the starport.Large
+plants sit around the corridor to give a homely feel. Small
+droids move constantly to pick up any debris. Lights shine down
+from recesses in the ceiling.
+~
+0 8 1 0 0 0 19336
+D1
+~
+~
+0 -1 31160 0
+D3
+~
+~
+0 -1 31162 0
+R M 0 31121 13 31161
+R M 0 31125 158 31161
+R M 0 31125 158 31161
+R M 0 31126 104 31161
+R M 0 31126 104 31161
+R M 0 31125 158 31161
+R M 0 31125 158 31161
+S
+#31162
+&BE&Wntrance &BT&Wo &BM&Wonorail&D~
+The long corridor leads through the bowels of the starport.Large
+plants sit around the corridor to give a homely feel. Small
+droids move constantly to pick up any debris. Lights shine down
+from recesses in the ceiling. A large sign dangles from the
+ceiling showing that this is the corridor to the monorail.
+~
+0 8 1 0 0 0 19336
+D1
+~
+~
+0 -1 31161 0
+D3
+~
+~
+0 -1 31163 0
+R M 0 31125 158 31162
+R M 0 31125 158 31162
+R M 0 31126 104 31162
+R M 0 31126 104 31162
+R M 0 31121 13 31162
+R M 0 31125 158 31162
+R M 0 31126 104 31162
+S
+#31163
+&BM&Wonorail &BC&Worridor&D~
+The long corridor leads through the bowels of the starport.Large
+plants sit around the corridor to give a homely feel. Small
+droids move constantly to pick up any debris. Lights shine down
+from recesses in the ceiling.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31164 0
+D1
+~
+~
+0 -1 31162 0
+R M 0 31126 104 31163
+R M 0 31125 158 31163
+R M 0 31121 13 31163
+R M 0 31125 158 31163
+R M 0 31125 158 31163
+R M 0 31126 104 31163
+R M 0 31126 104 31163
+R M 0 31125 158 31163
+R M 0 31126 104 31163
+S
+#31164
+&BM&Wonorail &BS&Wtation&D~
+A single large rail made of durasteel is here supported by duracreate
+supports lays in the center of the room. The station itself
+is a long platform that has small gates to control people getting
+on. A large platform on the west side of the station controls
+the flow of offgoing commuters.
+
+           Monorail Arrives At:
+           ----------------------------
+                   3 Am
+                   9 Am
+                   3 Pm
+                   9 Pm
+~
+0 8 1 0 0 0 19336
+D2
+~
+~
+0 -1 31163 0
+R M 0 31125 158 31164
+R M 0 31121 13 31164
+R M 0 31125 158 31164
+R M 0 31125 158 31164
+R M 0 31121 13 31164
+R M 0 31125 158 31164
+> time_prog 9~
+mpecho &YThe monorail arrives.&W
+mpclosepassage 31301 3
+mpclosepassage 31300 1
+mpopenpassage 31164 31300 3
+mpopenpassage 31300 31164 1
+~
+> time_prog 15~
+mpecho &YThe monorail arrives.&W
+mpclosepassage 31301 3
+mpclosepassage 31300 1
+mpopenpassage 31164 31300 3
+mpopenpassage 31300 31164 1
+~
+> time_prog 21~
+mpecho &YThe monorail arrives.&W
+mpclosepassage 31301 3
+mpclosepassage 31300 1
+mpopenpassage 31164 31300 3
+mpopenpassage 31300 31164 1
+~
+> time_prog 3~
+mpecho &YThe monorail arrives.&W
+mpclosepassage 31301 3
+mpclosepassage 31300 1
+mpopenpassage 31164 31300 3
+mpopenpassage 31300 31164 1
+~
+> time_prog 10~
+mpecho &YThe monorail departs&W
+mpclosepassage 31300 1
+mpclosepassage 31164 3
+~
+> time_prog 16~
+mpecho &YThe monorail departs&W
+mpclosepassage 31300 1
+mpclosepassage 31164 3
+~
+> time_prog 22~
+mpecho &YThe monorail departs&W
+mpclosepassage 31300 1
+mpclosepassage 31164 3
+~
+> time_prog 4~
+mpecho &YThe monorail departs&W
+mpclosepassage 31300 1
+mpclosepassage 31164 3
+~
+|
+S
+#31165
+&BC&Worridor&D~
+The long corridor leads through the bowels of the starport.Large
+plants sit around the corridor to give a homely feel. Small
+droids move constantly to pick up any debris. Lights shine down
+from recesses in the ceiling.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31160 0
+D1
+~
+~
+0 -1 31167 0
+D2
+~
+~
+0 -1 31168 0
+D3
+~
+~
+0 -1 31166 0
+R M 0 31126 104 31165
+R M 0 31126 104 31165
+R M 0 31126 104 31165
+R M 0 31125 158 31165
+R M 0 31125 158 31165
+S
+#31166
+Empty Shop~
+~
+0 8 1 3 0 0 19336
+D1
+~
+~
+0 -1 31165 0
+R M 0 31126 104 31166
+R M 0 31126 104 31166
+R M 0 31125 158 31166
+R M 0 31125 158 31166
+S
+#31167
+&BP&Wassenger &BL&Wounge&D~
+Chairs and couches sit around the room in small groups. Low glass
+tables sit in the middle of each group each stacked with magazines
+from around the galaxy even a few newspapers are scattered across
+each of the tables. Passengers of all races move about the lounge
+waiting for their flights.
+~
+0 8 1 0 0 0 19336
+D3
+~
+~
+0 -1 31165 0
+D8
+~
+~
+0 -1 31174 0
+R M 0 31125 158 31167
+R M 0 31126 104 31167
+R M 0 31126 104 31167
+R M 0 31126 104 31167
+R M 0 31126 104 31167
+R M 0 31126 104 31167
+R M 0 31125 158 31167
+S
+#31168
+&BC&Worridor&D~
+The long corridor leads through the bowels of the starport.Large
+plants sit around the corridor to give a homely feel. Small
+droids move constantly to pick up any debris. Lights shine down
+from recesses in the ceiling.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31165 0
+D2
+~
+~
+0 -1 31170 0
+D3
+~
+~
+0 -1 31169 0
+S
+#31169
+Empty Shop~
+~
+0 8 1 3 0 0 19336
+D1
+~
+~
+0 -1 31168 0
+R M 0 31125 158 31169
+R M 0 31125 158 31169
+R M 0 31121 13 31169
+R M 0 31125 158 31169
+R M 0 31125 158 31169
+S
+#31170
+&BC&Worridor&D~
+The long corridor leads through the bowels of the starport.Large
+plants sit around the corridor to give a homely feel. Small
+droids move constantly to pick up any debris. Lights shine down
+from recesses in the ceiling.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31168 0
+D1
+~
+~
+0 -1 31173 0
+D2
+~
+~
+0 -1 31171 0
+D3
+~
+~
+0 -1 31172 0
+R M 0 31125 158 31170
+R M 0 31125 158 31170
+R M 0 31125 158 31170
+R M 0 31125 158 31170
+R M 0 31126 104 31170
+R M 0 31126 104 31170
+S
+#31171
+Empty Shop~
+~
+0 8 1 3 0 0 19336
+D0
+~
+~
+0 -1 31170 0
+R M 0 31125 158 31171
+R M 0 31126 104 31171
+R M 0 31126 104 31171
+R M 0 31125 158 31171
+R M 0 31126 104 31171
+S
+#31172
+Empty Shop~
+~
+0 8 1 3 0 0 19336
+D1
+~
+~
+0 -1 31170 0
+R M 0 31125 158 31172
+R M 0 31126 104 31172
+R M 0 31125 158 31172
+S
+#31173
+&BP&Wassenger &BL&Wounge&D~
+Chairs and couches sit around the room in small groups. Low glass
+tables sit in the middle of each group each stacked with magazines
+from around the galaxy even a few newspapers are scattered across
+each of the tables. Passengers of all races move about the lounge
+waiting for their flights.
+~
+0 8 1 0 0 0 19336
+D3
+~
+~
+0 -1 31170 0
+D6
+~
+~
+0 -1 31174 0
+R M 0 31126 104 31173
+R M 0 31125 158 31173
+R M 0 31126 104 31173
+R M 0 31126 104 31173
+R M 0 31125 158 31173
+R M 0 31125 158 31173
+R M 0 31126 104 31173
+R M 0 31125 158 31173
+R M 0 31125 158 31173
+R M 0 31126 104 31173
+S
+#31174
+&BP&Wassenger &BL&Wounge&D~
+Chairs and couches sit around the room in small groups. Low glass
+tables sit in the middle of each group each stacked with magazines
+from around the galaxy even a few newspapers are scattered across
+each of the tables. Passengers of all races move about the lounge
+waiting for their flights.
+~
+0 8 1 0 0 0 19336
+D7
+~
+~
+0 -1 31167 0
+D9
+~
+~
+0 -1 31173 0
+R M 0 31126 104 31174
+R M 0 31125 158 31174
+R M 0 31125 158 31174
+R M 0 31125 158 31174
+R M 0 31121 13 31174
+R M 0 31125 158 31174
+R M 0 31126 104 31174
+S
+#31175
+&BC&Worridor&D~
+The long corridor leads through the bowels of the starport.Large
+plants sit around the corridor to give a homely feel. Small
+droids move constantly to pick up any debris. Lights shine down
+from recesses in the ceiling.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31133 0
+D1
+~
+~
+0 -1 31176 0
+D3
+~
+~
+0 -1 31160 0
+R M 0 31125 158 31175
+R M 0 31125 158 31175
+R M 0 31125 158 31175
+R M 0 31121 13 31175
+R M 0 31126 104 31175
+R M 0 31126 104 31175
+S
+#31176
+&BC&Worridor&W~
+The long corridor leads through the bowels of the starport.Large
+plants sit around the corridor to give a homely feel. Small
+droids move constantly to pick up any debris. Lights shine down
+from recesses in the ceiling.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31177 0
+D1
+~
+~
+0 -1 31178 0
+D3
+~
+~
+0 -1 31175 0
+R M 0 31125 158 31176
+R M 0 31126 104 31176
+R M 0 31125 158 31176
+R M 0 31125 158 31176
+R M 0 31126 104 31176
+R M 0 31126 104 31176
+R M 0 31125 158 31176
+R M 0 31125 158 31176
+R M 0 31125 158 31176
+R M 0 31126 104 31176
+S
+#31177
+&BS&Wtarport &BC&Wontrol&D ~
+A large number of control panels sit around the room. Lights
+are flashing constantly all around the room as the control staff
+regulates the incoming and outgoing ship traffic. Several small
+screens sits in the north wall that show data on ships entering
+or leaving the starport.
+~
+0 8 1 0 0 0 19336
+D2
+~
+~
+0 -1 31176 0
+R M 0 31125 158 31177
+R M 0 31121 13 31177
+R M 0 31121 13 31177
+R M 0 31125 158 31177
+S
+#31178
+&BE&Wntrance &BT&Wo &BT&Whe &BA&Wlgran &BS&Wtarport&D~
+The long corridor leads through the bowels of the starport.Large
+plants sit around the corridor to give a homely feel. Small
+droids move constantly to pick up any debris. Lights shine down
+from recesses in the ceiling.
+~
+0 12 1 0 0 0 19336
+D3
+~
+~
+0 -1 31176 0
+D8
+~
+~
+0 -1 31179 0
+S
+#31179
+&pCass Drive~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.
+High above airspeeders fly taking passengers to who knows where.
+On each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D2
+~
+~
+0 -1 31180 0
+D7
+~
+~
+0 -1 31178 0
+R M 0 31126 104 31179
+R M 0 31125 158 31179
+S
+#31180
+&pCass Drive~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31179 0
+D2
+~
+~
+0 -1 31181 0
+R M 0 31125 158 31180
+R M 0 31125 158 31180
+S
+#31181
+&pCass Drive~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31180 0
+D8
+~
+~
+0 -1 31182 0
+R M 0 31125 158 31181
+R M 0 31125 158 31181
+R M 0 31125 158 31181
+S
+#31182
+&pCass Drive~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31183 0
+D7
+~
+~
+0 -1 31181 0
+R M 0 31125 158 31182
+R M 0 31125 158 31182
+R M 0 31125 158 31182
+S
+#31183
+&wMlojar Street&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31213 0
+D1
+~
+~
+0 -1 31197 0
+D3
+~
+~
+0 -1 31182 0
+D9
+~
+~
+0 -1 31184 0
+S
+#31184
+&GHighland Road&D~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31248 0
+D3
+~
+~
+0 -1 31247 0
+D6
+~
+~
+0 -1 31183 0
+D9
+~
+~
+0 -1 31185 0
+R M 0 31126 104 31184
+R M 0 31125 158 31184
+S
+#31185
+&GHighland Road&D~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31245 0
+D2
+~
+~
+0 -1 31186 0
+D3
+~
+~
+0 -1 31246 0
+D6
+~
+~
+0 -1 31184 0
+S
+#31186
+&GHighland Road&D~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31185 0
+D1
+~
+~
+0 -1 31243 0
+D3
+~
+~
+0 -1 31244 0
+D8
+~
+~
+0 -1 31187 0
+R M 0 31126 104 31186
+S
+#31187
+&GHighland Road&D~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31242 0
+D1
+~
+~
+0 -1 31188 0
+D2
+~
+~
+0 -1 31241 0
+D7
+~
+~
+0 -1 31186 0
+S
+#31188
+&GHighland Road&D~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31239 0
+D1
+~
+~
+0 -1 31189 0
+D2
+~
+~
+0 -1 31240 0
+D3
+~
+~
+0 -1 31187 0
+R M 0 31125 158 31188
+R M 0 31126 104 31188
+S
+#31189
+&GHighland Road&D~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31238 0
+D1
+~
+~
+0 -1 31237 0
+D3
+~
+~
+0 -1 31188 0
+D8
+~
+~
+0 -1 31190 0
+R M 0 31126 104 31189
+R M 0 31125 158 31189
+R M 0 31126 104 31189
+R M 0 31125 158 31189
+S
+#31190
+&GHighland Road&D~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31236 0
+D1
+~
+~
+0 -1 31191 0
+D2
+~
+~
+0 -1 31235 0
+D7
+~
+~
+0 -1 31189 0
+S
+#31191
+&GHighland Road&D~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31233 0
+D2
+~
+~
+0 -1 31234 0
+D3
+~
+~
+0 -1 31190 0
+D6
+~
+~
+0 -1 31192 0
+S
+#31192
+&GHighland Road&D~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31193 0
+D3
+~
+~
+0 -1 31232 0
+D8
+~
+~
+0 -1 31198 0
+D9
+~
+~
+0 -1 31191 0
+S
+#31193
+&GHighland Road&D~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31194 0
+D1
+~
+~
+0 -1 31231 0
+D2
+~
+~
+0 -1 31192 0
+D3
+~
+~
+0 -1 31230 0
+R M 0 31125 158 31193
+R M 0 31125 158 31193
+S
+#31194
+&GHighland Road&D~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31228 0
+D2
+~
+~
+0 -1 31193 0
+D3
+~
+~
+0 -1 31229 0
+D7
+~
+~
+0 -1 31195 0
+R M 0 31125 158 31194
+R M 0 31126 104 31194
+R M 0 31125 158 31194
+S
+#31195
+&GHighland Road&D~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31227 0
+D3
+~
+~
+0 -1 31226 0
+D6
+~
+~
+0 -1 31196 0
+D8
+~
+~
+0 -1 31194 0
+R M 0 31125 158 31195
+S
+#31196
+&wMlojar Street&W~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D3
+~
+~
+0 -1 31197 0
+D8
+~
+~
+0 -1 31199 0
+D9
+~
+~
+0 -1 31195 0
+R M 0 31126 104 31196
+S
+#31197
+&wMlojar Street&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31196 0
+D3
+~
+~
+0 -1 31183 0
+R M 0 31125 158 31197
+R M 0 31126 104 31197
+R M 0 31125 158 31197
+S
+#31198
+&cFlorar Drive&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31136 0
+D6
+~
+~
+0 -1 31216 0
+D7
+~
+~
+0 -1 31192 0
+R M 0 31126 104 31198
+S
+#31199
+&wMlojar Street&W~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D6
+~
+~
+0 -1 31200 0
+D7
+~
+~
+0 -1 31196 0
+D8
+~
+~
+0 -1 31214 0
+R M 0 31125 158 31199
+S
+#31200
+&YConasair Drive&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31251 0
+D3
+~
+~
+0 -1 31249 0
+D6
+~
+~
+0 -1 31201 0
+D9
+~
+~
+0 -1 31199 0
+R M 0 31125 158 31200
+R M 0 31125 158 31200
+S
+#31201
+&YConasair Drive&W~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31252 0
+D3
+~
+~
+0 -1 31253 0
+D6
+~
+~
+0 -1 31202 0
+D9
+~
+~
+0 -1 31200 0
+R M 0 31123 1 31201
+S
+#31202
+&YConasair Drive&W~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31203 0
+D1
+~
+~
+0 -1 31255 0
+D3
+~
+~
+0 -1 31254 0
+D9
+~
+~
+0 -1 31201 0
+R M 0 31125 158 31202
+R M 0 31126 104 31202
+S
+#31203
+&YConasair Drive&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31204 0
+D1
+~
+~
+0 -1 31256 0
+D2
+~
+~
+0 -1 31202 0
+D3
+~
+~
+0 -1 31257 0
+R M 0 31125 158 31203
+S
+#31204
+&YConasair Drive&W~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31259 0
+D2
+~
+~
+0 -1 31203 0
+D3
+~
+~
+0 -1 31258 0
+D7
+~
+~
+0 -1 31205 0
+R M 0 31126 104 31204
+S
+#31205
+&YConasair Drive&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31260 0
+D3
+~
+~
+0 -1 31261 0
+D7
+~
+~
+0 -1 31206 0
+D8
+~
+~
+0 -1 31204 0
+R M 0 31126 104 31205
+R M 0 31126 104 31205
+S
+#31206
+&YConasair Drive&W~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31262 0
+D3
+~
+~
+0 -1 31207 0
+D8
+~
+~
+0 -1 31205 0
+R M 0 31125 158 31206
+S
+#31207
+&YConasair Drive&W~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31263 0
+D1
+~
+~
+0 -1 31206 0
+D2
+~
+~
+0 -1 31264 0
+D3
+~
+~
+0 -1 31208 0
+R M 0 31126 104 31207
+R M 0 31125 158 31207
+S
+#31208
+&YConasair Drive&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31265 0
+D1
+~
+~
+0 -1 31207 0
+D2
+~
+~
+0 -1 31266 0
+D3
+~
+~
+0 -1 31209 0
+R M 0 31125 158 31208
+S
+#31209
+&YConasair Drive&W~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31267 0
+D1
+~
+~
+0 -1 31208 0
+D2
+~
+~
+0 -1 31268 0
+D9
+~
+~
+0 -1 31210 0
+R M 0 31126 104 31209
+S
+#31210
+&YConasair Drive&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31269 0
+D3
+~
+~
+0 -1 31270 0
+D6
+~
+~
+0 -1 31209 0
+D9
+~
+~
+0 -1 31211 0
+S
+#31211
+&YConasair Drive&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31272 0
+D2
+~
+~
+0 -1 31212 0
+D3
+~
+~
+0 -1 31271 0
+D6
+~
+~
+0 -1 31210 0
+R M 0 31125 158 31211
+S
+#31212
+&YConasair Drive&W~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31211 0
+D1
+~
+~
+0 -1 31273 0
+D2
+~
+~
+0 -1 31213 0
+D3
+~
+~
+0 -1 31274 0
+R M 0 31125 158 31212
+R M 0 31125 158 31212
+S
+#31213
+&YConasair Drive&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31212 0
+D1
+~
+~
+0 -1 31276 0
+D2
+~
+~
+0 -1 31183 0
+D3
+~
+~
+0 -1 31275 0
+R M 0 31125 158 31213
+R M 0 31125 158 31213
+R M 0 31125 158 31213
+S
+#31214
+&CLenaitus Circle&W~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D6
+~
+~
+0 -1 31225 0
+D7
+~
+~
+0 -1 31199 0
+D8
+~
+~
+0 -1 31278 0
+D9
+~
+~
+0 -1 31215 0
+S
+#31215
+&CLenaitus Circle&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D2
+~
+~
+0 -1 31216 0
+D6
+~
+~
+0 -1 31214 0
+D8
+~
+~
+0 -1 31295 0
+R M 0 31125 158 31215
+R M 0 31125 158 31215
+R M 0 31126 104 31215
+S
+#31216
+&CLenaitus Circle&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31215 0
+D6
+~
+~
+0 -1 31292 0
+D8
+~
+~
+0 -1 31217 0
+D9
+~
+~
+0 -1 31198 0
+R M 0 31126 104 31216
+R M 0 31126 104 31216
+R M 0 31125 158 31216
+R M 0 31126 104 31216
+S
+#31217
+&CLenaitus Circle&W~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31218 0
+D6
+~
+~
+0 -1 31298 0
+D7
+~
+~
+0 -1 31216 0
+R M 0 31125 158 31217
+S
+#31218
+&CLenaitus Circle&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 4 1 0 0 0 19336
+D0
+~
+~
+0 -1 31299 0
+D1
+~
+~
+0 -1 31219 0
+D3
+~
+~
+0 -1 31217 0
+S
+#31219
+&CLenaitus Circle&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31287 0
+D3
+~
+~
+0 -1 31218 0
+D6
+~
+~
+0 -1 31220 0
+R M 0 31125 158 31219
+R M 0 31126 104 31219
+S
+#31220
+&CLenaitus Circle&W~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D6
+~
+~
+0 -1 31221 0
+D9
+~
+~
+0 -1 31219 0
+R M 0 31126 104 31220
+S
+#31221
+&CLenaitus Circle&W~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31222 0
+D7
+~
+~
+0 -1 31283 0
+D9
+~
+~
+0 -1 31220 0
+R M 0 31125 158 31221
+R M 0 31126 104 31221
+R M 0 31125 158 31221
+S
+#31222
+&CLenaitus Circle&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D0
+~
+~
+0 -1 31223 0
+D2
+~
+~
+0 -1 31221 0
+D7
+~
+~
+0 -1 31297 0
+R M 0 31126 104 31222
+R M 0 31125 158 31222
+R M 0 31125 158 31222
+R M 0 31125 158 31222
+R M 0 31125 158 31222
+R M 0 31125 158 31222
+S
+#31223
+&CLenaitus Circle&W~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D2
+~
+~
+0 -1 31222 0
+D7
+~
+~
+0 -1 31224 0
+R M 0 31125 158 31223
+R M 0 31125 158 31223
+R M 0 31125 158 31223
+S
+#31224
+&CLenaitus Circle&W~
+The street is large enough to accomendate two speeders side by
+side on each side of the street are walkways for civilians.High
+above airspeeders fly taking passengers to who knows where.On
+each side of the street large white durasteel buildings each
+uniquely designed.
+~
+0 0 1 0 0 0 19336
+D3
+~
+~
+0 -1 31225 0
+D8
+~
+~
+0 -1 31223 0
+D9
+~
+~
+0 -1 31279 0
+R M 0 31126 104 31224
+R M 0 31125 158 31224
+R M 0 31126 104 31224
+S
+#31225
+&CLenaitus Circle&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 0 1 0 0 0 19336
+D1
+~
+~
+0 -1 31224 0
+D2
+~
+~
+0 -1 31296 0
+D9
+~
+~
+0 -1 31214 0
+S
+#31226
+&r|&R[&zPrivate Sorosuub Office&R]&r|&d~
+~
+0 9437196 1 0 0 0 19336
+D1
+~
+~
+0 -1 31195 0
+S
+#31227
+Furnished Empty Home~
+~
+0 12 1 0 0 0 19336
+D3
+~
+~
+0 -1 31195 0
+S
+#31228
+Furnished Empty Home~
+~
+0 12 1 0 0 0 19336
+D3
+~
+~
+0 -1 31194 0
+S
+#31229
+Furnished Empty Home~
+~
+0 12 1 0 0 0 19336
+D1
+~
+~
+0 -1 31194 0
+S
+#31230
+Furnished Empty Home~
+~
+0 12 1 0 0 0 19336
+D1
+~
+~
+0 -1 31193 0
+S
+#31231
+Furnished Empty Home~
+~
+0 12 1 0 0 0 19336
+D3
+~
+~
+0 -1 31193 0
+S
+#31232
+Furnished Empty Home~
+~
+0 12 1 0 0 0 19336
+D1
+~
+~
+0 -1 31192 0
+S
+#31233
+Furnished Empty Home~
+~
+0 12 1 0 0 0 19336
+D2
+~
+~
+0 -1 31191 0
+S
+#31234
+Furnished Empty Home~
+~
+0 12 1 0 0 0 19336
+D0
+~
+~
+0 -1 31191 0
+S
+#31235
+Furnished Empty Home~
+~
+0 10485772 1 0 0 0 19336
+D0
+~
+~
+0 -1 31190 0
+S
+#31236
+Furnished Empty Home~
+~
+0 10485772 1 0 0 0 19336
+D2
+~
+~
+0 -1 31190 0
+S
+#31237
+Furnished Empty Home~
+~
+0 10485772 1 0 0 0 19336
+D3
+~
+~
+0 -1 31189 0
+S
+#31238
+Furnished Empty Home~
+~
+0 10485772 1 0 0 0 19336
+D2
+~
+~
+0 -1 31189 0
+S
+#31239
+Furnished Empty Home~
+~
+0 10485772 1 0 0 0 19336
+D2
+~
+~
+0 -1 31188 0
+S
+#31240
+Furnished Empty Home~
+~
+0 10485772 1 0 0 0 19336
+D0
+~
+~
+0 -1 31188 0
+S
+#31241
+Furnished Empty Home~
+~
+0 10485772 1 0 0 0 19336
+D0
+~
+~
+0 -1 31187 0
+S
+#31242
+Furnished Empty Home~
+~
+0 10485772 1 0 0 0 19336
+D2
+~
+~
+0 -1 31187 0
+S
+#31243
+Furnished Empty Home~
+~
+0 10485772 1 0 0 0 19336
+D3
+~
+~
+0 -1 31186 0
+S
+#31244
+Furnished Empty Home~
+~
+0 10485772 1 0 0 0 19336
+D1
+~
+~
+0 -1 31186 0
+S
+#31245
+Furnished Empty Home~
+~
+0 10485772 1 0 0 0 19336
+D3
+~
+~
+0 -1 31185 0
+S
+#31246
+Furnished Empty Home~
+~
+0 10485772 1 0 0 0 19336
+D1
+~
+~
+0 -1 31185 0
+S
+#31247
+&G|&g[ &WA Sorosuub Holiday Home &g]&G|&D~
+~
+0 9437196 1 0 0 0 19336
+D1
+~
+~
+0 -1 31184 0
+S
+#31248
+Furnished Empty Home~
+~
+0 10485772 1 0 0 0 19336
+D3
+~
+~
+0 -1 31184 0
+S
+#31249
+&bThe Slave Pits&W~
+Large spherical cages hang from the ceiling each with only one
+occupant. A small set of stairs ascend to the bottom of each
+cage. Each cage is outfitted with a security device to prevent
+the slave from escaping and another for medical status on the
+occupant.
+~
+0 4104 1 0 0 0 19336
+D1
+~
+~
+0 -1 31200 0
+R M 0 31105 1 31249
+R M 0 31126 104 31249
+R M 0 31125 158 31249
+R M 0 31125 158 31249
+R M 0 31125 158 31249
+S
+#31250
+Slave storage~
+~
+0 12 1 0 0 0 19336
+R M 0 31101 1 31250
+R M 0 31102 1 31250
+R M 0 31103 1 31250
+R M 0 31104 1 31250
+S
+#31251
+Empty Shop~
+~
+0 8 1 3 0 0 19336
+D3
+~
+~
+0 -1 31200 0
+R M 0 31126 104 31251
+R M 0 31125 158 31251
+S
+#31252
+&CDatapads R'US~
+Small datapads and larger models sit along the walls on shelves
+or on a rack each in its own transparisteel case. A large circular
+counter sits in the middle of the room. On the center counter
+are several turntable style racks showing the latest models
+of datapads. 
+~
+0 8 1 0 0 0 19336
+D3
+~
+~
+0 -1 31201 0
+R M 0 31106 1 31252
+  R G 0 31103 1
+  R G 0 31102 1
+  R G 0 31101 1
+R M 0 31126 104 31252
+R M 0 31125 158 31252
+S
+#31253
+&cLate Communications Outlet&W~
+Communication devices of all shapes and sizes hang on small racks
+along the walls. A large decroative counter sits in the middle
+of the room on top of it is the latest in communicators and
+comlinks. A smaller counter sits near the entrance to the store
+with a lone attendant.
+~
+0 8 1 0 0 0 19336
+D1
+~
+~
+0 -1 31201 0
+R M 0 31107 1 31253
+  R G 0 31106 1
+  R G 0 31105 1
+  R G 0 31104 1
+R M 0 31125 158 31253
+S
+#31254
+Empty Shop~
+~
+0 8 1 3 0 0 19336
+D1
+~
+~
+0 -1 31202 0
+S
+#31255
+&PThe Art of Defence&W~
+The store is outfitted with vibro-blades pikes and personal defense
+blasters. A single merchant stands in the middle of the store
+helping out customers choose a company and model for their weaponal
+needs.
+~
+0 8 1 0 0 0 19336
+D3
+~
+~
+0 -1 31202 0
+R M 0 31108 1 31255
+  R G 0 31109 1
+  R G 0 31108 1
+  R G 0 31107 1
+R M 0 31125 158 31255
+R M 0 31126 104 31255
+R M 0 31126 104 31255
+R M 0 31126 104 31255
+S
+#31256
+Empty Shop~
+~
+0 8 1 3 0 0 19336
+D3
+~
+~
+0 -1 31203 0
+R M 0 31125 158 31256
+R M 0 31126 104 31256
+S
+#31257
+Empty Shop~
+~
+0 8 1 3 0 0 19336
+D1
+~
+~
+0 -1 31203 0
+R M 0 31126 104 31257
+R M 0 31125 158 31257
+S
+#31258
+&pAltia's Fashions&W~
+Large racks of clothes sit along the walls. smaller quadralateral
+racks sit all about the shop. Humanoid models walk about the
+store with some of the top of the line merchandise on. A large
+counter sits against the west wall where customers can purchase
+the clothing. 
+~
+0 8 1 0 0 0 19336
+D1
+~
+~
+0 -1 31204 0
+R M 0 31110 1 31258
+  R G 0 31115 1
+  R G 0 31114 1
+  R G 0 31118 1
+  R G 0 31117 1
+  R G 0 31116 1
+S
+#31259
+Dak's Furnature Outlet~
+Furniture lines the stores wall to wall, and there is only minimal
+room for movement between the pieces. A few attendants move
+about the furnature showing it to customers.A large counter
+sits near the door for purchases.
+~
+0 8 1 0 0 0 19336
+D3
+~
+~
+0 -1 31204 0
+R M 0 31109 1 31259
+  R G 0 31113 1
+  R G 0 31111 1
+  R G 0 31110 1
+  R G 0 31112 1
+R M 0 31125 158 31259
+R M 0 31126 104 31259
+R M 0 31125 158 31259
+S
+#31260
+Empty Shop~
+~
+0 8 1 3 0 0 19336
+D3
+~
+~
+0 -1 31205 0
+R M 0 31125 158 31260
+R M 0 31126 104 31260
+S
+#31261
+Empty Shop~
+~
+0 8 1 3 0 0 19336
+D1
+~
+~
+0 -1 31205 0
+R M 0 31125 158 31261
+R M 0 31125 158 31261
+S
+#31262
+&BB&Caltoid &BP&Cublic &BW&Corkshop&W~
+Long rows of workbenches sit along the room's floor and against
+the wall larger tools can be seen. Bright light shines down
+from above and illuminates the area in a bright blue glow. Tiles
+with illustrious designs on them tile the wall. 
+~
+0 67108872 1 0 0 0 19336
+D3
+~
+~
+0 -1 31206 0
+S
+#31263
+Empty Store~
+~
+0 8 1 3 0 0 19336
+D2
+~
+~
+0 -1 31207 0
+R M 0 31125 158 31263
+S
+#31264
+Empty Store~
+~
+0 8 1 3 0 0 19336
+D0
+~
+~
+0 -1 31207 0
+S
+#31265
+Empty Shop~
+~
+0 8 1 3 0 0 19336
+D2
+~
+~
+0 -1 31208 0
+S
+#31266
+&RRed's Ship Repair&W~
+The store is fairly small and only specializes in upgrade kits
+to ships. Racks are filled with supplies for upgrades to ships
+or just to replace existing componets. A fair sized counter
+sits near the entrance.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31208 0
+R M 0 31111 1 31266
+  R G 0 31119 1
+  R G 0 31120 1
+  R G 0 31121 1
+  R G 0 31122 1
+  R G 0 31123 1
+R M 0 31125 158 31266
+R M 0 31126 104 31266
+S
+#31267
+&GX&Wenos &GR&Wobotics&W~
+~
+0 8 1 0 0 0 19336
+D2
+~
+~
+0 -1 31209 0
+R M 0 31120 1 31267
+  R G 0 31136 1
+  R G 0 31137 1
+  R G 0 31138 1
+  R G 0 31139 1
+  R G 0 31140 1
+  R G 0 31142 1
+  R G 0 31141 1
+  R G 0 31143 1
+R M 0 31126 104 31267
+R M 0 31125 158 31267
+R M 0 31125 158 31267
+S
+#31268
+&CE&calewon &CE&clectronic &CE&cnhancers&W~
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31209 0
+R M 0 31119 1 31268
+  R G 0 31135 1
+  R G 0 31134 1
+  R G 0 31133 1
+  R G 0 31132 1
+  R G 0 31131 1
+R M 0 31125 158 31268
+R M 0 31125 158 31268
+S
+#31269
+Empty Store~
+~
+0 8 1 3 0 0 19336
+D3
+~
+~
+0 -1 31210 0
+S
+#31270
+Empty Store~
+~
+0 8 1 3 0 0 19336
+D1
+~
+~
+0 -1 31210 0
+R M 0 31126 104 31270
+R M 0 31126 104 31270
+S
+#31271
+Empty Shop~
+~
+0 8 1 3 0 0 19336
+D1
+~
+~
+0 -1 31211 0
+R M 0 31126 104 31271
+S
+#31272
+Empty Shop~
+~
+0 8 1 3 0 0 19336
+D3
+~
+~
+0 -1 31211 0
+R M 0 31126 104 31272
+R M 0 31125 158 31272
+R M 0 31125 158 31272
+S
+#31273
+Empty Shop~
+~
+0 8 1 3 0 0 19336
+D3
+~
+~
+0 -1 31212 0
+R M 0 31126 104 31273
+S
+#31274
+&OAlgara Galactic Bank&W~
+There are bank tellers to the north, helping out customers. There
+are guards and automated defense systems so it would not be
+wise to try to rob the bank, for instant death is possible.
+A few sofas are nicely teamed up with tables for people to sit
+down and read while waiting for something.On the corner, there
+is a coffee machine that supplies free coffee for all the customers.
+~
+0 264 1 0 0 0 19336
+D1
+~
+~
+0 -1 31212 0
+R M 0 31125 158 31274
+R M 0 31126 104 31274
+R M 0 31126 104 31274
+R M 0 31125 158 31274
+R M 0 31125 158 31274
+R M 0 31126 104 31274
+R M 0 31126 104 31274
+S
+#31275
+&GBaltoid Fabric Factory Outlet&W~
+Shelves line the walls with imported fabrics the counter is clean
+with a pair of sheers at one end. The counter as the light fixture
+above his head shines down.Large shelves of fabric sit all around
+the room and a merchandising droid is moving about helping customers.
+~
+0 12 1 0 0 0 19336
+D1
+~
+~
+0 -1 31213 0
+R M 0 31118 1 31275
+  R G 0 136 1
+  R G 0 763 1
+  R G 0 764 1
+  R G 0 765 1
+  R G 0 766 1
+  R G 0 31130 1
+  R G 0 20797 1
+S
+#31276
+&C Liara's Droid Superstore~
+~
+0 4104 1 0 0 0 19336
+D3
+~
+~
+0 -1 31213 0
+R M 0 31117 1 31276
+R M 0 31126 104 31276
+S
+#31277
+droid storage~
+~
+0 12 1 0 0 0 19336
+R M 0 31112 1 31277
+R M 0 31113 1 31277
+R M 0 31114 1 31277
+R M 0 31115 1 31277
+R M 0 31116 1 31277
+S
+#31278
+&BSkyburn Hotel&W~
+The lodge is a great place to stay overnight, with comfortable
+beds and great holovision channels! The fare here is cheap too.
+Finally, there is a small check in/out counter to the right.
+~
+0 8388616 1 0 0 0 19336
+D7
+~
+~
+0 -1 31214 0
+R M 0 31125 158 31278
+S
+#31279
+&GEntrance To The Beurocratic Building&W~
+The entire inside of the building is painted white with a red
+carpet lining the floor. Two guards stand at attention at the
+door. The corridor to the west leads off to the offices for
+the magistrate.
+~
+0 8 1 0 0 0 19336
+D3
+~
+~
+0 -1 31280 0
+D6
+~
+~
+0 -1 31224 0
+R M 0 31126 104 31279
+S
+#31280
+&O Hallway&W~
+The entire inside of the building is painted white with a red
+carpet lining the floor.a few plants stand scattered to give
+a feel along with a few tables and chairs. A few office workers
+move around here tending to tasks.
+~
+0 8 1 0 0 0 19336
+D1
+~
+~
+0 -1 31279 0
+D2
+~
+~
+0 -1 31281 0
+R M 0 31126 104 31280
+R M 0 31126 104 31280
+S
+#31281
+&O Hallway&W~
+The entire inside of the building is painted white with a red
+carpet lining the floor.a few plants stand scattered to give
+a feel along with a few tables and chairs. A few office workers
+move around here tending to tasks.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31280 0
+D2
+~
+~
+0 -1 31282 0
+D3
+~
+~
+0 -1 31284 0
+R M 0 31125 158 31281
+S
+#31282
+&OHallway&W~
+The entire inside of the building is painted white with a red
+carpet lining the floor.a few plants stand scattered to give
+a feel along with a few tables and chairs. A few office workers
+move around here tending to tasks.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31281 0
+D2
+~
+~
+0 -1 31283 0
+D3
+~
+~
+0 -1 31285 0
+R M 0 31125 158 31282
+R M 0 31125 158 31282
+R M 0 31125 158 31282
+S
+#31283
+&GEntrance To Beurocratic Building&W~
+The entire inside of the building is painted white with a red
+carpet lining the floor. Two guards stand at attention at the
+door. The corridor to the west leads off to the offices for
+the magistrate.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31282 0
+D8
+~
+~
+0 -1 31221 0
+S
+#31284
+&OHallway&W~
+The entire inside of the building is painted white with a red
+carpet lining the floor.a few plants stand scattered to give
+a feel along with a few tables and chairs. A few office workers
+move around here tending to tasks.
+~
+0 8 1 0 0 0 19336
+D1
+~
+~
+0 -1 31281 0
+D3
+~
+~
+0 -1 31286 0
+S
+#31285
+&COffice Of Galactic Concerns&W~
+~
+0 8 1 0 0 0 19336
+D1
+~
+~
+0 -1 31282 0
+R M 0 31126 104 31285
+R M 0 31126 104 31285
+S
+#31286
+&COffice Of Planet Concerns&W~
+~
+0 12 1 0 0 0 19336
+D1
+~
+~
+0 -1 31284 0
+R M 0 31124 1 31286
+S
+#31287
+&cEntrance to Algara Hospital&W~
+This small hospital can accommodate a small number of people.Small
+beds lay against the walls ready for the wounded or the sick.The
+clean duracrete walls are illuminated by small lighting fixtures.
+A few nurses are on hand to lend aid.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31288 0
+D2
+~
+~
+0 -1 31219 0
+R M 0 31125 158 31287
+R M 0 31125 158 31287
+S
+#31288
+&cMedical Service Bay&W~
+This small hospital can accommodate a small number of people.Small
+beds lay against the walls ready for the wounded or the sick.The
+clean duracrete walls are illuminated by small lighting fixtures.
+A few nurses are on hand to lend aid.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31290 0
+D1
+~
+~
+0 -1 31289 0
+D2
+~
+~
+0 -1 31287 0
+D3
+~
+~
+0 -1 31291 0
+R M 0 31126 104 31288
+R M 0 31125 158 31288
+S
+#31289
+Bacta Tank~
+Bright blue fluid presses against the skin and slowly heals the
+wounds of its occupants. a breath mask is here for you to breathe
+in the thick gooey bacta.A few nurses run about checking charts
+on other occupants.
+~
+0 8 1 0 0 0 19336
+D3
+~
+~
+0 -1 31288 0
+R M 0 31125 158 31289
+R M 0 31126 104 31289
+R M 0 31125 158 31289
+R M 0 31125 158 31289
+R M 0 31126 104 31289
+> rand_prog 100~
+mpechoat $n the bacta heals some of your wounds.
+mprestore $n 100
+~
+|
+S
+#31290
+Bacta Tank~
+Bright blue fluid presses against the skin and slowly heals the
+wounds of its occupants. a breath mask is here for you to breathe
+in the thick gooey bacta.A few nurses run about checking charts
+on other occupants.
+~
+0 8 1 0 0 0 19336
+D2
+~
+~
+0 -1 31288 0
+> rand_prog 100~
+mpechoat $n the bacta heals some of your wounds.
+mprestore $n 100
+~
+|
+S
+#31291
+Bacta Tank~
+Bright blue fluid presses against the skin and slowly heals the
+wounds of its occupants. a breath mask is here for you to breathe
+in the thick gooey bacta.A few nurses run about checking charts
+on other occupants.
+~
+0 8 1 0 0 0 19336
+D1
+~
+~
+0 -1 31288 0
+R M 0 31126 104 31291
+> rand_prog 100~
+mpechoat $n the bacta heals some of your wounds.
+mprestore $n 100
+~
+|
+S
+#31292
+&gC&Ozerka &gC&Oommunications &gD&Oepot&W~
+The room is dimly lit and the walls are black durasteel. The
+room is fairly small allowing a very small numberof people to
+enter the room at once. A small counter sits in the middle of
+the room as a lone attendant greets customers.
+~
+0 8 1 0 0 0 19336
+D0
+~
+~
+0 -1 31293 0
+D1
+~
+~
+0 -1 31294 0
+D9
+~
+~
+0 -1 31216 0
+R M 0 31126 104 31292
+R M 0 31125 158 31292
+S
+#31293
+Broadcast Room #1~
+The room is dimly lit and the walls are black durasteel. A small
+platform sits in the middle of the room where a holonet transmition
+can be sent.The room is fairly small allowing a very small number
+of people to enter the room at once.
+~
+0 12 1 0 0 0 19336
+D2
+~
+~
+0 -1 31292 0
+R O 0 31144 1 31293
+S
+#31294
+Broadcast Room #2~
+The room is dimly lit and the walls are black durasteel. A small
+platform sits in the middle of the room where a holonet transmition
+can be sent.The room is fairly small allowing a very small number
+of people to enter the room at once.
+~
+0 12 1 0 0 0 19336
+D3
+~
+~
+0 -1 31292 0
+R O 0 31144 1 31294
+S
+#31295
+Empty Furnished Home~
+~
+0 12 1 0 0 0 19336
+D7
+~
+~
+0 -1 31215 0
+S
+#31296
+Empty Furnished Home~
+~
+0 12 1 0 0 0 19336
+D0
+~
+~
+0 -1 31225 0
+S
+#31297
+Empty Furnished Home~
+~
+0 12 1 0 0 0 19336
+D8
+~
+~
+0 -1 31222 0
+S
+#31298
+Empty Furnished Home~
+~
+0 12 1 0 0 0 19336
+D9
+~
+~
+0 -1 31217 0
+S
+#31299
+Empty Furnished Home~
+~
+0 12 1 0 0 0 19336
+D2
+~
+~
+0 -1 31218 0
+S
+#0
+
+
+#SHOPS
+ 31105    0  0  0  0  0   120  90         0 23    ; a gamorrean slave overseer
+ 31106    0  0  0  0  0   120  90         0 23    ; a czerka corporation m-934 merchant droid
+ 31107    0  0  0  0  0   120  90         0 23    ; a xan merchant
+ 31108    0  0  0  0  0   120  90         0 23    ; an algaran merchant
+ 31109    0  0  0  0  0   120  90         0 23    ; Dak
+ 31110    0  0  0  0  0   120  90         0 23    ; Altia
+ 31111    0  0  0  0  0   120  90         0 23    ; Red
+ 31118    0  0  0  0  0   120  90         0 23    ; a czerka corporation m-934 merchant droid
+ 31119    0  0  0  0  0   120  90         0 23    ; an algaran merchant
+ 31120    0  0  0  0  0   120  90         0 23    ; a czerka corporation m-934 merchant droid
+ 31127    0  0  0  0  0   120  90         0 23    ; a czerka corporation m-934 merchant droid
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

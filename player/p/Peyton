@@ -1,0 +1,99 @@
+#PLAYER
+Version      4
+Name         Peyton~
+Sex          2
+Race         1
+MainAbility  0
+Subclass     0
+SWeapon      0
+Languages    1 2
+Toplevel     100
+Played       443
+Room         100
+HpManaMove   508 2437 0 0 1170 2937
+Force        0 0 0 0
+Gold         0
+Bank         0
+Ability        0 150 11100500
+Ability        1 1 0
+Ability        2 1 0
+Ability        3 1 0
+Ability        4 1 0
+Ability        5 1 0
+Ability        6 1 0
+Ability        7 1 0
+Act          570426952
+Position     8
+SavingThrows 0 0 0 0 0
+Alignment    0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        100
+Mentalstate  0
+Password     0723b10c51caccb866910ab698f968c02a9d32bc984aa8d3a37304035676f286~
+Lastplayed   1589487576
+Title         Peyton the Wookiee~
+AuthedBy     professor schoolmaster teacher headmaster~
+Addiction    0 0 0 0 0 0 0 0 0 0
+Druglevel    0 0 0 0 0 0 0 0 0 0
+Flags        0
+MKills       1
+MDeaths      0
+AttrPerm     20 8 7 10 18 10 9
+AttrMod      0 0 0 0 0 0 0
+Condition    0 45 45 10
+Site         Home-PC
+Tongue       100 'wookiee'
+Killed       10345 1
+MaxColors    115
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 12 10 14 15 7 7 11 7 7 7 12 7 7 2 6 7 7 12 7 7 7 9 7 12 13 7 7 11 7 7 3 12 9 7 7 10 2 2 3 7 9 7 2 9 12 9 6 11 13 2 13 15 12 12 12 10 7 10 10 11 8 10 13 2 6 9 15 12 2 6 1 9 2 10 7 10 15 10 10 10 10 
+IMCPerm      0
+IMCFlags     256
+End
+
+#OBJECT
+Vnum         10311
+WearLoc      0
+Values       0 0 44 0 0 0
+End
+
+#OBJECT
+Vnum         10312
+WearLoc      16
+Values       12 5 20 2 994 1000
+End
+
+#OBJECT
+Vnum         10424
+WearLoc      17
+End
+
+#OBJECT
+Vnum         10316
+WearLoc      8
+Level        1
+Values       1 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         10308
+WearLoc      5
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         10303
+WearLoc      7
+Level        1
+Values       2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         10321
+Level        1
+End
+
+#END

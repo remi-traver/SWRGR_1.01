@@ -1,0 +1,6993 @@
+#AREA   Peragus~
+
+
+
+#AUTHOR Revan~
+
+#RANGES
+1 36 1 36
+$
+
+#FLAGS
+0 5
+
+#ECONOMY 0 6263910
+
+#MOBILES
+#11000
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#11001
+Czerka Corporation D-12 Mining Droid~
+Czerka Corporation D-12 Mining Droid~
+A czerka corporation D-12 mining droid is mining here.
+~
+~
+1 0 0 Z
+12 0 70 2d10+120 1d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+2 2 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> entry_prog 100~
+mpe A droid mines for fuel.
+~
+|
+#11002
+Tryanus~
+Tryanus~
+Tryanus, the engineer and maintance chief is standing here.
+~
+~
+134217731 0 0 Z
+21 0 48 4d10+210 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+4 4 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say welcome to the engineering and maintence division supply department. please feel free to make a purchase.
+~
+|
+#11003
+peragus engineer~
+peragus engineer~
+A peragus engineer is standing here.
+~
+~
+1 0 0 Z
+20 0 50 4d10+200 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+4 4 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#11004
+Peragus Security Officer~
+peragus security officer~
+A security officer is standing here.
+~
+~
+65537 0 0 Z
+23 0 43 4d10+230 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+4 4 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#11005
+Yev Kesoff, Security Chief~
+Yev Kesoff the Security Chief~
+Yev Kessoff the security chief is standing here.
+~
+~
+3 0 0 Z
+29 0 -200 5d10+290 2d4+2
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 5
+20 30 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#11006
+Peragus Miner~
+Peragus Miner~
+A miner is standing here.
+~
+~
+1 0 0 Z
+10 0 75 2d10+100 1d4+2
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 2
+15 25 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#11007
+Chef~
+a chef~
+A peragus chef is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#11008
+Peragus Medical Officer~
+peragus medical officer~
+A peragus medical officer is standing here.
+~
+~
+3 0 0 Z
+23 0 43 4d10+230 2d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+4 4 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#11009
+Processing Unit~
+fuel processing unit~
+A large proccessing unit is sitting here.
+~
+~
+136316931 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> act_prog p gives you small vial of unrefined fuel.~
+if ovnumcarry(11024) >= 5
+mpe &GThe unit hums to life as it processes the fuel.&W
+mpsleep 10
+mpe &GThe processing unit stops spinning a spits out a canister.&W
+mppurge vial
+mpoload 11025
+give canister $n
+mpechoaround $n &G $n picks up the canister.&W
+mpechoat $n &Gyou pick up the canister.&W
+else
+mpechoat $n &Gyou place the vial in one of the units slots.&W
+endif
+~
+|
+#11010
+Loading Dock Foreman ~
+loading dock foreman ~
+The loading dock foreman is standing here.
+~
+~
+2097155 0 0 Z
+24 0 40 4d10+240 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 4
+4 4 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+mpecho the foreman says "if you come to mine. you can sell the &Rrefined&W fuel to me for a price."
+~
+> act_prog p gives you canister of refined fuel.~
+mpecho the loading foreman says " Thank you for your aid. here is some credits to compensate you."
+mpoload 11026
+drop all
+mpforce $n get credits
+mppurge canister
+~
+|
+#11011
+Administrator~
+an administrator~
+An administrator is standing here.
+~
+~
+1 0 0 Z
+10 0 75 2d10+100 1d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+2 2 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#11500
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#11000
+first obj~
+a first obj~
+A first obj is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#11001
+dorm1 computer terminal~
+a small computer terminal~
+A small computer terminal is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+> speech_prog p open airlock~
+mpe the console display reads &RWarning: Have Space Survival unit on&W
+mpe the inner doors close.
+mpsleep 2
+mpe the outer doors open.
+mptransfer all 11105
+~
+|
+#11002
+dorm2 computer terminal~
+a small computer terminal~
+A small computer terminal is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+> speech_prog p open airlock~
+mpe the console display reads &GWarning: Airlock doors opening&W
+mpsleep 2
+mmpe the outer doors open.
+mptransfer all 11129
+~
+|
+#11003
+dormairlock1 computer terminal~
+a small computer terminal~
+A small computer terminal is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+> speech_prog p open airlock~
+mpe the console display reads &RWarning: Airlock doors opening&W
+mpsleep 2
+mpe the outer doors open.
+mptransfer all 11058
+~
+|
+#11004
+dormairlock2 computer terminal~
+a small computer terminal~
+A small computer terminal is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+> speech_prog p open airlock~
+mpe the console display reads &RWarning: Have Space Survival unit on&W
+mpe the inner doors close.
+mpsleep 2
+mpe the outer doors open.
+mptransfer all 11074
+~
+|
+#11005
+dormspace1 computer terminal~
+a small computer terminal~
+A small computer terminal is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+> speech_prog p open airlock~
+mpe the console display reads &RWarning: Have Space Survival unit on&W
+mpe the inner doors close.
+mpsleep 2
+mpe the outer doors open.
+mptransfer all 11090
+~
+|
+#11006
+dormspace2 computer terminal~
+a small computer terminal~
+A small computer terminal is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+> speech_prog p open airlock~
+mpe the console display reads Warning: &RAirlock doors opening&W
+mpsleep 2
+mpe the outer doors open.
+mptransfer all 11001
+~
+|
+#11007
+Space Survival Unit~
+a Space Survival Unit~
+A Space Survival Unit is here.~
+~
+9 0 2049
+1 1 10 0
+1 0 0
+A
+26 2097152
+#11008
+misc small computer terminal~
+a small computer terminal~
+A small computer terminal is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#11009
+a small circuit~
+a small circuit~
+A small circuit was left here~
+~
+70 0 1
+0 0 0 0
+1 5 0
+#11010
+a piece of duraplast~
+a piece of duraplast~
+A piece of duraplast was dropped here~
+~
+64 8192 1
+0 0 0 0
+1 5 0
+#11011
+a piece of  durasteel~
+a piece of durasteel~
+A piece of durasteel was dropped here~
+~
+67 8192 1
+0 0 0 0
+1 5 0
+#11012
+an advanced power cell~
+an advanced power cell~
+An advanced power cell is here~
+~
+65 0 16385
+5000 0 0 0
+1 20 2
+#11013
+a superconductor~
+a superconductor~
+A superconductor was dropped here~
+~
+71 8192 1
+0 0 0 0
+1 5 0
+#11014
+a lens~
+a lens~
+A lens was dropped here~
+~
+62 8192 1
+0 0 0 0
+1 5 0
+#11015
+Vial of Red Liquid~
+&RVial of red Liquid&D~
+A small vial lays here.~
+~
+87 8192 1
+150 0 0 0
+1 2000 200
+#11016
+a piece of metal~
+a piece of metal~
+A piece of metal was dropped here~
+~
+75 8192 1
+0 0 0 0
+1 15 1
+#11017
+a master's oven~
+a master's oven~
+An oven was dropped here~
+~
+68 8195 1
+0 0 0 0
+5 5000 500
+#11018
+a master's toolkit~
+a master's toolkit~
+A toolkit was dropped here~
+~
+66 8195 1
+0 0 0 0
+3 5500 550
+#11019
+a cheap looking crystal~
+a cheap looking crystal~
+A a cheap looking crystal is here.~
+~
+63 8192 1
+1 0 0 0
+1 5 0
+#11020
+a needle and some thread~
+a needle and some thread~
+A needle and some thread was dropped here~
+~
+77 8192 1
+0 0 0 0
+1 5 0
+#11021
+a medkit~
+a Medkit~
+A Medkit is here.~
+~
+73 8192 16385
+10 10 10 0
+1 10 1
+#11022
+a small packaged ration~
+a small packaged ration~
+A packaged ration is here, waiting to be eaten.~
+~
+19 8192 1
+20 20 0 0
+2 5 0
+#11023
+a small canteen~
+a small canteen~
+A belt sized canteen was dropped here.~
+~
+17 8192 1
+10 10 0 0
+1 10 1
+#11024
+small vial of unrefined fuel~
+small vial of unrefined fuel~
+A small vial is laying here.~
+~
+13 536870912 16385
+0 0 0 0
+1 0 0
+#11025
+canister of refined fuel~
+canister of refined fuel~
+A canister is laying here on its side.~
+~
+90 1 16385
+10 2500 0 0
+1 0 0
+#11026
+credits~
+some credits~
+Some credits are laying here.~
+~
+20 0 1
+7000 0 0 0
+1 0 0
+#11027
+Weapons Closet Key~
+A Weapons Closet Key~
+A Weapons Closet Key has been left here.~
+~
+18 8192 16385
+0 0 0 0
+1 0 0
+#11028
+Locker~
+A Locker~
+A Locker has been placed here.~
+~
+15 4096 0
+100 5 0 100
+1 0 0
+#11500
+last obj~
+a last obj~
+A last obj is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#11000
+Floating in a void~
+~
+0 4 1 0 0 0 2760
+S
+#11001
+&GAirlock&W~
+~
+0 12 1 0 0 0 1000
+D1
+~
+~
+0 -1 11002
+R O 0 11005 1 11001
+S
+#11002
+&GLarge Storage Bay&W~
+this room is surrounded with large lockers for technicians gear.
+Small security cameras sit along the ceiling to prevent theft.
+light is provided from large panels in the ceiling 
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11003
+D3
+~
+~
+0 -1 11001
+R M 0 11011 10 11002
+R O 0 11028 1 11002
+  R P 0 11007 1 11028
+S
+#11003
+&GSmall Corridor&W~
+the corridor is brightly lit from small panels in the ceiling
+and columns in the walls. a few people come through here but
+not many. small droid move about cleaning the area of all garbage.
+~
+0 8 1 0 0 0 1000
+D3
+~
+~
+0 -1 11002
+D6
+~
+~
+0 -1 11004
+R M 0 11004 28 11003
+S
+#11004
+&GSmall Corridor&W~
+the corridor is brightly lit from small panels in the ceiling
+and columns in the walls. a few people come through here but
+not many. small droid move about cleaning the area of all garbage.
+~
+0 8 1 0 0 0 1000
+D6
+~
+~
+0 -1 11005
+D9
+~
+~
+0 -1 11003
+R M 0 11004 28 11004
+R M 0 11011 10 11004
+S
+#11005
+&GSmall Corridor&W~
+the corridor is brightly lit from small panels in the ceiling
+and columns in the walls. a few people come through here but
+not many. small droid move about cleaning the area of all garbage.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11006
+D9
+~
+~
+0 -1 11004
+S
+#11006
+&GAdministration Level&W~
+the room is brightly lit from lights in the ceiling crowds of
+people move about. in the walls are the administrations computers
+controlling and charting the asteroid field drift. small consoles
+sit all along the walls showing various rooms.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11007
+D1
+~
+~
+0 -1 11029
+D3
+~
+~
+0 -1 11005
+S
+#11007
+&GAdministration Level&W~
+the room is brightly lit from lights in the ceiling crowds of
+people move about. in the walls are the administrations computers
+controlling and charting the asteroid field drift. small consoles
+sit all along the walls showing various rooms.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11023
+D2
+~
+~
+0 -1 11006
+D3
+~
+~
+0 -1 11008
+S
+#11008
+&GLarge Corridor&W~
+The corridor is quite wide and brightly lit up. Along the walls
+there are various peices of art work all designed to stimulate
+some part of the brain. The floor and walls are the same as
+in the cabins but the air seems a little cooler. Even with the
+temperature difference, it is still comfortable.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11007
+D3
+~
+~
+0 -1 11009
+R M 0 11004 28 11008
+S
+#11009
+&GSecurity Office&W~
+Large lockers sit around the room containing riot gear and some
+weapons are locked in racks. some security personal are gearing
+up to take their shifts.small droids race about cleaning the
+area of debris.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11008
+D2
+~
+~
+0 -1 11010
+R M 0 11004 28 11009
+R M 0 11004 28 11009
+S
+#11010
+&GSecurity Office&W~
+A pair of lockers sit against the southeast side of the room.
+a large desk with a few holoprojector units for communications
+sit in the middle of the room. behind that is a large comfortable
+looking chair.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11009
+D3
+~
+~
+0 -1 11011
+R M 0 11005 1 11010
+  R G 0 11027 1
+S
+#11011
+&GLarge Corridor&W~
+The corridor is quite wide and brightly lit up. Along the walls
+there are various peices of art work all designed to stimulate
+some part of the brain. The floor and walls are the same as
+in the cabins but the air seems a little cooler. Even with the
+temperature difference, it is still comfortable.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11012
+D1
+~
+~
+0 -1 11010
+R M 0 11004 28 11011
+R M 0 11011 10 11011
+S
+#11012
+&GLarge Corridor&W~
+The corridor is quite wide and brightly lit up. Along the walls
+there are various peices of art work all designed to stimulate
+some part of the brain. The floor and walls are the same as
+in the cabins but the air seems a little cooler. Even with the
+temperature difference, it is still comfortable.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11011
+D3
+~
+~
+0 -1 11013
+S
+#11013
+&GLarge Corridor&W~
+The corridor is quite wide and brightly lit up. Along the walls
+there are various peices of art work all designed to stimulate
+some part of the brain. The floor and walls are the same as
+in the cabins but the air seems a little cooler. Even with the
+temperature difference, it is still comfortable.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11209
+D1
+~
+~
+0 -1 11012
+D3
+~
+~
+0 -1 11014
+R M 0 11004 28 11013
+S
+#11014
+&GLarge Corridor&W~
+The corridor is quite wide and brightly lit up. Along the walls
+there are various peices of art work all designed to stimulate
+some part of the brain. The floor and walls are the same as
+in the cabins but the air seems a little cooler. Even with the
+temperature difference, it is still comfortable.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11015
+D1
+~
+~
+0 -1 11013
+R M 0 11004 28 11014
+S
+#11015
+&GLarge Corridor&W~
+The corridor is quite wide and brightly lit up. Along the walls
+there are various peices of art work all designed to stimulate
+some part of the brain. The floor and walls are the same as
+in the cabins but the air seems a little cooler. Even with the
+temperature difference, it is still comfortable.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11018
+D1
+~
+~
+3 -1 11016
+D2
+~
+~
+0 -1 11014
+D3
+~
+~
+0 -1 11017
+R D 0 11015 1 1
+S
+#11016
+&GMorgue&W~
+a large group of tables sit about the room.  some of the corpses
+are charred beyond belief while some show wounds from a mining
+laser from a droid accident. perhaps something of use is in
+here.
+~
+0 8 1 0 0 0 1000
+D3
+~
+~
+3 -1 11015
+R D 0 11016 3 1
+S
+#11017
+&GMedical Supplies&D~
+a small table is set up here behind it sits racks of medkits
+and antitoxins. lights shine down from the ceiling as larger
+medical droids man the chem lab to develop more supplies.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11015
+R M 0 11008 1 11017
+  R G 0 11021 1
+S
+#11018
+&G Large Corridor&W~
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11019
+D2
+~
+~
+0 -1 11015
+S
+#11019
+&GBacta Tank Bay&W~
+Bacta tanks cover the semi circular shaped walls . a few are
+occupied while others are empty. on the floor here small holovideo
+screens shows the charts of patients and their status.a few
+nurses move about here.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11020
+D1
+~
+~
+0 -1 11022
+D2
+~
+~
+0 -1 11018
+D3
+~
+~
+0 -1 11021
+S
+#11020
+&GBacta Tank&W~
+~
+0 8 1 8192 0 0 1
+D2
+~
+~
+0 -1 11019
+R M 0 11004 28 11020
+S
+#11021
+&GBacta Tank&W~
+~
+0 8 1 8192 0 0 1
+D1
+~
+~
+0 -1 11019
+S
+#11022
+&GBacta Tank&W~
+~
+0 8 1 8192 0 0 1
+D3
+~
+~
+0 -1 11019
+S
+#11023
+&GAdministration Level&W~
+the room is brightly lit from lights in the ceiling crowds of
+people move about. in the walls are the administrations computers
+controlling and charting the asteroid field drift. small consoles
+sit all along the walls showing various rooms.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11024
+D2
+~
+~
+0 -1 11007
+R M 0 11011 10 11023
+R M 0 11011 10 11023
+S
+#11024
+&GAdministration Level&W~
+the room is brightly lit from lights in the ceiling crowds of
+people move about. in the walls are the administrations computers
+controlling and charting the asteroid field drift. small consoles
+sit all along the walls showing various rooms.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11023
+D3
+~
+~
+3 -1 11025
+D6
+~
+~
+0 -1 11037
+R D 0 11024 3 1
+S
+#11025
+&GPrison Bay&W~
+In the middle of the room is a large console that controls the
+stasis cells. above it are security monitors showing images
+on many levels and even a small holochess table sits here for
+the guards amusment.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+3 -1 11028
+D1
+~
+~
+3 -1 11024
+D2
+~
+~
+3 -1 11026
+D3
+~
+~
+3 -1 11027
+R D 0 11025 0 1
+R D 0 11025 1 1
+R D 0 11025 2 1
+R D 0 11025 3 1
+S
+#11026
+Stasis Cell~
+All around is a stasis field made from yellow pulsing light.
+upon touching it emits an electrical shock  hurting the occupant.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+3 -1 11025
+R D 0 11026 0 1
+S
+#11027
+Stasis Cell~
+All around is a stasis field made from yellow pulsing light.
+upon touching it emits an electrical shock  hurting the occupant.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+3 -1 11025
+R D 0 11027 1 1
+S
+#11028
+Stasis Cell~
+All around is a stasis field made from yellow pulsing light.
+upon touching it emits an electrical shock  hurting the occupant.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+3 -1 11025
+R D 0 11028 2 1
+S
+#11029
+&GAdministration Level&W~
+the room is brightly lit from lights in the ceiling crowds of
+people move about. in the walls are the administrations computers
+controlling and charting the asteroid field drift. small consoles
+sit all along the walls showing various rooms.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11031
+D3
+~
+~
+0 -1 11006
+D8
+~
+~
+0 -1 11030
+R M 0 11004 28 11029
+S
+#11030
+&GMain Console Hub&W~
+A large screen made from 3 panels covering the entire south wall.
+below it are three chairs with small computer terminals for
+uses ranging from communications to sensors. 
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11031
+D6
+~
+~
+0 -1 11032
+D7
+~
+~
+0 -1 11029
+R O 0 11008 1 11030
+R O 0 20046 1 11030
+S
+#11031
+&GAdministration Level&W~
+the room is brightly lit from lights in the ceiling crowds of
+people move about. in the walls are the administrations computers
+controlling and charting the asteroid field drift. small consoles
+sit all along the walls showing various rooms.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11032
+D2
+~
+~
+0 -1 11030
+D3
+~
+~
+0 -1 11029
+S
+#11032
+&GAdministration Level&W~
+the room is brightly lit from lights in the ceiling crowds of
+people move about. in the walls are the administrations computers
+controlling and charting the asteroid field drift. small consoles
+sit all along the walls showing various rooms.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11033
+D3
+~
+~
+0 -1 11031
+D9
+~
+~
+0 -1 11030
+R M 0 11004 28 11032
+S
+#11033
+&GAdministration Level&W~
+the room is brightly lit from lights in the ceiling crowds of
+people move about. in the walls are the administrations computers
+controlling and charting the asteroid field drift. small consoles
+sit all along the walls showing various rooms.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11034
+D1
+~
+~
+0 -1 11038
+D2
+~
+~
+0 -1 11032
+R M 0 11011 10 11033
+R M 0 11011 10 11033
+S
+#11034
+&GAdministration Level&W~
+the room is brightly lit from lights in the ceiling crowds of
+people move about. in the walls are the administrations computers
+controlling and charting the asteroid field drift. small consoles
+sit all along the walls showing various rooms.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11035
+D2
+~
+~
+0 -1 11033
+R M 0 11011 10 11034
+R M 0 11004 28 11034
+S
+#11035
+&GAdministration Level&W~
+the room is brightly lit from lights in the ceiling crowds of
+people move about. in the walls are the administrations computers
+controlling and charting the asteroid field drift. small consoles
+sit all along the walls showing various rooms.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11034
+D7
+~
+~
+0 -1 11036
+R M 0 11011 10 11035
+S
+#11036
+&GAdministration Level&W~
+the room is brightly lit from lights in the ceiling crowds of
+people move about. in the walls are the administrations computers
+controlling and charting the asteroid field drift. small consoles
+sit all along the walls showing various rooms.
+~
+0 8 1 0 0 0 1000
+D3
+~
+~
+0 -1 11037
+D8
+~
+~
+0 -1 11035
+S
+#11037
+&GAdministration Level&W~
+the room is brightly lit from lights in the ceiling crowds of
+people move about. in the walls are the administrations computers
+controlling and charting the asteroid field drift. small consoles
+sit all along the walls showing various rooms.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11036
+D9
+~
+~
+0 -1 11024
+R M 0 11011 10 11037
+R M 0 11004 28 11037
+S
+#11038
+&GSmall Corridor&W~
+the corridor is narrow and brightly lit from columns in the walls.the
+corridor is nearly packed with miners and administrators trying
+to get by to the turbolift or back into the administration level.
+
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11039
+D3
+~
+~
+0 -1 11033
+S
+#11039
+&GSmall Corridor&W~
+the corridor is narrow and brightly lit from columns in the walls.the
+corridor is nearly packed with miners and administrators trying
+to get by to the turbolift or back into the administration level.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11040
+D3
+~
+~
+0 -1 11038
+S
+#11040
+&GTurbolift&W~
+the turbolift is brightly lit. a small voicebox sits in the wall. 
+The lift is apparently voice activated. Above the voicebox is a small list.
+_______________
+Administration
+_______________
+Engineering
+_______________
+~
+0 12 1 0 0 0 1000
+> speech_prog p Administration~
+mpe the turbolift begins to move up.
+mpsleep 4
+mpe the turbolift slows to a stop and the doors open.
+mptransfer $n 11039
+~
+> speech_prog p engineering~
+mpe the turbolift begins to move down.
+mpsleep 4
+mpe the turbolift slows to a stop and the doors open.
+mptransfer $n 11041
+~
+|
+S
+#11041
+&GTurbolift Landing&W~
+The sound of clanking and rattling comes from all over this
+level.It is a engineering level, sounds of liquid fuel being
+pumped into the fuel lines as it is sent to be processed.hammers
+can be heard beating on durasteel here is the hive of activity.
+~
+0 8 1 0 0 0 1000
+D7
+~
+~
+0 -1 11040
+D8
+~
+~
+0 -1 11042
+S
+#11042
+&GBright Corridor&W~
+The sound of clanking and rattling comes from all over this
+level.It is a engineering level, sounds of liquid fuel being
+pumped into the fuel lines as it is sent to be processed.hammers
+can be heard beating on durasteel here is the hive of activity.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11044
+D6
+~
+~
+0 -1 11043
+D7
+~
+~
+0 -1 11041
+D8
+~
+~
+0 -1 11046
+D9
+~
+~
+0 -1 11045
+R M 0 11004 28 11042
+S
+#11043
+&GPeragus Workshop&W~
+As you step into this quiet workshop, you notice many tables,
+spread out amongst the walls, each with a lamp and rack of tools
+above it. Each table is also immaculately kept.
+~
+0 67108872 1 0 0 0 1000
+D9
+~
+~
+0 -1 11042
+R M 0 11003 20 11043
+R M 0 11004 28 11043
+S
+#11044
+&GPeragus Refinery&W~
+A small processing station lies here, ready for refining that
+illegal substance known as Glitterstim. The room seems deserted
+other than your own footsteps.
+~
+0 33554440 1 0 0 0 1000
+D3
+~
+~
+0 -1 11042
+S
+#11045
+&GEngineering Supplies&W~
+A large, classy engineering store, tryanus's store has every
+item you could desire. It runs towards the expensive and stylish,
+with items that run towards vials of chemicals. to lavish microchip
+circuits and complex lenses.
+~
+0 8 1 0 0 0 1000
+D6
+~
+~
+0 -1 11042
+R M 0 11002 1 11045
+  R G 0 11009 1
+  R G 0 11016 1
+  R G 0 11011 1
+  R G 0 11010 1
+  R G 0 11019 1
+  R G 0 11020 1
+  R G 0 11018 1
+  R G 0 11017 1
+  R G 0 11014 1
+  R G 0 11012 1
+  R G 0 11013 1
+R M 0 11003 20 11045
+S
+#11046
+&GLarge Walkway&W~
+This large durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11059
+D2
+~
+~
+0 -1 11047
+D7
+~
+~
+0 -1 11042
+S
+#11047
+&GLarge Walkway&W~
+This large durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11046
+D2
+~
+~
+0 -1 11050
+D3
+~
+~
+0 -1 11048
+S
+#11048
+&GSmall Hallway&W~
+the hallway is dimly lit, a huge blastdoor is at the west end
+of the small hallway that leads off into the mines. smaller
+light panels sit in the walls to illuminate the hallway.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11047
+D3
+~
+~
+0 -1 11049
+R M 0 11003 20 11048
+R M 0 11004 28 11048
+R M 0 11004 28 11048
+S
+#11049
+&GEntrance To The Mine&W~
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11048
+D3
+~
+~
+0 -1 11306
+R M 0 11003 20 11049
+R M 0 11003 20 11049
+R M 0 11004 28 11049
+S
+#11050
+&GLarge Walkway&W~
+This large durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11047
+D2
+~
+~
+0 -1 11055
+D3
+~
+~
+3 -1 11051
+R M 0 11003 20 11050
+R D 0 11050 3 1
+S
+#11051
+&GEngineering Lounge&W~
+Tables sit in rows with bright lights shining down from light
+panels in the ceiling and the walls. A large booth sits in the
+north wall and smaller ones all about. a few of the  tables
+are occupied and others with only a few of the seats occupied.
+large holovideo displays provide entertainment.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+1 -1 11050
+D2
+~
+~
+0 -1 11054
+D3
+~
+~
+0 -1 11052
+D9
+~
+~
+0 -1 11053
+R D 0 11051 1 0
+S
+#11052
+&GEngineering Lounge&W~
+Tables sit in rows with bright lights shining down from light
+panels in the ceiling and the walls. A large booth sits in the
+north wall and smaller ones all about. a few of the  tables
+are occupied and others with only a few of the seats occupied.large
+holovideo displays provide entertainment.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11051
+D2
+~
+~
+0 -1 11053
+D8
+~
+~
+0 -1 11054
+S
+#11053
+&GEngineering Lounge&W~
+Tables sit in rows with bright lights shining down from light
+panels in the ceiling and the walls. A large booth sits in the
+north wall and smaller ones all about. a few of the  tables
+are occupied and others with only a few of the seats occupied.large
+holovideo displays provide entertainment.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11052
+D1
+~
+~
+0 -1 11054
+D6
+~
+~
+0 -1 11051
+S
+#11054
+&GEngineering Lounge&W~
+Tables sit in rows with bright lights shining down from light
+panels in the ceiling and the walls. A large booth sits in the
+north wall and smaller ones all about. a few of the  tables
+are occupied and others with only a few of the seats occupied.large
+holovideo displays provide entertainment.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11051
+D1
+~
+~
+1 -1 11055
+D3
+~
+~
+0 -1 11053
+D7
+~
+~
+0 -1 11052
+R D 0 11054 1 0
+S
+#11055
+&GLarge Walkway&W~
+This large durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11050
+D2
+~
+~
+0 -1 11056
+D3
+~
+~
+3 -1 11054
+D8
+~
+~
+0 -1 11073
+R M 0 11003 20 11055
+R M 0 11004 28 11055
+R D 0 11055 3 1
+S
+#11056
+&GLarge Walkway&W~
+This large durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11055
+D2
+~
+~
+0 -1 11057
+R M 0 11004 28 11056
+S
+#11057
+&GLarge Storage Bay&W~
+this room is surrounded with large lockers for technicians gear.Small
+security cameras sit along the ceiling to prevent theft.light
+is provided from large panels in the ceiling 
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11056
+D2
+~
+~
+0 -1 11058
+R M 0 11003 20 11057
+R O 0 11028 1 11057
+  R P 0 11007 1 11028
+S
+#11058
+&GAirlock&W~
+~
+0 12 1 0 0 0 1000
+D0
+~
+~
+0 -1 11057
+R O 0 11004 1 11058
+S
+#11059
+&GSmall Walkway&W~
+This small durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11060
+D3
+~
+~
+0 -1 11046
+R M 0 11003 20 11059
+R M 0 11004 28 11059
+S
+#11060
+&GSmall Walkway&W~
+This small durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D3
+~
+~
+0 -1 11059
+D6
+~
+~
+0 -1 11061
+R M 0 11003 20 11060
+S
+#11061
+&GSmall Walkway&W~
+This small durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11062
+D9
+~
+~
+0 -1 11060
+R M 0 11003 20 11061
+S
+#11062
+&GSmall Walkway&W~
+This small durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11106
+D3
+~
+~
+0 -1 11061
+D8
+~
+~
+0 -1 11063
+S
+#11063
+&GSmall Walkway&W~
+This small durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11064
+D7
+~
+~
+0 -1 11062
+R M 0 11003 20 11063
+R M 0 11003 20 11063
+S
+#11064
+&GSmall Walkway&W~
+This small durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11063
+D9
+~
+~
+0 -1 11065
+S
+#11065
+&GSmall Walkway&W~
+This small durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11066
+D6
+~
+~
+0 -1 11064
+R M 0 11004 28 11065
+S
+#11066
+&GSmall Walkway&W~
+This small durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11065
+D3
+~
+~
+0 -1 11067
+D8
+~
+~
+0 -1 11068
+R M 0 11004 28 11066
+S
+#11067
+&GProcessing Station&W~
+this control room is more of a lab design. in the south wall
+is an airtight bay where a fuel processing unit is stored. A
+small control panel sits on the west wall controlling the airtight
+storage bay.
+
+(ooc: give the processor 5 units of unrefined and it will refine it)
+~
+0 12 1 0 0 0 1000
+D1
+~
+~
+0 -1 11066
+R M 0 11009 1 11067
+S
+#11068
+&GSmall Walkway&W~
+This small durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11069
+D7
+~
+~
+0 -1 11066
+R M 0 11003 20 11068
+S
+#11069
+&GSmall Walkway&W~
+This small durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11068
+D2
+~
+~
+0 -1 11070
+R M 0 11003 20 11069
+R M 0 11003 20 11069
+R M 0 11004 28 11069
+S
+#11070
+&GSmall Walkway&W~
+This small durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11069
+D9
+~
+~
+0 -1 11071
+R M 0 11004 28 11070
+S
+#11071
+&GSmall Walkway&W~
+This small durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D3
+~
+~
+0 -1 11072
+D6
+~
+~
+0 -1 11070
+S
+#11072
+&GSmall Walkway&W~
+This small durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11071
+D7
+~
+~
+0 -1 11073
+R M 0 11004 28 11072
+R M 0 11004 28 11072
+S
+#11073
+&GSmall Walkway&W~
+This small durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D7
+~
+~
+0 -1 11055
+D8
+~
+~
+0 -1 11072
+S
+#11074
+&zLarge Catwalk outside Engineering Level~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D9
+~
+~
+0 -1 11075
+R O 0 11003 1 11074
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11075
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11076
+D6
+~
+~
+0 -1 11074
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11076
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11077
+D3
+~
+~
+0 -1 11075
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11077
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11078
+D3
+~
+~
+0 -1 11076
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11078
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11077
+D3
+~
+~
+0 -1 11079
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11079
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11078
+D3
+~
+~
+0 -1 11080
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11080
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11079
+D3
+~
+~
+0 -1 11081
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11081
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11080
+D3
+~
+~
+0 -1 11082
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11082
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11081
+D7
+~
+~
+0 -1 11083
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11083
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11084
+D8
+~
+~
+0 -1 11082
+D9
+~
+~
+0 -1 11091
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11084
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11083
+D7
+~
+~
+0 -1 11085
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11085
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D7
+~
+~
+0 -1 11086
+D8
+~
+~
+0 -1 11084
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11086
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D3
+~
+~
+0 -1 11087
+D8
+~
+~
+0 -1 11085
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11087
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11086
+D2
+~
+~
+0 -1 11088
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11088
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11087
+D1
+~
+~
+0 -1 11089
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11089
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11090
+D3
+~
+~
+0 -1 11088
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11090
+&zLarge Catwalk outside Administration Level~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 0 2048 0 0 1000
+D2
+~
+~
+0 -1 11089
+R O 0 11006 1 11090
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11091
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D3
+~
+~
+0 -1 11092
+D6
+~
+~
+0 -1 11083
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11092
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11091
+D3
+~
+~
+0 -1 11093
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11093
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11092
+D3
+~
+~
+0 -1 11094
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11094
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11093
+D6
+~
+~
+0 -1 11095
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11095
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11096
+D9
+~
+~
+0 -1 11094
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11096
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11095
+D3
+~
+~
+0 -1 11097
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11097
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11096
+D7
+~
+~
+0 -1 11098
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11098
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D7
+~
+~
+0 -1 11099
+D8
+~
+~
+0 -1 11097
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11099
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D6
+~
+~
+0 -1 11100
+D8
+~
+~
+0 -1 11098
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11100
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11101
+D9
+~
+~
+0 -1 11099
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11101
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11100
+D9
+~
+~
+0 -1 11102
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11102
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D3
+~
+~
+0 -1 11103
+D6
+~
+~
+0 -1 11101
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11103
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11102
+D3
+~
+~
+0 -1 11104
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11104
+&zLarge Catwalk outside Station&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11103
+D7
+~
+~
+0 -1 11105
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11105
+&zLarge Catwalk Outside Dormitories&W~
+As you look out from the catwalk you see the vastness of space.
+You have to be careful, as one wrong step could send you spinning
+off into space.
+~
+0 8 1 0 0 0 1000
+D8
+~
+~
+0 -1 11104
+R O 0 11002 1 11105
+> entry_prog 100~
+if isaffected($n) floating
+mpe you move slowly on the catwalk.
+else
+mpechoat $n your lungs are collapsing.
+mpechoaround $n $n 's lungs are collapsing
+mpdamage $n 400
+endif
+~
+|
+S
+#11106
+&GLarge Ramp&W~
+The walls have light panels every couple meters up the reinforced
+durasteel ramp. Crowds of people make their way up and down
+the ramp this ramp leads up to the engineering floor of peragus
+mining colony.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11107
+D2
+~
+~
+0 -1 11062
+R M 0 11003 20 11106
+R M 0 11003 20 11106
+S
+#11107
+&GLarge Ramp&W~
+The walls have light panels every couple meters up the reinforced
+durasteel ramp. Crowds of people make their way up and down
+the ramp this ramp leads up to the engineering floor of peragus
+mining colony.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11108
+D2
+~
+~
+0 -1 11106
+R M 0 11003 20 11107
+R M 0 11003 20 11107
+S
+#11108
+&GRamp Landing&W~
+The walls have light panels every couple meters up the reinforced
+durasteel ramp. Crowds of people make their way up and down
+the ramp this ramp leads up to the engineering floor of peragus
+mining colony.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11109
+D2
+~
+~
+0 -1 11107
+S
+#11109
+&GRamp Landing&W~
+The walls have light panels every couple meters up the reinforced
+durasteel ramp. Crowds of people make their way up and down
+the ramp this ramp leads up to the engineering floor of peragus
+mining colony.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11110
+D3
+~
+~
+0 -1 11108
+R M 0 11004 28 11109
+S
+#11110
+&GLarge Ramp&W~
+The walls have light panels every couple meters up the reinforced
+durasteel ramp. Crowds of people make their way up and down
+the ramp this ramp leads up to the engineering floor of peragus
+mining colony.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11109
+D2
+~
+~
+0 -1 11111
+S
+#11111
+&GLarge Ramp&W~
+The walls have light panels every couple meters up the reinforced
+durasteel ramp. Crowds of people make their way up and down
+the ramp this ramp leads up to the engineering floor of peragus
+mining colony.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11110
+D1
+~
+~
+0 -1 11112
+S
+#11112
+&GLarge Greeting Hall&W~
+The light is being transmitted through the panels in the high
+rised ceiling. Large pillars line all sides of this room. A
+large crowd of people is standing here talking to friends and
+family while others make their way about the station.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+7 11027 11113
+D2
+~
+~
+0 -1 11114
+D3
+~
+~
+0 -1 11111
+R D 0 11112 1 2
+S
+#11113
+&GConfiscated Weapons Closet&W~
+~
+0 12 1 0 0 0 1000
+D3
+~
+~
+7 11027 11112
+R D 0 11113 3 2
+S
+#11114
+&GPeragus Hangar Control Station&W~
+The Main terminal is brightly lit with panels it its high rised
+ceiling. Large red banners hang above the small corridors to
+the east and to the west.Small droids rush about cleaning up
+garbage. larger maintenance droids walk about carrying equipment
+for repairs of the station.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11112
+D1
+~
+~
+0 -1 11123
+D2
+~
+~
+0 -1 11115
+D3
+~
+~
+0 -1 11117
+R M 0 11010 1 11114
+S
+#11115
+&GLarge Ramp&W~
+the large ramp made out of reinforced duracrete leads up to the
+air control center and leads down to the main part of the hanger
+bay.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11114
+D2
+~
+~
+0 -1 11116
+S
+#11116
+&GPeragus Air Control Center&W~
+this large platform hovers overlooking the hanger bay. a few
+command consoles sit here to guide ships in and out. Traffic
+Control droids control the panels to make sure ships arrive
+and depart safely.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11115
+D2
+~
+~
+33554432 -1 11122
+S
+#11117
+&GNarrow Corridor&W~
+The narrow corridor is brightly lit by panels of light in the
+walls every couple of meters. Small droids race about cleaning
+up the place as larger cargo freighters haul refined fuel in
+canisters to the hanger for shipment.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11114
+D9
+~
+~
+0 -1 11118
+S
+#11118
+&GNarrow Corridor&W~
+The narrow corridor is brightly lit by panels of light in the
+walls every couple of meters. Small droids race about cleaning
+up the place as larger cargo freighters haul refined fuel in
+canisters to the hanger for shipment.
+~
+0 8 1 0 0 0 1000
+D6
+~
+~
+0 -1 11117
+D9
+~
+~
+0 -1 11119
+S
+#11119
+&GNarrow Corridor&W~
+The narrow corridor is brightly lit by panels of light in the
+walls every couple of meters. Small droids race about cleaning
+up the place as larger cargo freighters haul refined fuel in
+canisters to the hanger for shipment.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11120
+D6
+~
+~
+0 -1 11118
+S
+#11120
+&GNarrow Corridor&W~
+The narrow corridor is brightly lit by panels of light in the
+walls every couple of meters. Small droids race about cleaning
+up the place as larger cargo freighters haul refined fuel in
+canisters to the hanger for shipment.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11119
+D8
+~
+~
+0 -1 11121
+S
+#11121
+&GNarrow Corridor&W~
+The narrow corridor is brightly lit by panels of light in the
+walls every couple of meters. Small droids race about cleaning
+up the place as larger cargo freighters haul refined fuel in
+canisters to the hanger for shipment.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11122
+D7
+~
+~
+0 -1 11120
+S
+#11122
+Hanger Bay~
+The navigational beacons surround the outer door of the hanger
+where the hanger would have been unnoticed if they wern't there.
+A crew of techs swarm around other craft, refueling them, repairing
+them building a few, and in some cases, repairing them. A few
+tech crews wait off to the sides, waiting for orders to begin
+work.
+~
+0 48 1 0 0 0 1000
+D0
+~
+~
+33554432 -1 11116
+D1
+~
+~
+0 -1 11128
+D3
+~
+~
+0 -1 11121
+S
+#11123
+&GNarrow Corridor&W~
+The narrow corridor is brightly lit by panels of light in the
+walls every couple of meters. Small droids race about cleaning
+up the place as larger cargo freighters haul refined fuel in
+canisters to the hanger for shipment.
+~
+0 8 1 0 0 0 1000
+D3
+~
+~
+0 -1 11114
+D8
+~
+~
+0 -1 11124
+S
+#11124
+&GNarrow Corridor&W~
+The narrow corridor is brightly lit by panels of light in the
+walls every couple of meters. Small droids race about cleaning
+up the place as larger cargo freighters haul refined fuel in
+canisters to the hanger for shipment.
+~
+0 8 1 0 0 0 1000
+D7
+~
+~
+0 -1 11123
+D8
+~
+~
+0 -1 11125
+S
+#11125
+&GNarrow Corridor&W~
+The narrow corridor is brightly lit by panels of light in the
+walls every couple of meters. Small droids race about cleaning
+up the place as larger cargo freighters haul refined fuel in
+canisters to the hanger for shipment.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11126
+D7
+~
+~
+0 -1 11124
+S
+#11126
+&GNarrow Corridor&W~
+The narrow corridor is brightly lit by panels of light in the
+walls every couple of meters. Small droids race about cleaning
+up the place as larger cargo freighters haul refined fuel in
+canisters to the hanger for shipment.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11125
+D2
+~
+~
+0 -1 11127
+S
+#11127
+&GNarrow Corridor&W~
+The narrow corridor is brightly lit by panels of light in the
+walls every couple of meters. Small droids race about cleaning
+up the place as larger cargo freighters haul refined fuel in
+canisters to the hanger for shipment.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11126
+D9
+~
+~
+0 -1 11128
+S
+#11128
+&GNarrow Corridor&W~
+The narrow corridor is brightly lit by panels of light in the
+walls every couple of meters. Small droids race about cleaning
+up the place as larger cargo freighters haul refined fuel in
+canisters to the hanger for shipment.
+~
+0 8 1 0 0 0 1000
+D3
+~
+~
+0 -1 11122
+D6
+~
+~
+0 -1 11127
+S
+#11129
+&GAirlock&W~
+~
+0 12 1 0 0 0 1000
+D0
+~
+~
+0 -1 11130
+R O 0 11001 1 11129
+S
+#11130
+&GLarge Storage Bay&W~
+this room is surrounded with large lockers for technicians gear.Small
+security cameras sit along the ceiling to prevent theft.light
+is provided from large panels in the ceiling .
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11131
+D2
+~
+~
+0 -1 11129
+R O 0 11028 1 11130
+  R P 0 11007 1 11028
+S
+#11131
+&GLarge Hallway&W~
+The ceiling is several meters off the floor. the structure is
+made from reinforced durasteel. blue light being illuminating
+by light panels from the walls.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11132
+D2
+~
+~
+0 -1 11130
+R M 0 11006 46 11131
+R M 0 11006 46 11131
+R M 0 11006 46 11131
+R M 0 11006 46 11131
+R M 0 11006 46 11131
+R M 0 11006 46 11131
+R M 0 11006 46 11131
+S
+#11132
+&GLarge Hallway&W~
+The ceiling is several meters off the floor. the structure is
+made from reinforced durasteel. blue light being illuminating
+by light panels from the walls.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11133
+D2
+~
+~
+0 -1 11131
+R M 0 11004 41 11132
+R M 0 11004 41 11132
+R M 0 11004 41 11132
+R M 0 11004 41 11132
+S
+#11133
+&GLarge Hallway&W~
+The ceiling is several meters off the floor. the structure is
+made from reinforced durasteel. blue light being illuminating
+by light panels from the walls.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11134
+D2
+~
+~
+0 -1 11132
+S
+#11134
+&GLarge Hallway&W~
+The ceiling is several meters off the floor. the structure is
+made from reinforced durasteel. blue light being illuminating
+by light panels from the walls.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11133
+D6
+~
+~
+0 -1 11135
+S
+#11135
+&GDorimitory Lobby&W~
+The large area is wide open. Decorative lights dangle from the
+ceiling casting light down. Small groups of chairs sit about
+for visitors. Cameras scattered troughout the area cover most
+of the area.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11137
+D6
+~
+~
+0 -1 11138
+D7
+~
+~
+0 -1 11136
+D8
+~
+~
+0 -1 11183
+D9
+~
+~
+0 -1 11134
+R M 0 11004 37 11135
+R M 0 11004 37 11135
+S
+#11136
+&GDorimitory Lobby&W~
+The large area is wide open. Decorative lights dangle from the
+ceiling casting light down. Small groups of chairs sit about
+for visitors. Cameras scattered troughout the area cover most
+of the area.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11139
+D1
+~
+~
+0 -1 11137
+D8
+~
+~
+0 -1 11135
+S
+#11137
+&GDorimitory Lobby&W~
+The large area is wide open. Decorative lights dangle from the
+ceiling casting light down. Small groups of chairs sit about
+for visitors. Cameras scattered troughout the area cover most
+of the area.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11140
+D1
+~
+~
+0 -1 11138
+D2
+~
+~
+0 -1 11135
+D3
+~
+~
+0 -1 11136
+D6
+~
+~
+0 -1 11141
+D7
+~
+~
+0 -1 11139
+S
+#11138
+&GDorimitory Lobby&W~
+The large area is wide open. Decorative lights dangle from the
+ceiling casting light down. Small groups of chairs sit about
+for visitors. Cameras scattered troughout the area cover most
+of the area.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11141
+D3
+~
+~
+0 -1 11137
+D9
+~
+~
+0 -1 11135
+S
+#11139
+&GDorimitory Lobby&W~
+The large area is wide open. Decorative lights dangle from the
+ceiling casting light down. Small groups of chairs sit about
+for visitors. Cameras scattered troughout the area cover most
+of the area.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11140
+D2
+~
+~
+0 -1 11136
+D7
+~
+~
+0 -1 11142
+D8
+~
+~
+0 -1 11137
+S
+#11140
+&GDorimitory Lobby&W~
+The large area is wide open. Decorative lights dangle from the
+ceiling casting light down. Small groups of chairs sit about
+for visitors. Cameras scattered troughout the area cover most
+of the area.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11141
+D2
+~
+~
+0 -1 11137
+D3
+~
+~
+0 -1 11139
+S
+#11141
+&GDorimitory Lobby&W~
+The large area is wide open. Decorative lights dangle from the
+ceiling casting light down. Small groups of chairs sit about
+for visitors. Cameras scattered troughout the area cover most
+of the area.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11138
+D3
+~
+~
+0 -1 11140
+D6
+~
+~
+0 -1 11162
+D9
+~
+~
+0 -1 11137
+S
+#11142
+&GLarge Corridor To West Dorms&W~
+This large durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D3
+~
+~
+0 -1 11143
+D8
+~
+~
+0 -1 11139
+S
+#11143
+&GLarge Corridor To West Dorms&W~
+This large durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11142
+D3
+~
+~
+0 -1 11144
+S
+#11144
+&GLarge Corridor To West Dorms&W~
+This large durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11145
+D1
+~
+~
+0 -1 11143
+R M 0 11006 53 11144
+R M 0 11006 53 11144
+R M 0 11006 53 11144
+R M 0 11006 53 11144
+R M 0 11006 53 11144
+R M 0 11006 53 11144
+R M 0 11006 53 11144
+S
+#11145
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11146
+D2
+~
+~
+0 -1 11144
+D3
+~
+~
+0 -1 11160
+S
+#11146
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11148
+D2
+~
+~
+0 -1 11147
+D3
+~
+~
+0 -1 11145
+S
+#11147
+&GPeragus Dorm&W~
+this long room holds eight sentients confortably. bunk beds line
+the walls with a large table in the center surrounded by chairs.
+~
+0 8388616 1 0 0 0 1000
+D0
+~
+~
+0 -1 11146
+S
+#11148
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11149
+D2
+~
+~
+0 -1 11146
+S
+#11149
+&GLarge Walkway&W~
+l The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11150
+D2
+~
+~
+0 -1 11148
+D3
+~
+~
+0 -1 11151
+S
+#11150
+&GPeragus Dorm&W~
+this long room holds eight sentients confortably. bunk beds line
+the walls with a large table in the center surrounded by chairs.
+~
+0 8388616 1 0 0 0 1000
+D2
+~
+~
+0 -1 11149
+S
+#11151
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11152
+D1
+~
+~
+0 -1 11149
+D3
+~
+~
+0 -1 11153
+R M 0 11006 67 11151
+R M 0 11006 67 11151
+R M 0 11006 67 11151
+R M 0 11006 67 11151
+R M 0 11006 67 11151
+R M 0 11006 67 11151
+R M 0 11006 67 11151
+S
+#11152
+&GPeragus Dorm&W~
+this long room holds eight sentients confortably. bunk beds line
+the walls with a large table in the center surrounded by chairs.
+~
+0 8388616 1 0 0 0 1000
+D2
+~
+~
+0 -1 11151
+S
+#11153
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11154
+D1
+~
+~
+0 -1 11151
+D3
+~
+~
+0 -1 11155
+S
+#11154
+&GPeragus Dorm&W~
+this long room holds eight sentients confortably. bunk beds line
+the walls with a large table in the center surrounded by chairs.
+~
+0 8388616 1 0 0 0 1000
+D2
+~
+~
+0 -1 11153
+S
+#11155
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11156
+D1
+~
+~
+0 -1 11153
+D2
+~
+~
+0 -1 11157
+S
+#11156
+&GPeragus Dorm&W~
+this long room holds eight sentients confortably. bunk beds line
+the walls with a large table in the center surrounded by chairs.
+~
+0 8388616 1 0 0 0 1000
+D2
+~
+~
+0 -1 11155
+S
+#11157
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11155
+D2
+~
+~
+0 -1 11158
+R M 0 11006 60 11157
+R M 0 11006 60 11157
+R M 0 11006 60 11157
+R M 0 11006 60 11157
+R M 0 11006 60 11157
+R M 0 11006 60 11157
+R M 0 11006 60 11157
+S
+#11158
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11157
+D1
+~
+~
+0 -1 11160
+D2
+~
+~
+0 -1 11159
+S
+#11159
+&GPeragus Dorm&W~
+this long room holds eight sentients confortably. bunk beds line
+the walls with a large table in the center surrounded by chairs.
+~
+0 8388616 1 0 0 0 1000
+D0
+~
+~
+0 -1 11158
+S
+#11160
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11145
+D2
+~
+~
+0 -1 11161
+D3
+~
+~
+0 -1 11158
+S
+#11161
+&GPeragus Dorm&W~
+this long room holds eight sentients confortably. bunk beds line
+the walls with a large table in the center surrounded by chairs.
+~
+0 8388616 1 0 0 0 1000
+D0
+~
+~
+0 -1 11160
+S
+#11162
+&GLarge Corridor To East Dorms&W~
+This large durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11163
+D9
+~
+~
+0 -1 11141
+S
+#11163
+&GLarge Corridor To East Dorms&W~
+This large durasteel walkway is lined with bright lights, illuminating
+the path. The durasteel is almost mirror like, the light reflecting
+off of its surface.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11164
+D3
+~
+~
+0 -1 11162
+R M 0 11006 74 11163
+R M 0 11006 74 11163
+R M 0 11006 74 11163
+R M 0 11006 74 11163
+R M 0 11006 74 11163
+R M 0 11006 74 11163
+R M 0 11006 74 11163
+S
+#11164
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11181
+D2
+~
+~
+0 -1 11163
+D3
+~
+~
+0 -1 11165
+S
+#11165
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11167
+D1
+~
+~
+0 -1 11164
+D2
+~
+~
+0 -1 11166
+S
+#11166
+&GDormitory Dorm&W~
+this long room holds eight sentients confortably. bunk beds line
+the walls with a large table in the center surrounded by chairs.
+~
+0 8388616 1 0 0 0 1000
+D0
+~
+~
+0 -1 11165
+S
+#11167
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11168
+D2
+~
+~
+0 -1 11165
+S
+#11168
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11169
+D1
+~
+~
+0 -1 11170
+D2
+~
+~
+0 -1 11167
+R M 0 11006 81 11168
+R M 0 11006 81 11168
+R M 0 11006 81 11168
+R M 0 11006 81 11168
+R M 0 11006 81 11168
+R M 0 11006 81 11168
+R M 0 11006 81 11168
+S
+#11169
+&GDormitory Dorm&W~
+this long room holds eight sentients confortably. bunk beds line
+the walls with a large table in the center surrounded by chairs.
+~
+0 8388616 1 0 0 0 1000
+D2
+~
+~
+0 -1 11168
+S
+#11170
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11171
+D1
+~
+~
+0 -1 11172
+D3
+~
+~
+0 -1 11168
+S
+#11171
+&GDormitory Dorm&W~
+this long room holds eight sentients confortably. bunk beds line
+the walls with a large table in the center surrounded by chairs.
+~
+0 8388616 1 0 0 0 1000
+D2
+~
+~
+0 -1 11170
+S
+#11172
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11173
+D1
+~
+~
+0 -1 11174
+D3
+~
+~
+0 -1 11170
+S
+#11173
+&GDormitory Dorm&W~
+this long room holds eight sentients confortably. bunk beds line
+the walls with a large table in the center surrounded by chairs.
+~
+0 8388616 1 0 0 0 1000
+D2
+~
+~
+0 -1 11172
+S
+#11174
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11175
+D2
+~
+~
+0 -1 11176
+D3
+~
+~
+0 -1 11172
+S
+#11175
+&GDormitory Dorm&W~
+this long room holds eight sentients confortably. bunk beds line
+the walls with a large table in the center surrounded by chairs.
+~
+0 8388616 1 0 0 0 1000
+D2
+~
+~
+0 -1 11174
+S
+#11176
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11174
+D2
+~
+~
+0 -1 11177
+R M 0 11006 88 11176
+R M 0 11006 88 11176
+R M 0 11006 88 11176
+R M 0 11006 88 11176
+R M 0 11006 88 11176
+R M 0 11006 88 11176
+R M 0 11006 88 11176
+S
+#11177
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11176
+D2
+~
+~
+0 -1 11178
+D3
+~
+~
+0 -1 11179
+S
+#11178
+&GDormitory Dorm&W~
+this long room holds eight sentients confortably. bunk beds line
+the walls with a large table in the center surrounded by chairs.
+~
+0 8388616 1 0 0 0 1000
+D0
+~
+~
+0 -1 11177
+S
+#11179
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11177
+D2
+~
+~
+0 -1 11180
+D3
+~
+~
+0 -1 11181
+S
+#11180
+&GDormitory Dorm&W~
+this long room holds eight sentients confortably. bunk beds line
+the walls with a large table in the center surrounded by chairs.
+~
+0 8388616 1 0 0 0 1000
+D0
+~
+~
+0 -1 11179
+S
+#11181
+&GLarge Walkway&W~
+The middle of the room is wide open with large machinery huming
+to apparently recycle air in the dormatories. the catwalk has
+small lights circling with the catwalk to provide illumination.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11179
+D2
+~
+~
+0 -1 11182
+D3
+~
+~
+0 -1 11164
+S
+#11182
+&GDormitory Dorm&W~
+this long room holds eight sentients confortably. bunk beds line
+the walls with a large table in the center surrounded by chairs.
+~
+0 8388616 1 0 0 0 1000
+D0
+~
+~
+0 -1 11181
+S
+#11183
+&GLarge Hallway&W~
+The ceiling is several meters off the floor. the structure is
+made from reinforced durasteel. blue light being illuminating
+by light panels from the walls.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11184
+D7
+~
+~
+0 -1 11135
+S
+#11184
+&GLarge Hallway&W~
+The ceiling is several meters off the floor. the structure is
+made from reinforced durasteel. blue light being illuminating
+by light panels from the walls.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11183
+D1
+~
+~
+0 -1 11191
+D2
+~
+~
+0 -1 11185
+S
+#11185
+&GLarge Hallway&W~
+The ceiling is several meters off the floor. the structure is
+made from reinforced durasteel. blue light being illuminating
+by light panels from the walls.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11184
+D2
+~
+~
+0 -1 11186
+S
+#11186
+&GLarge Hallway&W~
+The ceiling is several meters off the floor. the structure is
+made from reinforced durasteel. blue light being illuminating
+by light panels from the walls.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11185
+D1
+~
+~
+0 -1 11187
+R M 0 11006 109 11186
+R M 0 11006 109 11186
+R M 0 11006 109 11186
+R M 0 11004 35 11186
+R M 0 11004 35 11186
+S
+#11187
+&GLarge Hallway&W~
+The ceiling is several meters off the floor. the structure is
+made from reinforced durasteel. blue light being illuminating
+by light panels from the walls.
+~
+0 8 1 0 0 0 1000
+D3
+~
+~
+0 -1 11186
+D8
+~
+~
+0 -1 11188
+S
+#11188
+&GLarge Hallway&W~
+The ceiling is several meters off the floor. the structure is
+made from reinforced durasteel. blue light being illuminating
+by light panels from the walls.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11189
+D7
+~
+~
+0 -1 11187
+R M 0 11006 60 11188
+R M 0 11006 60 11188
+R M 0 11006 60 11188
+R M 0 11006 60 11188
+R M 0 11006 60 11188
+R M 0 11006 60 11188
+R M 0 11006 60 11188
+S
+#11189
+&GLarge Hallway&W~
+The ceiling is several meters off the floor. the structure is
+made from reinforced durasteel. blue light being illuminating
+by light panels from the walls.
+~
+0 12 1 0 0 0 1000
+D1
+~
+~
+0 -1 11190
+D3
+~
+~
+0 -1 11188
+S
+#11190
+&GEntrance To the Mines&W~
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11343
+D3
+~
+~
+0 -1 11189
+S
+#11191
+&GEntrance to Dining Hall&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11193
+D3
+~
+~
+0 -1 11184
+D6
+~
+~
+0 -1 11192
+D8
+~
+~
+0 -1 11194
+R M 0 11006 109 11191
+R M 0 11004 33 11191
+R M 0 11006 109 11191
+R M 0 11004 33 11191
+R M 0 11004 33 11191
+S
+#11192
+&GUpper Tier of Tables&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11193
+D6
+~
+~
+0 -1 11195
+D9
+~
+~
+0 -1 11191
+S
+#11193
+&GUpper Tier of Tables&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11192
+D1
+~
+~
+0 -1 11206
+D2
+~
+~
+0 -1 11194
+D3
+~
+~
+0 -1 11191
+R M 0 11006 109 11193
+R M 0 11006 109 11193
+R M 0 11006 109 11193
+R M 0 11006 109 11193
+R M 0 11006 109 11193
+S
+#11194
+&GUpper Tier of Tables&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11193
+D1
+~
+~
+0 -1 11205
+D7
+~
+~
+0 -1 11191
+D8
+~
+~
+0 -1 11204
+R M 0 11006 32 11194
+R M 0 11006 32 11194
+R M 0 11006 32 11194
+R M 0 11006 32 11194
+R M 0 11006 32 11194
+R M 0 11006 32 11194
+R M 0 11006 32 11194
+S
+#11195
+&GUpper Tier of Tables&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11197
+D6
+~
+~
+0 -1 11196
+D9
+~
+~
+0 -1 11192
+S
+#11196
+&GServing Line&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11197
+D8
+~
+~
+0 -1 11198
+D9
+~
+~
+0 -1 11195
+R M 0 11007 1 11196
+  R G 0 11022 1
+  R G 0 11023 1
+S
+#11197
+&GUpper Tier of Tables&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11196
+D1
+~
+~
+0 -1 11198
+D3
+~
+~
+0 -1 11195
+R M 0 11006 46 11197
+R M 0 11006 46 11197
+R M 0 11006 46 11197
+R M 0 11006 46 11197
+R M 0 11006 46 11197
+R M 0 11006 46 11197
+S
+#11198
+&GUpper Tier of Tables&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D3
+~
+~
+0 -1 11197
+D7
+~
+~
+0 -1 11196
+D8
+~
+~
+0 -1 11199
+S
+#11199
+&GUpper Tier of Tables&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11201
+D7
+~
+~
+0 -1 11198
+D8
+~
+~
+0 -1 11200
+R M 0 11006 102 11199
+R M 0 11006 102 11199
+R M 0 11006 102 11199
+R M 0 11006 102 11199
+R M 0 11006 102 11199
+R M 0 11006 102 11199
+R M 0 11006 102 11199
+R M 0 11006 102 11199
+S
+#11200
+&GUpper Tier of Tables&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D3
+~
+~
+0 -1 11201
+D7
+~
+~
+0 -1 11199
+D9
+~
+~
+0 -1 11203
+R M 0 11006 95 11200
+R M 0 11006 95 11200
+R M 0 11006 95 11200
+R M 0 11006 95 11200
+R M 0 11006 95 11200
+R M 0 11006 95 11200
+S
+#11201
+&GUpper Tier of Tables&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11199
+D1
+~
+~
+0 -1 11200
+D2
+~
+~
+0 -1 11203
+D3
+~
+~
+0 -1 11206
+S
+#11202
+&GUpper Tier of Tables&W~
+~
+0 8 1 0 0 0 1000
+D3
+~
+~
+0 -1 11201
+S
+#11203
+&GUpper Tier of Tables&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11201
+D3
+~
+~
+0 -1 11205
+D6
+~
+~
+0 -1 11200
+D9
+~
+~
+0 -1 11204
+S
+#11204
+&GUpper Tier of Tables&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11205
+D6
+~
+~
+0 -1 11203
+D7
+~
+~
+0 -1 11194
+S
+#11205
+&GUpper Tier of Tables&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D1
+~
+~
+0 -1 11203
+D2
+~
+~
+0 -1 11204
+D3
+~
+~
+0 -1 11194
+S
+#11206
+&GLower Tier of Tables&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11207
+D1
+~
+~
+0 -1 11201
+D2
+~
+~
+0 -1 11208
+D3
+~
+~
+0 -1 11193
+R M 0 11006 109 11206
+R M 0 11006 109 11206
+R M 0 11004 31 11206
+S
+#11207
+&GLower Tier of Tables&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+0 -1 11206
+S
+#11208
+&GLower Tier of Tables&W~
+a group of tables sitting under a pale blue light from light
+panels in the ceiling and walls. Chairs surround each table
+and a few servers move about serving the miners. Small droids
+clean up debris on the ground.
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+0 -1 11206
+S
+#11209
+&GEntrance To The Mine&W~
+~
+0 12 1 0 0 0 1000
+D0
+~
+~
+0 -1 11210
+D2
+~
+~
+0 -1 11013
+S
+#11210
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11211
+D2
+~
+~
+0 -1 11209
+R M 0 11006 25 11210
+S
+#11211
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11210
+D3
+~
+~
+0 -1 11212
+R M 0 11006 25 11211
+S
+#11212
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11211
+D7
+~
+~
+0 -1 11213
+R M 0 11006 23 11212
+R O 0 11024 1 11212
+S
+#11213
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D7
+~
+~
+0 -1 11214
+D8
+~
+~
+0 -1 11212
+R M 0 11006 25 11213
+S
+#11214
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11219
+D8
+~
+~
+0 -1 11213
+D9
+~
+~
+0 -1 11215
+S
+#11215
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11216
+D6
+~
+~
+0 -1 11214
+R M 0 11006 25 11215
+R O 0 11024 1 11215
+S
+#11216
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11215
+D7
+~
+~
+0 -1 11217
+R O 0 11024 1 11216
+S
+#11217
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11218
+D8
+~
+~
+0 -1 11216
+S
+#11218
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11217
+S
+#11219
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11220
+D2
+~
+~
+0 -1 11214
+S
+#11220
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11221
+D2
+~
+~
+0 -1 11219
+R O 0 11024 1 11220
+S
+#11221
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11222
+D1
+~
+~
+0 -1 11228
+D2
+~
+~
+0 -1 11220
+S
+#11222
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11223
+D2
+~
+~
+0 -1 11221
+S
+#11223
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11224
+D2
+~
+~
+0 -1 11222
+S
+#11224
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11223
+D6
+~
+~
+0 -1 11225
+R M 0 11006 25 11224
+S
+#11225
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11239
+D7
+~
+~
+0 -1 11230
+D8
+~
+~
+0 -1 11226
+D9
+~
+~
+0 -1 11224
+R M 0 11006 23 11225
+R O 0 11024 1 11225
+S
+#11226
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11227
+D7
+~
+~
+0 -1 11225
+S
+#11227
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11226
+D2
+~
+~
+0 -1 11228
+R M 0 11006 25 11227
+S
+#11228
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11227
+D3
+~
+~
+0 -1 11221
+D9
+~
+~
+0 -1 11229
+S
+#11229
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D6
+~
+~
+0 -1 11228
+D8
+~
+~
+0 -1 11248
+S
+#11230
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11231
+D8
+~
+~
+0 -1 11225
+R O 0 11024 1 11230
+S
+#11231
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11230
+D7
+~
+~
+0 -1 11232
+S
+#11232
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D7
+~
+~
+0 -1 11233
+D8
+~
+~
+0 -1 11231
+S
+#11233
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11236
+D6
+~
+~
+0 -1 11234
+D8
+~
+~
+0 -1 11232
+R M 0 11006 25 11233
+R M 0 11006 25 11233
+S
+#11234
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11235
+D9
+~
+~
+0 -1 11233
+R M 0 11006 25 11234
+R M 0 11006 25 11234
+R O 0 11024 1 11234
+S
+#11235
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11234
+S
+#11236
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11233
+D9
+~
+~
+0 -1 11237
+S
+#11237
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11238
+D6
+~
+~
+0 -1 11236
+S
+#11238
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11237
+R M 0 11006 25 11238
+S
+#11239
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11240
+D3
+~
+~
+0 -1 11225
+R M 0 11006 25 11239
+R M 0 11006 25 11239
+R M 0 11006 25 11239
+R M 0 11006 25 11239
+S
+#11240
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11239
+D6
+~
+~
+0 -1 11241
+R O 0 11024 1 11240
+S
+#11241
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11244
+D7
+~
+~
+0 -1 11242
+D9
+~
+~
+0 -1 11240
+S
+#11242
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D7
+~
+~
+0 -1 11243
+D8
+~
+~
+0 -1 11241
+R M 0 11006 25 11242
+R M 0 11006 25 11242
+S
+#11243
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D8
+~
+~
+0 -1 11242
+R M 0 11006 25 11243
+S
+#11244
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11241
+D1
+~
+~
+0 -1 11252
+D2
+~
+~
+0 -1 11245
+R M 0 11006 25 11244
+S
+#11245
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11244
+D9
+~
+~
+0 -1 11246
+S
+#11246
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11247
+D6
+~
+~
+0 -1 11245
+S
+#11247
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11246
+D8
+~
+~
+0 -1 11250
+D9
+~
+~
+0 -1 11248
+S
+#11248
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11249
+D6
+~
+~
+0 -1 11247
+D7
+~
+~
+0 -1 11229
+S
+#11249
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11248
+S
+#11250
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11251
+D7
+~
+~
+0 -1 11247
+R O 0 11024 1 11250
+S
+#11251
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11250
+S
+#11252
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11244
+D6
+~
+~
+0 -1 11253
+S
+#11253
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11254
+D9
+~
+~
+0 -1 11252
+S
+#11254
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11253
+D7
+~
+~
+0 -1 11255
+S
+#11255
+&GPeragus Upper Mine&W~
+~
+0 8 13 0 0 0 1000
+D6
+~
+~
+0 -1 11256
+D8
+~
+~
+0 -1 11254
+S
+#11256
+&GEntrance to Peragus Lower Mine&W~
+~
+0 12 13 0 0 0 1000
+D2
+~
+~
+0 -1 11257
+D9
+~
+~
+0 -1 11255
+S
+#11257
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11256
+D8
+~
+~
+0 -1 11258
+S
+#11258
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11300
+D7
+~
+~
+0 -1 11257
+D8
+~
+~
+0 -1 11259
+D9
+~
+~
+0 -1 11261
+R M 0 11001 58 11258
+S
+#11259
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11260
+D7
+~
+~
+0 -1 11258
+R M 0 11001 58 11259
+S
+#11260
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11259
+R M 0 11001 58 11260
+R M 0 11001 58 11260
+S
+#11261
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11262
+D6
+~
+~
+0 -1 11258
+S
+#11262
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11261
+D3
+~
+~
+0 -1 11263
+S
+#11263
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11262
+D9
+~
+~
+0 -1 11264
+S
+#11264
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11268
+D6
+~
+~
+0 -1 11263
+D7
+~
+~
+0 -1 11265
+D9
+~
+~
+0 -1 11266
+R M 0 11001 58 11264
+S
+#11265
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D8
+~
+~
+0 -1 11264
+S
+#11266
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11267
+D6
+~
+~
+0 -1 11264
+S
+#11267
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11266
+D3
+~
+~
+0 -1 11307
+S
+#11268
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11264
+D8
+~
+~
+0 -1 11269
+S
+#11269
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D7
+~
+~
+0 -1 11268
+D8
+~
+~
+0 -1 11270
+S
+#11270
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11273
+D2
+~
+~
+0 -1 11272
+D7
+~
+~
+0 -1 11269
+D9
+~
+~
+0 -1 11271
+S
+#11271
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D6
+~
+~
+0 -1 11270
+S
+#11272
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11270
+S
+#11273
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11270
+D6
+~
+~
+0 -1 11273
+D8
+~
+~
+0 -1 11274
+D9
+~
+~
+0 -1 11273
+S
+#11274
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11275
+D7
+~
+~
+0 -1 11273
+R O 0 11024 1 11274
+S
+#11275
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11274
+D6
+~
+~
+0 -1 11276
+R M 0 11001 58 11275
+S
+#11276
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D8
+~
+~
+0 -1 11277
+D9
+~
+~
+0 -1 11275
+S
+#11277
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11278
+D7
+~
+~
+0 -1 11276
+R M 0 11001 58 11277
+R M 0 11001 58 11277
+R M 0 11001 58 11277
+R M 0 11001 58 11277
+S
+#11278
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11277
+D6
+~
+~
+0 -1 11279
+R M 0 11001 58 11278
+R M 0 11001 58 11278
+R M 0 11001 58 11278
+R O 0 11024 1 11278
+S
+#11279
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D8
+~
+~
+0 -1 11280
+D9
+~
+~
+0 -1 11278
+S
+#11280
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D7
+~
+~
+0 -1 11279
+D8
+~
+~
+0 -1 11281
+R M 0 11001 58 11280
+R M 0 11001 58 11280
+S
+#11281
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11282
+D7
+~
+~
+0 -1 11280
+R M 0 11001 58 11281
+S
+#11282
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11281
+D8
+~
+~
+0 -1 11283
+S
+#11283
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11284
+D6
+~
+~
+0 -1 11286
+D7
+~
+~
+0 -1 11282
+R M 0 11001 58 11283
+S
+#11284
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11283
+D9
+~
+~
+0 -1 11285
+R M 0 11001 58 11284
+S
+#11285
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D6
+~
+~
+0 -1 11284
+S
+#11286
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11287
+D9
+~
+~
+0 -1 11283
+R M 0 11001 58 11286
+S
+#11287
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11288
+D2
+~
+~
+0 -1 11286
+R M 0 11001 58 11287
+S
+#11288
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11287
+D7
+~
+~
+0 -1 11289
+R M 0 11001 58 11288
+S
+#11289
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11291
+D1
+~
+~
+0 -1 11304
+D8
+~
+~
+0 -1 11288
+D9
+~
+~
+0 -1 11290
+R M 0 11001 58 11289
+R O 0 11024 1 11289
+S
+#11290
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D6
+~
+~
+0 -1 11289
+R M 0 11001 58 11290
+R M 0 11001 58 11290
+S
+#11291
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11289
+D7
+~
+~
+0 -1 11292
+S
+#11292
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D7
+~
+~
+0 -1 11293
+D8
+~
+~
+0 -1 11291
+R O 0 11024 1 11292
+S
+#11293
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D7
+~
+~
+0 -1 11294
+D8
+~
+~
+0 -1 11292
+S
+#11294
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D8
+~
+~
+0 -1 11293
+D9
+~
+~
+0 -1 11295
+R O 0 11024 1 11294
+S
+#11295
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11301
+D2
+~
+~
+0 -1 11296
+D6
+~
+~
+0 -1 11294
+S
+#11296
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11295
+D3
+~
+~
+0 -1 11297
+S
+#11297
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11296
+D9
+~
+~
+0 -1 11298
+S
+#11298
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11299
+D6
+~
+~
+0 -1 11297
+S
+#11299
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11298
+D9
+~
+~
+0 -1 11300
+R M 0 11001 58 11299
+S
+#11300
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11258
+D6
+~
+~
+0 -1 11299
+S
+#11301
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11295
+D7
+~
+~
+0 -1 11302
+S
+#11302
+&GFuel Storage Depot&W~
+~
+0 8 1 0 0 0 1000
+D0
+~
+~
+8388643 -1 11303
+D8
+~
+~
+0 -1 11301
+R D 0 11302 0 1
+S
+#11303
+&GFuel Storage Unit&W~
+~
+0 8 1 0 0 0 1000
+D2
+~
+~
+8388643 -1 11302
+R D 0 11303 2 1
+S
+#11304
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11289
+D6
+~
+~
+0 -1 11305
+R M 0 11001 58 11304
+S
+#11305
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11306
+D9
+~
+~
+0 -1 11304
+R M 0 11001 58 11305
+S
+#11306
+&GPeragus Lower Mine&W~
+~
+0 12 13 0 0 0 1000
+D1
+~
+~
+0 -1 11049
+D3
+~
+~
+0 -1 11305
+S
+#11307
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11267
+D3
+~
+~
+0 -1 11308
+S
+#11308
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11309
+D1
+~
+~
+0 -1 11307
+S
+#11309
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11310
+D2
+~
+~
+0 -1 11308
+D3
+~
+~
+0 -1 11316
+S
+#11310
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11309
+D6
+~
+~
+0 -1 11311
+D7
+~
+~
+0 -1 11313
+R O 0 11024 1 11310
+S
+#11311
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D7
+~
+~
+0 -1 11312
+D9
+~
+~
+0 -1 11310
+S
+#11312
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D8
+~
+~
+0 -1 11311
+S
+#11313
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D7
+~
+~
+0 -1 11314
+D8
+~
+~
+0 -1 11310
+S
+#11314
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D8
+~
+~
+0 -1 11313
+D9
+~
+~
+0 -1 11315
+S
+#11315
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D6
+~
+~
+0 -1 11314
+D7
+~
+~
+0 -1 11318
+D8
+~
+~
+0 -1 11316
+D9
+~
+~
+0 -1 11322
+S
+#11316
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11309
+D2
+~
+~
+0 -1 11371
+D7
+~
+~
+0 -1 11315
+D8
+~
+~
+0 -1 11317
+R O 0 11024 1 11316
+S
+#11317
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D7
+~
+~
+0 -1 11316
+S
+#11318
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11319
+D8
+~
+~
+0 -1 11315
+S
+#11319
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11318
+D6
+~
+~
+0 -1 11320
+S
+#11320
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D8
+~
+~
+0 -1 11321
+D9
+~
+~
+0 -1 11319
+S
+#11321
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D7
+~
+~
+0 -1 11320
+S
+#11322
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11323
+D6
+~
+~
+0 -1 11315
+S
+#11323
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11322
+D3
+~
+~
+0 -1 11324
+S
+#11324
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11323
+D7
+~
+~
+0 -1 11325
+S
+#11325
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11326
+D8
+~
+~
+0 -1 11324
+R O 0 11024 1 11325
+S
+#11326
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11327
+D3
+~
+~
+0 -1 11325
+S
+#11327
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11328
+D2
+~
+~
+0 -1 11326
+S
+#11328
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11330
+D2
+~
+~
+0 -1 11327
+D3
+~
+~
+0 -1 11329
+R M 0 11001 58 11328
+R M 0 11001 58 11328
+R M 0 11001 58 11328
+R M 0 11001 58 11328
+S
+#11329
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11328
+S
+#11330
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11328
+D7
+~
+~
+0 -1 11331
+S
+#11331
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D7
+~
+~
+0 -1 11332
+D8
+~
+~
+0 -1 11330
+R O 0 11024 1 11331
+S
+#11332
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D8
+~
+~
+0 -1 11331
+D9
+~
+~
+0 -1 11333
+R M 0 11001 58 11332
+S
+#11333
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11334
+D6
+~
+~
+0 -1 11332
+R M 0 11001 58 11333
+S
+#11334
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11333
+D3
+~
+~
+0 -1 11335
+R M 0 11001 58 11334
+S
+#11335
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11336
+D1
+~
+~
+0 -1 11334
+S
+#11336
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11335
+D7
+~
+~
+0 -1 11337
+S
+#11337
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D8
+~
+~
+0 -1 11336
+D9
+~
+~
+0 -1 11338
+S
+#11338
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D6
+~
+~
+0 -1 11337
+D7
+~
+~
+0 -1 11339
+D9
+~
+~
+0 -1 11344
+R M 0 11001 58 11338
+R M 0 11001 58 11338
+S
+#11339
+&GPeragus Lower Mine&W~
+~
+0 8 13 -2147483648 0 0 1000
+D0
+~
+~
+0 -1 11340
+D8
+~
+~
+0 -1 11338
+R M 0 11001 58 11339
+R M 0 11001 58 11339
+R O 0 11024 1 11339
+S
+#11340
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11341
+D2
+~
+~
+0 -1 11339
+S
+#11341
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11340
+D7
+~
+~
+0 -1 11342
+S
+#11342
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D8
+~
+~
+0 -1 11341
+D9
+~
+~
+0 -1 11343
+S
+#11343
+&GLarge Alcove&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11190
+D6
+~
+~
+0 -1 11342
+R M 0 11001 58 11343
+R M 0 11001 58 11343
+S
+#11344
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11345
+D6
+~
+~
+0 -1 11338
+R M 0 11001 58 11344
+R O 0 11024 1 11344
+S
+#11345
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11344
+D1
+~
+~
+0 -1 11347
+D6
+~
+~
+0 -1 11346
+S
+#11346
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D9
+~
+~
+0 -1 11345
+S
+#11347
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11348
+D3
+~
+~
+0 -1 11345
+R M 0 11001 58 11347
+S
+#11348
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11347
+D2
+~
+~
+0 -1 11349
+S
+#11349
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11348
+D1
+~
+~
+0 -1 11367
+D3
+~
+~
+0 -1 11350
+R M 0 11001 58 11349
+S
+#11350
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11349
+D9
+~
+~
+0 -1 11351
+R M 0 11001 58 11350
+S
+#11351
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D6
+~
+~
+0 -1 11350
+D9
+~
+~
+0 -1 11352
+R M 0 11001 58 11351
+R M 0 11001 58 11351
+R O 0 11024 1 11351
+S
+#11352
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11353
+D6
+~
+~
+0 -1 11351
+R M 0 11001 58 11352
+R M 0 11001 58 11352
+S
+#11353
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11352
+D2
+~
+~
+0 -1 11354
+R M 0 11001 58 11353
+S
+#11354
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11353
+D8
+~
+~
+0 -1 11355
+R M 0 11001 58 11354
+R M 0 11001 58 11354
+S
+#11355
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11356
+D7
+~
+~
+0 -1 11354
+S
+#11356
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11355
+D8
+~
+~
+0 -1 11357
+R M 0 11001 58 11356
+R M 0 11001 58 11356
+S
+#11357
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D7
+~
+~
+0 -1 11356
+D8
+~
+~
+0 -1 11358
+R M 0 11001 58 11357
+R M 0 11001 58 11357
+S
+#11358
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D6
+~
+~
+0 -1 11359
+D7
+~
+~
+0 -1 11357
+R M 0 11001 58 11358
+R M 0 11001 58 11358
+R O 0 11024 1 11358
+S
+#11359
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D7
+~
+~
+0 -1 11360
+D9
+~
+~
+0 -1 11358
+S
+#11360
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D7
+~
+~
+0 -1 11361
+D8
+~
+~
+0 -1 11359
+R M 0 11001 58 11360
+R M 0 11001 58 11360
+S
+#11361
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D6
+~
+~
+0 -1 11363
+D7
+~
+~
+0 -1 11362
+D8
+~
+~
+0 -1 11360
+R M 0 11001 58 11361
+R M 0 11001 58 11361
+S
+#11362
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D8
+~
+~
+0 -1 11361
+R O 0 11024 1 11362
+S
+#11363
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 11368
+D7
+~
+~
+0 -1 11364
+D9
+~
+~
+0 -1 11361
+S
+#11364
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11365
+D8
+~
+~
+0 -1 11363
+R M 0 11001 58 11364
+S
+#11365
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11366
+D2
+~
+~
+0 -1 11364
+R O 0 11024 1 11365
+S
+#11366
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11365
+D7
+~
+~
+0 -1 11367
+S
+#11367
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11349
+D8
+~
+~
+0 -1 11366
+R M 0 11001 58 11367
+S
+#11368
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D3
+~
+~
+0 -1 11363
+D6
+~
+~
+0 -1 11369
+R M 0 11001 58 11368
+S
+#11369
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11370
+D9
+~
+~
+0 -1 11368
+R M 0 11001 58 11369
+S
+#11370
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 11369
+D6
+~
+~
+0 -1 11371
+S
+#11371
+&GPeragus Lower Mine&W~
+~
+0 8 13 0 0 0 1000
+D0
+~
+~
+0 -1 11316
+D9
+~
+~
+0 -1 11370
+R O 0 11024 1 11371
+S
+#11372
+Floating in a void~
+~
+0 0 1 0 0 0 1000
+D2
+~
+~
+0 -1 11371
+S
+#11500
+Floating in a void~
+~
+0 4 1 0 0 0 2760
+S
+#0
+
+
+#SHOPS
+ 11002    0  0  0  0  0   120  90         0 23    ; Tryanus
+ 11007    0  0  0  0  0   120  90         0 23    ; a chef
+ 11008    0  0  0  0  0   120  90         0 23    ; peragus medical officer
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  11004 spec_customs_weapons
+S
+
+
+#$

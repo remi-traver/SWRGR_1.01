@@ -1,0 +1,6444 @@
+#AREA   Algara II-Yoneese~
+
+
+
+#AUTHOR Revan~
+
+#RANGES
+1 36 1 36
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 6250113
+
+#MOBILES
+#31300
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31301
+a theatre screen~
+a theatre screen~
+&Ga theatre screen is here mounted to the wall.&W
+~
+~
+134350851 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> act_prog p The lights dim.~
+mpe &YThe screen brightens showing two stormtroopers shooting at other stormtroopers killing them.&W
+mpsleep 8
+mpe A voice Is heard saying "What's happened up there?"
+mpsleep 8
+mpe &YBoth stormtroopers remove their helmets revealIng han and luke. Han runs over to the communications terminal.&W
+mpsleep 8
+mpe Han says "Uhh we had a slIght weapons malfunctIon, but everythIngs perfectly alright we're all fine here now. How are you?"
+mpsleep 12
+mpe an imperial says "We're sending a squad up"
+mpsleep 8
+mpe Han says "Uhh negative we had a reactor leak here now..gIve us a minute to lock it down large leak VERY dangerous."
+mpsleep 12
+mpe an imperial says "There's no reactor on that floor."
+mpsleep 8
+mpe Han says "Well I talked to a dave johnson in stormtrooper engineerIng and he says there is a reactor here."
+mpsleep 12
+mpe The imperial voice says "Dave Johnson? one sec"
+mpsleep 8
+mpe The imperial voice says "Okay I have dave on the lIne, dave dId you tell someone that there Is a reactor in prisoner control room?"
+mpsleep 12
+mpe Dave says "Uhh no. no there is no reactor there"
+mpsleep 8
+mpe Han says "I don't know what to tell ya but I am starIng straight at a reactor maybe vader had it installed yesterday."
+mpsleep 12
+mpe The imperial voice says "one sec.."
+mpsleep 8
+mpe Darth Vader says "WHAT DO YOU WANT?"
+mpsleep 8
+mpe The imperial voice says "Lord vader did you Install a reactor In prisoner control room?"
+mpsleep 8
+mpe Darth vader says "Not that I know of.. hang on one sec..SHIELA can you get me the plans to the death star?"
+mpsleep 12
+mpe Darth vader says "okay got the plans here let me have a look..boobooboo..no reactor that I can see.but might as well put one in there is always room for another reactor."
+mpsleep 12
+mpe The imperial voice says "we'll send a team up to build the new reactor."
+mpsleep 12
+mpe Han says "no no not nessasary we got it under control."
+mpsleep 4
+mpe &YHan shoots the communications terminal&W
+mpsleep 4
+mpe Han says "Boring conversation anyway. Okay lets build this reactor."
+mpe &RThe screen fades to black&W
+~
+|
+#31302
+A Club Yoneese Guest Attendant~
+A club yoneese guest attendant~
+&GA club yoneese guest attendant is here serving guests.&W
+~
+~
+1 0 0 Z
+19 0 52 3d10+190 1d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+3 3 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31303
+A Club Yoneese Guest Attendant ~
+A club yoneese guest attendant~
+&GA club yoneese guest attendant is here serving guests.&W
+~
+~
+1 0 0 Z
+19 0 52 3d10+190 1d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31304
+A Club Yoneese Guest Attendant ~
+A club yoneese guest attendant~
+&GA club yoneese guest attendant is here serving guests.&W
+~
+~
+1 0 0 Z
+19 0 52 3d10+190 1d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31305
+A Club Yoneese Guest Attendant ~
+A club yoneese guest attendant~
+&GA club yoneese guest attendant is here serving guests.&W
+~
+~
+1073741825 0 0 Z
+19 0 52 3d10+190 1d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31306
+A Club Yoneese Guest Attendant ~
+A club yoneese guest attendant~
+&GA club yoneese guest attendant is here serving guests.&W
+~
+~
+1 0 0 Z
+19 0 52 3d10+190 1d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31307
+A Club Yoneese Guest Attendant ~
+A club yoneese guest attendant~
+&GA club yoneese guest attendant is here serving guests.&W
+~
+~
+1 0 0 Z
+19 0 52 3d10+190 1d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31308
+A Club Yoneese Guest Attendant ~
+A club yoneese guest attendant~
+&GA club yoneese guest attendant is here serving guests.&W
+~
+~
+1 0 0 Z
+19 0 52 3d10+190 1d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31309
+A Club Yoneese Guest Attendant ~
+A club yoneese guest attendant~
+&GA club yoneese guest attendant is here serving guests.&W
+~
+~
+1 0 0 Z
+19 0 52 3d10+190 1d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31310
+A Club Yoneese Guest Attendant ~
+A club yoneese guest attendant~
+&GA club yoneese guest attendant is here serving guests.&W
+~
+~
+1 0 0 Z
+19 0 52 3d10+190 1d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31311
+A Club Yoneese Guest Attendant ~
+A club yoneese guest attendant~
+&GA club yoneese guest attendant is here serving guests.&W
+~
+~
+1 0 0 Z
+19 0 52 3d10+190 1d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31312
+A Club Yoneese Guest Attendant ~
+A club yoneese guest attendant~
+&GA club yoneese guest attendant is here serving guests.&W
+~
+~
+1 0 0 Z
+19 0 52 3d10+190 1d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31313
+A Club Yoneese Guest Attendant ~
+A club yoneese guest attendant~
+&GA club yoneese guest attendant is here serving guests.&W
+~
+~
+1 0 0 Z
+19 0 52 3d10+190 1d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31314
+A Club Yoneese Guest Attendant ~
+A club yoneese guest attendant~
+&GA club yoneese guest attendant is here serving guests.&W
+~
+~
+1 0 0 Z
+19 0 52 3d10+190 1d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31315
+al yankovich~
+Al Yankovich~
+"Wierd" Al Yankovich is standing here.
+~
+~
+33687555 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> act_prog p Play~
+say Isn't it strange,Feels like I'm lookin' in the mirror
+mpsleep 8
+say What would people say If only they knew that I was
+mpsleep 8
+say Part of some geneticist's plan, Born to be a carbon copy man
+mpsleep 8
+say There in a petri dish late one night,They took a donor's body cell and fertilized a human egg and so I say.
+mpsleep 8
+say I think I'm a clone now,There's always two of me just a-hangin' around
+mpsleep 8
+say I think I'm a clone now,'Cause every chromosome is a hand-me-down
+mpsleep 8
+say Look at the way,We go out walking close together
+mpsleep 8
+say I guess you could say,I'm really beside myself
+mpsleep 8
+say I still remember how it began,They produced a carbon copy man
+mpsleep 8
+say Born in a science lab late one night,Without a mother or a father, just a test tube and a womb with a view
+mpsleep 8
+say I think I'm a clone now,There's always two of me just a-hangin' around
+mpsleep 8
+say I think I'm a clone now,'Cause every chromosome is a hand-me-down
+mpsleep 8
+say I think I'm a clone now,And I can stay at home while I'm out of town
+mpsleep 8
+say I think I'm a clone now ,'Cause every pair of genes is a hand-me-down
+mpsleep 8
+say Signing autographs for my fans,Come and meet the carbon copy man
+mpsleep 8
+say Livin' in stereo, it's all right,Well I can be my own best friend and I can send myself for pizza so I say
+mpsleep 8
+say I think I'm a clone now,Another one of me's always hangin' around
+mpsleep 8
+say I think I'm a clone now,'Cause every chromosome is a hand-me-down
+mpsleep 8
+say I think I'm a clone now,I've been on Oprah Winfrey - I'm world renowned
+mpsleep 8
+say I think I'm a clone now, And every pair of genes is a hand-me-down
+mpsleep 8
+say I think I'm a clone now,That's my genetic twin always hangin' around
+mpsleep 8
+say I think I'm a clone now,'Cause every chromosome is a hand-me-down
+mpsleep 8
+say I think I'm a clone now.. 
+mpgoto 6300
+say purge
+~
+|
+#31316
+triggerrig~
+a tall figure~
+A tall figure is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> act_prog p The lights dim~
+examine holostage
+look holostage
+mpgoto 6300
+say purge
+~
+|
+#31317
+Quarren Track Official~
+a quarren track offical~
+A quarren track offical is sitting here.
+~
+~
+131075 0 0 Z
+20 0 50 4d10+200 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+4 4 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> speech_prog p tier 1~
+say Proceed to the track the time to beat is 1:00:02
+mpmload 31320
+mptransfer bike 31431
+mptransfer $n 31431
+mpgoto 6300
+say purge
+~
+> speech_prog p tier 2~
+say proceed to the track the time to beat is 56:75
+mpmload 31320
+mptransfer bike 31431
+mptransfer $n 31431
+mpgoto 6300
+say purge
+~
+> speech_prog p tier 3~
+say proceed to the track the time to beat is 50:10
+mpmload 31320
+mptransfer bike 31431
+mptransfer $n 31431
+mpgoto 6300
+say purge
+~
+|
+#31318
+Aramech swoop bike~
+Aramech Swoop Bike~
+&W(&GH&Wu&wm&Wm&Gi&Wn&wg&W) &CAramech Swoop Bike&W is hovering here.
+~
+~
+264195 524288 0 Z
+12 0 70 2d10+120 1d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31319
+Aramech swoop bike~
+Aramech Swoop Bike~
+&W(&GH&Wu&wm&Wm&Gi&Wn&wg&W) &CAramech Swoop Bike&W is hovering here.
+~
+~
+264195 524288 0 Z
+12 0 70 2d10+120 1d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31320
+Aramech swoop bike~
+Aramech Swoop Bike~
+&W(&GH&Wu&wm&Wm&Gi&Wn&wg&W) &CAramech Swoop Bike&W is hovering here.
+~
+~
+264195 524288 0 Z
+12 0 70 2d10+120 1d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31321
+winning~
+Crowd of people~
+A crowd of people is here cheering.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> act_prog p begintier1~
+mpgoto 31464
+mpsleep 320
+mpgoto 6300
+say purge
+~
+> act_prog p begintier2~
+mpgoto 31464
+mpsleep 298
+mpgoto 6300
+say purge
+~
+> act_prog p begintier3~
+mpgoto 31464
+mpsleep 270
+mpgoto 6300
+say purge
+~
+> act_prog p begintier1~
+mpgoto 31464
+mpsleep 256
+mpgoto 6300
+say purge
+~
+> act_prog p begintier2~
+mpgoto 31464
+mpsleep 238
+mpgoto 6300
+say purge
+~
+> act_prog p begintier3~
+mpgoto 31464
+mpsleep 216
+mpgoto 6300
+say purge
+~
+|
+#31322
+twi'lek female Masseuse ~
+a twi'lek female massuse~
+A twi'lek female massuse is standing by a bed here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31323
+a xan bartender~
+a xan bartender~
+A xan bartender is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31324
+Julie Alaard~
+Julie Alaard~
+Julie Alaard is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31325
+a xan bartender~
+a xan bartender~
+A xan bartender is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31326
+algarine bartender~
+an algarine bartender~
+An algarine bartender is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31327
+male off-worlder~
+a male off-worlder~
+A male off-worlder is standing here.
+~
+~
+65537 0 0 Z
+20 0 50 4d10+200 2d4+2
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+4 4 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31328
+female off-worlder~
+a female off-worlder~
+A female off-worlder is standing here.
+~
+~
+65537 0 0 Z
+20 0 50 4d10+200 2d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31329
+algarian female citizen~
+an algarian female citizen~
+An algarian female citizen is standing here.
+~
+~
+65537 0 0 Z
+20 0 50 4d10+200 2d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31330
+algarian male citizen~
+an algarian male citizen~
+An algarian male citizen is standing here
+~
+~
+65537 0 0 Z
+20 0 50 4d10+200 2d4+2
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31331
+pythro~
+pythro~
+Pythro is standing here.
+~
+~
+65537 0 0 Z
+33 0 -80 6d10+330 3d4+2
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 4
+30 30 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31332
+RA-7 protocol droid~
+RA-7 protocol droid~
+A RA-7 protocol droid is standing here greeting guests.
+~
+~
+3 4194304 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from the west.~
+if ispc($n)
+mpechoat $n a RA-7 protocol droid says to you "Welcome to Club Yoneese,Here is a list for events inside."
+mpoload 31341
+mpechoat $n &YThe droid gets a pamphlet off the table nearby and hands it to you.&W
+give list $n
+else
+endif
+~
+|
+#31499
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#31300
+first obj~
+a first obj~
+A first obj is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#31301
+playnext~
+a playnext~
+A playnext is here.~
+~
+13 0 1
+0 0 0 0
+1 0 0
+#31302
+holostage~
+holostage~
+A holostage is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+> exa_prog 100~
+If mobinroom(31316) == 1
+Mpecho An announcer says happily "Ladies and gentlemen WELCOME to Empire on Ice!!"
+mpsleep 8
+Mpecho two actors skate onto the screen. 
+mpsleep 8
+Mpecho Luke  says "the empire is chasing us they simply won't cease"
+mpsleep 8
+Mpecho Han solo says aww man my nuts are freezing kid i am about this bitch peace!"
+mpsleep 8
+Mpecho han skates back and a wampa skates into view with a twirl.
+mpsleep 8
+Mpecho i am the wampa i am the snowman...and i am not taken it from no man..
+mpsleep 8
+Mpecho luke exclaims "BUT!!!"
+mpsleep 8
+Mpecho The wampa slices lukes tauntaun and skates off screen with both of them blood is left on the ice.
+mpsleep 8
+Mpecho Two janitors clean up the blood
+mpsleep 8
+Mpecho Han solo and princess leia skate on.
+mpsleep 8
+Mpecho Han sings "i know you want me back princess you know you're such a flirter
+mpsleep 8
+Mpecho Leia sings "shut up you scruffy nerf hearder"
+mpsleep 8
+Mpecho leia skates off.
+mpsleep 8
+Mpecho C3-P0 skates on singing "luke hasn't checked in yet..it might be that he is done.
+mpsleep 8
+Mpecho his chances of surviving here are 10,000,005 to one"
+mpsleep 8
+Mpecho r2-d2 twirls and beeps and the droids skate off.
+mpsleep 8
+Mpecho Chewbacca skates on and growls. 
+mpsleep 4
+Mpecho A probe droid twirls on and sings "there you is you're so dumb...the empire has been alerted.and 
+Mpecho here they come"
+mpsleep 8
+Mpecho han draws his blaster and shoots the probe droid and the probe droid falls backward.
+mpsleep 8
+Mpecho Two actors playing AT-AT skate on along with four snowtroopers twirling on.
+mpsleep 8
+Mpecho The imperials sing empire on ice empire on ice
+mpsleep 8
+Mpecho here we are the empire on ice.. 
+mpsleep 8
+Mpecho all those rebels will pay a big price 
+mpsleep 8
+Mpecho leia luke han and chewbacca skate on.
+mpsleep 8
+Mpecho All of them sing "vader's not nice!"
+mpsleep 8
+Mpecho "and the tauntaun gets sliced!"
+mpsleep 8
+Mpecho "and chewbacca has lice!"
+mpsleep 8
+Mpecho "THE EMPIRE ON ICE!!" 
+mpsleep 8
+Mpecho "EMPIRE ON ICE!! "
+mpsleep 8
+Mpecho "EMPIRE ON ICE!!"
+mpsleep 4
+Mpe the holostage deactivates
+Else
+endif
+~
+|
+#31303
+a bottle of Algarine Pride~
+a bottle of Algarine Pride~
+A bottle of algarine pride is here half full.~
+~
+17 8192 16385
+10 10 2 0
+1 34 3
+> use_prog 100~
+mpechoaround $n $n drinks some algarine pride.
+mpechoat $n you drink some algarine pride.
+~
+|
+#31304
+a bottle of Algarine dry vodka~
+a bottle of Algarine dry vodka~
+A bottle of Algarine dry vodka is here.~
+~
+17 8192 16385
+10 10 8 0
+1 23 2
+> use_prog 100~
+mpechoaround $n $n drinks some algarine dry vodka.
+mpechoat $n you drink some algarine dry vodka.
+~
+|
+#31305
+a bottle of Tarisian ale ~
+a bottle of Tarisian ale~
+A bottle of Tarisian ale is here.~
+~
+17 8192 16385
+10 10 7 0
+1 25 2
+> use_prog 100~
+mpechoaround $n $n drinks some tarisian ale.
+mpechoat $n you drink some tarisian ale.
+~
+|
+#31306
+a glass of Tatooine Sunburn ~
+A glass of Tatooine Sunburn~
+A glass of Tatooine Sunburn is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 10 1
+> use_prog 100~
+mpechoaround $n $n drinks some tatooine sunburn.
+mpechoat $n you drink some tatooine sunburn.
+~
+|
+#31307
+a glass of Tatooine Sunrise~
+A glass of Tatooine Sunrise~
+A glass of Tatooine Sunrise is sitting here.~
+~
+17 8192 16385
+5 5 7 0
+1 23 2
+> use_prog 100~
+mpechoaround $n $n drinks some tatooine sunrise.
+mpechoat $n you drink some tatooine sunrise.
+~
+|
+#31308
+a glass of Randoni Yellow Plague~
+A glass of Randoni Yellow Plague~
+A glass of Randoni Yellow Plague is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 14 1
+> use_prog 100~
+mpechoaround $n $n drinks some randoni yellow plague.
+mpechoat $n you drink some randoni yellow plague.
+~
+|
+#31309
+a glass of Merenzane Gold~
+A glass of Merenzane Gold~
+A glass of merrenzane gold is sitting here.~
+~
+17 8192 16385
+5 5 7 0
+1 17 1
+> use_prog 100~
+mpechoaround $n $n drinks some merenzane gold.
+mpechoat $n you drink some merenzane gold.
+~
+|
+#31310
+a glass of Moonglow~
+A glass of Moonglow~
+A glass of Moonglow is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 12 1
+> use_prog 100~
+mpechoaround $n $n drinks some moonglow.
+mpechoat $n you drink some moonglow.
+~
+|
+#31311
+a bottle of Alderaanian ale~
+a bottle of Alderaanian ale~
+A bottle of Alderaanian ale is here half full.~
+~
+17 8192 16385
+10 10 7 0
+1 33 3
+> use_prog 100~
+mpechoaround $n $n drinks some alderaanian ale.
+mpechoat $n you drink some alderaanian ale.
+~
+|
+#31312
+a bottle of Alderaanian brandy~
+a bottle of Alderaanian brandy~
+A bottle of Alderaanian brandy is here half full.~
+~
+17 8192 16385
+10 10 7 0
+1 45 4
+> use_prog 100~
+mpechoaround $n $n drinks some alderaanian brandy.
+mpechoat $n you drink some alderaanian brandy.
+~
+|
+#31313
+a bottle of Andoan ale ~
+a bottle of Andoan ale~
+A bottle of Andoan ale is here half full.~
+~
+17 8192 16385
+10 10 7 0
+1 12 1
+> use_prog 100~
+mpechoaround $n $n drinks some andoan ale.
+mpechoat $n you drink some andoan ale.
+~
+|
+#31314
+a bottle of Andoan wine~
+a bottle of Andoan wine~
+A bottle of Andoan wine is here half full.~
+~
+17 8192 16385
+10 10 2 0
+1 45 4
+> use_prog 100~
+mpechoaround $n $n drinks some andoan wine.
+mpechoat $n you drink some andoan wine.
+~
+|
+#31315
+a glass of Antakarian Fire Dancer~
+A glass of Antakarian Fire Dancer~
+A glass of Antakarian Fire Dancer is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 10 1
+> use_prog 100~
+mpechoaround $n $n drinks some antakarian fire dancer.
+mpechoat $n you drink some antakarian fire dancer.
+~
+|
+#31316
+a glass containing a C3PO~
+a glass containing a "C3PO"~
+A glass containing a "C3PO" is sitting here.~
+~
+17 8192 16385
+5 5 7 0
+1 13 1
+> use_prog 100~
+mpechoaround $n $n drinks some "c3p0".
+mpechoat $n you drink some "c3p0".
+~
+|
+#31317
+a glass containing a Chewbacca~
+a glass containing a "Chewbacca"~
+A glass containing a "chewbacca" is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 10 1
+> use_prog 100~
+mpechoaround $n $n drinks some "chewbacca".
+mpechoat $n you drink some "chewbacca".
+~
+|
+#31318
+a glass containing a darth vader~
+a glass containing a "Darth Vader"~
+A glass containing a "Darth Vader" is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 16 1
+> use_prog 100~
+mpechoaround $n $n drinks some "Darth Vader".
+mpechoat $n you drink some "Darth Vader".
+~
+|
+#31319
+a glass containing a darth's cherry fairy~
+a glass containing a "Darth's Cherry Fairy"~
+A glass containing a "Darth's Cherry Fairy" is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 16 1
+> use_prog 100~
+mpechoaround $n $n drinks some "Darth's Cherry Fairy".
+mpechoat $n you drink some "Darth's Cherry Fairy".
+~
+|
+#31320
+a glass containing a death star~
+a glass containing a "Death Star"~
+A glass containing a "Death Star" is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 16 1
+> use_prog 100~
+mpechoaround $n $n drinks some "Death Star".
+mpechoat $n you drink some "Death Star".
+~
+|
+#31321
+a glass containing a galactic empire~
+a glass containing a "Galactic Empire"~
+A glass containing a "Galactic Empire" is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 16 1
+> use_prog 100~
+mpechoaround $n $n drinks some "Galactic Empire".
+mpechoat $n you drink some "Galactic Empire".
+~
+|
+#31322
+a glass containing a erect wookiee~
+a glass containing a "Erect Wookiee"~
+A glass containing a "Erect Wookiee" is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 17 1
+> use_prog 100~
+mpechoaround $n $n drinks some "Erect Wookiee".
+mpechoat $n you drink some "Erect Wookiee".
+~
+|
+#31323
+a glass containing a hairy wookiee~
+a glass containing a "Hairy Wookiee"~
+A glass containing a "Hairy Wookiee" is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 12 1
+> use_prog 100~
+mpechoaround $n $n drinks some "Hairy Wookiee".
+mpechoat $n you drink some "Hairy Wookiee".
+~
+|
+#31324
+a glass containing a harrison ford~
+a glass containing a "Harrison Ford"~
+A glass containing a "Harrison Ford" is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 11 1
+> use_prog 100~
+mpechoaround $n $n drinks some "Harrison Ford".
+mpechoat $n you drink some "Harrison Ford".
+~
+|
+#31325
+a glass containing a jedi cocktail~
+a glass containing a "Jedi Cocktail"~
+A glass containing a "Jedi Cocktail" is sitting here.~
+~
+17 0 16385
+5 5 8 0
+1 14 1
+> use_prog 100~
+mpechoaround $n $n drinks some "Jedi Cocktail".
+mpechoat $n you drink some "Jedi Cocktail".
+~
+|
+#31326
+a glass containing a jedi mind trick~
+a glass containing a "Jedi Mind Trick"~
+A glass containing a "Jedi Mind Trick" is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 21 1
+> use_prog 100~
+mpechoaround $n $n drinks some "Jedi Mind Trick".
+mpechoat $n you drink some "Jedi Mind Trick".
+~
+|
+#31327
+a glass containing a princess pleasure~
+a glass containing a "Princess Pleasure"~
+A glass containing a "Princess Pleasure" is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 23 1
+> use_prog 100~
+mpechoaround $n $n drinks some "Princess Pleasure".
+mpechoat $n you drink some "Princess Pleasure".
+~
+|
+#31328
+a glass containing a the force~
+a glass containing "The Force"~
+A glass containing "The Force" is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 11 1
+> use_prog 100~
+mpechoaround $n $n drinks some "The Force".
+mpechoat $n you drink some "The Force".
+~
+|
+#31329
+a glass containing a wookiee~
+a glass containing a "Wookiee"~
+A glass containing "Wookiee" is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 7 1
+> use_prog 100~
+mpechoaround $n $n drinks some "Wookiee".
+mpechoat $n you drink some "Wookiee".
+~
+|
+#31330
+dianoga pie~
+a dianoga pie~
+A dianoga pie is laying here.~
+~
+19 8192 1
+10 20 0 0
+1 30 3
+#31331
+some Jerked Bantha meat~
+some Jerked Bantha meat~
+Some Jerked Bantha meat is laying here.~
+~
+19 8192 1
+6 20 0 0
+1 21 2
+#31332
+some Jerked Dewback meat~
+some Jerked Dewback meat~
+Some Jerked Dewback meat is laying here.~
+~
+19 8192 1
+17 20 0 0
+1 26 2
+#31333
+a Pikata pie~
+a Pikata pie~
+A Pikata pie is laying here.~
+~
+19 8192 1
+13 20 0 0
+1 16 1
+#31334
+Chili dumpling~
+a Chili dumpling~
+A Chili dumpling is laying here.~
+~
+19 8192 1
+12 20 0 0
+1 15 1
+#31335
+Roasted Rodian karstag~
+Roasted Rodian karstag~
+Roasted Rodian karstag is laying here.~
+~
+19 8192 1
+15 20 0 0
+1 13 1
+#31336
+Spiceloaf~
+a piece of Spiceloaf~
+A piece of Spiceloaf is laying here.~
+~
+19 8192 1
+13 20 0 0
+1 15 1
+#31337
+Terratta ~
+a piece of Terratta ~
+A piece of Terratta  is laying here.~
+~
+19 8192 1
+11 20 0 0
+1 16 1
+#31338
+Thakitillo ~
+a piece of Thakitillo~
+A piece of Thakitillo  is laying here.~
+~
+19 8192 1
+11 20 0 0
+1 20 2
+#31339
+Algerian cus-cus~
+a bowl of Algerian cus-cus~
+A bowl of Algerian cus-cus  is laying here.~
+~
+19 8192 1
+11 20 0 0
+1 22 2
+#31340
+Theatre Screen~
+a Theatre Screen~
+&Pa theatre screen is inbedded in the wall here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#31341
+list of events in club yoneese~
+List of events in Club Yoneese~
+A list of events is laying here.~
+~
+47 0 16385
+0 0 0 -1
+1 0 0
+> exa_prog 100~
+mpechoat $n &YGalactic Cinemas Showtimes:  noon, 2pm, 4pm, 6pm&W
+mpechoat $n &cLyrio Concert Hall Showtimes: 10 pm, 11pm, 12 pm, 1 am, 2 am, 11 am&W
+mpechoat $n &YM &Corningtide &YS&Chowtimes&W: 6pm, 8pm, 10pm, 12 am 
+~
+|
+#31499
+last obj~
+a last obj~
+A last obj is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#31300
+&CMonorail Car&W~
+The car has many seats in groups of four. A large droid attendant
+moves about tending to needs of travelers.Small compartments
+sit near the ceiling for luggage and a large transparisteel
+window spans the length of the entire car.
+~
+0 12 1 0 0 0 17792
+> time_prog 1~
+mpecho &YThe monorail doors close and monorail jumps into motion.&W
+~
+> time_prog 3~
+mpecho &YThe monorail arrives at Algarine and the doors open.&W
+~
+> time_prog 4~
+mpecho &YThe monorail doors close and monorail jumps into motion.&W
+~
+> time_prog 6~
+mpecho &YThe monorail arrives at Club Yoneese and The doors open.&W
+~
+> time_prog 7~
+mpecho &YThe monorail doors close and monorail jumps into motion.&W
+~
+> time_prog 9~
+mpecho &YThe monorail arrives at Algarine and the doors open.&W
+~
+> time_prog 10~
+mpecho &YThe monorail doors close and monorail jumps into motion.&W
+~
+> time_prog 12~
+mpecho &YThe monorail arrives at Club Yoneese and The doors open.&W
+~
+> time_prog 13~
+mpecho &YThe monorail doors close and monorail jumps into motion.&W
+~
+> time_prog 15~
+mpecho &YThe monorail arrives at Algarine and the doors open.&W
+~
+> time_prog 16~
+mpecho &YThe monorail doors close and monorail jumps into motion.&W
+~
+> time_prog 18~
+mpecho &YThe monorail arrives at Club Yoneese and The doors open.&W
+~
+> time_prog 19~
+mpecho &YThe monorail doors close and monorail jumps into motion.&W
+~
+> time_prog 21~
+mpecho &YThe monorail arrives at Algarine and the doors open.&W
+~
+> time_prog 22~
+mpecho &YThe monorail doors close and monorail jumps into motion.&W
+~
+> time_prog 24~
+mpecho &YThe monorail arrives at Club Yoneese and The doors open.&W
+~
+|
+S
+#31301
+&RC&wlub &RY&wonesse &RM&wonorail &RP&wlatform&W~
+A single large rail made of durasteel is here supported by duracreate
+supports lays in the center of the room. The station itself
+is a long platform that has small gates to control people getting
+on. A large platform on the west side of the station controls
+the flow of offgoing commuters.
+
+                    Monorail Arrives At:
+                            6:00 Am
+                            12:00 Pm
+                            6:00 Pm
+                            12:00 Am
+~
+0 8 1 0 0 0 17792
+D9
+~
+~
+0 -1 31302 0
+R M 0 31332 1 31301
+R M 0 31327 152 31301
+R M 0 31327 152 31301
+R M 0 31327 152 31301
+R M 0 31328 99 31301
+R M 0 31327 152 31301
+> time_prog 6~
+mpecho &YThe monorail arrives.&W
+mpclosepassage 31164 3
+mpclosepassage 31300 1
+mpopenpassage 31301 31300 3
+mpopenpassage 31300 31301 1
+~
+> time_prog 12~
+mpecho &YThe monorail arrives.&W
+mpclosepassage 31164 3
+mpclosepassage 31300 1
+mpopenpassage 31301 31300 3
+mpopenpassage 31300 31301 1
+~
+> time_prog 18~
+mpecho &YThe monorail arrives.&W
+mpclosepassage 31164 3
+mpclosepassage 31300 1
+mpopenpassage 31301 31300 3
+mpopenpassage 31300 31301 1
+~
+> time_prog 24~
+mpecho &YThe monorail arrives.&W
+mpclosepassage 31164 3
+mpclosepassage 31300 1
+mpopenpassage 31301 31300 3
+mpopenpassage 31300 31301 1
+~
+> time_prog 7~
+mpecho &YThe monorail departs&W
+mpclosepassage 31300 1
+mpclosepassage 31301 3
+~
+> time_prog 13~
+mpecho &YThe monorail departs&W
+mpclosepassage 31300 1
+mpclosepassage 31301 3
+~
+> time_prog 19~
+mpecho &YThe monorail departs&W
+mpclosepassage 31300 1
+mpclosepassage 31301 3
+~
+> time_prog 1~
+mpecho &YThe monorail departs&W
+mpclosepassage 31300 1
+mpclosepassage 31301 3
+~
+|
+S
+#31302
+&RM&wonorail &RS&wtation&W &RU&wpper&W &RF&wloor&W~
+The ceiling is easily 10 or more meters above the top floor and
+is entirely made out of transdurasteel. below are hundreds of
+people moving about and several large staircases leading up
+to the monorails.
+~
+0 8 1 0 0 0 17792
+D5
+~
+~
+0 -1 31303 0
+D6
+~
+~
+0 -1 31301 0
+R M 0 31327 152 31302
+R M 0 31328 99 31302
+S
+#31303
+&RM&wonorail &RS&wtation&W &RL&wower&W &RF&wloor&W~
+A large desk sits against the west wall under a large mural.
+A large number of people are moving about trying to get to their
+destinations. Large janitorial droids move about collecting
+garbage and watering the dozens of plants in the monorail station.
+~
+0 8 1 0 0 0 17792
+D2
+~
+~
+0 -1 31304 0
+D4
+~
+~
+0 -1 31302 0
+S
+#31304
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D0
+~
+~
+0 -1 31303 0
+D1
+~
+~
+0 -1 31331 0
+D9
+~
+~
+0 -1 31305 0
+R M 0 31328 99 31304
+R M 0 31330 43 31304
+R M 0 31328 99 31304
+R M 0 31327 152 31304
+R M 0 31329 31 31304
+S
+#31305
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D6
+~
+~
+0 -1 31304 0
+D8
+~
+~
+0 -1 31306 0
+R M 0 31327 152 31305
+R M 0 31328 99 31305
+R M 0 31327 152 31305
+S
+#31306
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D2
+~
+~
+0 -1 31307 0
+D7
+~
+~
+0 -1 31305 0
+D9
+~
+~
+0 -1 31372 0
+R M 0 31328 99 31306
+S
+#31307
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D0
+~
+~
+0 -1 31306 0
+D1
+~
+~
+0 -1 31465 0
+D8
+~
+~
+0 -1 31308 0
+R M 0 31313 1 31307
+  R G 0 31325 1
+  R G 0 31316 1
+  R G 0 31322 1
+  R G 0 31313 1
+  R G 0 31334 1
+R M 0 31328 99 31307
+R M 0 31328 99 31307
+R M 0 31328 99 31307
+S
+#31308
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 1073741824 1 0 0 0 17792
+D7
+~
+~
+0 -1 31307 0
+D8
+~
+~
+0 -1 31309 0
+D9
+~
+~
+0 -1 31392 0
+R M 0 31303 1 31308
+  R G 0 31333 1
+  R G 0 31336 1
+  R G 0 31308 1
+  R G 0 31339 1
+  R G 0 31332 1
+  R G 0 31323 1
+  R G 0 31326 1
+R M 0 31327 152 31308
+R M 0 31327 152 31308
+R M 0 31327 152 31308
+R M 0 31328 99 31308
+S
+#31309
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D1
+~
+~
+0 -1 31310 0
+D7
+~
+~
+0 -1 31308 0
+R M 0 31327 152 31309
+R M 0 31327 152 31309
+S
+#31310
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D0
+~
+~
+0 -1 31470 0
+D3
+~
+~
+0 -1 31309 0
+D8
+~
+~
+0 -1 31311 0
+R M 0 31327 152 31310
+R M 0 31327 152 31310
+R M 0 31328 99 31310
+R M 0 31327 152 31310
+S
+#31311
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D7
+~
+~
+0 -1 31310 0
+D8
+~
+~
+0 -1 31312 0
+R M 0 31327 152 31311
+R M 0 31327 152 31311
+R M 0 31327 152 31311
+S
+#31312
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D6
+~
+~
+0 -1 31313 0
+D7
+~
+~
+0 -1 31311 0
+R M 0 31327 152 31312
+R M 0 31328 99 31312
+R M 0 31328 99 31312
+S
+#31313
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D7
+~
+~
+0 -1 31476 0
+D8
+~
+~
+0 -1 31314 0
+D9
+~
+~
+0 -1 31312 0
+R M 0 31327 152 31313
+R M 0 31328 99 31313
+S
+#31314
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D6
+~
+~
+0 -1 31315 0
+D7
+~
+~
+0 -1 31313 0
+R M 0 31328 99 31314
+R M 0 31327 152 31314
+S
+#31315
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D0
+~
+~
+0 -1 31343 0
+D6
+~
+~
+0 -1 31316 0
+D9
+~
+~
+0 -1 31314 0
+R M 0 31327 152 31315
+R M 0 31327 152 31315
+R M 0 31328 99 31315
+S
+#31316
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D6
+~
+~
+0 -1 31317 0
+D9
+~
+~
+0 -1 31315 0
+R M 0 31327 152 31316
+R M 0 31308 1 31316
+  R G 0 31305 1
+  R G 0 31303 1
+  R G 0 31334 1
+  R G 0 31326 1
+  R G 0 31318 1
+S
+#31317
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D0
+~
+~
+0 -1 31318 0
+D9
+~
+~
+0 -1 31316 0
+R M 0 31330 43 31317
+R M 0 31328 99 31317
+R M 0 31327 152 31317
+S
+#31318
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D0
+~
+~
+0 -1 31319 0
+D2
+~
+~
+0 -1 31317 0
+R M 0 31328 99 31318
+R M 0 31328 99 31318
+R M 0 31327 152 31318
+S
+#31319
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D2
+~
+~
+0 -1 31318 0
+D3
+~
+~
+0 -1 31342 0
+D6
+~
+~
+0 -1 31320 0
+R M 0 31328 99 31319
+R M 0 31329 31 31319
+R M 0 31327 152 31319
+R M 0 31327 152 31319
+R M 0 31327 152 31319
+R M 0 31330 43 31319
+R M 0 31328 99 31319
+S
+#31320
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D6
+~
+~
+0 -1 31321 0
+D9
+~
+~
+0 -1 31319 0
+S
+#31321
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D1
+~
+~
+0 -1 31336 0
+D3
+~
+~
+0 -1 31322 0
+D9
+~
+~
+0 -1 31320 0
+R M 0 31327 152 31321
+R M 0 31327 152 31321
+S
+#31322
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D1
+~
+~
+0 -1 31321 0
+D3
+~
+~
+0 -1 31323 0
+R M 0 31302 1 31322
+  R G 0 31311 1
+  R G 0 31304 1
+  R G 0 31303 1
+  R G 0 31315 1
+  R G 0 31308 1
+  R G 0 31310 1
+  R G 0 31335 1
+  R G 0 31337 1
+R M 0 31327 152 31322
+R M 0 31328 99 31322
+S
+#31323
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D0
+~
+~
+0 -1 31422 0
+D1
+~
+~
+0 -1 31322 0
+D3
+~
+~
+0 -1 31324 0
+R M 0 31330 43 31323
+R M 0 31328 99 31323
+S
+#31324
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D1
+~
+~
+0 -1 31323 0
+D7
+~
+~
+0 -1 31325 0
+R M 0 31328 99 31324
+S
+#31325
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D2
+~
+~
+0 -1 31488 0
+D3
+~
+~
+0 -1 31326 0
+D8
+~
+~
+0 -1 31324 0
+R M 0 31330 43 31325
+R M 0 31327 152 31325
+R M 0 31328 99 31325
+R M 0 31328 99 31325
+S
+#31326
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D0
+~
+~
+0 -1 31332 0
+D1
+~
+~
+0 -1 31325 0
+D3
+~
+~
+0 -1 31327 0
+R M 0 31328 99 31326
+R M 0 31328 99 31326
+R M 0 31327 152 31326
+S
+#31327
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D1
+~
+~
+0 -1 31326 0
+D2
+~
+~
+0 -1 31478 0
+D3
+~
+~
+0 -1 31328 0
+R M 0 31327 152 31327
+R M 0 31328 99 31327
+R M 0 31327 152 31327
+S
+#31328
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D1
+~
+~
+0 -1 31327 0
+D3
+~
+~
+0 -1 31329 0
+R M 0 31328 99 31328
+R M 0 31327 152 31328
+R M 0 31328 99 31328
+S
+#31329
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D0
+~
+~
+0 -1 31351 0
+D1
+~
+~
+0 -1 31328 0
+D3
+~
+~
+0 -1 31330 0
+R M 0 31328 99 31329
+S
+#31330
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D1
+~
+~
+0 -1 31329 0
+D3
+~
+~
+0 -1 31331 0
+R M 0 31327 152 31330
+S
+#31331
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D1
+~
+~
+0 -1 31330 0
+D2
+~
+~
+0 -1 31358 0
+D3
+~
+~
+0 -1 31304 0
+D8
+~
+~
+0 -1 31477 0
+S
+#31332
+&CC&wobble &CS&wtone &CS&wtreet~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D0
+~
+~
+0 -1 31347 0
+D1
+~
+~
+0 -1 31333 0
+D2
+~
+~
+0 -1 31326 0
+R M 0 31306 1 31332
+  R G 0 31304 1
+  R G 0 31305 1
+  R G 0 31339 1
+  R G 0 31337 1
+  R G 0 31316 1
+  R G 0 31325 1
+R M 0 31329 31 31332
+R M 0 31330 43 31332
+R M 0 31327 152 31332
+S
+#31333
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D3
+~
+~
+0 -1 31332 0
+D6
+~
+~
+0 -1 31334 0
+R M 0 31329 31 31333
+S
+#31334
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D1
+~
+~
+0 -1 31335 0
+D9
+~
+~
+0 -1 31333 0
+R M 0 31330 43 31334
+R M 0 31329 31 31334
+S
+#31335
+&CC&wobble &CS&wtone &CS&wtreet&W~
+The cobble street is made from ancient white stones from the
+krexis continent. a large number of off-worlders and visitors
+move about some even having droid compainions. A few Security
+personel can be seen scattered about the street. Large trees
+line both sides of the street along with some lightposts. 
+~
+0 0 1 0 0 0 17792
+D0
+~
+~
+0 -1 31344 0
+D3
+~
+~
+0 -1 31334 0
+R M 0 31330 43 31335
+R M 0 31329 31 31335
+R M 0 31328 99 31335
+S
+#31336
+&CEntrance to Algair Kingdom Raceway&W~
+A large black durasteel blastdoor sits here standing open. A
+large corridor extends from the entrance on throughout the pit
+section of the building. and another corridor to the stands.
+a large plant has been set one on each side of the door.
+~
+0 8 1 0 0 0 17792
+D0
+~
+~
+0 -1 31337 0
+D3
+~
+~
+0 -1 31321 0
+R M 0 31330 43 31336
+S
+#31337
+&CCorridor&W~
+The large walkway  is about three meters wide with small holovideo
+displays  sitting on both sides every so  often. small lounges
+sit on both sides so whole groups may watch people who participate
+on the track.a small group of servers are dashing about here
+receiving orders and delivering the orders. 
+~
+0 8 1 0 0 0 17792
+D0
+~
+~
+0 -1 31338 0
+D1
+~
+~
+0 -1 31339 0
+D2
+~
+~
+0 -1 31336 0
+R M 0 31328 99 31337
+R M 0 31327 152 31337
+S
+#31338
+&CRegistration Desk&W~
+A large desk sits in the middle of a rather large circular platform.the
+holovideo displays around the room show racers trying to beat
+the time. A small lounge sits here where racers can sit and
+relax and get something to drink. 
+~
+0 8 1 0 0 0 17792
+D2
+~
+~
+0 -1 31337 0
+R M 0 31317 1 31338
+R M 0 31327 152 31338
+R M 0 31328 99 31338
+S
+#31339
+&CStands&W~
+A small number of boxes sit in the front behind a reinforced
+barriers in case of accidents by the stands. Higher up are long
+row of durasteel bleachers with a large transparisteel roof
+overhead.
+~
+0 8 1 0 0 0 17792
+D0
+~
+~
+0 -1 31341 0
+D2
+~
+~
+0 -1 31340 0
+D3
+~
+~
+0 -1 31337 0
+R M 0 31330 43 31339
+> rand_prog 100~
+mpecho a racer screams by.
+~
+|
+S
+#31340
+&CStands&W~
+A small number of boxes sit in the front behind a reinforced
+barriers in case of accidents by the stands. Higher up are long
+row of durasteel bleachers with a large transparisteel roof
+overhead.
+~
+0 8 1 0 0 0 17792
+D0
+~
+~
+0 -1 31339 0
+R M 0 31305 1 31340
+  R G 0 31334 1
+  R G 0 31304 1
+  R G 0 31305 1
+  R G 0 31337 1
+  R G 0 31339 1
+  R G 0 31325 1
+  R G 0 31326 1
+R M 0 31328 99 31340
+R M 0 31328 99 31340
+R M 0 31327 152 31340
+> rand_prog 100~
+mpecho a racer screams by.
+~
+|
+S
+#31341
+&CStands&W~
+A small number of boxes sit in the front behind a reinforced
+barriers in case of accidents by the stands. Higher up are long
+row of durasteel bleachers with a large transparisteel roof
+overhead.
+~
+0 8 1 0 0 0 17792
+D2
+~
+~
+0 -1 31339 0
+R M 0 31328 99 31341
+R M 0 31328 99 31341
+> rand_prog 100~
+mpecho a racer screams by.
+~
+|
+S
+#31342
+&CJulie's Bar and Grill&W~
+A large circular counter sits in the middle of the room containing
+small grills and mixers. A lone attendant tends to the bar with
+a small droid assistant. Small tables have been set up all around
+the room each with their own sets of chairs.
+~
+0 8 1 0 0 0 17792
+D1
+~
+~
+0 -1 31319 0
+R M 0 31324 1 31342
+  R G 0 31333 1
+  R G 0 31330 1
+  R G 0 31331 1
+  R G 0 31332 1
+  R G 0 31334 1
+  R G 0 31338 1
+  R G 0 31337 1
+  R G 0 31339 1
+  R G 0 31335 1
+  R G 0 31336 1
+R M 0 31327 152 31342
+R M 0 31328 99 31342
+R M 0 31327 152 31342
+R M 0 31329 31 31342
+R M 0 31328 99 31342
+R M 0 31328 99 31342
+S
+#31343
+&CFive of Flasks Mixed Drinks&W~
+Back of the long counter against the north wall is practically
+every componet needed to make mixed drinks from across the galaxy.
+Small tables have been set up all around the room each with
+their own set of chairs. A single large droid moves about cleaning
+up the messes.
+~
+0 8 1 0 0 0 17792
+D2
+~
+~
+0 -1 31315 0
+R M 0 31323 1 31343
+  R G 0 31328 1
+  R G 0 31320 1
+  R G 0 31325 1
+  R G 0 31329 1
+  R G 0 31327 1
+  R G 0 31326 1
+  R G 0 31324 1
+  R G 0 31323 1
+  R G 0 31322 1
+  R G 0 31321 1
+  R G 0 31319 1
+  R G 0 31318 1
+  R G 0 31317 1
+  R G 0 31316 1
+R M 0 31327 152 31343
+R M 0 31327 152 31343
+R M 0 31327 152 31343
+S
+#31344
+&YEntrance to Galactic Cinemas&W~
+The corridor is rather plain made from darkened duracrete in
+a rather unique designed ebed into it. Several large beings
+move about here entering or leaving.A large desk sits in the
+middle of the room selling tickets.
+~
+0 8 1 0 0 0 17792
+D0
+~
+~
+0 -1 31345 0
+D2
+~
+~
+0 -1 31335 0
+R M 0 31327 152 31344
+R M 0 31328 99 31344
+S
+#31345
+&YCorridor&W~
+The corridor is rather plain made from darkened duracrete in
+a rather unique designed ebed into it. Several large beings
+move about here entering or leaving.
+~
+0 8 1 0 0 0 17792
+D1
+~
+~
+0 -1 31346 0
+D2
+~
+~
+0 -1 31344 0
+R M 0 31327 152 31345
+R M 0 31328 99 31345
+S
+#31346
+&OTheatre&W~
+A large number of seats sit with each row alittle bit higher..
+A large screen sits in the eastern wall. surrounded by curtains.
+Large ripples in the wall are designed to amplify and distribute
+sound waves. Small headphones sit in each chair for the hearing
+impaired.
+~
+0 8 1 0 0 0 17792
+D3
+~
+~
+0 -1 31345 0
+R M 0 31301 1 31346
+R M 0 31327 152 31346
+> time_prog 12~
+mpecho the lights dim.
+~
+> time_prog 14~
+mpecho the lights dim.
+~
+> time_prog 16~
+mpecho the lights dim.
+~
+> time_prog 18~
+mpecho the lights dim.
+~
+|
+S
+#31347
+&CCorridor to Concert Hall&W~
+The corridor is rather plain made from darkened duracrete in
+a rather unique designed ebed into it. Several large beings
+move about here entering or leaving.
+~
+0 8 1 0 0 0 17792
+D2
+~
+~
+0 -1 31332 0
+D3
+~
+~
+0 -1 31348 0
+R M 0 31330 43 31347
+R M 0 31327 152 31347
+R M 0 31330 43 31347
+R M 0 31327 152 31347
+S
+#31348
+&CCorridor&W~
+The corridor is rather plain made from darkened duracrete in
+a rather unique designed ebed into it. Several large beings
+move about here entering or leaving.
+~
+0 8 1 0 0 0 17792
+D0
+~
+~
+0 -1 31349 0
+D1
+~
+~
+0 -1 31347 0
+R M 0 31330 43 31348
+R M 0 31328 99 31348
+R M 0 31327 152 31348
+R M 0 31329 31 31348
+S
+#31349
+&CCorridor&W~
+The corridor is rather plain made from darkened duracrete in
+a rather unique designed ebed into it. Several large beings
+move about here entering or leaving.
+~
+0 8 1 0 0 0 17792
+D0
+~
+~
+0 -1 31350 0
+D2
+~
+~
+0 -1 31348 0
+R M 0 31327 152 31349
+R M 0 31329 31 31349
+R M 0 31329 31 31349
+S
+#31350
+&CLyrio Concert Hall&W~
+A large number of seats sit with each row alittle bit higher.Large
+ripples in the wall are designed to amplify and distribute sound
+waves. Small headphones sit in each chair for the hearing impaired.
+A large stage sits to the north with a microphone standing on
+it.
+~
+0 8 1 0 0 0 17792
+D2
+~
+~
+0 -1 31349 0
+R M 0 31327 152 31350
+R M 0 31328 99 31350
+R M 0 31330 43 31350
+> speech_prog p test2~
+mpmload 31315
+mpechoat yankovich play
+~
+> time_prog 2~
+mpmload 31315
+mpechoat yankovich play
+~
+> time_prog 11~
+mpmload 31315
+mpechoat yankovich play
+~
+> time_prog 1~
+mpmload 31315
+mpechoat yankovich play
+
+~
+> time_prog 24~
+mpmload 31315
+mpechoat yankovich play
+~
+> time_prog 23~
+mpmload 31315
+mpechoat yankovich play
+~
+> time_prog 22~
+mpmload 31315
+mpechoat yankovich play
+~
+|
+S
+#31351
+&YE&Cntrance &YT&Co &YM &Corningtide&W~
+A large blastdoor makes up the entrance with several large planets
+on both sides with a pair of large hologen lights pointed up
+moving across the sky. Several beings are entering and leaving.
+~
+0 8 1 0 0 0 17792
+D0
+~
+~
+0 -1 31352 0
+D2
+~
+~
+0 -1 31329 0
+S
+#31352
+&YM &Cain &YR&Coom&W~
+A large group of tables sit here along with several chairs. Large
+Holovision panels sit mounted to the ceiling on assorted channels.The
+room is filled with chatter from all the locals and off-worlders.Several
+droids move about here taking orders. A large Stage sits in
+the middle of the room apparently to have entertainment.
+~
+0 8 1 0 0 0 17792
+D0
+~
+~
+0 -1 31357 0
+D2
+~
+~
+0 -1 31351 0
+D6
+~
+~
+0 -1 31355 0
+D7
+~
+~
+0 -1 31353 0
+D8
+~
+~
+0 -1 31356 0
+D9
+~
+~
+0 -1 31354 0
+R M 0 31327 152 31352
+R M 0 31327 152 31352
+R O 0 31302 1 31352
+> time_prog 18~
+mpmload 31316
+mpecho the lights dim
+~
+> time_prog 20~
+mpmload 31316
+mpecho the lights dim
+~
+> time_prog 22~
+mpmload 31316
+mpecho the lights dim
+~
+> time_prog 24~
+mpmload 31316
+mpecho the lights dim
+~
+|
+S
+#31353
+&YP&Crivate &YB&Cooth&W~
+The room is fairly closed off with a circular booth in the wall.A
+large holoscreen sits blocking most of the view of the table.Several
+large sentients could occupy this booth.
+~
+0 12 1 0 0 0 17792
+D8
+~
+~
+0 -1 31352 0
+S
+#31354
+&YP&Crivate &YB&Cooth&W~
+The room is fairly closed off with a circular booth in the wall.A
+large holoscreen sits blocking most of the view of the table.Several
+large sentients could occupy this booth.
+~
+0 12 1 0 0 0 17792
+D6
+~
+~
+0 -1 31352 0
+S
+#31355
+&YP&Crivate &YB&Cooth&W~
+The room is fairly closed off with a circular booth in the wall.
+A large holoscreen sits blocking most of the view of the table.
+Several large sentients could occupy this booth.
+~
+0 12 1 0 0 0 17792
+D9
+~
+~
+0 -1 31352 0
+S
+#31356
+&YP&Crivate &YB&Cooth&W~
+The room is fairly closed off with a circular booth in the wall.A
+large holoscreen sits blocking most of the view of the table.Several
+large sentients could occupy this booth.
+~
+0 12 1 0 0 0 17792
+D7
+~
+~
+0 -1 31352 0
+S
+#31357
+&YB&Car&W~
+The bar is shaped into a large oval shape with several machines
+mounted in the center. A small console sits in a wall probably
+to write up tabs and bills. Next to the console is a small switch.
+Several large stools sit mounted to the bar some occupied by
+sentients.
+~
+0 8 1 0 0 0 17792
+D2
+~
+~
+0 -1 31352 0
+R M 0 31326 1 31357
+  R G 0 31313 1
+  R G 0 31311 1
+  R G 0 31305 1
+  R G 0 31304 1
+  R G 0 31303 1
+  R G 0 31312 1
+  R G 0 31314 1
+R M 0 31327 152 31357
+R M 0 31328 99 31357
+R M 0 31330 43 31357
+R M 0 31327 152 31357
+S
+#31358
+&rA&zce &ro&zf &rS&ztaves&W~
+A large blastdoor makes up the entrance with several large plants
+on both sides with a pair of large hologen lights pointed upmoving
+across the sky. Several beings are entering and leaving.
+~
+0 8 1 0 0 0 17792
+D0
+~
+~
+0 -1 31331 0
+D2
+~
+~
+0 -1 31359 0
+> rand_prog 100~
+mpechoat $n &GLoud music can be heard inside&W
+~
+> rand_prog 90~
+mpechoat $n &BA flash of blue light can be seen inside.&W
+~
+|
+S
+#31359
+&rC&zorridor&W~
+Loud music beats through this corridor. Southward opens out into
+a large hall like structure to the south. Sentients of all races
+move about this corridor some even dancing to the music.
+~
+0 8 1 0 0 0 17792
+D0
+~
+~
+0 -1 31358 0
+D2
+~
+~
+0 -1 31361 0
+D8
+~
+~
+0 -1 31360 0
+D9
+~
+~
+0 -1 31362 0
+> rand_prog 100~
+mpechoat $n Loud music pierces the air.&W
+~
+> rand_prog 90~
+mpechoat $n &BBlue lightning dances across the ceiling.&W
+~
+|
+S
+#31360
+&rG&zroup &ro&zf &rT&zables&W~
+A large group of tables sit here along with several chairs. Large
+Holovision panels sit mounted to the ceiling on assorted channels.The
+room is filled with chatter from all the locals and off-worlders.Several
+droids move about here taking orders.
+~
+0 8 1 0 0 0 17792
+D1
+~
+~
+0 -1 31368 0
+D2
+~
+~
+0 -1 31363 0
+D3
+~
+~
+0 -1 31361 0
+D7
+~
+~
+0 -1 31359 0
+R M 0 31327 152 31360
+R M 0 31327 152 31360
+R M 0 31329 31 31360
+R M 0 31330 43 31360
+R M 0 31330 43 31360
+> rand_prog 100~
+mpechoat $n Loud music pierces the air.&W
+~
+> rand_prog 90~
+mpechoat $n &BBlue lightning dances across the ceiling.&W
+~
+|
+S
+#31361
+&rG&zroup &ro&zf &rT&zables&W~
+A large group of tables sit here along with several chairs. Large
+Holovision panels sit mounted to the ceiling on assorted channels.The
+room is filled with chatter from all the locals and off-worlders.Several
+droids move about here taking orders.
+~
+0 1073741832 1 0 0 0 17792
+D0
+~
+~
+0 -1 31359 0
+D1
+~
+~
+0 -1 31360 0
+D2
+~
+~
+0 -1 31364 0
+D3
+~
+~
+0 -1 31362 0
+D8
+~
+~
+0 -1 31363 0
+D9
+~
+~
+0 -1 31365 0
+R M 0 31328 99 31361
+R M 0 31330 43 31361
+R M 0 31312 1 31361
+  R G 0 31313 1
+  R G 0 31315 1
+  R G 0 31314 1
+  R G 0 31339 1
+  R G 0 31323 1
+R M 0 31330 43 31361
+R M 0 31330 43 31361
+> rand_prog 100~
+mpechoat $n Loud music pierces the air.&W
+~
+> rand_prog 90~
+mpechoat $n &BBlue lightning dances across the ceiling.&W
+~
+|
+S
+#31362
+&rG&zroup &ro&zf &rT&zables&W~
+A large group of tables sit here along with several chairs. Large
+Holovision panels sit mounted to the ceiling on assorted channels.The
+room is filled with chatter from all the locals and off-worlders.Several
+droids move about here taking orders.
+~
+0 1073741832 1 0 0 0 17792
+D1
+~
+~
+0 -1 31361 0
+D2
+~
+~
+0 -1 31365 0
+D3
+~
+~
+0 -1 31371 0
+D6
+~
+~
+0 -1 31359 0
+R M 0 31327 152 31362
+R M 0 31327 152 31362
+R M 0 31328 99 31362
+R M 0 31327 152 31362
+R M 0 31330 43 31362
+R M 0 31328 99 31362
+> rand_prog 100~
+mpechoat $n Loud music pierces the air.&W
+~
+> rand_prog 90~
+mpechoat $n &BBlue lightning dances across the ceiling.&W
+~
+|
+S
+#31363
+&rG&zroup &ro&zf &rT&zables&W~
+A large group of tables sit here along with several chairs. Large
+Holovision panels sit mounted to the ceiling on assorted channels.The
+room is filled with chatter from all the locals and off-worlders.Several
+droids move about here taking orders.
+~
+0 1073741832 1 0 0 0 17792
+D0
+~
+~
+0 -1 31360 0
+D1
+~
+~
+0 -1 31369 0
+D2
+~
+~
+0 -1 31366 0
+D3
+~
+~
+0 -1 31364 0
+D7
+~
+~
+0 -1 31361 0
+D9
+~
+~
+0 -1 31367 0
+R M 0 31329 31 31363
+R M 0 31327 152 31363
+R M 0 31328 99 31363
+R M 0 31327 152 31363
+R M 0 31329 31 31363
+> rand_prog 100~
+mpechoat $n Loud music pierces the air.&W
+~
+> rand_prog 90~
+mpechoat $n &BBlue lightning dances across the ceiling.&W
+~
+|
+S
+#31364
+&rG&zroup &ro&zf &rT&zables&W~
+A large group of tables sit here along with several chairs. Large
+Holovision panels sit mounted to the ceiling on assorted channels.The
+room is filled with chatter from all the locals and off-worlders.Several
+droids move about here taking orders.
+~
+0 1073741832 1 0 0 0 17792
+D0
+~
+~
+0 -1 31361 0
+D1
+~
+~
+0 -1 31363 0
+D2
+~
+~
+0 -1 31367 0
+D3
+~
+~
+0 -1 31365 0
+R M 0 31328 99 31364
+> rand_prog 100~
+mpechoat $n Loud music pierces the air.&W
+~
+> rand_prog 90~
+mpechoat $n &BBlue lightning dances across the ceiling.&W
+~
+|
+S
+#31365
+&rG&zroup &ro&zf &rT&zables&W~
+A large group of tables sit here along with several chairs. Large
+Holovision panels sit mounted to the ceiling on assorted channels.The
+room is filled with chatter from all the locals and off-worlders.Several
+droids move about here taking orders.
+~
+0 1073741832 1 0 0 0 17792
+D0
+~
+~
+0 -1 31362 0
+D1
+~
+~
+0 -1 31364 0
+D3
+~
+~
+0 -1 31370 0
+D6
+~
+~
+0 -1 31361 0
+D8
+~
+~
+0 -1 31367 0
+> rand_prog 100~
+mpechoat $n Loud music pierces the air.&W
+~
+> rand_prog 90~
+mpechoat $n &BBlue lightning dances across the ceiling.&W
+~
+|
+S
+#31366
+&rP&zrivate &rB&zooth&W~
+The room is fairly closed off with a circular booth in the wall.A
+large holoscreen sits blocking most of the view of the table.Several
+large sentients could occupy this booth.
+~
+0 1073741836 1 0 0 0 17792
+D0
+~
+~
+0 -1 31363 0
+> rand_prog 100~
+mpechoat $n Loud music pierces the air.&W
+~
+> rand_prog 90~
+mpechoat $n &BBlue lightning dances across the ceiling.&W
+~
+|
+S
+#31367
+&rB&zar&W~
+The bar is shaped into a large oval shape with several machines
+mounted in the center. A small console sits in a wall probably
+to write up tabs and bills. Next to the console is a small switch.
+Several large stools sit mounted to the bar some occupied by
+sentients.
+~
+0 1073741832 1 0 0 0 17792
+D0
+~
+~
+0 -1 31364 0
+D6
+~
+~
+0 -1 31363 0
+D7
+~
+~
+0 -1 31365 0
+R M 0 31325 1 31367
+  R G 0 31335 1
+  R G 0 31334 1
+  R G 0 31333 1
+  R G 0 31306 1
+  R G 0 31307 1
+  R G 0 31308 1
+  R G 0 31309 1
+  R G 0 31310 1
+  R G 0 31315 1
+R M 0 31327 152 31367
+R M 0 31328 99 31367
+R M 0 31329 31 31367
+R M 0 31328 99 31367
+R M 0 31327 152 31367
+> rand_prog 100~
+mpechoat $n Loud music pierces the air.&W
+~
+> rand_prog 90~
+mpechoat $n &BBlue lightning dances across the ceiling.&W
+~
+|
+S
+#31368
+&rP&zrivate &rB&zooth&W~
+The room is fairly closed off with a circular booth in the wall.A
+large holoscreen sits blocking most of the view of the table.Several
+large sentients could occupy this booth.
+~
+0 1073741836 1 0 0 0 17792
+D3
+~
+~
+0 -1 31360 0
+> rand_prog 100~
+mpechoat $n Loud music pierces the air.&W
+~
+> rand_prog 90~
+mpechoat $n &BBlue lightning dances across the ceiling.&W
+~
+|
+S
+#31369
+&rP&zrivate &rB&zooth&W~
+The room is fairly closed off with a circular booth in the wall.A
+large holoscreen sits blocking most of the view of the table.Several
+large sentients could occupy this booth.
+~
+0 1073741836 1 0 0 0 17792
+D3
+~
+~
+0 -1 31363 0
+> rand_prog 100~
+mpechoat $n Loud music pierces the air.&W
+~
+> rand_prog 90~
+mpechoat $n &BBlue lightning dances across the ceiling.&W
+~
+|
+S
+#31370
+&rP&zrivate &rB&zooth&W~
+The room is fairly closed off with a circular booth in the wall.A
+large holoscreen sits blocking most of the view of the table.Several
+large sentients could occupy this booth.
+~
+0 1073741836 1 0 0 0 17792
+D1
+~
+~
+0 -1 31365 0
+> rand_prog 100~
+mpechoat $n Loud music pierces the air.&W
+~
+> rand_prog 90~
+mpechoat $n &BBlue lightning dances across the ceiling.&W
+~
+|
+S
+#31371
+&rP&zrivate &rB&zooth&W~
+The room is fairly closed off with a circular booth in the wall.A
+large holoscreen sits blocking most of the view of the table.Several
+large sentients could occupy this booth.
+~
+0 1073741836 1 0 0 0 17792
+D1
+~
+~
+0 -1 31362 0
+> rand_prog 100~
+mpechoat $n Loud music pierces the air.&W
+~
+> rand_prog 90~
+mpechoat $n &BBlue lightning dances across the ceiling.&W
+~
+|
+S
+#31372
+&CSetting &WMoon &wHotel&W~
+A large room that reaches about 20 meters above the ground. a
+Few floors can be seen upwards. A large crowd is moving about
+here with a few more security guards to keep peace and secure
+the hotel.
+~
+0 1073741832 1 0 0 0 17792
+D6
+~
+~
+0 -1 31306 0
+D9
+~
+~
+0 -1 31373 0
+R M 0 31330 43 31372
+R M 0 31327 152 31372
+R M 0 31328 99 31372
+R M 0 31328 99 31372
+S
+#31373
+&CSetting &WMoon &wLobby&W~
+A large room that reaches about 20 meters above the ground. a
+Few floors can be seen upwards. A large crowd is moving about
+here with a few more security guards to keep peace and secure
+the hotel.
+~
+0 1073741832 1 0 0 0 17792
+D3
+~
+~
+0 -1 31374 0
+D6
+~
+~
+0 -1 31372 0
+R M 0 31328 99 31373
+R M 0 31327 152 31373
+S
+#31374
+&cT&wurbolift~
+The turbolift is brightly lit and can accomendate a load of 2,000
+metric pounds. A small voicebox and plaque sit near the door.
+
+&R Levels&W
+--------------------------
+&YLevel 1 &W- Lobby
+&YLevel 2 &W- Residential Floor 1
+&YLevel 3 &W- Residential Floor 2
+--------------------------
+~
+0 1073741836 1 0 0 0 17792
+> speech_prog p level 1~
+mpecho the turbolift begins to move.
+mpsleep 4
+mpecho the turbolift slows to a stop and the doors open.
+mptransfer $n 31373
+~
+> speech_prog p level 2~
+mpecho the turbolift begins to move.
+mpsleep 4
+mpecho the turbolift slows to a stop and the doors open.
+mptransfer $n 31377
+~
+> speech_prog p level 3~
+mpecho the turbolift begins to move.
+mpsleep 4
+mpecho the turbolift slows to a stop and the doors open.
+mptransfer $n 31386
+~
+|
+S
+#31375
+&cH&wallway~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D0
+~
+~
+0 -1 31376 0
+D8
+~
+~
+0 -1 31377 0
+D9
+~
+~
+0 -1 31381 0
+S
+#31376
+Hotel Room 1010~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D2
+~
+~
+0 -1 31375 0
+S
+#31377
+&cH&wallway~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D1
+~
+~
+0 -1 31378 0
+D3
+~
+~
+0 -1 31374 0
+D7
+~
+~
+0 -1 31375 0
+D9
+~
+~
+0 -1 31379 0
+S
+#31378
+Hotel Room 1020~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D3
+~
+~
+0 -1 31377 0
+S
+#31379
+&cH&wallway~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D2
+~
+~
+0 -1 31380 0
+D6
+~
+~
+0 -1 31377 0
+D7
+~
+~
+0 -1 31381 0
+S
+#31380
+Hotel Room 1030~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D0
+~
+~
+0 -1 31379 0
+S
+#31381
+&cH&wallway~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D3
+~
+~
+0 -1 31382 0
+D6
+~
+~
+0 -1 31375 0
+D8
+~
+~
+0 -1 31379 0
+S
+#31382
+Hotel Room 1040~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D1
+~
+~
+0 -1 31381 0
+S
+#31383
+&cH&wallway~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D0
+~
+~
+0 -1 31384 0
+D8
+~
+~
+0 -1 31386 0
+D9
+~
+~
+0 -1 31390 0
+S
+#31384
+Hotel Room 2010~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D2
+~
+~
+0 -1 31383 0
+S
+#31385
+Floating in a void~
+~
+0 1073741836 1 0 0 0 17792
+R M 0 31331 1 31385
+  R E 0 31107 1 16
+S
+#31386
+&cH&wallway~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D1
+~
+~
+0 -1 31387 0
+D3
+~
+~
+0 -1 31374 0
+D7
+~
+~
+0 -1 31383 0
+D9
+~
+~
+0 -1 31388 0
+S
+#31387
+Hotel Room 2020~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D3
+~
+~
+0 -1 31386 0
+S
+#31388
+&cH&wallway~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D2
+~
+~
+0 -1 31389 0
+D6
+~
+~
+0 -1 31386 0
+D7
+~
+~
+0 -1 31390 0
+S
+#31389
+Hotel Room 2030~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D0
+~
+~
+0 -1 31388 0
+S
+#31390
+&cH&wallway~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D3
+~
+~
+0 -1 31391 0
+D6
+~
+~
+0 -1 31383 0
+D8
+~
+~
+0 -1 31388 0
+S
+#31391
+Hotel Room 2040~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D1
+~
+~
+0 -1 31390 0
+S
+#31392
+&ORisi&Yng &OSun &RHotel&W~
+A large crowd is moving about here with a few security guards
+here to keep the peace and secure the hotel. A large insignia
+of a orange sun is hanging from the ceiling here.
+~
+0 1073741832 1 0 0 0 17792
+D6
+~
+~
+0 -1 31308 0
+D9
+~
+~
+0 -1 31393 0
+R M 0 31327 152 31392
+R M 0 31327 152 31392
+R M 0 31329 31 31392
+S
+#31393
+&OCorridor&W~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D6
+~
+~
+0 -1 31392 0
+D9
+~
+~
+0 -1 31394 0
+R M 0 31327 152 31393
+R M 0 31327 152 31393
+R M 0 31327 152 31393
+R M 0 31327 152 31393
+S
+#31394
+&OCorridor&W~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D6
+~
+~
+0 -1 31393 0
+D7
+~
+~
+0 -1 31395 0
+D8
+~
+~
+0 -1 31408 0
+D9
+~
+~
+0 -1 31407 0
+R M 0 31330 43 31394
+R M 0 31328 99 31394
+R M 0 31327 152 31394
+R M 0 31327 152 31394
+R M 0 31327 152 31394
+R M 0 31327 152 31394
+S
+#31395
+&OCorridor&W~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D6
+~
+~
+0 -1 31405 0
+D7
+~
+~
+0 -1 31396 0
+D8
+~
+~
+0 -1 31394 0
+D9
+~
+~
+0 -1 31406 0
+R M 0 31327 152 31395
+R M 0 31328 99 31395
+S
+#31396
+&OCorridor&W~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D6
+~
+~
+0 -1 31397 0
+D7
+~
+~
+0 -1 31403 0
+D8
+~
+~
+0 -1 31395 0
+D9
+~
+~
+0 -1 31404 0
+R M 0 31328 99 31396
+R M 0 31329 31 31396
+S
+#31397
+&OCorridor&W~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D6
+~
+~
+0 -1 31398 0
+D7
+~
+~
+0 -1 31401 0
+D8
+~
+~
+0 -1 31402 0
+D9
+~
+~
+0 -1 31396 0
+R M 0 31327 152 31397
+S
+#31398
+&OCorridor&W~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D7
+~
+~
+0 -1 31399 0
+D8
+~
+~
+0 -1 31400 0
+D9
+~
+~
+0 -1 31397 0
+R M 0 31327 152 31398
+R M 0 31330 43 31398
+R M 0 31329 31 31398
+S
+#31399
+Hotel Room 101~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D8
+~
+~
+0 -1 31398 0
+R M 0 31327 152 31399
+S
+#31400
+Hotel Room 102~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D7
+~
+~
+0 -1 31398 0
+R M 0 31310 1 31400
+  R G 0 31315 1
+  R G 0 31333 1
+  R G 0 31321 1
+  R G 0 31312 1
+  R G 0 31332 1
+R M 0 31327 152 31400
+R M 0 31329 31 31400
+R M 0 31327 152 31400
+S
+#31401
+Hotel Room 103~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D8
+~
+~
+0 -1 31397 0
+R M 0 31327 152 31401
+R M 0 31327 152 31401
+R M 0 31329 31 31401
+R M 0 31327 152 31401
+R M 0 31327 152 31401
+R M 0 31329 31 31401
+R M 0 31329 31 31401
+R M 0 31328 99 31401
+S
+#31402
+Hotel Room 104~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D7
+~
+~
+0 -1 31397 0
+R M 0 31330 43 31402
+S
+#31403
+Hotel Room 105~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D8
+~
+~
+0 -1 31396 0
+R M 0 31327 152 31403
+S
+#31404
+Hotel Room 106~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D6
+~
+~
+0 -1 31396 0
+R M 0 31328 99 31404
+R M 0 31330 43 31404
+R M 0 31327 152 31404
+R M 0 31328 99 31404
+S
+#31405
+Hotel Room 107~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D9
+~
+~
+0 -1 31395 0
+R M 0 31329 31 31405
+R M 0 31327 152 31405
+S
+#31406
+Hotel Room 108~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D6
+~
+~
+0 -1 31395 0
+R M 0 31329 31 31406
+R M 0 31328 99 31406
+R M 0 31327 152 31406
+S
+#31407
+Hotel Room 109~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D6
+~
+~
+0 -1 31394 0
+R M 0 31328 99 31407
+S
+#31408
+&OCorridor&W~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D6
+~
+~
+0 -1 31420 0
+D7
+~
+~
+0 -1 31394 0
+D8
+~
+~
+0 -1 31409 0
+D9
+~
+~
+0 -1 31421 0
+R M 0 31330 43 31408
+S
+#31409
+&OCorridor&W~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D6
+~
+~
+0 -1 31418 0
+D7
+~
+~
+0 -1 31408 0
+D8
+~
+~
+0 -1 31410 0
+D9
+~
+~
+0 -1 31419 0
+R M 0 31327 152 31409
+R M 0 31327 152 31409
+R M 0 31328 99 31409
+R M 0 31328 99 31409
+R M 0 31330 43 31409
+R M 0 31330 43 31409
+S
+#31410
+&OCorridor&W~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D2
+~
+~
+0 -1 31417 0
+D6
+~
+~
+0 -1 31411 0
+D7
+~
+~
+0 -1 31409 0
+D8
+~
+~
+0 -1 31418 0
+R M 0 31330 43 31410
+S
+#31411
+&OCorridor&W~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D6
+~
+~
+0 -1 31412 0
+D7
+~
+~
+0 -1 31415 0
+D8
+~
+~
+0 -1 31416 0
+D9
+~
+~
+0 -1 31410 0
+R M 0 31327 152 31411
+S
+#31412
+&OCorridor&W~
+The hallway is fairly large for its purpose. Small stands are
+set up around the center. A few security guards are moving about
+keeping the peace and keeping the place secure.
+~
+0 1073741832 1 0 0 0 17792
+D7
+~
+~
+0 -1 31413 0
+D8
+~
+~
+0 -1 31414 0
+D9
+~
+~
+0 -1 31411 0
+S
+#31413
+Hotel Room 118~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D8
+~
+~
+0 -1 31412 0
+R M 0 31330 43 31413
+R M 0 31327 152 31413
+R M 0 31327 152 31413
+R M 0 31329 31 31413
+R M 0 31327 152 31413
+S
+#31414
+Hotel Room 119~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D7
+~
+~
+0 -1 31412 0
+R M 0 31327 152 31414
+R M 0 31328 99 31414
+S
+#31415
+Hotel Room 116~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D8
+~
+~
+0 -1 31411 0
+R M 0 31327 152 31415
+R M 0 31327 152 31415
+R M 0 31327 152 31415
+S
+#31416
+Hotel Room 117~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D7
+~
+~
+0 -1 31411 0
+R M 0 31311 1 31416
+  R G 0 31310 1
+  R G 0 31335 1
+  R G 0 31325 1
+  R G 0 31322 1
+  R G 0 31334 1
+R M 0 31328 99 31416
+R M 0 31327 152 31416
+S
+#31417
+Hotel Room 114~
+~
+0 1082130440 1 0 0 0 17792
+D0
+~
+~
+0 -1 31410 0
+R M 0 31328 99 31417
+S
+#31418
+Hotel Room 115~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D7
+~
+~
+0 -1 31410 0
+D9
+~
+~
+0 -1 31409 0
+R M 0 31328 99 31418
+R M 0 31330 43 31418
+R M 0 31330 43 31418
+R M 0 31328 99 31418
+S
+#31419
+Hotel Room 113~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D6
+~
+~
+0 -1 31409 0
+R M 0 31327 152 31419
+S
+#31420
+Hotel Room 110~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D9
+~
+~
+0 -1 31408 0
+R M 0 31327 152 31420
+R M 0 31330 43 31420
+S
+#31421
+Hotel Room 111~
+The room is fairly large it contains several chairs surrounding
+a couple of tables. A large bed sits against a wall next to
+it is a small workbench for small repairs and upgrades.
+~
+0 1082130440 1 0 0 0 17792
+D6
+~
+~
+0 -1 31408 0
+S
+#31422
+&W Grey Pebble Walkway&W~
+grey pebbles are laying here to act as a small road onto the
+beach. Large rocks and plants sit on both sides of the walkway.
+The walkway is extremly crowded from all the locals and off-worlds
+accessing the beach.
+~
+0 1073741836 1 0 0 0 17792
+D2
+~
+~
+0 -1 31323 0
+D6
+~
+~
+0 -1 31423 0
+S
+#31423
+&YSandy Beach&W~
+The golden sand seems endless along the beach and very few boulders
+are here. Off-worlders and locals are moving about tending to
+the pleasures of the beach ranging from sunbathing to swimming.
+~
+0 1073741836 1 0 0 0 17792
+D7
+~
+~
+0 -1 31424 0
+D8
+~
+~
+0 -1 31426 0
+D9
+~
+~
+0 -1 31422 0
+> rand_prog 100~
+mpecho the waters lap against the beach.
+~
+|
+S
+#31424
+&YSandy Beach&W~
+The golden sand seems endless along the beach and very few boulders
+are here. Off-worlders and locals are moving about tending to
+the pleasures of the beach ranging from sunbathing to swimming.
+~
+0 1073741836 1 0 0 0 17792
+D7
+~
+~
+0 -1 31425 0
+D8
+~
+~
+0 -1 31423 0
+> rand_prog 100~
+mpecho the waters lap against the beach.
+~
+|
+S
+#31425
+&YSandy Beach&W~
+The golden sand seems endless along the beach and very few boulders
+are here. Off-worlders and locals are moving about tending to
+the pleasures of the beach ranging from sunbathing to swimming.
+~
+0 1073741836 1 0 0 0 17792
+D8
+~
+~
+0 -1 31424 0
+> rand_prog 100~
+mpecho the waters lap against the beach.
+~
+|
+S
+#31426
+&YSandy Beach&W~
+The golden sand seems endless along the beach and very few boulders
+are here. Off-worlders and locals are moving about tending to
+the pleasures of the beach ranging from sunbathing to swimming.
+~
+0 1073741836 1 0 0 0 17792
+D1
+~
+~
+0 -1 31427 0
+D7
+~
+~
+0 -1 31423 0
+> rand_prog 100~
+mpecho the waters lap against the beach.
+~
+|
+S
+#31427
+&YSandy Beach&W~
+The golden sand seems endless along the beach and very few boulders
+are here. Off-worlders and locals are moving about tending to
+the pleasures of the beach ranging from sunbathing to swimming.
+~
+0 1073741836 1 0 0 0 17792
+D1
+~
+~
+0 -1 31428 0
+D3
+~
+~
+0 -1 31426 0
+> rand_prog 100~
+mpecho the waters lap against the beach.
+~
+|
+S
+#31428
+&YSandy Beach&W~
+The golden sand seems endless along the beach and very few boulders
+are here. Off-worlders and locals are moving about tending to
+the pleasures of the beach ranging from sunbathing to swimming.
+~
+0 1073741836 1 0 0 0 17792
+D1
+~
+~
+0 -1 31429 0
+D3
+~
+~
+0 -1 31427 0
+> rand_prog 100~
+mpecho the waters lap against the beach.
+~
+|
+S
+#31429
+&YSandy Beach&W~
+The golden sand seems endless along the beach and very few boulders
+are here. Off-worlders and locals are moving about tending to
+the pleasures of the beach ranging from sunbathing to swimming.
+~
+0 1073741836 1 0 0 0 17792
+D1
+~
+~
+0 -1 31430 0
+D3
+~
+~
+0 -1 31428 0
+R M 0 31327 152 31429
+R M 0 31327 152 31429
+R M 0 31327 152 31429
+R M 0 31327 152 31429
+R M 0 31327 152 31429
+R M 0 31327 152 31429
+R M 0 31327 152 31429
+R M 0 31327 152 31429
+R M 0 31327 152 31429
+R M 0 31327 152 31429
+R M 0 31327 152 31429
+> rand_prog 100~
+mpecho the waters lap against the beach.
+~
+|
+S
+#31430
+&YSandy Beach&W~
+The golden sand seems endless along the beach and very few boulders
+are here. Off-worlders and locals are moving about tending to
+the pleasures of the beach ranging from sunbathing to swimming.
+~
+0 1073741836 1 0 0 0 17792
+D3
+~
+~
+0 -1 31429 0
+> rand_prog 100~
+mpecho the waters lap against the beach.
+~
+|
+S
+#31431
+&CClub Yonesse Swoop Track Starting Line&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> speech_prog p can't mount~
+mpecho a voice says over the intercom "All right just head back to the desk."
+mppurge bike
+mpmload 31317
+mptransfer quarren 31338
+mptransfer $n 31338
+~
+> act_prog p skillfully mounts Aramech Swoop Bike.~
+mpe $n starts the engine and looks at a color display under a clock.
+mpsleep 10
+mpe the color displays red light flashes on.
+mpsleep 10
+mpe the color displays yellow light starts flashing.
+mpsleep 10
+mpe the color display turns green and the clock starts.
+mpsleep 4
+mpecho $n kicks the accelerator and takes off.
+if mobinroom(31318)
+mpopenpassage 31431 31432 0
+mpforce $n n
+mpclosepassage 31431 0
+mpmload 31321
+mpechoat winning begintier1
+else
+if mobinroom(31319)
+mpopenpassage 31431 31432 0
+mpforce $n n
+mpclosepassage 31431 0
+mpmload 31321
+mpechoat winning begintier2
+else
+mpopenpassage 31431 31432 0
+mpforce $n n
+mpclosepassage 31431 0
+mpmload 31321
+mpechoat winning begintier3
+endif
+endif
+~
+|
+S
+#31432
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31432 31433 0
+mpforce $n n
+mpclosepassage 31432 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31432 31434 0
+mpforce $n n
+mpclosepassage 31432 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31432 31435 0
+mpforce $n n
+mpclosepassage 31432 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31432 31433 0
+mpforce $n n
+mpclosepassage 31432 0
+endif
+endif
+endif
+~
+|
+S
+#31433
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31433 31434 0
+mpforce $n n
+mpclosepassage 31433 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31433 31435 0
+mpforce $n n
+mpclosepassage 31433 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31433 31437 0
+mpforce $n n
+mpclosepassage 31433 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31433 31434 0
+mpforce $n n
+mpclosepassage 31433 0
+endif
+endif
+endif
+~
+|
+S
+#31434
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31434 31435 0
+mpforce $n n
+mpclosepassage 31434 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31434 31436 0
+mpforce $n n
+mpclosepassage 31434 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31434 31438 0
+mpforce $n n
+mpclosepassage 31434 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31434 31435 0
+mpforce $n n
+mpclosepassage 31434 0
+endif
+endif
+endif
+~
+|
+S
+#31435
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31435 31436 0
+mpforce $n n
+mpclosepassage 31435 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31435 31437 0
+mpforce $n n
+mpclosepassage 31435 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31435 31439 0
+mpforce $n n
+mpclosepassage 31435 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31435 31436 0
+mpforce $n n
+mpclosepassage 31435 0
+endif
+endif
+endif
+~
+|
+S
+#31436
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31436 31437 0
+mpforce $n n
+mpclosepassage 31436 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31436 31438 0
+mpforce $n n
+mpclosepassage 31436 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31436 31440 0
+mpforce $n n
+mpclosepassage 31436 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31436 31437 0
+mpforce $n n
+mpclosepassage 31436 0
+endif
+endif
+endif
+~
+|
+S
+#31437
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31437 31438 0
+mpforce $n n
+mpclosepassage 31437 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31437 31439 0
+mpforce $n n
+mpclosepassage 31436 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31437 31441 0
+mpforce $n n
+mpclosepassage 31437 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31437 31438 0
+mpforce $n n
+mpclosepassage 31437 0
+endif
+endif
+endif
+~
+|
+S
+#31438
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31438 31439 0
+mpforce $n n
+mpclosepassage 31438 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31438 31440 0
+mpforce $n n
+mpclosepassage 31438 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31438 31442 0
+mpforce $n n
+mpclosepassage 31438 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31438 31439 0
+mpforce $n n
+mpclosepassage 31438 0
+endif
+endif
+endif
+~
+|
+S
+#31439
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31439 31440 0
+mpforce $n n
+mpclosepassage 31439 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31439 31441 0
+mpforce $n n
+mpclosepassage 31439 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31439 31443 0
+mpforce $n n
+mpclosepassage 31439 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31439 31440 0
+mpforce $n n
+mpclosepassage 31439 0
+endif
+endif
+endif
+~
+|
+S
+#31440
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31440 31441 0
+mpforce $n n
+mpclosepassage 31440 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31440 31442 0
+mpforce $n n
+mpclosepassage 31440 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31440 31444 0
+mpforce $n n
+mpclosepassage 31440 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31440 31441 0
+mpforce $n n
+mpclosepassage 31440 0
+endif
+endif
+endif
+~
+|
+S
+#31441
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31441 31442 0
+mpforce $n n
+mpclosepassage 31441 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31441 31443 0
+mpforce $n n
+mpclosepassage 31441 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31441 31444 0
+mpforce $n n
+mpclosepassage 31441 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31441 31442 0
+mpforce $n n
+mpclosepassage 31441 0
+endif
+endif
+endif
+~
+|
+S
+#31442
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31442 31443 0
+mpforce $n n
+mpclosepassage 31442 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31442 31444 0
+mpforce $n n
+mpclosepassage 31442 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31442 31445 0
+mpforce $n n
+mpclosepassage 31442 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31442 31443 0
+mpforce $n n
+mpclosepassage 31442 0
+endif
+endif
+endif
+~
+|
+S
+#31443
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31443 31444 0
+mpforce $n n
+mpclosepassage 31443 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31443 31445 0
+mpforce $n n
+mpclosepassage 31443 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31443 31446 0
+mpforce $n n
+mpclosepassage 31443 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31443 31444 0
+mpforce $n n
+mpclosepassage 31443 0
+endif
+endif
+endif
+~
+|
+S
+#31444
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31444 31445 0
+mpforce $n n
+mpclosepassage 31444 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31444 31446 0
+mpforce $n n
+mpclosepassage 31444 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31444 31447 0
+mpforce $n n
+mpclosepassage 31444 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31444 31445 0
+mpforce $n n
+mpclosepassage 31444 0
+endif
+endif
+endif
+~
+|
+S
+#31445
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31445 31446 0
+mpforce $n n
+mpclosepassage 31445 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31445 31447 0
+mpforce $n n
+mpclosepassage 31445 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31445 31448 0
+mpforce $n n
+mpclosepassage 31445 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31445 31446 0
+mpforce $n n
+mpclosepassage 31445 0
+endif
+endif
+endif
+~
+|
+S
+#31446
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31446 31447 0
+mpforce $n n
+mpclosepassage 31446 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31446 31448 0
+mpforce $n n
+mpclosepassage 31446 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31446 31449 0
+mpforce $n n
+mpclosepassage 31446 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31446 31447 0
+mpforce $n n
+mpclosepassage 31446 0
+endif
+endif
+endif
+~
+|
+S
+#31447
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31447 31448 0
+mpforce $n n
+mpclosepassage 31447 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31447 31449 0
+mpforce $n n
+mpclosepassage 31447 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31447 31450 0
+mpforce $n n
+mpclosepassage 31447 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31447 31448 0
+mpforce $n n
+mpclosepassage 31447 0
+endif
+endif
+endif
+~
+|
+S
+#31448
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31448 31449 0
+mpforce $n n
+mpclosepassage 31448 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31448 31450 0
+mpforce $n n
+mpclosepassage 31448 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31448 31451 0
+mpforce $n n
+mpclosepassage 31448 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31448 31449 0
+mpforce $n n
+mpclosepassage 31448 0
+endif
+endif
+endif
+~
+|
+S
+#31449
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31449 31450 0
+mpforce $n n
+mpclosepassage 31449 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31449 31451 0
+mpforce $n n
+mpclosepassage 31449 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31449 31452 0
+mpforce $n n
+mpclosepassage 31449 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31449 31450 0
+mpforce $n n
+mpclosepassage 31449 0
+endif
+endif
+endif
+~
+|
+S
+#31450
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31450 31451 0
+mpforce $n n
+mpclosepassage 31450 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31450 31452 0
+mpforce $n n
+mpclosepassage 31450 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31450 31453 0
+mpforce $n n
+mpclosepassage 31450 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31450 31451 0
+mpforce $n n
+mpclosepassage 31450 0
+endif
+endif
+endif
+~
+|
+S
+#31451
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31451 31452 0
+mpforce $n n
+mpclosepassage 31451 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31451 31453 0
+mpforce $n n
+mpclosepassage 31451 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31451 31454 0
+mpforce $n n
+mpclosepassage 31451 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31451 31452 0
+mpforce $n n
+mpclosepassage 31451 0
+endif
+endif
+endif
+~
+|
+S
+#31452
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31452 31453 0
+mpforce $n n
+mpclosepassage 31452 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31452 31454 0
+mpforce $n n
+mpclosepassage 31452 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31452 31455 0
+mpforce $n n
+mpclosepassage 31452 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31452 31453 0
+mpforce $n n
+mpclosepassage 31452 0
+endif
+endif
+endif
+~
+|
+S
+#31453
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31453 31454 0
+mpforce $n n
+mpclosepassage 31453 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31453 31455 0
+mpforce $n n
+mpclosepassage 31453 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31453 31456 0
+mpforce $n n
+mpclosepassage 31453 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31453 31454 0
+mpforce $n n
+mpclosepassage 31453 0
+endif
+endif
+endif
+~
+|
+S
+#31454
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31454 31455 0
+mpforce $n n
+mpclosepassage 31454 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31454 31456 0
+mpforce $n n
+mpclosepassage 31454 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31454 31457 0
+mpforce $n n
+mpclosepassage 31454 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31454 31455 0
+mpforce $n n
+mpclosepassage 31454 0
+endif
+endif
+endif
+~
+|
+S
+#31455
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31455 31456 0
+mpforce $n n
+mpclosepassage 31455 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31455 31457 0
+mpforce $n n
+mpclosepassage 31455 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31455 31458 0
+mpforce $n n
+mpclosepassage 31455 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31455 31456 0
+mpforce $n n
+mpclosepassage 31455 0
+endif
+endif
+endif
+~
+|
+S
+#31456
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31456 31457 0
+mpforce $n n
+mpclosepassage 31456 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31456 31458 0
+mpforce $n n
+mpclosepassage 31456 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31456 31459 0
+mpforce $n n
+mpclosepassage 31456 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31456 31457 0
+mpforce $n n
+mpclosepassage 31456 0
+endif
+endif
+endif
+~
+|
+S
+#31457
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31457 31458 0
+mpforce $n n
+mpclosepassage 31457 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31457 31459 0
+mpforce $n n
+mpclosepassage 31457 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31457 31460 0
+mpforce $n n
+mpclosepassage 31457 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31457 31458 0
+mpforce $n n
+mpclosepassage 31457 0
+endif
+endif
+endif
+~
+|
+S
+#31458
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31458 31459 0
+mpforce $n n
+mpclosepassage 31458 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31458 31460 0
+mpforce $n n
+mpclosepassage 31458 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31458 31461 0
+mpforce $n n
+mpclosepassage 31458 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31458 31459 0
+mpforce $n n
+mpclosepassage 31458 0
+endif
+endif
+endif
+~
+|
+S
+#31459
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31459 31460 0
+mpforce $n n
+mpclosepassage 31459 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31459 31461 0
+mpforce $n n
+mpclosepassage 31459 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31459 31462 0
+mpforce $n n
+mpclosepassage 31459 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31459 31460 0
+mpforce $n n
+mpclosepassage 31459 0
+endif
+endif
+endif
+~
+|
+S
+#31460
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31460 31461 0
+mpforce $n n
+mpclosepassage 31460 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31460 31462 0
+mpforce $n n
+mpclosepassage 31460 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31460 31463 0
+mpforce $n n
+mpclosepassage 31460 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31460 31461 0
+mpforce $n n
+mpclosepassage 31460 0
+endif
+endif
+endif
+~
+|
+S
+#31461
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31461 31462 0
+mpforce $n n
+mpclosepassage 31461 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31461 31463 0
+mpforce $n n
+mpclosepassage 31461 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31461 31464 0
+mpforce $n n
+mpclosepassage 31461 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31461 31462 0
+mpforce $n n
+mpclosepassage 31461 0
+endif
+endif
+endif
+~
+|
+S
+#31462
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31462 31463 0
+mpforce $n n
+mpclosepassage 31462 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31462 31464 0
+mpforce $n n
+mpclosepassage 31462 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31462 31464 0
+mpforce $n n
+mpclosepassage 31462 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31462 31463 0
+mpforce $n n
+mpclosepassage 31462 0
+endif
+endif
+endif
+~
+|
+S
+#31463
+&CClub Yonesse Swoop Track&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if rand(10)
+mpe You hit an obstacle
+mpsleep 10
+mpe you recover and take off.
+mpopenpassage 31463 31464 0
+mpforce $n n
+mpclosepassage 31463 0
+else
+if rand(30)
+mpe $n grazes a booster pad.
+mpopenpassage 31463 31464 0
+mpforce $n n
+mpclosepassage 31463 0
+else
+if rand(75)
+mpe $n hits a booster pad dead center.
+mpopenpassage 31463 31464 0
+mpforce $n n
+mpclosepassage 31463 0
+else
+mpe you barely miss an obstacle.
+mpopenpassage 31463 31464 0
+mpforce $n n
+mpclosepassage 31463 0
+endif
+endif
+endif
+~
+|
+S
+#31464
+&CClub Yonesse Swoop Track Finish Line&W~
+The track is large and has a few booster pads and alot of obsticles.Large
+towers all around can be seen from the track. The crowd is going
+wild all along the track. The track itself is lined with two
+white reinforced durasteel walls made from the durasteel for
+most capital ships hulls.
+~
+0 1073741828 1 0 0 0 17792
+> entry_prog 100~
+if ispc($n)
+if ismounted($n)
+if mobinroom(31321) == 1
+mpe $n crosses the finish line and deaccelerates.
+mpforce $n dismount
+mppurge winning
+mpe $n throws their hands into the air in triumph!!
+mpsleep 4
+mpe $n runs back to the registration desk.
+mppurge bike
+mpmload 31317
+mptransfer quarren 31338
+mptransfer $n 31338
+rat 31338 mpforce quarren give 5000 credits $n
+rat 31338 mpechoat $n the quarren says here is 5000 credits for your win.
+else
+mpe $n sulks and walks slowly back to the register desk.
+mppurge bike
+mpmload 31317
+mptransfer quarren 31338
+mptransfer $n 31338
+endif
+endif
+endif
+~
+|
+S
+#31465
+&gGarden of Lyoneese&W~
+The garden is full of exotic plants and trees from around the
+galaxy. Large humanoid gardening droids move about the plantlife
+and waters them. A large crowd of people can be seen  all across
+the garden.
+~
+0 1073741824 1 0 0 0 17792
+D1
+~
+~
+0 -1 31467 0
+D3
+~
+~
+0 -1 31307 0
+D6
+~
+~
+0 -1 31466 0
+R M 0 31327 152 31465
+R M 0 31328 99 31465
+R M 0 31328 99 31465
+S
+#31466
+&gGarden of Lyoneese&W~
+The garden is full of exotic plants and trees from around the
+galaxy. Large humanoid gardening droids move about the plantlife
+and waters them. A large crowd of people can be seen  all across
+the garden.
+~
+0 1073741824 1 0 0 0 17792
+D1
+~
+~
+0 -1 31468 0
+D2
+~
+~
+0 -1 31467 0
+D8
+~
+~
+0 -1 31469 0
+D9
+~
+~
+0 -1 31465 0
+R M 0 31327 152 31466
+R M 0 31327 152 31466
+R M 0 31328 99 31466
+R M 0 31327 152 31466
+R M 0 31330 43 31466
+S
+#31467
+&gGarden of Lyoneese&W~
+The garden is full of exotic plants and trees from around the
+galaxy. Large humanoid gardening droids move about the plantlife
+and waters them. A large crowd of people can be seen  all across
+the garden.
+~
+0 1073741824 1 0 0 0 17792
+D0
+~
+~
+0 -1 31466 0
+D1
+~
+~
+0 -1 31469 0
+D3
+~
+~
+0 -1 31465 0
+D6
+~
+~
+0 -1 31468 0
+D8
+~
+~
+0 -1 31470 0
+R M 0 31328 99 31467
+R M 0 31330 43 31467
+R M 0 31327 152 31467
+S
+#31468
+&gGarden of Lyoneese&W~
+The garden is full of exotic plants and trees from around the
+galaxy. Large humanoid gardening droids move about the plantlife
+and waters them. A large crowd of people can be seen  all across
+the garden.
+~
+0 1073741824 1 0 0 0 17792
+D0
+~
+~
+0 -1 31477 0
+D1
+~
+~
+0 -1 31471 0
+D2
+~
+~
+0 -1 31469 0
+D3
+~
+~
+0 -1 31466 0
+D8
+~
+~
+0 -1 31472 0
+D9
+~
+~
+0 -1 31467 0
+R M 0 31328 99 31468
+R M 0 31327 152 31468
+S
+#31469
+&gGarden of Lyoneese&W~
+The garden is full of exotic plants and trees from around the
+galaxy. Large humanoid gardening droids move about the plantlife
+and waters them. A large crowd of people can be seen  all across
+the garden.
+~
+0 1073741824 1 0 0 0 17792
+D0
+~
+~
+0 -1 31468 0
+D1
+~
+~
+0 -1 31472 0
+D2
+~
+~
+0 -1 31470 0
+D3
+~
+~
+0 -1 31467 0
+D6
+~
+~
+0 -1 31471 0
+D7
+~
+~
+0 -1 31466 0
+D8
+~
+~
+0 -1 31473 0
+R M 0 31328 99 31469
+S
+#31470
+&gGarden of Lyoneese&W~
+The garden is full of exotic plants and trees from around the
+galaxy. Large humanoid gardening droids move about the plantlife
+and waters them. A large crowd of people can be seen  all across
+the garden.
+~
+0 1073741824 1 0 0 0 17792
+D0
+~
+~
+0 -1 31469 0
+D1
+~
+~
+0 -1 31473 0
+D2
+~
+~
+0 -1 31310 0
+D6
+~
+~
+0 -1 31472 0
+D7
+~
+~
+0 -1 31467 0
+R M 0 31309 1 31470
+  R G 0 31309 1
+  R G 0 31306 1
+  R G 0 31336 1
+  R G 0 31321 1
+  R G 0 31312 1
+R M 0 31327 152 31470
+R M 0 31327 152 31470
+S
+#31471
+&gGarden of Lyoneese&W~
+The garden is full of exotic plants and trees from around the
+galaxy. Large humanoid gardening droids move about the plantlife
+and waters them. A large crowd of people can be seen  all across
+the garden.
+~
+0 1073741824 1 0 0 0 17792
+D1
+~
+~
+0 -1 31474 0
+D2
+~
+~
+0 -1 31472 0
+D3
+~
+~
+0 -1 31468 0
+D8
+~
+~
+0 -1 31475 0
+D9
+~
+~
+0 -1 31469 0
+R M 0 31328 99 31471
+R M 0 31329 31 31471
+R M 0 31328 99 31471
+S
+#31472
+&gGarden of Lyoneese&W~
+The garden is full of exotic plants and trees from around the
+galaxy. Large humanoid gardening droids move about the plantlife
+and waters them. A large crowd of people can be seen  all across
+the garden.
+~
+0 1073741824 1 0 0 0 17792
+D0
+~
+~
+0 -1 31471 0
+D1
+~
+~
+0 -1 31475 0
+D2
+~
+~
+0 -1 31473 0
+D3
+~
+~
+0 -1 31469 0
+D6
+~
+~
+0 -1 31474 0
+D7
+~
+~
+0 -1 31468 0
+D9
+~
+~
+0 -1 31470 0
+R M 0 31327 152 31472
+R M 0 31328 99 31472
+R M 0 31328 99 31472
+S
+#31473
+&gGarden of Lyoneese&W~
+The garden is full of exotic plants and trees from around the
+galaxy. Large humanoid gardening droids move about the plantlife
+and waters them. A large crowd of people can be seen  all across
+the garden.
+~
+0 1073741824 1 0 0 0 17792
+D0
+~
+~
+0 -1 31472 0
+D3
+~
+~
+0 -1 31470 0
+D6
+~
+~
+0 -1 31475 0
+D7
+~
+~
+0 -1 31469 0
+D8
+~
+~
+0 -1 31476 0
+R M 0 31329 31 31473
+R M 0 31327 152 31473
+S
+#31474
+&gGarden of Lyoneese&W~
+The garden is full of exotic plants and trees from around the
+galaxy. Large humanoid gardening droids move about the plantlife
+and waters them. A large crowd of people can be seen  all across
+the garden.
+~
+0 1073741824 1 0 0 0 17792
+D2
+~
+~
+0 -1 31475 0
+D3
+~
+~
+0 -1 31471 0
+D9
+~
+~
+0 -1 31472 0
+R M 0 31327 152 31474
+S
+#31475
+&gGarden of Lyoneese&W~
+The garden is full of exotic plants and trees from around the
+galaxy. Large humanoid gardening droids move about the plantlife
+and waters them. A large crowd of people can be seen  all across
+the garden.
+~
+0 1073741824 1 0 0 0 17792
+D0
+~
+~
+0 -1 31474 0
+D3
+~
+~
+0 -1 31472 0
+D7
+~
+~
+0 -1 31471 0
+D9
+~
+~
+0 -1 31473 0
+R M 0 31329 31 31475
+R M 0 31330 43 31475
+R M 0 31329 31 31475
+R M 0 31330 43 31475
+S
+#31476
+&gGarden of Lyoneese&W~
+The garden is full of exotic plants and trees from around the
+galaxy. Large humanoid gardening droids move about the plantlife
+and waters them. A large crowd of people can be seen  all across
+the garden.
+~
+0 1073741824 1 0 0 0 17792
+D7
+~
+~
+0 -1 31473 0
+D8
+~
+~
+0 -1 31313 0
+R M 0 31314 1 31476
+  R G 0 31306 1
+  R G 0 31303 1
+  R G 0 31305 1
+  R G 0 31324 1
+  R G 0 31313 1
+  R G 0 31334 1
+S
+#31477
+&gGarden of Lyoneese&W~
+The garden is full of exotic plants and trees from around the
+galaxy. Large humanoid gardening droids move about the plantlife
+and waters them. A large crowd of people can be seen  all across
+the garden.
+~
+0 1073741824 1 0 0 0 17792
+D2
+~
+~
+0 -1 31468 0
+D7
+~
+~
+0 -1 31331 0
+R M 0 31327 152 31477
+S
+#31478
+&OPool Gate&W~
+A large wooden gate sits here.  Sentients and droids move about
+here. The sounds of splashing can be heard. A single guard is
+standing at the gate probably to assist anyone in need.
+~
+0 1073741824 1 0 0 0 17792
+D0
+~
+~
+0 -1 31327 0
+D2
+~
+~
+0 -1 31479 0
+R M 0 31327 152 31478
+S
+#31479
+&OPoolside Deck&W~
+The deck is made from wood from an unknown source.  Several large
+duraplastic chairs are scattered about some of which are occupied.A
+few sentients and attendants move about the deck.
+~
+0 1073741824 1 0 0 0 17792
+D0
+~
+~
+0 -1 31478 0
+D2
+~
+~
+0 -1 31482 0
+D3
+~
+~
+0 -1 31480 0
+R M 0 31329 31 31479
+R M 0 31327 152 31479
+R M 0 31328 99 31479
+S
+#31480
+&OPoolside Deck&W~
+The deck is made from wood from an unknown source.  Several large
+duraplastic chairs are scattered about some of which are occupied.A
+few sentients and attendants move about the deck.
+~
+0 1073741824 1 0 0 0 17792
+D1
+~
+~
+0 -1 31479 0
+D2
+~
+~
+0 -1 31483 0
+D3
+~
+~
+0 -1 31481 0
+R M 0 31328 99 31480
+R M 0 31328 99 31480
+S
+#31481
+&OPoolside Deck&W~
+The deck is made from wood from an unknown source.  Several large
+duraplastic chairs are scattered about some of which are occupied.A
+few sentients and attendants move about the deck.
+~
+0 1073741824 1 0 0 0 17792
+D1
+~
+~
+0 -1 31480 0
+D2
+~
+~
+0 -1 31484 0
+R M 0 31328 99 31481
+R M 0 31329 31 31481
+R M 0 31327 152 31481
+S
+#31482
+&OPoolside Deck&W~
+The deck is made from wood from an unknown source.  Several large
+duraplastic chairs are scattered about some of which are occupied.A
+few sentients and attendants move about the deck.
+~
+0 1073741824 1 0 0 0 17792
+D0
+~
+~
+0 -1 31479 0
+D2
+~
+~
+0 -1 31485 0
+R M 0 31330 43 31482
+R M 0 31327 152 31482
+R M 0 31327 152 31482
+S
+#31483
+&BBright Blue Pool&W~
+The pool is fairly large to accomendate a large number of guests
+similtanously. A large waterfall sits to the north.Sentients
+of most races swim about splashing others.
+~
+0 1073741824 1 0 0 0 17792
+D0
+~
+~
+0 -1 31480 0
+D2
+~
+~
+0 -1 31486 0
+R M 0 31327 152 31483
+R M 0 31330 43 31483
+R M 0 31328 99 31483
+S
+#31484
+&OPoolside Deck&W~
+The deck is made from wood from an unknown source.  Several large
+duraplastic chairs are scattered about some of which are occupied.A
+few sentients and attendants move about the deck.
+~
+0 1073741824 1 0 0 0 17792
+D0
+~
+~
+0 -1 31481 0
+D2
+~
+~
+0 -1 31487 0
+R M 0 31327 152 31484
+R M 0 31327 152 31484
+S
+#31485
+&OPoolside Deck&W~
+The deck is made from wood from an unknown source.  Several large
+duraplastic chairs are scattered about some of which are occupied.A
+few sentients and attendants move about the deck.
+~
+0 1073741824 1 0 0 0 17792
+D0
+~
+~
+0 -1 31482 0
+D3
+~
+~
+0 -1 31486 0
+R M 0 31327 152 31485
+S
+#31486
+&OPoolside Deck&W~
+The deck is made from wood from an unknown source.  Several large
+duraplastic chairs are scattered about some of which are occupied.A
+few sentients and attendants move about the deck.
+~
+0 1073741824 1 0 0 0 17792
+D0
+~
+~
+0 -1 31483 0
+D1
+~
+~
+0 -1 31485 0
+D3
+~
+~
+0 -1 31487 0
+S
+#31487
+&OPoolside Deck&W~
+The deck is made from wood from an unknown source.  Several large
+duraplastic chairs are scattered about some of which are occupied.A
+few sentients and attendants move about the deck.
+~
+0 1073741824 1 0 0 0 17792
+D0
+~
+~
+0 -1 31484 0
+D1
+~
+~
+0 -1 31486 0
+R M 0 31327 152 31487
+R M 0 31328 99 31487
+R M 0 31328 99 31487
+R M 0 31328 99 31487
+R M 0 31330 43 31487
+S
+#31488
+&cYoneese Spa&W~
+The corridor is rather plain made from darkened duracrete in
+a rather unique designed ebed into it. Several large beings
+move about here entering or leaving.
+~
+0 1073741832 1 0 0 0 17792
+D0
+~
+~
+0 -1 31325 0
+D1
+~
+~
+0 -1 31490 0
+D3
+~
+~
+0 -1 31489 0
+R M 0 31328 99 31488
+R M 0 31327 152 31488
+R M 0 31327 152 31488
+S
+#31489
+&cCorridor&W~
+The corridor is rather plain made from darkened duracrete in
+a rather unique designed ebed into it. Several large beings
+move about here entering or leaving.
+~
+0 1073741832 1 0 0 0 17792
+D1
+~
+~
+0 -1 31488 0
+D2
+~
+~
+0 -1 31491 0
+S
+#31490
+&cYoneese Spa Main Office&W~
+The room is rather plain made from darkened duracrete. A unique
+designed is ebed into the walls along with several large photographs
+of monuments across the galaxy .A large desk and chair sit in
+the middle of the room.
+~
+0 1073741832 1 0 0 0 17792
+D3
+~
+~
+0 -1 31488 0
+R M 0 31328 99 31490
+R M 0 31328 99 31490
+S
+#31491
+&cCorridor&W~
+The corridor is rather plain made from darkened duracrete in
+a rather unique designed ebed into it. Several large beings
+move about here entering or leaving.
+~
+0 1073741832 1 0 0 0 17792
+D0
+~
+~
+0 -1 31489 0
+D1
+~
+~
+0 -1 31492 0
+D2
+~
+~
+0 -1 31496 0
+S
+#31492
+&cCorridor&W~
+The corridor is rather plain made from darkened duracrete in
+a rather unique designed ebed into it. Several large beings
+move about here entering or leaving.
+~
+0 1073741832 1 0 0 0 17792
+D1
+~
+~
+0 -1 31493 0
+D2
+~
+~
+0 -1 31495 0
+D3
+~
+~
+0 -1 31491 0
+R M 0 31328 99 31492
+R M 0 31329 31 31492
+R M 0 31327 152 31492
+S
+#31493
+&cCorridor&W~
+~
+0 1073741832 1 0 0 0 17792
+D2
+~
+~
+0 -1 31494 0
+D3
+~
+~
+0 -1 31492 0
+R M 0 31328 99 31493
+R M 0 31328 99 31493
+R M 0 31327 152 31493
+R M 0 31327 152 31493
+S
+#31494
+&cMassage Room&W~
+The room is rather plain made from darkened duracrete. A unique
+designed is ebed into the walls along with several large photographs
+of monuments across the galaxy .
+~
+0 1073741832 1 0 0 0 17792
+D0
+~
+~
+0 -1 31493 0
+R M 0 31322 3 31494
+R M 0 31327 152 31494
+R M 0 31328 99 31494
+R M 0 31327 152 31494
+> rand_prog 100~
+if mobinroom(31322) >= 1
+mpechoat $n you get on the massage bed and recieve a massage.
+mpsleep 12
+mpechoat $n you feel less tense.
+mprestore $n 50
+else
+endif
+~
+|
+S
+#31495
+&cMassage Room&W~
+The room is rather plain made from darkened duracrete. A unique
+designed is ebed into the walls along with several large photographs
+of monuments across the galaxy .
+~
+0 1073741832 1 0 0 0 17792
+D0
+~
+~
+0 -1 31492 0
+R M 0 31322 3 31495
+R M 0 31322 3 31495
+R M 0 31304 1 31495
+  R G 0 31333 1
+  R G 0 31336 1
+  R G 0 31308 1
+  R G 0 31339 1
+  R G 0 31332 1
+R M 0 31330 43 31495
+R M 0 31327 152 31495
+R M 0 31330 43 31495
+> rand_prog 100~
+if mobinroom(31322) >= 1
+mpechoat $n you get on the massage bed and recieve a massage.
+mpsleep 12
+mpechoat $n you feel less tense.
+mprestore $n 50
+else
+endif
+~
+|
+S
+#31496
+&cCorridor&W~
+The corridor is rather plain made from darkened duracrete in
+a rather unique designed ebed into it. Several large beings
+move about here entering or leaving.
+~
+0 1073741832 1 0 0 0 17792
+D0
+~
+~
+0 -1 31491 0
+D2
+~
+~
+0 -1 31497 0
+R M 0 31328 99 31496
+R M 0 31327 152 31496
+R M 0 31328 99 31496
+S
+#31497
+&cCorridor&W~
+The corridor is rather plain made from darkened duracrete in
+a rather unique designed ebed into it. Several large beings
+move about here entering or leaving.
+~
+0 1073741832 1 0 0 0 17792
+D0
+~
+~
+0 -1 31491 0
+D3
+~
+~
+0 -1 31498 0
+S
+#31498
+&cSteam Room&W~
+The room is rather plain made from darkened duracrete. A unique
+design is ebed into the walls. Several benches sit about the
+room  with a large steam generator sitting in the middle of
+the room.
+~
+0 1073741832 1 0 0 0 17792
+D1
+~
+~
+0 -1 31497 0
+R M 0 31327 152 31498
+> rand_prog 100~
+mpechoat $n Steam fills the room revitalizing you
+mprestore $n 20
+~
+|
+S
+#31499
+Floating in a void~
+~
+0 4 1 0 0 0 17792
+S
+#0
+
+
+#SHOPS
+ 31302    0  0  0  0  0   120  90         0 23    ; A club yoneese guest attendant
+ 31303    0  0  0  0  0   120  90         0 23    ; A club yoneese guest attendant
+ 31304    0  0  0  0  0   120  90         0 23    ; A club yoneese guest attendant
+ 31305    0  0  0  0  0   120  90         0 23    ; A club yoneese guest attendant
+ 31306    0  0  0  0  0   120  90         0 23    ; A club yoneese guest attendant
+ 31307    0  0  0  0  0   120  90         0 23    ; A club yoneese guest attendant
+ 31308    0  0  0  0  0   120  90         0 23    ; A club yoneese guest attendant
+ 31309    0  0  0  0  0   120  90         0 23    ; A club yoneese guest attendant
+ 31310    0  0  0  0  0   120  90         0 23    ; A club yoneese guest attendant
+ 31311    0  0  0  0  0   120  90         0 23    ; A club yoneese guest attendant
+ 31312    0  0  0  0  0   120  90         0 23    ; A club yoneese guest attendant
+ 31313    0  0  0  0  0   120  90         0 23    ; A club yoneese guest attendant
+ 31314    0  0  0  0  0   120  90         0 23    ; A club yoneese guest attendant
+ 31323    0  0  0  0  0   120  90         0 23    ; a xan bartender
+ 31324    0  0  0  0  0   120  90         0 23    ; Julie Alaard
+ 31325    0  0  0  0  0   120  90         0 23    ; a xan bartender
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

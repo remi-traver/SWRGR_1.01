@@ -1,0 +1,5332 @@
+#AREA   Revan the ATOMIC BUILDER's area~
+
+
+
+#AUTHOR Crunch~
+
+#RANGES
+10 30 10 30
+$
+
+#RESETMSG &zChattering fills the air.&W~
+
+#FLAGS
+0
+
+#ECONOMY 0 6542321
+
+#MOBILES
+#24200
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#24201
+Visa officer~
+a visa officer~
+A visa officer is here signing some papers.
+~
+~
+3 0 0 Z
+20 0 50 4d10+200 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 3 1 0
+4 4 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+if mobinroom(24207) >= 1
+mpechoaround $n &b$n has commited a crime and an officer comes and arrests $k .&W
+mpechoat $n &bYou commited a crime and were caught by an officer and he arrests you.&W
+mptransfer $n 24237
+else
+endif
+~
+|
+#24202
+a male citizen~
+A male citizen~
+A male citizen is standing here.
+~
+~
+1 0 0 Z
+18 0 55 3d10+180 1d4+2
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+if mobinroom(24207) >= 1
+mpechoaround $n &b$n has commited a crime and an officer comes and arrests $k .&W
+mpechoat $n &bYou commited a crime and were caught by an officer and he arrests you.&W
+mptransfer $n 24237
+else
+endif
+~
+|
+#24203
+a female citizen~
+a female citizen~
+A female citizen stands here.
+~
+~
+1 0 0 Z
+10 0 75 2d10+100 1d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+if mobinroom(24207) >= 1
+mpechoaround $n &b$n has commited a crime and an officer comes and arrests $k .&W
+mpechoat $n &bYou commited a crime and were caught by an officer and he arrests you.&W
+mptransfer $n 24237
+else
+endif
+~
+|
+#24204
+a security guard~
+a security guard~
+A security guard is standing here.
+~
+~
+3 512 0 Z
+20 0 -100 4d10+500 2d4+50
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 4
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+mpechoat $n the guard says to you "present your &Bstarport visa&C."&W
+~
+> speech_prog p starport visa~
+mpecho the guard mutters
+mpsleep 4
+mpecho the guard says "one may be gotten in the starport visa office in the starport plaza."
+~
+> act_prog p gives you a Starport Visa.~
+mpsleep 2
+give visa $n
+mpe the guard says "everything seems to be in order...head on out."
+mpechoat $n the doors open and you step out
+mpechoaround $n the doors open and $n steps out.
+mptransfer $n 24221
+mpe the doors close.
+~
+|
+#24205
+Beast Wrangler~
+a beast wrangler~
+A beast wrangler is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+if mobinroom(24207) >= 1
+mpechoaround $n &b$n has commited a crime and an officer comes and arrests $k .&W
+mpechoat $n &bYou commited a crime and were caught by an officer and he arrests you.&W
+mptransfer $n 24237
+else
+endif
+~
+|
+#24206
+a security guard~
+a security guard~
+A security guard is standing here.
+~
+~
+3 512 0 Z
+20 0 -100 4d10+500 2d4+50
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 4
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+mpechoat $n the guard says to you "present your starport visa."
+~
+> act_prog p gives you a Starport Visa.~
+mpsleep 2
+give visa $n
+mpe the guard says "everything seems to be in order...head on in."
+mpechoat $n the doors open and you step out
+mpechoaround $n the doors open and $n steps out.
+mptransfer $n 24214
+mpe the doors close.
+~
+|
+#24207
+a police officer~
+a police officer~
+A police officer is patrolling here.
+~
+~
+1 0 0 Z
+18 0 55 3d10+180 1d4+2
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+if mobinroom(24207) >= 1
+mpechoaround $n &b$n has commited a crime and an officer comes and arrests $k .&W
+mpechoat $n &bYou commited a crime and were caught by an officer and he arrests you.&W
+mptransfer $n 24237
+else
+endif
+~
+|
+#24208
+Dek chef droid~
+Dek, the chef droid~
+Dek, the chef droid stands here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+21 0 0 0 3 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+if mobinroom(24207) >= 1
+mpechoaround $n &b$n has commited a crime and an officer comes and arrests $k .&W
+mpechoat $n &bYou commited a crime and were caught by an officer and he arrests you.&W
+mptransfer $n 24237
+else
+endif
+~
+|
+#24209
+a mandalorian merchant~
+A Mandalorian Merchant~
+A Mandalorian Merchant sits here, selling various items.
+~
+~
+184680515 0 0 Z
+30 0 25 6d10+300 3d4+2
+0 0
+8 8 1
+25 25 25 25 25 25 10
+0 0 0 0 0
+40 0 0 0 3 0 4
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+if mobinroom(24207) >= 1
+mpechoaround $n &b$n has commited a crime and an officer comes and arrests $k .&W
+mpechoat $n &bYou commited a crime and were caught by an officer and he arrests you.&W
+mptransfer $n 24237
+else
+endif
+~
+|
+#24210
+Czerka corporation m-934 merchant droid~
+czerka corporation M-934 merchant droid~
+A czerka corporation M-934 merchant droid is standing here
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 3 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+if mobinroom(24207) >= 1
+mpechoaround $n &b$n has commited a crime and an officer comes and arrests $k .&W
+mpechoat $n &bYou commited a crime and were caught by an officer and he arrests you.&W
+mptransfer $n 24237
+else
+endif
+~
+|
+#24211
+arlaya~
+Arlaya~
+Arlaya is standing here.
+~
+~
+167772163 0 0 Z
+20 0 50 4d10+200 2d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 3 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+if mobinroom(24207) >= 1
+mpechoaround $n &b$n has commited a crime and an officer comes and arrests $k .&W
+mpechoat $n &bYou commited a crime and were caught by an officer and he arrests you.&W
+mptransfer $n 24237
+else
+endif
+~
+|
+#24212
+a jawa pawn broker~
+A Jawa pawn broker~
+A Jawa pawn broker sits behind the counter here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+300 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 2 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+if mobinroom(24207) >= 1
+mpechoaround $n &b$n has commited a crime and an officer comes and arrests $k .&W
+mpechoat $n &bYou commited a crime and were caught by an officer and he arrests you.&W
+mptransfer $n 24237
+else
+endif
+~
+|
+#24213
+Jamorg~
+Jamorg~
+Jamorg is standing here.
+~
+~
+169869315 0 0 Z
+20 0 50 4d10+200 2d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 3 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> act_prog p gives you a small boma ear.~
+mpecho &YJamorg says "Congratulations here is the bounty."&W
+mpadvance $n 3 1000
+mpechoat $n &CYou gain 1000 XP in Bounty Hunting!!&W
+mpwithdraw 150
+give 150 credits $n
+drop ear
+mppurge ear
+mpechoat $n you recieve 150 credits for your bounty.
+~
+> act_prog p gives you a large boma ear.~
+mpecho &YJamorg says "Congratulations here is the bounty."&W
+mpadvance $n 3 1300
+mpechoat $n &CYou gain 1300 XP in Bounty Hunting!!&W
+mpwithdraw 450
+give 450 credits $n
+drop ear
+mppurge ear
+mpechoat $n you recieve 450 credits for your bounty.
+~
+> act_prog p gives you a drexl tail.~
+mpecho &YJamorg says "Congratulations here is the bounty."&W
+mpadvance $n 3 600
+mpechoat $n &CYou gain 600 XP in Bounty Hunting!!&W
+mpwithdraw 50
+give 50 credits $n
+drop tail
+mppurge tail
+mpechoat $n you recieve 50 credits for your bounty.
+~
+> act_prog p gives you a zekkeg horn.~
+mpecho &YJamorg says "Congratulations here is the bounty."&W
+mpadvance $n 3 9000
+mpechoat $n &CYou gain 9000 XP in Bounty Hunting!!&W
+mpwithdraw 6000
+give 6000 credits $n
+drop tail
+mpechoat $n you recieve 6000 credits for your bounty.
+mppurge horn
+~
+> act_prog p gives you a maalraas claw.~
+mpecho &YJamorg says "Congratulations here is the bounty."&W
+mpadvance $n 3 1100
+mpechoat $n &CYou gain 1100 XP in Bounty Hunting!!&W
+mpwithdraw 250
+give 250 credits $n
+drop tail
+mpechoat $n you recieve 250 credits for your bounty.
+mppurge maalraas
+~
+|
+#24214
+female shopkeeper~
+female shopkeeper~
+A female shopkeeper is standing here.
+~
+~
+167772163 0 0 Z
+20 0 50 4d10+200 2d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 3 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+if mobinroom(24207) >= 1
+mpechoaround $n &b$n has commited a crime and an officer comes and arrests $k .&W
+mpechoat $n &bYou commited a crime and were caught by an officer and he arrests you.&W
+ mptransfer $n 24237
+else
+endif
+~
+|
+#24215
+1B-8D Merchant Droid~
+1B-8D merchant droid~
+An antique 1B-8D merchant droid stands here idle.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 3 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#24216
+Czerka corporation m-934 merchant droid ~
+czerka corporation M-934 merchant droid~
+A czerka corporation M-934 merchant droid is standing here
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 3 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#24217
+a supply droid~
+A Supply Droid~
+A Supply Droid stands here.
+~
+~
+16908355 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+21 0 0 0 3 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#24218
+Female twi'lek Dancer~
+Female Twi'lek Dancer~
+A beautiful female twi'lek dancer is dancing here.
+~
+~
+3 0 0 Z
+20 0 50 4d10+200 2d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> rand_prog 10~
+mpecho &GThe twi'lek dancer rubs her perfect breasts with the pole.&W
+mpat 24371 &GThe twi'lek dancer rubs her perfect breasts with the pole.&W
+~
+> rand_prog 10~
+mpecho &GThe twi'lek dancer turns and plays with her own behind.&W
+mpat 24371 &GThe twi'lek dancer turns and plays with her own behind.&W
+~
+> rand_prog 10~
+mpecho &GThe twi'lek dancer lays on her back and sucks on one of her head tails while playing with the other one.&W
+mpat 24371 &GThe twi'lek dancer lays on her back and sucks on one of her head tails while playing with the other one.&W
+~
+> rand_prog 10~
+mpecho &GThe twi'lek dancer rubs the pole with her right hand while shaking her behind into the audience.&W
+mpat 24371 &GThe twi'lek dancer rubs the pole with her right hand while shaking her behind into the audience.&W
+~
+> rand_prog 10~
+mpecho &GThe twi'lek dancer massages her breasts while dancing around the pole.&W
+mpat 24371 &GThe twi'lek dancer massages her breasts while dancing around the pole.&W
+~
+> rand_prog 10~
+&GThe twi'lek dancer takes off a small piece of her clothing.&W
+mpat 24371 &GThe twi'lek dancer takes off a small piece of her clothing.&W
+~
+> rand_prog 10~
+mpecho &GThe twi'lek dancer prances off the stage and dances in the audience.&W
+mpat 24371 &GThe twi'lek dancer prances off the stage and dances in the audience.&W
+~
+> rand_prog 10~
+mpecho &GThe twi'lek dancer gets on her hands and knees and crawls about.&W
+mpat 24371 &GThe twi'lek dancer gets on her hands and knees and crawls about.&W
+~
+> rand_prog 10~
+mpecho &GThe twi'lek dancer lays her back against the pole and slowly moves up and down it.&W
+mpat 24371 &GThe twi'lek dancer lays her back against the pole and slowly moves up and down it.&W
+~
+> rand_prog 10~
+mpecho &GThe twi'lek dancer shakes her head tails about.&W
+mpat 24371 &GThe twi'lek dancer shakes her head tails about.&W
+~
+|
+#24219
+female zeltron dancer~
+a zeltron female~
+A shockingly beautiful zeltron female is dancing here.
+~
+~
+3 0 0 Z
+20 0 50 4d10+200 2d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> rand_prog 10~
+mpsleep 3
+mpecho &RThe zeltron dancer dances over to the twi'lek dancer and kisses her
+~
+> rand_prog 10~
+mpsleep 3
+mpecho &RThe zeltron dancer jumps on the pole and slides down legs extended.
+~
+> rand_prog 10~
+mpsleep 3
+mpecho &RThe zeltron dancer grabs the twi'lek's dancers hands and forces her to rub her own breasts.
+~
+> rand_prog 10~
+mpsleep 3
+mpecho &RThe zeltron dancer takes off a piece of her clothing.
+~
+> rand_prog 10~
+mpsleep 3
+mpecho &RThe zeltron dancer climbs over top the twi'lek and plays with her head tails.
+~
+> rand_prog 10~
+mpsleep 3
+mpecho &RThe zeltron dancer moves her hands along her body as she dances around the pole.
+~
+> rand_prog 10~
+mpsleep 3
+mpecho &RThe zeltron dancer steps off stage and takes her top off and continues to dance then places it back on.
+~
+> rand_prog 10~
+mpsleep 3
+mpecho &RThe zeltron dancer gets on her hands and knees and crawls on the stage.
+~
+> rand_prog 10~
+mpsleep 3
+mpecho &RThe zeltron dancer grabs the pole and sticks her breasts around the pole and extending her behind out towards the audience.
+~
+> rand_prog 10~
+mpsleep 3
+mpecho &RThe zeltron dancer moves close to the twi'lek dancer and slowly caress her body with her own hands.
+~
+|
+#24220
+A chiss Bartender~
+A chiss bartender~
+A chiss bartender is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+25 10 10 10 10 10 10
+0 0 0 0 0
+21 0 0 0 3 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#24499
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#24200
+first obj~
+a first obj~
+A first obj is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#24201
+a Starport Visa~
+a Starport visa~
+A visa is laying here.~
+~
+18 8192 1
+0 0 0 0
+1 4000 400
+#24202
+a small packaged ration~
+a small packaged ration~
+A packaged ration is here, waiting to be eaten.~
+~
+19 8192 1
+20 20 0 0
+2 5 0
+#24203
+A large plate of brot-ribs~
+A large plate of Brot-ribs~
+A large plate of Brot-ribs will surely go bad if it is not eaten~
+~
+19 0 1
+20 20 0 0
+1 26 2
+#24204
+A bowl of likryt stew~
+a bowl of likryt stew~
+A bowl of likryt stew is here.~
+~
+19 8192 1
+20 20 0 0
+2 45 4
+#24205
+a piece of air cake~
+a piece of air cake~
+A piece of air cake is here.~
+~
+19 8192 1
+20 20 0 0
+2 40 4
+#24206
+a Large plate of braised bruallki~
+a Large plate of braised bruallki~
+A Large plate of braised bruallki is here.~
+~
+19 8192 1
+20 20 0 0
+2 24 2
+#24207
+a plate of Ladnek~
+a plate of Ladnek~
+A plate of Ladnek is here.~
+~
+19 8192 1
+20 20 0 0
+2 40 4
+#24208
+a para-roll~
+a para-roll~
+A para-roll is here.~
+~
+19 8192 1
+20 20 0 0
+2 20 2
+#24209
+Smugglers pie~
+a piece of Smugglers pie~
+A piece of Smugglers pie is here.~
+~
+19 8192 1
+20 20 0 0
+2 10 1
+#24210
+a wrist comlink~
+A Wrist Comlink~
+A Wrist Comlink has been left here.~
+~
+72 8192 4097
+0 0 0 0
+1 250 25
+#24211
+a comlink earpiece~
+A Comlink Earpiece~
+A small earpiece has been left here.~
+~
+72 8192 65537
+0 0 0 0
+1 300 30
+#24212
+a helmet with built in comlink~
+a helmet with built in comlink~
+A helmet with built in comlink is here.~
+~
+72 8192 17
+0 0 0 0
+1 1000 100
+A
+17 -15
+#24213
+Communications Headset~
+a Communications Headset~
+A Communications Headset is here.~
+~
+72 8192 17
+0 0 0 0
+1 650 65
+#24214
+a comlink~
+a comlink~
+A comlink was left here~
+~
+72 0 16385
+0 0 0 0
+1 30 3
+#24215
+durasteel gloves~
+&G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CG&cl&Co&cv&Ce&cs&w~
+A Pair of &G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CG&cl&Co&cv&Ce&cs&w was left here~
+~
+9 8192 129 8
+20 20 0 0
+2 20 2
+A
+18 1
+A
+18 1
+A
+19 1
+#24216
+durasteel body vest~
+&G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CB&co&Cd&cy&C &cV&Ce&cs&Ct&w~
+A &G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CB&co&Cd&cy&C &cV&Ce&cs&Ct&w was left here~
+~
+9 8192 9 8
+20 20 0 0
+2 20 2
+A
+18 1
+A
+19 1
+A
+18 1
+A
+19 1
+A
+18 1
+A
+19 1
+#24217
+durasteel helmet~
+&G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CH&ce&Cl&cm&Ce&ct&w~
+A &G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CH&ce&Cl&cm&Ce&ct&w was left here~
+~
+9 8192 17 8
+20 20 0 0
+2 20 2
+A
+18 1
+A
+19 1
+#24218
+durasteel boots~
+&G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CB&co&Co&ct&Cs&w~
+A pair of &G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CB&co&Co&ct&Cs&w were left here~
+~
+9 8192 65 8
+20 20 0 0
+2 20 2
+A
+18 1
+A
+19 1
+#24219
+durasteel belt~
+&G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CB&ce&Cl&ct&w~
+A &G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CB&ce&Cl&ct&w were left here~
+~
+9 8192 2049 8
+20 20 0 0
+2 20 2
+A
+18 1
+A
+19 1
+#24220
+durasteel sleeves~
+&G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CS&cl&Ce&ce&Cv&ce&Cs&w~
+Some &G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CS&cl&Ce&ce&Cv&ce&Cs&w were left here~
+~
+9 8192 257 8
+20 20 0 0
+2 20 2
+A
+18 1
+A
+19 1
+#24221
+durasteel pants~
+&G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CP&ca&Cn&ct&Cs&w~
+Some &G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CP&ca&Cn&ct&Cs&w were left here~
+~
+9 8192 33 8
+20 20 0 0
+2 20 2
+A
+18 1
+A
+19 1
+A
+18 1
+A
+19 1
+A
+18 1
+A
+19 1
+#24222
+durasteel cape~
+&G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CC&ca&Cp&ce&w~
+A &G&CD&cu&Cr&ca&Cs&ct&Ce&ce&Cl&c &CC&ca&Cp&ce&w was left here~
+~
+9 8192 1025 8
+20 20 0 0
+2 20 2
+A
+18 1
+A
+19 1
+#24223
+a medkit~
+a Medkit~
+A Medkit is here.~
+~
+73 8192 16385
+10 10 10 0
+1 10 1
+#24224
+a morphine pill~
+a morphine pill~
+A small blue pill is laying here.~
+~
+26 8192 16385
+0 -1 -1 -1
+1 2000 200
+> use_prog 100~
+mpechoat $n you took a morphine pill.
+mpechoaround $n $n took a morphine pill and the pain dulls.
+mprestore $n 150
+~
+|
+#24225
+300 credits~
+300 credits~
+Some credits are lying here.~
+~
+20 0 1
+300 0 0 0
+1 0 0
+#24226
+250 credits~
+250 credits~
+Some credits are lying here.~
+~
+20 0 1
+250 0 0 0
+1 0 0
+#24227
+200 credits  ~
+200 credits  ~
+Some credits are lying here.~
+~
+20 0 1
+200 0 0 0
+1 0 0
+#24228
+150 credits  ~
+150 credits  ~
+Some credits are lying here.~
+~
+20 0 1
+150 0 0 0
+1 0 0
+#24229
+100 credits  ~
+100 credits  ~
+Some credits are lying here.~
+~
+20 0 1
+100 0 0 0
+1 0 0
+#24230
+50 credits~
+50 credits  ~
+Some credits are lying here.~
+~
+20 0 1
+50 0 0 0
+1 0 0
+#24231
+6000 credits~
+6000 credits~
+Some credits are lying here.~
+~
+20 0 1
+6000 0 0 0
+1 0 0
+#24232
+Green bladed lightsaber~
+a Green bladed lightsaber~
+A Green bladed lightsaber is here.~
+~
+80 8192 8193
+0 0 0 236
+1 10 1
+> wear_prog 100~
+mpechoaround $n $n presses a button and a green plastic blade shoots out. 
+mpechoat $n you press a button and a green plastic blade shoots up.
+mpechoat $n the sound of a lightsaber idling is emitted from the lightsaber.
+mpechoaround $n the sound of a lightsaber idling is emitted from $n's lightsaber.
+~
+> remove_prog 100~
+mpechoat $n you press the blade back into the hilt and the sound stops.
+mpechoaround $n $n presses the blade back into the hilt and the sound stops.
+~
+|
+#24233
+Red bladed lightsaber~
+a red bladed lightsaber~
+A lightsaber hilt lays here.~
+~
+80 8192 8193
+0 0 0 236
+1 10 1
+> wear_prog 100~
+mpechoaround $n $n presses a button and a red plastic blade shoots out. 
+mpechoat $n you press a button and a red plastic blade shoots up.
+mpechoat $n the sound of a lightsaber idling is emitted from the lightsaber.
+mpechoat $n the sound of a lightsaber idling is emitted from the lightsaber.
+~
+> remove_prog 100~
+mpechoat $n you press the blade back into the hilt and the sound stops.
+mpechoaround $n $n presses the blade back into the hilt and the sound stops.
+~
+|
+#24234
+Blue bladed lightsaber~
+a blue bladed lightsaber~
+A Green bladed lightsaber is here.~
+~
+80 8192 8193
+0 0 0 236
+1 10 1
+> wear_prog 100~
+mpechoaround $n $n presses a button and a blue plastic blade shoots out.
+mpechoat $n you press a button and a blue plastic blade shoots up.
+mpechoat $n the sound of a lightsaber idling is emitted from the lightsaber.
+mpechoaround $n the sound of a lightsaber idling is emitted from $n's lightsaber.
+~
+> remove_prog 100~
+mpechoat $n you press the blade back into the hilt and the sound stops.
+mpechoaround $n $n presses the blade back into the hilt and the sound stops. 
+~
+|
+#24236
+Diatium Plating~
+Diatium Plating~
+A piece of Diatium Plating is here.~
+~
+9 8192 526841 32
+20 20 0 0
+1 53000 5300
+> wear_prog 100~
+if race($n) == protocol droid
+else
+if race($n) == assassin droid
+else
+if race($n) == astromech droid
+else
+if race($n) == intera droid
+else
+if race($n) == gladiator droid
+else
+mpechoat $n &R that armor is ment for a droid
+mpechoaround $n $n tries to wear droid gear and isn't a droid.
+mpforce $n remove Droid
+endif
+endif
+endif
+endif
+endif
+~
+|
+#24237
+Energized Armor Mark I~
+Energized Armor Mark I~
+A piece of Energized Armor Mark I is here.~
+~
+9 8192 526841 32
+17 17 0 0
+1 52000 5200
+> wear_prog 100~
+if race($n) == protocol droid
+else
+if race($n) == assassin droid
+else
+if race($n) == astromech droid
+else
+if race($n) == intera droid
+else
+if race($n) == gladiator droid
+else
+mpechoat $n &R that armor is ment for a droid
+mpechoaround $n $n tries to wear droid gear and isn't a droid.
+mpforce $n remove Droid
+endif
+endif
+endif
+endif
+endif
+~
+|
+#24238
+Energized Armor Mark II ~
+Energized Armor Mark II  ~
+A piece of Energized Armor Mark II is here. ~
+~
+9 8192 526841 32
+14 14 0 0
+1 32000 3200
+> wear_prog 100~
+if race($n) == protocol droid
+else
+if race($n) == assassin droid
+else
+if race($n) == astromech droid
+else
+if race($n) == intera droid
+else
+if race($n) == gladiator droid
+else
+mpechoat $n &R that armor is ment for a droid
+mpechoaround $n $n tries to wear droid gear and isn't a droid.
+mpforce $n remove Droid
+endif
+endif
+endif
+endif
+endif
+~
+|
+#24239
+Impact Armor Mark II~
+Impact Armor Mark II~
+A piece of Impact Armor Mark II is here.~
+~
+9 8192 526841 32
+13 13 0 0
+1 23000 2300
+> wear_prog 100~
+if race($n) == protocol droid
+else
+if race($n) == assassin droid
+else
+if race($n) == astromech droid
+else
+if race($n) == intera droid
+else
+if race($n) == gladiator droid
+else
+mpechoat $n &R that armor is ment for a droid
+mpechoaround $n $n tries to wear droid gear and isn't a droid.
+mpforce $n remove Droid
+endif
+endif
+endif
+endif
+endif
+~
+|
+#24240
+Impact Armor Mark III~
+Impact Armor Mark III~
+A piece of Impact Armor Mark III is here.~
+~
+9 8192 526841 32
+15 15 0 0
+1 35000 3500
+> wear_prog 100~
+if race($n) == protocol droid
+else
+if race($n) == assassin droid
+else
+if race($n) == astromech droid
+else
+if race($n) == intera droid
+else
+if race($n) == gladiator droid
+else
+mpechoat $n &R that armor is ment for a droid
+mpechoaround $n $n tries to wear droid gear and isn't a droid.
+mpforce $n remove Droid
+endif
+endif
+endif
+endif
+endif
+~
+|
+#24241
+Modular Plating Mark II ~
+Modular Plating Mark II~
+A piece of Modular Plating Mark II is here.~
+~
+9 8192 526841 32
+9 9 0 0
+1 10000 1000
+> wear_prog 100~
+if race($n) == protocol droid
+else
+if race($n) == assassin droid
+else
+if race($n) == astromech droid
+else
+if race($n) == intera droid
+else
+if race($n) == gladiator droid
+else
+mpechoat $n &R that armor is ment for a droid
+mpechoaround $n $n tries to wear droid gear and isn't a droid.
+mpforce $n remove Droid
+endif
+endif
+endif
+endif
+endif
+~
+|
+#24242
+Droid Defense Barrier~
+a Droid Defense Barrier~
+A Droid Defense Barrier is here.~
+~
+9 8192 513
+40 40 0 0
+1 20000 2000
+> wear_prog 100~
+if race($n) == protocol droid
+else
+if race($n) == assassin droid
+else
+if race($n) == astromech droid
+else
+if race($n) == intera droid
+else
+if race($n) == gladiator droid
+else
+mpechoat $n &R that armor is ment for a droid
+mpechoaround $n $n tries to wear droid gear and isn't a droid.
+mpforce $n remove Droid
+endif
+endif
+endif
+endif
+endif
+~
+|
+#24243
+Droid Deflector Mark I ~
+a Droid Deflector Mark I ~
+A Droid Deflector Mark I  is here.~
+~
+9 8192 513
+40 40 0 0
+1 25000 2500
+> wear_prog 100~
+if race($n) == protocol droid
+else
+if race($n) == assassin droid
+else
+if race($n) == astromech droid
+else
+if race($n) == intera droid
+else
+if race($n) == gladiator droid
+else
+mpechoat $n &R that armor is ment for a droid
+mpechoaround $n $n tries to wear droid gear and isn't a droid.
+mpforce $n remove Droid
+endif
+endif
+endif
+endif
+endif
+~
+|
+#24244
+Droid Deflector Mark III ~
+a Droid Deflector Mark III~
+A Droid Deflector Mark III is here.~
+~
+9 8192 513
+85 85 0 0
+1 52143 5214
+> wear_prog 100~
+if race($n) == protocol droid
+else
+if race($n) == assassin droid
+else
+if race($n) == astromech droid
+else
+if race($n) == intera droid
+else
+if race($n) == gladiator droid
+else
+mpechoat $n &R that armor is ment for a droid
+mpechoaround $n $n tries to wear droid gear and isn't a droid.
+mpforce $n remove Droid
+endif
+endif
+endif
+endif
+endif
+~
+|
+#24245
+Primary Weapon Module~
+a Primary Weapon Module~
+A Primary Weapon Module is here.~
+~
+90 0 1
+1 1 0 0
+1 10000 1000
+#24246
+Secondary Weapon Module~
+A Secondary Weapon Module~
+A secondary weapon module is laying here.~
+~
+90 0 1
+2 1 0 0
+1 10000 1000
+#24247
+Hyperspeed Module~
+A Hyperspeed Module~
+A hyperspeed module is here.~
+~
+90 0 1
+9 1 0 0
+1 10000 1000
+#24248
+a small circuit~
+a small circuit~
+A small circuit was left here~
+~
+70 0 1
+0 0 0 0
+1 5 0
+#24249
+a lens~
+a lens~
+A lens was dropped here~
+~
+62 0 1
+0 0 0 0
+1 5 0
+#24250
+a superconductor~
+a superconductor~
+A superconductor was dropped here~
+~
+71 0 1
+0 0 0 0
+1 5 0
+#24251
+an advanced power cell~
+an advanced power cell~
+An advanced power cell is here~
+~
+65 8192 16385
+5000 0 0 0
+1 20 2
+#24252
+an ammo cell~
+a ammo cell~
+A ammo cell is here.~
+~
+57 8192 16385
+1000 0 0 0
+1 30 3
+#24253
+a glass of fox beer~
+a glass of fox beer~
+A glass of fox beer is here.~
+~
+17 8192 16385
+2 2 1 0
+1 12 1
+> use_prog 100~
+mpechoat $n you drink some fox beer.
+mpechoaround $n $n drinks some fox beer.
+~
+|
+#24254
+Black Brandy~
+a large bottle of Black Brandy~
+A large bottle of Black Brandy is here.~
+~
+17 8192 16385
+5 5 7 0
+1 76 7
+> use_prog 100~
+mpechoaround $n $n drinks some black brandy.
+mpechoat $n you drink some black brandy.
+~
+|
+#24255
+Gav~
+a large glass of Gav~
+A large glass of Gav is laying here.~
+~
+17 8192 16385
+2 2 8 0
+1 56 5
+> use_prog 100~
+mpechoaround $n $n drinks some Gav.
+mpechoat $n you drink some Gav.
+~
+|
+#24256
+Gruvian Tovash~
+A small glass of Gruvian Tovash~
+A small glass of Gruvian Tovash~
+~
+17 8192 16385
+2 2 5 0
+1 126 12
+> use_prog 100~
+mpechoaround $n $n drinks some Gruvian Tovash.
+mpechoat $n you drink some Gruvian Tovash.
+~
+|
+#24257
+Halmad Prime~
+a large bottle of Halmad Prime~
+A large bottle of Halmad Prime is here.~
+~
+17 8192 16385
+4 4 8 0
+1 26 2
+> use_prog 100~
+mpechoaround $n $n drinks some Halmad Prime.
+mpechoat $n you drink some Halmad Prime.
+~
+|
+#24258
+Isothane~
+a small flagon of Isothane~
+A small flagon of Isothane is laying here.~
+~
+17 8192 16385
+2 2 5 0
+1 23 2
+#24259
+Merenzane Gold~
+a small glass of Merenzane Gold~
+A small glass of Merenzane Gold is here.~
+~
+17 8192 16385
+2 2 4 0
+1 90 9
+> use_prog 100~
+mpechoaround $n $n drinks some Merenzane Gold.
+mpechoat $n you drink some Merenzane Gold.
+~
+|
+#24260
+Meltdown~
+a small glass containing a "Meltdown"~
+A small glass containing a "Meltdown" is here.~
+~
+17 8192 16385
+2 2 2 0
+1 12 1
+> use_prog 100~
+mpechoaround $n $n drinks some of their Meltdown.
+mpechoat $n you drink some of your Meltdown.
+~
+|
+#24261
+Raava~
+a small flagon of Raava~
+A small flagon of Raava is laying here.~
+~
+17 8192 16385
+2 2 8 0
+1 63 6
+> use_prog 100~
+mpechoaround $n $n drinks some Raava.
+mpechoat $n you drink some Raava.
+~
+|
+#24262
+Ravva~
+a large flagon of Ravva~
+A large flagon of Ravva is laying here.~
+~
+17 8192 16385
+5 5 3 0
+1 76 7
+> use_prog 100~
+mpechoaround $n $n drinks some Ravva.
+mpechoat $n you drink some Ravva.
+~
+|
+#24263
+Red Dwarf~
+a small glass containing a "Red Dwarf"~
+A small glass containing a "Red Dwarf" is here.~
+~
+17 8192 16385
+2 2 8 0
+1 39 3
+> use_prog 100~
+mpechoaround $n $n drinks some of their red dwarf.
+mpechoat $n you drink some of your red dwarf.
+~
+|
+#24264
+Tatooine Sunburn~
+A glass containing a "Tatooine Sunburn"~
+A glass containing a "Tatooine Sunburn" is here.~
+~
+17 8192 16385
+2 2 4 0
+1 34 3
+> use_prog 100~
+mpechoaround $n $n drinks some of their Tatooine Sunburn.
+mpechoat $n you drink some of your Tatooine Sunburn.
+~
+|
+#24265
+tears of the night~
+A small glass containing "Tears of the Night"~
+A small glass containing "Tears of the Night" is here.~
+~
+17 8192 16385
+2 2 5 0
+1 56 5
+> use_prog 100~
+mpechoaround $n $n drinks some of their Tears of the Night.
+mpechoat $n you drink some of your Tears of the Night.
+~
+|
+#24266
+Onderian Wine~
+a large bottle of Onderian Wine~
+A large bottle of Onderian Wine is here.~
+~
+17 8192 16385
+5 5 2 0
+1 150 15
+> use_prog 100~
+mpechoaround $n $n drinks some Onderian Wine.
+mpechoat $n you drink some Onderian Wine.
+~
+|
+#24499
+last obj~
+a last obj~
+A last obj is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#24200
+Floating in a void~
+~
+0 4 1 0 0 0 3696
+S
+#24201
+North Landing Pad~
+The large pad can accomendate many starships. a large platform
+in the middle of the bay holds fuel lines and several technician
+droids ready to aid anyone who needs a hand. Several ships can
+be seen loading or unloading cargo and clearing it with customs.
+small mechanical droids move about here looking for messes to
+clean up.
+~
+0 1073741880 1 4100 0 0 3696
+D8
+~
+~
+0 -1 24202 0
+R M 0 24202 181 24201
+R M 0 24203 225 24201
+R M 0 24203 225 24201
+S
+#24202
+&CIziz Spaceport Plaza&W~
+The plaza is wide open and is surrounded by high durasteel walls.Many
+civilians move about the plaza conversing and welcoming new
+arrivals. A large statue dedicated to a unknown jedi knight
+stands in the middle of the plaza. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24220 0
+D1
+~
+~
+0 -1 24219 0
+D2
+~
+~
+0 -1 24203 0
+D6
+~
+~
+0 -1 24218 0
+D7
+~
+~
+0 -1 24201 0
+R M 0 24202 181 24202
+R M 0 24203 225 24202
+R M 0 24203 225 24202
+S
+#24203
+&CIziz Spaceport Plaza&W~
+The plaza is wide open and is surrounded by high durasteel walls.Many
+civilians move about the plaza conversing and welcoming new
+arrivals. A large statue dedicated to a unknown jedi knight
+stands in the middle of the plaza. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24202 0
+D2
+~
+~
+0 -1 24204 0
+R M 0 24202 181 24203
+R M 0 24203 225 24203
+R M 0 24202 181 24203
+S
+#24204
+&CIziz Spaceport Plaza&W~
+The plaza is wide open and is surrounded by high durasteel walls.Many
+civilians move about the plaza conversing and welcoming new
+arrivals. A large statue dedicated to a unknown jedi knight
+stands in the middle of the plaza. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24203 0
+D1
+~
+~
+0 -1 24206 0
+D8
+~
+~
+0 -1 24207 0
+D9
+~
+~
+0 -1 24205 0
+S
+#24205
+South Landing Pad~
+The large pad can accomendate many starships. a large platform
+in the middle of the bay holds fuel lines and several technician
+droids ready to aid anyone who needs a hand. Several ships can
+be seen loading or unloading cargo and clearing it with customs.small
+mechanical droids move about here looking for messes to clean
+up.
+~
+0 1073741880 1 4096 0 0 3696
+D6
+~
+~
+0 -1 24204 0
+R M 0 24203 225 24205
+R M 0 24203 225 24205
+R M 0 24202 181 24205
+R M 0 24202 181 24205
+R M 0 24203 225 24205
+S
+#24206
+&CIziz Spaceport Plaza&W~
+The plaza is wide open and is surrounded by high durasteel walls.Many
+civilians move about the plaza conversing and welcoming new
+arrivals. A large statue dedicated to a unknown jedi knight
+stands in the middle of the plaza. 
+~
+0 1073741824 1 0 0 0 3696
+D1
+~
+~
+0 -1 24208 0
+D2
+~
+~
+0 -1 24207 0
+D3
+~
+~
+0 -1 24204 0
+D8
+~
+~
+0 -1 24209 0
+R M 0 24203 225 24206
+R M 0 24202 181 24206
+R M 0 24202 181 24206
+R M 0 24202 181 24206
+R M 0 24202 181 24206
+S
+#24207
+&CIziz Spaceport Plaza&W~
+The plaza is wide open and is surrounded by high durasteel walls.Many
+civilians move about the plaza conversing and welcoming new
+arrivals. A large statue dedicated to a unknown jedi knight
+stands in the middle of the plaza. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24206 0
+D1
+~
+~
+0 -1 24209 0
+D2
+~
+~
+0 -1 24208 0
+D6
+~
+~
+0 -1 24208 0
+D7
+~
+~
+0 -1 24204 0
+R M 0 24203 225 24207
+R M 0 24203 225 24207
+R M 0 24203 225 24207
+R M 0 24203 225 24207
+S
+#24208
+&CIziz Spaceport Plaza&W~
+The plaza is wide open and is surrounded by high durasteel walls.Many
+civilians move about the plaza conversing and welcoming new
+arrivals. A large statue dedicated to a unknown jedi knight
+stands in the middle of the plaza. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24207 0
+D1
+~
+~
+0 -1 24210 0
+D2
+~
+~
+0 -1 24209 0
+D3
+~
+~
+0 -1 24206 0
+D9
+~
+~
+0 -1 24207 0
+R M 0 24202 181 24208
+R M 0 24202 181 24208
+R M 0 24202 181 24208
+R M 0 24203 225 24208
+S
+#24209
+&CIziz Spaceport Plaza&W~
+The plaza is wide open and is surrounded by high durasteel walls.Many
+civilians move about the plaza conversing and welcoming new
+arrivals. A large statue dedicated to a unknown jedi knight
+stands in the middle of the plaza. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24208 0
+D3
+~
+~
+0 -1 24207 0
+D6
+~
+~
+0 -1 24210 0
+D7
+~
+~
+0 -1 24206 0
+R M 0 24205 1 24209
+R M 0 24203 225 24209
+R M 0 24203 225 24209
+S
+#24210
+&CIziz Spaceport Plaza&W~
+The plaza is wide open and is surrounded by high durasteel walls.Many
+civilians move about the plaza conversing and welcoming new
+arrivals. A large statue dedicated to a unknown jedi knight
+stands in the middle of the plaza. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24211 0
+D3
+~
+~
+0 -1 24208 0
+D9
+~
+~
+0 -1 24209 0
+R M 0 24203 225 24210
+R M 0 24202 181 24210
+S
+#24211
+&CIziz Spaceport Plaza&W~
+The plaza is wide open and is surrounded by high durasteel walls.
+Many civilians move about the plaza conversing and welcoming
+new arrivals. A large statue dedicated to a unknown jedi knight
+stands in the middle of the plaza. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24215 0
+D1
+~
+~
+0 -1 24212 0
+D2
+~
+~
+0 -1 24210 0
+R M 0 24202 181 24211
+S
+#24212
+&C Large Open Corridor&W~
+This corridor cuts between the two halves of the starport plaza's
+wall. Walls several meters tall prevent most accidents and can
+withstand significant abuse. Large crowds of citizens are moving
+through here. 
+~
+0 1073741824 1 0 0 0 3696
+D3
+~
+~
+0 -1 24211 0
+D6
+~
+~
+0 -1 24213 0
+R M 0 24202 181 24212
+R M 0 24203 225 24212
+S
+#24213
+&C Large Open Corridor&W~
+This corridor cuts between the two halves of the starport plaza's
+wall. Walls several meters tall prevent most accidents and can
+withstand significant abuse. Large crowds of citizens are moving
+through here. 
+~
+0 1073741824 1 0 0 0 3696
+D6
+~
+~
+0 -1 24214 0
+D9
+~
+~
+0 -1 24212 0
+R M 0 24202 181 24213
+R M 0 24202 181 24213
+R M 0 24203 225 24213
+S
+#24214
+&gSpaceport Checkpoint&W~
+A large blastdoor blocks the way northeastward. a lone guard
+stands here looking at somesort of card and allowing some of
+the citizens to pass. the sky can be seen overhead as there
+is no roof.
+~
+0 1073741828 1 0 0 0 3696
+D9
+~
+~
+0 -1 24213 0
+R M 0 24204 1 24214
+R M 0 23115 2 24214
+R M 0 23115 2 24214
+S
+#24215
+&CIziz Spaceport Plaza&W~
+The plaza is wide open and is surrounded by high durasteel walls.Many
+civilians move about the plaza conversing and welcoming new
+arrivals. A large statue dedicated to a unknown jedi knight
+stands in the middle of the plaza. 
+~
+0 1073741824 1 0 0 0 3696
+D2
+~
+~
+0 -1 24211 0
+D3
+~
+~
+0 -1 24217 0
+D7
+~
+~
+0 -1 24216 0
+R M 0 24203 225 24215
+S
+#24216
+&CIziz Spaceport Plaza&W~
+The plaza is wide open and is surrounded by high durasteel walls.Many
+civilians move about the plaza conversing and welcoming new
+arrivals. A large statue dedicated to a unknown jedi knight
+stands in the middle of the plaza. 
+~
+0 1073741824 1 0 0 0 3696
+D2
+~
+~
+0 -1 24217 0
+D3
+~
+~
+0 -1 24218 0
+D8
+~
+~
+0 -1 24215 0
+D9
+~
+~
+0 -1 24219 0
+R M 0 24202 181 24216
+R M 0 24203 225 24216
+R M 0 24202 181 24216
+R M 0 24202 181 24216
+R M 0 24203 225 24216
+S
+#24217
+&CIziz Spaceport Plaza&W~
+The plaza is wide open and is surrounded by high durasteel walls.Many
+civilians move about the plaza conversing and welcoming new
+arrivals. A large statue dedicated to a unknown jedi knight
+stands in the middle of the plaza. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24216 0
+D1
+~
+~
+0 -1 24215 0
+D3
+~
+~
+0 -1 24219 0
+D7
+~
+~
+0 -1 24218 0
+R M 0 24203 225 24217
+R M 0 24203 225 24217
+R M 0 24203 225 24217
+R M 0 24202 181 24217
+S
+#24218
+&CIziz Spaceport Plaza&W~
+The plaza is wide open and is surrounded by high durasteel walls.Many
+civilians move about the plaza conversing and welcoming new
+arrivals. A large statue dedicated to a unknown jedi knight
+stands in the middle of the plaza. 
+~
+0 1073741824 1 0 0 0 3696
+D1
+~
+~
+0 -1 24216 0
+D2
+~
+~
+0 -1 24219 0
+D8
+~
+~
+0 -1 24217 0
+D9
+~
+~
+0 -1 24202 0
+S
+#24219
+&CIziz Spaceport Plaza&W~
+The plaza is wide open and is surrounded by high durasteel walls.Many
+civilians move about the plaza conversing and welcoming new
+arrivals. A large statue dedicated to a unknown jedi knight
+stands in the middle of the plaza. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24218 0
+D1
+~
+~
+0 -1 24217 0
+D3
+~
+~
+0 -1 24202 0
+D6
+~
+~
+0 -1 24216 0
+R M 0 24203 225 24219
+S
+#24220
+&BStarport Visa Office&W~
+This large office contains a few officers handing out starport
+visas. A large counter sits in the middle of the room and the
+officers are sitting in chairs behind it.
+
+&YOOC: type list&W
+~
+0 1073742848 1 0 0 0 3696
+D2
+~
+~
+0 -1 24202 0
+R M 0 24201 1 24220
+  R G 0 24201 1
+R M 0 24202 181 24220
+R M 0 24202 181 24220
+R M 0 24203 225 24220
+R M 0 24203 225 24220
+S
+#24221
+&g Spaceport Checkpoint~
+A large blastdoor blocks the way southwestward.a lone guard stands
+here looking at somesort of card and allowing some of the citizens
+to pass. the sky can be seen overhead as there is no roof.
+~
+0 1073741828 1 0 0 0 3696
+D0
+~
+~
+0 -1 24222 0
+R M 0 24206 1 24221
+S
+#24222
+&BMalair Avenue&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings.
+~
+0 1073741824 1 0 0 0 3696
+D1
+~
+~
+0 -1 24223 0
+D2
+~
+~
+0 -1 24221 0
+R M 0 24207 135 24222
+R M 0 24202 181 24222
+S
+#24223
+&BMalair Avenue&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number. Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D1
+~
+~
+0 -1 24224 0
+D3
+~
+~
+0 -1 24222 0
+R M 0 24203 225 24223
+R M 0 24207 135 24223
+R M 0 24207 135 24223
+R M 0 24203 225 24223
+S
+#24224
+&BMalair Avenue&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24225 0
+D3
+~
+~
+0 -1 24223 0
+R M 0 24207 135 24224
+R M 0 24202 181 24224
+R M 0 24203 225 24224
+R M 0 24207 135 24224
+R M 0 24203 225 24224
+S
+#24225
+&WIntersection of &BMalair Avenue &Wand &COnara Street&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24226 0
+D2
+~
+~
+0 -1 24224 0
+D8
+~
+~
+0 -1 24248 0
+R M 0 24207 135 24225
+R M 0 24203 225 24225
+R M 0 24207 135 24225
+S
+#24226
+&BMalair Avenue&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24228 0
+D1
+~
+~
+0 -1 24227 0
+D2
+~
+~
+0 -1 24225 0
+R M 0 24202 181 24226
+R M 0 24207 135 24226
+R M 0 24202 181 24226
+R M 0 24207 135 24226
+R M 0 24203 225 24226
+R M 0 24202 181 24226
+S
+#24227
+&z Small Hovel&W~
+~
+0 1073741824 1 0 0 0 3696
+D3
+~
+~
+0 -1 24226 0
+R M 0 24202 181 24227
+R M 0 24203 225 24227
+R M 0 24207 135 24227
+S
+#24228
+&BMalair Avenue&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24238 0
+D2
+~
+~
+0 -1 24226 0
+D3
+~
+~
+0 -1 24229 0
+R M 0 24207 135 24228
+R M 0 24203 225 24228
+R M 0 24203 225 24228
+R M 0 24203 225 24228
+R M 0 24207 135 24228
+R M 0 24202 181 24228
+R M 0 24202 181 24228
+R M 0 24202 181 24228
+S
+#24229
+&GPolice Station Entrance&W~
+~
+0 1073741832 1 0 0 0 3696
+D1
+~
+~
+0 -1 24228 0
+D3
+~
+~
+0 -1 24230 0
+R M 0 24202 181 24229
+R M 0 24202 181 24229
+R M 0 24203 225 24229
+R M 0 24207 135 24229
+S
+#24230
+&GCorridor&W~
+~
+0 1073741832 1 0 0 0 3696
+D1
+~
+~
+0 -1 24229 0
+D3
+~
+~
+0 -1 24231 0
+R M 0 24203 225 24230
+R M 0 24207 135 24230
+R M 0 24207 135 24230
+R M 0 24203 225 24230
+R M 0 24203 225 24230
+S
+#24231
+&GPolice Station Main Office&W~
+~
+0 1073741832 1 0 0 0 3696
+D0
+~
+~
+0 -1 24232 0
+D1
+~
+~
+0 -1 24230 0
+D2
+~
+~
+0 -1 24236 0
+D3
+~
+~
+0 -1 24234 0
+D7
+~
+~
+0 -1 24233 0
+D9
+~
+~
+0 -1 24235 0
+R M 0 24202 181 24231
+R M 0 24203 225 24231
+R M 0 24203 225 24231
+S
+#24232
+&GPolice Station Main Office&W~
+~
+0 1073741832 1 0 0 0 3696
+D2
+~
+~
+0 -1 24231 0
+D3
+~
+~
+0 -1 24233 0
+D9
+~
+~
+0 -1 24234 0
+R M 0 24202 181 24232
+R M 0 24207 135 24232
+R M 0 24202 181 24232
+R M 0 24207 135 24232
+S
+#24233
+&GPolice Station Main Office&W~
+~
+0 1073741832 1 0 0 0 3696
+D1
+~
+~
+0 -1 24232 0
+D2
+~
+~
+0 -1 24234 0
+D8
+~
+~
+0 -1 24231 0
+R M 0 24207 135 24233
+R M 0 24202 181 24233
+S
+#24234
+&GPolice Station Main Office&W~
+~
+0 1073741832 1 0 0 0 3696
+D0
+~
+~
+0 -1 24233 0
+D1
+~
+~
+0 -1 24231 0
+D2
+~
+~
+0 -1 24235 0
+D3
+~
+~
+8388611 -1 24237 0
+D6
+~
+~
+0 -1 24232 0
+D8
+~
+~
+0 -1 24236 0
+R M 0 24202 181 24234
+R M 0 24207 135 24234
+R M 0 24207 135 24234
+R D 0 24234 3 1
+S
+#24235
+&GPolice Station Main Office&W~
+~
+0 1073741832 1 0 0 0 3696
+D0
+~
+~
+0 -1 24234 0
+D1
+~
+~
+0 -1 24236 0
+D6
+~
+~
+0 -1 24231 0
+R M 0 24207 135 24235
+R M 0 24203 225 24235
+R M 0 24202 181 24235
+R M 0 24207 135 24235
+R M 0 24202 181 24235
+R M 0 24202 181 24235
+R M 0 24203 225 24235
+R M 0 24207 135 24235
+R M 0 24202 181 24235
+S
+#24236
+&GPolice Station Main Office&W~
+~
+0 1073741832 1 0 0 0 3696
+D0
+~
+~
+0 -1 24231 0
+D3
+~
+~
+0 -1 24235 0
+D7
+~
+~
+0 -1 24234 0
+R M 0 24207 135 24236
+R M 0 24202 181 24236
+S
+#24237
+Small Containment Cell~
+~
+0 1073741836 1 0 0 0 3696
+D1
+~
+~
+8388611 -1 24234 0
+R D 0 24237 1 1
+> rand_prog 100~
+if rand(28)
+mpecho &Ga guard comes to the cell door.&W
+mpecho &B A guard says &W"&CYou are released&W"
+mpechoat $n you grab your belongings and leave the cell.
+mptransfer $n 24234
+else
+mpecho &GA guard walks past the bars.&W
+endif
+~
+|
+S
+#24238
+&BMalair Avenue&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24239 0
+D2
+~
+~
+0 -1 24228 0
+D3
+~
+~
+0 -1 24272 0
+R M 0 24207 135 24238
+R M 0 24207 135 24238
+S
+#24239
+&YOnderon Plaza&W~
+The plaza is wide open and several large statues stand about.
+Small plaques sit in front of each one telling of the basic
+history of the statue. The plaza is made of a bright yellow
+bricklike objects and large grey duracrete walls surround the
+plaza. Three Passages can be seen leaving the plaza each to
+a district.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24240 0
+D1
+~
+~
+0 -1 24247 0
+D2
+~
+~
+0 -1 24238 0
+D3
+~
+~
+0 -1 24241 0
+R M 0 24203 225 24239
+S
+#24240
+&YOnderon Plaza&W~
+The plaza is wide open and several large statues stand about.Small
+plaques sit in front of each one telling of the basic history
+of the statue. The plaza is made of a bright yellow bricklike
+objects and large grey duracrete walls surround the plaza. Three
+Passages can be seen leaving the plaza each to a district.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24244 0
+D1
+~
+~
+0 -1 24246 0
+D2
+~
+~
+0 -1 24239 0
+D3
+~
+~
+0 -1 24242 0
+D6
+~
+~
+0 -1 24245 0
+D7
+~
+~
+0 -1 24243 0
+D8
+~
+~
+0 -1 24247 0
+D9
+~
+~
+0 -1 24241 0
+R M 0 24207 135 24240
+R M 0 24202 181 24240
+R M 0 24207 135 24240
+R M 0 24202 181 24240
+R M 0 24203 225 24240
+S
+#24241
+&YOnderon Plaza&W~
+The plaza is wide open and several large statues stand about.Small
+plaques sit in front of each one telling of the basic history
+of the statue. The plaza is made of a bright yellow bricklike
+objects and large grey duracrete walls surround the plaza. Three
+Passages can be seen leaving the plaza each to a district.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24242 0
+D1
+~
+~
+0 -1 24239 0
+D6
+~
+~
+0 -1 24240 0
+R M 0 24203 225 24241
+R M 0 24207 135 24241
+R M 0 24207 135 24241
+R M 0 24207 135 24241
+R M 0 24203 225 24241
+S
+#24242
+&YOnderon Plaza&W~
+The plaza is wide open and several large statues stand about.Small
+plaques sit in front of each one telling of the basic history
+of the statue. The plaza is made of a bright yellow bricklike
+objects and large grey duracrete walls surround the plaza. Three
+Passages can be seen leaving the plaza each to a district.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24243 0
+D1
+~
+~
+0 -1 24240 0
+D2
+~
+~
+0 -1 24241 0
+R M 0 24202 181 24242
+R M 0 24202 181 24242
+S
+#24243
+&YOnderon Plaza&W~
+The plaza is wide open and several large statues stand about.Small
+plaques sit in front of each one telling of the basic history
+of the statue. The plaza is made of a bright yellow bricklike
+objects and large grey duracrete walls surround the plaza. Three
+Passages can be seen leaving the plaza each to a district.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24324 0
+D1
+~
+~
+0 -1 24244 0
+D2
+~
+~
+0 -1 24242 0
+D8
+~
+~
+0 -1 24240 0
+S
+#24244
+&YOnderon Plaza&W~
+The plaza is wide open and several large statues stand about.Small
+plaques sit in front of each one telling of the basic history
+of the statue. The plaza is made of a bright yellow bricklike
+objects and large grey duracrete walls surround the plaza. Three
+Passages can be seen leaving the plaza each to a district.
+~
+0 1073741824 1 0 0 0 3696
+D1
+~
+~
+0 -1 24245 0
+D2
+~
+~
+0 -1 24240 0
+D3
+~
+~
+0 -1 24243 0
+R M 0 24207 135 24244
+R M 0 24202 181 24244
+R M 0 24202 181 24244
+R M 0 24202 181 24244
+R M 0 24207 135 24244
+S
+#24245
+&YOnderon Plaza&W~
+The plaza is wide open and several large statues stand about.Small
+plaques sit in front of each one telling of the basic history
+of the statue. The plaza is made of a bright yellow bricklike
+objects and large grey duracrete walls surround the plaza. Three
+Passages can be seen leaving the plaza each to a district.
+~
+0 1073741824 1 0 0 0 3696
+D1
+~
+~
+0 -1 24271 0
+D2
+~
+~
+0 -1 24246 0
+D3
+~
+~
+0 -1 24244 0
+D9
+~
+~
+0 -1 24240 0
+R M 0 24202 181 24245
+R M 0 24202 181 24245
+R M 0 24203 225 24245
+R M 0 24202 181 24245
+R M 0 24207 135 24245
+R M 0 24207 135 24245
+S
+#24246
+&YOnderon Plaza&W~
+The plaza is wide open and several large statues stand about.Small
+plaques sit in front of each one telling of the basic history
+of the statue. The plaza is made of a bright yellow bricklike
+objects and large grey duracrete walls surround the plaza. Three
+Passages can be seen leaving the plaza each to a district.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24245 0
+D2
+~
+~
+0 -1 24247 0
+D3
+~
+~
+0 -1 24240 0
+R M 0 24202 181 24246
+R M 0 24203 225 24246
+R M 0 24203 225 24246
+R M 0 24203 225 24246
+R M 0 24207 135 24246
+R M 0 24207 135 24246
+R M 0 24203 225 24246
+R M 0 24203 225 24246
+S
+#24247
+&YOnderon Plaza&W~
+The plaza is wide open and several large statues stand about.Small
+plaques sit in front of each one telling of the basic history
+of the statue. The plaza is made of a bright yellow bricklike
+objects and large grey duracrete walls surround the plaza. Three
+Passages can be seen leaving the plaza each to a district.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24246 0
+D3
+~
+~
+0 -1 24239 0
+D7
+~
+~
+0 -1 24240 0
+R M 0 24207 135 24247
+R M 0 24203 225 24247
+R M 0 24207 135 24247
+S
+#24248
+&COnara Street&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D6
+~
+~
+0 -1 24249 0
+D7
+~
+~
+0 -1 24225 0
+R M 0 24202 181 24248
+R M 0 24203 225 24248
+R M 0 24207 135 24248
+R M 0 24207 135 24248
+R M 0 24202 181 24248
+R M 0 24207 135 24248
+S
+#24249
+&WIntersection of &COnara Street &Wand &cAsurar Way&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24251 0
+D1
+~
+~
+0 -1 24265 0
+D2
+~
+~
+0 -1 24250 0
+D9
+~
+~
+0 -1 24248 0
+R M 0 24203 225 24249
+R M 0 24202 181 24249
+R M 0 24203 225 24249
+R M 0 24207 135 24249
+S
+#24250
+&BOnderon Royal Hotel&W~
+~
+0 1082130440 1 0 0 0 3696
+D0
+~
+~
+0 -1 24249 0
+R M 0 24203 225 24250
+R M 0 24207 135 24250
+R M 0 24203 225 24250
+R M 0 24207 135 24250
+R M 0 24202 181 24250
+R M 0 24203 225 24250
+S
+#24251
+&cAsurar Way&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24253 0
+D2
+~
+~
+0 -1 24249 0
+D3
+~
+~
+0 -1 24252 0
+R M 0 24207 135 24251
+R M 0 24203 225 24251
+R M 0 24203 225 24251
+S
+#24252
+&BDek's Diner&W~
+~
+0 1073741832 1 0 0 0 3696
+D1
+~
+~
+0 -1 24251 0
+R M 0 24208 1 24252
+  R G 0 24202 1
+  R G 0 24204 1
+  R G 0 24205 1
+  R G 0 24206 1
+  R G 0 24207 1
+  R G 0 24208 1
+  R G 0 24209 1
+R M 0 24207 135 24252
+R M 0 24207 135 24252
+R M 0 24202 181 24252
+R M 0 24202 181 24252
+R M 0 24207 135 24252
+R M 0 24202 181 24252
+S
+#24253
+&cAsurar Way&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D1
+~
+~
+0 -1 24256 0
+D2
+~
+~
+0 -1 24251 0
+D6
+~
+~
+0 -1 24255 0
+D7
+~
+~
+0 -1 24254 0
+R M 0 24203 225 24253
+R M 0 24203 225 24253
+R M 0 24202 181 24253
+R M 0 24203 225 24253
+S
+#24254
+&CComlink Store&W~
+The store has several hundred comlinks avalible in all styles
+and shapes with colors varying as well. a lone mandalorian merchant
+stands behind the counter in the middle of the store.
+~
+0 1073741832 1 0 0 0 3696
+D8
+~
+~
+0 -1 24253 0
+R M 0 24209 1 24254
+  R G 0 24211 1
+  R G 0 24210 1
+  R G 0 24213 1
+  R G 0 24212 1
+  R G 0 24214 1
+R M 0 24203 225 24254
+R M 0 24207 135 24254
+R M 0 24203 225 24254
+R M 0 24203 225 24254
+S
+#24255
+&cAsurar Way&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D2
+~
+~
+0 -1 24256 0
+D6
+~
+~
+0 -1 24258 0
+D7
+~
+~
+0 -1 24257 0
+D8
+~
+~
+0 -1 24259 0
+D9
+~
+~
+0 -1 24253 0
+R M 0 24207 135 24255
+R M 0 24202 181 24255
+R M 0 24203 225 24255
+S
+#24256
+&zMandalore Academy Supply Depot&W~
+~
+0 1073741832 1 0 0 0 3696
+D0
+~
+~
+0 -1 24255 0
+D3
+~
+~
+0 -1 24253 0
+R M 0 24207 135 24256
+R M 0 24210 1 24256
+  R G 0 24215 1
+  R G 0 24222 1
+  R G 0 24221 1
+  R G 0 24220 1
+  R G 0 24219 1
+  R G 0 24218 1
+  R G 0 24217 1
+  R G 0 24216 1
+R M 0 24207 135 24256
+R M 0 24202 180 24256
+S
+#24257
+&BToys in The &CStars&W~
+Large shelves of toys sit behind the large counter. Small racks
+of toys sit all about the store as several customers can be
+see browsing. A lone merchant stands behind the counter here.
+
+~
+0 1073741832 1 0 0 0 3696
+D8
+~
+~
+0 -1 24255 0
+R M 0 24214 1 24257
+  R G 0 24233 1
+  R G 0 24232 1
+  R G 0 24234 1
+  R G 0 24235 1
+R M 0 24203 225 24257
+S
+#24258
+&WIntersection of &COnara Street &Wand &cAsurar Way&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D2
+~
+~
+0 -1 24260 0
+D7
+~
+~
+0 -1 24269 0
+D9
+~
+~
+0 -1 24255 0
+R M 0 24202 181 24258
+R M 0 24203 225 24258
+R M 0 24202 181 24258
+R M 0 24203 225 24258
+S
+#24259
+&OArlaya's Medical Supplies&W~
+This rather large store carries medicine and some medical devices.
+Small plants sit in the room to add color into it. A large in
+wall counter can be seen in the south wall with several racks
+around it.
+~
+0 1073741832 1 0 0 0 3696
+D1
+~
+~
+0 -1 24260 0
+D7
+~
+~
+0 -1 24255 0
+R M 0 24211 1 24259
+  R G 0 24223 1
+  R G 0 24224 1
+R M 0 24203 225 24259
+R M 0 24207 135 24259
+R M 0 24202 181 24259
+S
+#24260
+&COnara Street&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24258 0
+D1
+~
+~
+0 -1 24261 0
+D2
+~
+~
+0 -1 24262 0
+D3
+~
+~
+0 -1 24259 0
+R M 0 24202 181 24260
+R M 0 24202 181 24260
+R M 0 24207 135 24260
+R M 0 24207 135 24260
+S
+#24261
+&zPawn Shop&W~
+~
+0 1073741832 1 0 0 0 3696
+D3
+~
+~
+0 -1 24260 0
+R M 0 24212 1 24261
+R M 0 24202 181 24261
+R M 0 24207 135 24261
+R M 0 24202 181 24261
+S
+#24262
+&COnara Street&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24260 0
+D1
+~
+~
+0 -1 24264 0
+D3
+~
+~
+0 -1 24263 0
+D9
+~
+~
+0 -1 24265 0
+R M 0 24202 181 24262
+R M 0 24207 135 24262
+R M 0 24207 135 24262
+R M 0 24203 225 24262
+R M 0 24207 135 24262
+R M 0 24207 135 24262
+S
+#24263
+&YTechnician Supplies&W~
+Modules of all shapes and sizes can be seen in their packaging
+on the shelves and racks. enhancement parts of all styles can
+be bought from here. A merchant droid can be seen here tending
+to customers.
+~
+0 1140850696 1 0 0 0 3696
+D1
+~
+~
+0 -1 24262 0
+R M 0 24216 1 24263
+  R G 0 24248 1
+  R G 0 24249 1
+  R G 0 24250 1
+  R G 0 24251 1
+  R G 0 24247 1
+  R G 0 24246 1
+  R G 0 24245 1
+R M 0 24203 225 24263
+R M 0 24207 135 24263
+R M 0 24202 181 24263
+R M 0 24203 225 24263
+R M 0 24207 135 24263
+R M 0 24207 135 24263
+R M 0 24207 135 24263
+S
+#24264
+&zDroid Supply Depot&W~
+the store has quite a few parts for droids ranging from armor
+plating  to shielding. Small modules can be purchased here as
+well to enhance the droid.
+~
+0 1073741832 1 0 0 0 3696
+D3
+~
+~
+0 -1 24262 0
+R M 0 24215 1 24264
+  R G 0 24240 1
+  R G 0 24239 1
+  R G 0 24241 1
+  R G 0 24238 1
+  R G 0 24237 1
+  R G 0 24236 1
+  R G 0 24244 1
+  R G 0 24243 1
+  R G 0 24242 1
+R M 0 24207 135 24264
+R M 0 24203 225 24264
+R M 0 24203 225 24264
+S
+#24265
+&COnara Street&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D2
+~
+~
+0 -1 24266 0
+D3
+~
+~
+0 -1 24249 0
+D6
+~
+~
+0 -1 24262 0
+R M 0 24203 225 24265
+R M 0 24203 225 24265
+R M 0 24203 225 24265
+R M 0 24203 225 24265
+S
+#24266
+&zCzerka Hunter's Guild&W~
+~
+0 1073741832 1 0 0 0 3696
+D0
+~
+~
+0 -1 24265 0
+D2
+~
+~
+0 -1 24267 0
+R M 0 24203 225 24266
+S
+#24267
+&zCzerka Hunter's Guild Lobby&W~
+The large office has a small bar in the south wall which accomendates
+a few drinks. several people are moving in and out of the guild
+while some even stay and talk with each other. Trophies of all
+sizes cover the walls and some even stand on the ground like
+> > statues. A small sign is posted on the wall here.
+&G|&Y---------------------&G|&W
+&G|&CBounties    &G| &CBounty &G|
+&Y+&gMaalraas    &Y+  &B250   &Y+
+&G|&gZekkeg      &G|  &B6000  &G|
+&Y+&gBoma, Small &Y+  &B150   &Y+
+&G|&gBoma, Large &G|  &B450   &G|
+&Y+&gDrexl       &Y+  &B50    &Y+
+&G|&Y---------------------&G|
+~
+0 1073741832 1 0 0 0 3696
+D0
+~
+~
+0 -1 24266 0
+D1
+~
+~
+0 -1 24268 0
+R M 0 24213 1 24267
+R M 0 24203 225 24267
+R M 0 24203 225 24267
+R M 0 24203 225 24267
+R M 0 24207 135 24267
+R M 0 24202 181 24267
+S
+#24268
+&zCzerka Hunter's Guild Supply Depot&W~
+The large office has a small bar in the south wall which accomendates
+a few drinks. several people are moving in and out of the guild
+while some even stay and talk with each other. Trophies of all
+sizes cover the walls and some even stand on the ground like
+statues. A small counter sits here with a small droid manning
+it supplying hunters with the supplies they may need.
+~
+0 1073741832 1 0 0 0 3696
+D3
+~
+~
+0 -1 24267 0
+R M 0 24217 1 24268
+  R G 0 24252 1
+R M 0 24207 135 24268
+R M 0 24207 135 24268
+R M 0 24202 181 24268
+S
+#24269
+&COnara Street&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741828 1 0 0 0 3696
+D3
+~
+~
+0 -1 24270 0
+D8
+~
+~
+0 -1 24258 0
+S
+#24270
+&COnara Street&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741828 1 0 0 0 3696
+D0
+~
+~
+0 -1 24365 0
+D1
+~
+~
+0 -1 24269 0
+D7
+~
+~
+0 -1 24271 0
+S
+#24271
+&COnara Street&W~
+The street is wide open and the sky can be seen overhead. Large
+structures surround the street each with its own number.Large
+plants sit everywhere while citizens of all races move about
+the street entering and leaving buildings. 
+~
+0 1073741824 1 0 0 0 3696
+D3
+~
+~
+0 -1 24245 0
+D8
+~
+~
+0 -1 24270 0
+R M 0 24203 225 24271
+R M 0 24207 135 24271
+R M 0 24203 225 24271
+R M 0 24207 135 24271
+R M 0 24202 181 24271
+S
+#24272
+&CS&Bkywalk &CR&Bamp&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about. 
+~
+0 1073741828 1 0 0 0 3696
+D1
+~
+~
+0 -1 24238 0
+D3
+~
+~
+0 -1 24273 0
+S
+#24273
+&CS&Bkywalk &CR&Bamp&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about. 
+~
+0 1073741824 1 0 0 0 3696
+D1
+~
+~
+0 -1 24272 0
+D3
+~
+~
+0 -1 24274 0
+R M 0 24202 181 24273
+S
+#24274
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D1
+~
+~
+0 -1 24273 0
+D7
+~
+~
+0 -1 24276 0
+D9
+~
+~
+0 -1 24275 0
+R M 0 24202 181 24274
+R M 0 24207 135 24274
+R M 0 24202 181 24274
+R M 0 24203 225 24274
+R M 0 24203 225 24274
+R M 0 24202 181 24274
+R M 0 24202 181 24274
+S
+#24275
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D2
+~
+~
+0 -1 24278 0
+D6
+~
+~
+0 -1 24274 0
+D7
+~
+~
+0 -1 24277 0
+R M 0 24203 225 24275
+S
+#24276
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24280 0
+D8
+~
+~
+0 -1 24274 0
+D9
+~
+~
+0 -1 24277 0
+S
+#24277
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D3
+~
+~
+0 -1 24279 0
+D6
+~
+~
+0 -1 24276 0
+D8
+~
+~
+0 -1 24275 0
+R M 0 24202 181 24277
+R M 0 24203 225 24277
+R M 0 24202 181 24277
+R M 0 24203 225 24277
+S
+#24278
+Empty Store~
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24275 0
+R M 0 24203 225 24278
+R M 0 24203 225 24278
+R M 0 24203 225 24278
+R M 0 24203 225 24278
+S
+#24279
+Empty Store~
+~
+0 1073741824 1 0 0 0 3696
+D1
+~
+~
+0 -1 24277 0
+R M 0 24202 181 24279
+S
+#24280
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24281 0
+D2
+~
+~
+0 -1 24276 0
+R M 0 24207 135 24280
+R M 0 24207 135 24280
+R M 0 24207 135 24280
+S
+#24281
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24282 0
+D2
+~
+~
+0 -1 24280 0
+R M 0 24202 181 24281
+R M 0 24207 135 24281
+R M 0 24202 181 24281
+R M 0 24207 135 24281
+S
+#24282
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24283 0
+D2
+~
+~
+0 -1 24281 0
+R M 0 24202 181 24282
+R M 0 24202 181 24282
+R M 0 24202 181 24282
+R M 0 24203 225 24282
+R M 0 24203 225 24282
+S
+#24283
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24300 0
+D2
+~
+~
+0 -1 24282 0
+D3
+~
+~
+0 -1 24284 0
+D6
+~
+~
+0 -1 24299 0
+R M 0 24203 225 24283
+S
+#24284
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24301 0
+D1
+~
+~
+0 -1 24283 0
+D2
+~
+~
+0 -1 24302 0
+D3
+~
+~
+0 -1 24285 0
+R M 0 24202 181 24284
+S
+#24285
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D1
+~
+~
+0 -1 24284 0
+D6
+~
+~
+0 -1 24303 0
+D7
+~
+~
+0 -1 24286 0
+R M 0 24202 181 24285
+S
+#24286
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D6
+~
+~
+0 -1 24304 0
+D7
+~
+~
+0 -1 24287 0
+D8
+~
+~
+0 -1 24285 0
+D9
+~
+~
+0 -1 24305 0
+R M 0 24203 225 24286
+R M 0 24202 181 24286
+R M 0 24203 225 24286
+R M 0 24202 181 24286
+S
+#24287
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24288 0
+D6
+~
+~
+0 -1 24306 0
+D8
+~
+~
+0 -1 24286 0
+R M 0 24203 225 24287
+R M 0 24203 225 24287
+R M 0 24207 135 24287
+R M 0 24202 181 24287
+S
+#24288
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24289 0
+D1
+~
+~
+0 -1 24307 0
+D2
+~
+~
+0 -1 24287 0
+D3
+~
+~
+0 -1 24308 0
+R M 0 24207 135 24288
+R M 0 24202 181 24288
+R M 0 24203 225 24288
+S
+#24289
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D2
+~
+~
+0 -1 24288 0
+D6
+~
+~
+0 -1 24290 0
+D8
+~
+~
+0 -1 24309 0
+R M 0 24203 225 24289
+R M 0 24203 225 24289
+R M 0 24203 225 24289
+R M 0 24203 225 24289
+S
+#24290
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D6
+~
+~
+0 -1 24291 0
+D7
+~
+~
+0 -1 24311 0
+D8
+~
+~
+0 -1 24310 0
+D9
+~
+~
+0 -1 24289 0
+R M 0 24207 135 24290
+R M 0 24207 135 24290
+S
+#24291
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D1
+~
+~
+0 -1 24292 0
+D2
+~
+~
+0 -1 24312 0
+D9
+~
+~
+0 -1 24290 0
+R M 0 24207 135 24291
+R M 0 24202 181 24291
+S
+#24292
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24313 0
+D1
+~
+~
+0 -1 24293 0
+D2
+~
+~
+0 -1 24314 0
+D3
+~
+~
+0 -1 24291 0
+R M 0 24207 135 24292
+R M 0 24202 181 24292
+R M 0 24202 181 24292
+R M 0 24203 225 24292
+S
+#24293
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D3
+~
+~
+0 -1 24292 0
+D8
+~
+~
+0 -1 24294 0
+D9
+~
+~
+0 -1 24315 0
+R M 0 24203 225 24293
+R M 0 24207 135 24293
+R M 0 24202 181 24293
+R M 0 24202 181 24293
+R M 0 24207 135 24293
+R M 0 24207 135 24293
+R M 0 24202 181 24293
+S
+#24294
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D6
+~
+~
+0 -1 24317 0
+D7
+~
+~
+0 -1 24293 0
+D8
+~
+~
+0 -1 24295 0
+D9
+~
+~
+0 -1 24316 0
+R M 0 24203 225 24294
+R M 0 24203 225 24294
+R M 0 24202 181 24294
+S
+#24295
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D2
+~
+~
+0 -1 24297 0
+D3
+~
+~
+0 -1 24318 0
+D7
+~
+~
+0 -1 24294 0
+R M 0 24207 135 24295
+S
+#24296
+Floating in a void~
+~
+0 1073741828 1 0 0 0 3696
+S
+#24297
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24295 0
+D1
+~
+~
+0 -1 24320 0
+D2
+~
+~
+0 -1 24298 0
+D3
+~
+~
+0 -1 24319 0
+R M 0 24202 181 24297
+S
+#24298
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24297 0
+D7
+~
+~
+0 -1 24321 0
+D9
+~
+~
+0 -1 24299 0
+R M 0 24203 225 24298
+R M 0 24203 225 24298
+R M 0 24207 135 24298
+S
+#24299
+&CS&Bkywalk&W~
+The sky can be seen above between the bright blue durasteel walls
+with a ripple design. The ramp itself is elegantly tiled with
+bright yellow durasteel. Civilians and officers can be seen
+walking about.  Large potted plant sit all about the area. noise
+is extremely loud and not much else can be heard.
+~
+0 1073741824 1 0 0 0 3696
+D6
+~
+~
+0 -1 24298 0
+D7
+~
+~
+0 -1 24322 0
+D8
+~
+~
+0 -1 24323 0
+D9
+~
+~
+0 -1 24283 0
+R M 0 24207 135 24299
+R M 0 24202 181 24299
+R M 0 24207 135 24299
+S
+#24300
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D2
+~
+~
+0 -1 24283 0
+R M 0 24202 181 24300
+R M 0 24202 181 24300
+R M 0 24203 225 24300
+R M 0 24202 181 24300
+S
+#24301
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D2
+~
+~
+0 -1 24284 0
+R M 0 24203 225 24301
+R M 0 24202 181 24301
+R M 0 24207 135 24301
+R M 0 24203 225 24301
+R M 0 24207 135 24301
+S
+#24302
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D0
+~
+~
+0 -1 24284 0
+R M 0 24207 135 24302
+S
+#24303
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D9
+~
+~
+0 -1 24285 0
+R M 0 24203 225 24303
+R M 0 24207 135 24303
+R M 0 24202 181 24303
+R M 0 24202 181 24303
+R M 0 24202 181 24303
+R M 0 24202 181 24303
+R M 0 24202 181 24303
+S
+#24304
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D9
+~
+~
+0 -1 24286 0
+R M 0 24203 225 24304
+S
+#24305
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D6
+~
+~
+0 -1 24286 0
+R M 0 24207 135 24305
+S
+#24306
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D9
+~
+~
+0 -1 24287 0
+R M 0 24203 225 24306
+R M 0 24202 181 24306
+R M 0 24203 225 24306
+R M 0 24207 135 24306
+R M 0 24203 225 24306
+S
+#24307
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D3
+~
+~
+0 -1 24288 0
+R M 0 24203 225 24307
+R M 0 24203 225 24307
+S
+#24308
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D1
+~
+~
+0 -1 24288 0
+R M 0 24207 135 24308
+R M 0 24203 225 24308
+R M 0 24203 225 24308
+R M 0 24203 225 24308
+R M 0 24203 225 24308
+S
+#24309
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D7
+~
+~
+0 -1 24289 0
+R M 0 24207 135 24309
+R M 0 24202 181 24309
+R M 0 24203 225 24309
+R M 0 24202 181 24309
+R M 0 24202 181 24309
+S
+#24310
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D7
+~
+~
+0 -1 24290 0
+R M 0 24203 225 24310
+S
+#24311
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D8
+~
+~
+0 -1 24290 0
+R M 0 24207 135 24311
+R M 0 24202 181 24311
+R M 0 24203 225 24311
+R M 0 24202 181 24311
+R M 0 24203 225 24311
+S
+#24312
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D0
+~
+~
+0 -1 24291 0
+R M 0 24202 181 24312
+R M 0 24203 225 24312
+R M 0 24202 181 24312
+S
+#24313
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D2
+~
+~
+0 -1 24292 0
+R M 0 24203 225 24313
+R M 0 24203 225 24313
+R M 0 24207 135 24313
+R M 0 24207 135 24313
+R M 0 24202 181 24313
+R M 0 24202 181 24313
+R M 0 24202 181 24313
+R M 0 24203 225 24313
+R M 0 24203 225 24313
+S
+#24314
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D0
+~
+~
+0 -1 24292 0
+R M 0 24207 135 24314
+R M 0 24207 135 24314
+R M 0 24202 181 24314
+R M 0 24207 135 24314
+S
+#24315
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D6
+~
+~
+0 -1 24293 0
+R M 0 24203 225 24315
+R M 0 24207 135 24315
+R M 0 24207 135 24315
+S
+#24316
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D6
+~
+~
+0 -1 24294 0
+R M 0 24202 181 24316
+R M 0 24203 225 24316
+S
+#24317
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D9
+~
+~
+0 -1 24294 0
+R M 0 24203 225 24317
+R M 0 24202 181 24317
+R M 0 24202 181 24317
+R M 0 24202 181 24317
+S
+#24318
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D1
+~
+~
+0 -1 24295 0
+R M 0 24207 135 24318
+S
+#24319
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D1
+~
+~
+0 -1 24297 0
+R M 0 24203 225 24319
+R M 0 24202 181 24319
+R M 0 24207 135 24319
+S
+#24320
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D3
+~
+~
+0 -1 24297 0
+R M 0 24203 225 24320
+R M 0 24207 135 24320
+R M 0 24203 225 24320
+R M 0 24203 225 24320
+R M 0 24207 135 24320
+S
+#24321
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D8
+~
+~
+0 -1 24298 0
+R M 0 24202 181 24321
+R M 0 24203 225 24321
+R M 0 24207 135 24321
+R M 0 24203 225 24321
+S
+#24322
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D8
+~
+~
+0 -1 24299 0
+R M 0 24203 225 24322
+R M 0 24207 135 24322
+R M 0 24203 225 24322
+S
+#24323
+Empty Store~
+~
+0 1073741832 1 1 0 0 3696
+D7
+~
+~
+0 -1 24299 0
+R M 0 24207 135 24323
+R M 0 24207 135 24323
+R M 0 24202 181 24323
+R M 0 24203 225 24323
+R M 0 24203 225 24323
+S
+#24324
+&RTalia Lane&W~
+The lane stretches inbetween two sections of wall reaching several
+meters up into the air. The walls surrounding the lane are a
+dull grey durasteel plate with small designs on the wall about
+head height. People from all walks of life move about here.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24325 0
+D2
+~
+~
+0 -1 24243 0
+R M 0 24202 181 24324
+R M 0 24207 135 24324
+R M 0 24202 181 24324
+R M 0 24203 225 24324
+R M 0 24207 135 24324
+R M 0 24203 225 24324
+R M 0 24203 225 24324
+R M 0 24203 225 24324
+R M 0 24202 181 24324
+R M 0 24207 135 24324
+S
+#24325
+&RTalia Lane&W~
+The lane stretches inbetween two sections of wall reaching several
+meters up into the air. The walls surrounding the lane are a
+dull grey durasteel plate with small designs on the wall about
+head height. People from all walks of life move about here.
+~
+0 1073741824 1 0 0 0 3696
+D2
+~
+~
+0 -1 24324 0
+D3
+~
+~
+0 -1 24326 0
+R M 0 24203 225 24325
+R M 0 24203 225 24325
+R M 0 24203 225 24325
+R M 0 24202 181 24325
+R M 0 24203 225 24325
+R M 0 24203 225 24325
+S
+#24326
+&RTalia Lane&W~
+The lane stretches inbetween two sections of wall reaching several
+meters up into the air. The walls surrounding the lane are a
+dull grey durasteel plate with small designs on the wall about
+head height. People from all walks of life move about here.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24327 0
+D1
+~
+~
+0 -1 24325 0
+R M 0 24203 225 24326
+R M 0 24203 225 24326
+R M 0 24202 181 24326
+R M 0 24203 225 24326
+R M 0 24203 225 24326
+R M 0 24203 225 24326
+R M 0 24207 135 24326
+R M 0 24202 181 24326
+S
+#24327
+&RTalia Lane&W~
+The lane stretches inbetween two sections of wall reaching several
+meters up into the air. The walls surrounding the lane are a
+dull grey durasteel plate with small designs on the wall about
+head height. People from all walks of life move about here.
+~
+0 1073741824 1 0 0 0 3696
+D1
+~
+~
+0 -1 24328 0
+D2
+~
+~
+0 -1 24326 0
+R M 0 24207 135 24327
+R M 0 24207 135 24327
+R M 0 24207 135 24327
+R M 0 24202 181 24327
+R M 0 24203 225 24327
+R M 0 24203 225 24327
+S
+#24328
+&RTalia Lane&W~
+The lane stretches inbetween two sections of wall reaching several
+meters up into the air. The walls surrounding the lane are a
+dull grey durasteel plate with small designs on the wall about
+head height. People from all walks of life move about here.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24329 0
+D3
+~
+~
+0 -1 24327 0
+R M 0 24202 181 24328
+R M 0 24207 135 24328
+R M 0 24203 225 24328
+S
+#24329
+&RTalia Lane&W~
+The lane stretches inbetween two sections of wall reaching several
+meters up into the air. The walls surrounding the lane are a
+dull grey durasteel plate with small designs on the wall about
+head height. People from all walks of life move about here.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24330 0
+D2
+~
+~
+0 -1 24328 0
+R M 0 24203 225 24329
+R M 0 24203 225 24329
+R M 0 24207 135 24329
+S
+#24330
+&GResidential Circle&W~
+Large structures cover both sides of the streets some of them
+even have transparisteel windows facing into the street and
+each one tastefully decorated. People of all walks of life move
+about the street heading home or leaving their home and small
+animals scamper through the crowds.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24363 0
+D1
+~
+~
+0 -1 24331 0
+D2
+~
+~
+0 -1 24329 0
+R M 0 24203 225 24330
+R M 0 24203 225 24330
+R M 0 24203 225 24330
+S
+#24331
+&GResidential Circle&W~
+Large structures cover both sides of the streets some of them
+even have transparisteel windows facing into the street and
+each one tastefully decorated. People of all walks of life move
+about the street heading home or leaving their home and small
+animals scamper through the crowds.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24332 0
+D1
+~
+~
+0 -1 24334 0
+D2
+~
+~
+0 -1 24333 0
+D3
+~
+~
+0 -1 24330 0
+R M 0 24203 225 24331
+R M 0 24203 225 24331
+R M 0 24207 135 24331
+R M 0 24202 181 24331
+R M 0 24203 225 24331
+R M 0 24207 135 24331
+R M 0 24203 225 24331
+S
+#24332
+&CEmpty Home&W~
+~
+0 1082130444 1 0 0 0 3696
+D2
+~
+~
+0 -1 24331 0
+S
+#24333
+&CEmpty Home&W~
+~
+0 1084227596 1 0 0 0 3696
+D0
+~
+~
+0 -1 24331 0
+S
+#24334
+&GResidential Circle&W~
+Large structures cover both sides of the streets some of them
+even have transparisteel windows facing into the street and
+each one tastefully decorated. People of all walks of life move
+about the street heading home or leaving their home and small
+animals scamper through the crowds.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24335 0
+D1
+~
+~
+0 -1 24337 0
+D2
+~
+~
+0 -1 24336 0
+D3
+~
+~
+0 -1 24331 0
+R M 0 24203 225 24334
+R M 0 24203 225 24334
+R M 0 24203 225 24334
+R M 0 24207 135 24334
+S
+#24335
+&CEmpty Home~
+~
+0 1084227596 1 0 0 0 3696
+D2
+~
+~
+0 -1 24334 0
+S
+#24336
+&CEmpty Home&W~
+~
+0 1075838988 1 0 0 0 3696
+D0
+~
+~
+0 -1 24334 0
+S
+#24337
+&GResidential Circle&W~
+Large structures cover both sides of the streets some of them
+even have transparisteel windows facing into the street and
+each one tastefully decorated. People of all walks of life move
+about the street heading home or leaving their home and small
+animals scamper through the crowds.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24338 0
+D1
+~
+~
+0 -1 24340 0
+D2
+~
+~
+0 -1 24339 0
+D3
+~
+~
+0 -1 24334 0
+R M 0 24203 225 24337
+R M 0 24203 225 24337
+S
+#24338
+&CEmpty Home&W~
+~
+0 1084227596 1 0 0 0 3696
+D2
+~
+~
+0 -1 24337 0
+S
+#24339
+&CEmpty Home&W~
+~
+0 1084227596 1 0 0 0 3696
+D0
+~
+~
+0 -1 24337 0
+S
+#24340
+&GResidential Circle&W~
+Large structures cover both sides of the streets some of them
+even have transparisteel windows facing into the street and
+each one tastefully decorated. People of all walks of life move
+about the street heading home or leaving their home and small
+animals scamper through the crowds.
+~
+0 1073741824 1 0 0 0 3696
+D0
+~
+~
+0 -1 24342 0
+D1
+~
+~
+0 -1 24341 0
+D3
+~
+~
+0 -1 24337 0
+R M 0 24203 225 24340
+R M 0 24207 135 24340
+R M 0 24203 225 24340
+R M 0 24207 135 24340
+R M 0 24207 135 24340
+S
+#24341
+&CEmpty Home&W~
+~
+0 1084227592 1 0 0 0 3696
+D3
+~
+~
+0 -1 24340 0
+R M 0 24207 135 24341
+R M 0 24207 135 24341
+R M 0 24203 225 24341
+R M 0 24203 225 24341
+R M 0 24203 225 24341
+S
+#24342
+&GResidential Circle&W~
+Large structures cover both sides of the streets some of them
+even have transparisteel windows facing into the street and
+each one tastefully decorated. People of all walks of life move
+about the street heading home or leaving their home and small
+animals scamper through the crowds.
+~
+0 1073741828 1 0 0 0 3696
+D0
+~
+~
+0 -1 24345 0
+D1
+~
+~
+0 -1 24344 0
+D2
+~
+~
+0 -1 24340 0
+D3
+~
+~
+0 -1 24343 0
+S
+#24343
+&CEmpty Home&W~
+~
+0 1084227592 1 0 0 0 3696
+D1
+~
+~
+0 -1 24342 0
+R M 0 24203 225 24343
+R M 0 24203 225 24343
+R M 0 24202 181 24343
+S
+#24344
+&CEmpty Home&W~
+~
+0 1084227592 1 0 0 0 3696
+D3
+~
+~
+0 -1 24342 0
+R M 0 24203 225 24344
+R M 0 24202 181 24344
+R M 0 24203 225 24344
+R M 0 24203 225 24344
+S
+#24345
+&GResidential Circle&W~
+Large structures cover both sides of the streets some of them
+even have transparisteel windows facing into the street and
+each one tastefully decorated. People of all walks of life move
+about the street heading home or leaving their home and small
+animals scamper through the crowds.
+~
+0 1073741828 1 0 0 0 3696
+D0
+~
+~
+0 -1 24348 0
+D1
+~
+~
+0 -1 24347 0
+D2
+~
+~
+0 -1 24342 0
+D3
+~
+~
+0 -1 24346 0
+S
+#24346
+&CEmpty Home&W~
+~
+0 1084227592 1 0 0 0 3696
+D1
+~
+~
+0 -1 24345 0
+R M 0 24202 181 24346
+R M 0 24202 181 24346
+R M 0 24203 225 24346
+S
+#24347
+&CEmpty Home&W~
+~
+0 1084227592 1 0 0 0 3696
+D3
+~
+~
+0 -1 24345 0
+R M 0 24203 225 24347
+S
+#24348
+&GResidential Circle&W~
+Large structures cover both sides of the streets some of them
+even have transparisteel windows facing into the street and
+each one tastefully decorated. People of all walks of life move
+about the street heading home or leaving their home and small
+animals scamper through the crowds.
+~
+0 1073741828 1 0 0 0 3696
+D0
+~
+~
+0 -1 24349 0
+D1
+~
+~
+0 -1 24350 0
+D2
+~
+~
+0 -1 24345 0
+D3
+~
+~
+0 -1 24351 0
+S
+#24349
+&CEmpty Home&W~
+~
+0 1084227592 1 0 0 0 3696
+D2
+~
+~
+0 -1 24348 0
+R M 0 24202 181 24349
+R M 0 24203 225 24349
+R M 0 24202 181 24349
+S
+#24350
+&CEmpty Home&W~
+~
+0 1084227592 1 0 0 0 3696
+D3
+~
+~
+0 -1 24348 0
+R M 0 24202 181 24350
+R M 0 24202 181 24350
+S
+#24351
+&GResidential Circle&W~
+Large structures cover both sides of the streets some of them
+even have transparisteel windows facing into the street and
+each one tastefully decorated. People of all walks of life move
+about the street heading home or leaving their home and small
+animals scamper through the crowds.
+~
+0 1073741828 1 0 0 0 3696
+D0
+~
+~
+0 -1 24352 0
+D1
+~
+~
+0 -1 24348 0
+D2
+~
+~
+0 -1 24353 0
+D3
+~
+~
+0 -1 24354 0
+S
+#24352
+&CEmpty Home&W~
+~
+0 1084227592 1 0 0 0 3696
+D2
+~
+~
+0 -1 24351 0
+R M 0 24202 181 24352
+R M 0 24202 181 24352
+R M 0 24203 225 24352
+S
+#24353
+&CEmpty Home&W~
+~
+0 1084227592 1 0 0 0 3696
+D0
+~
+~
+0 -1 24351 0
+R M 0 24202 181 24353
+R M 0 24203 225 24353
+R M 0 24203 225 24353
+R M 0 24202 181 24353
+R M 0 24203 225 24353
+S
+#24354
+&GResidential Circle&W~
+Large structures cover both sides of the streets some of them
+even have transparisteel windows facing into the street and
+each one tastefully decorated. People of all walks of life move
+about the street heading home or leaving their home and small
+animals scamper through the crowds.
+~
+0 1073741828 1 0 0 0 3696
+D0
+~
+~
+0 -1 24355 0
+D1
+~
+~
+0 -1 24351 0
+D2
+~
+~
+0 -1 24356 0
+D3
+~
+~
+0 -1 24357 0
+S
+#24355
+&CEmpty Home&W~
+~
+0 1084227592 1 0 0 0 3696
+D2
+~
+~
+0 -1 24354 0
+R M 0 24203 225 24355
+S
+#24356
+&CEmpty Home&W~
+~
+0 1084227592 1 0 0 0 3696
+D0
+~
+~
+0 -1 24354 0
+R M 0 24202 181 24356
+S
+#24357
+&GResidential Circle&W~
+Large structures cover both sides of the streets some of them
+even have transparisteel windows facing into the street and
+each one tastefully decorated. People of all walks of life move
+about the street heading home or leaving their home and small
+animals scamper through the crowds.
+~
+0 1073741828 1 0 0 0 3696
+D0
+~
+~
+0 -1 24358 0
+D1
+~
+~
+0 -1 24354 0
+D2
+~
+~
+0 -1 24359 0
+D3
+~
+~
+0 -1 24360 0
+S
+#24358
+&CEmpty Home&W~
+~
+0 1084227592 1 0 0 0 3696
+D2
+~
+~
+0 -1 24357 0
+R M 0 24202 181 24358
+R M 0 24202 181 24358
+R M 0 24207 135 24358
+S
+#24359
+&CEmpty Home&W~
+~
+0 1084227592 1 0 0 0 3696
+D0
+~
+~
+0 -1 24357 0
+R M 0 24202 181 24359
+S
+#24360
+&GResidential Circle&W~
+Large structures cover both sides of the streets some of them
+even have transparisteel windows facing into the street and
+each one tastefully decorated. People of all walks of life move
+about the street heading home or leaving their home and small
+animals scamper through the crowds.
+~
+0 1073741828 1 0 0 0 3696
+D1
+~
+~
+0 -1 24357 0
+D2
+~
+~
+0 -1 24362 0
+D3
+~
+~
+0 -1 24361 0
+S
+#24361
+&CEmpty Home&W~
+~
+0 1084227592 1 0 0 0 3696
+D1
+~
+~
+0 -1 24360 0
+R M 0 24203 225 24361
+R M 0 24203 225 24361
+R M 0 24203 225 24361
+R M 0 24202 181 24361
+S
+#24362
+&GResidential Circle&W~
+Large structures cover both sides of the streets some of them
+even have transparisteel windows facing into the street and
+each one tastefully decorated. People of all walks of life move
+about the street heading home or leaving their home and small
+animals scamper through the crowds.
+~
+0 1073741828 1 0 0 0 3696
+D0
+~
+~
+0 -1 24360 0
+D2
+~
+~
+0 -1 24363 0
+R M 0 24202 181 24362
+R M 0 24203 225 24362
+R M 0 24202 181 24362
+R M 0 24207 135 24362
+R M 0 24207 135 24362
+R M 0 24207 135 24362
+R M 0 24203 225 24362
+S
+#24363
+&GResidential Circle&W~
+Large structures cover both sides of the streets some of them
+even have transparisteel windows facing into the street and
+each one tastefully decorated. People of all walks of life move
+about the street heading home or leaving their home and small
+animals scamper through the crowds.
+~
+0 1073741828 1 0 0 0 3696
+D0
+~
+~
+0 -1 24362 0
+D2
+~
+~
+0 -1 24330 0
+D3
+~
+~
+0 -1 24364 0
+S
+#24364
+&CEmpty Home&W~
+~
+0 1084227592 1 0 0 0 3696
+D1
+~
+~
+0 -1 24363 0
+R M 0 24202 181 24364
+R M 0 24202 181 24364
+R M 0 24202 181 24364
+R M 0 24202 181 24364
+R M 0 24203 225 24364
+R M 0 24202 181 24364
+R M 0 24203 225 24364
+R M 0 24203 225 24364
+R M 0 24203 225 24364
+R M 0 24207 135 24364
+S
+#24365
+&BEntrance To Iziz Cantina&W~
+The room opens up into a giant hall.The hall is decorated with
+several large plants sitting all about the hall. Light panels
+shower down a teal colored light and bounces off the grey durasteel
+walls and on the walls are elegant designs. 
+~
+0 1073741832 1 0 0 0 3696
+D0
+~
+~
+0 -1 24366 0
+D2
+~
+~
+0 -1 24270 0
+S
+#24366
+&BIziz Cantina Main Hall&W~
+The hall is decorated with several large plants sitting all about
+the hall. Light panels shower down a teal colored light and
+bounces off the grey durasteel walls and on the walls are elegant
+designs. Tables sit all about the hall and each with several
+chairs surrounding them.small rodian shriv gemstones sit in
+centerpieces on each table.
+~
+0 1073741832 1 0 0 0 3696
+D2
+~
+~
+0 -1 24365 0
+D6
+~
+~
+0 -1 24369 0
+D7
+~
+~
+0 -1 24367 0
+R M 0 24202 181 24366
+R M 0 24203 225 24366
+R M 0 24203 225 24366
+R M 0 24203 225 24366
+S
+#24367
+&BIziz Cantina Main Hall&W~
+The hall is decorated with several large plants sitting all about
+the hall. Light panels shower down a teal colored light and
+bounces off the grey durasteel walls and on the walls are elegant
+designs. Tables sit all about the hall and each with several
+chairs surrounding them.small rodian shriv gemstones sit in
+centerpieces on each table.
+~
+0 1073741832 1 0 0 0 3696
+D3
+~
+~
+0 -1 24373 0
+D6
+~
+~
+0 -1 24368 0
+D8
+~
+~
+0 -1 24366 0
+R M 0 24203 225 24367
+R M 0 24202 181 24367
+S
+#24368
+&BIziz Cantina Main Hall&W~
+The hall is decorated with several large plants sitting all about
+the hall. Light panels shower down a teal colored light and
+bounces off the grey durasteel walls and on the walls are elegant
+designs. Tables sit all about the hall and each with several
+chairs surrounding them.small rodian shriv gemstones sit in
+centerpieces on each table.
+~
+0 1073741832 1 0 0 0 3696
+D0
+~
+~
+0 -1 24370 0
+D8
+~
+~
+0 -1 24369 0
+D9
+~
+~
+0 -1 24367 0
+S
+#24369
+&BIziz Cantina Main Hall&W~
+The hall is decorated with several large plants sitting all about
+the hall. Light panels shower down a teal colored light and
+bounces off the grey durasteel walls and on the walls are elegant
+designs. Tables sit all about the hall and each with several
+chairs surrounding them.small rodian shriv gemstones sit in
+centerpieces on each table.
+~
+0 1073741832 1 0 0 0 3696
+D1
+~
+~
+0 -1 24376 0
+D7
+~
+~
+0 -1 24368 0
+D9
+~
+~
+0 -1 24366 0
+R M 0 24202 181 24369
+S
+#24370
+&BNorth Hall&W~
+The hall is decorated with several large plants sitting all about
+the hall. Light panels shower down a teal colored light and
+bounces off the grey durasteel walls and on the walls are elegant
+designs.
+~
+0 1073741832 1 0 0 0 3696
+D0
+~
+~
+0 -1 24371 0
+D2
+~
+~
+0 -1 24368 0
+R M 0 24202 181 24370
+S
+#24371
+&BNorth Hall&W~
+The hall is decorated with several large plants sitting all about
+the hall. Light panels shower down a teal colored light and
+bounces off the grey durasteel walls and on the walls are elegant
+designs.
+~
+0 1073741832 1 0 0 0 3696
+D0
+~
+~
+0 -1 24372 0
+D2
+~
+~
+0 -1 24370 0
+R M 0 24203 225 24371
+S
+#24372
+&CStage&W~
+The stage is shaped in a penisula. A pair of golden durasteel
+poles stand in the middle of the stage. a small band can be
+seen playing music while the dancers dance. The room is brightly
+lit from the light panels all around the hall. large elegant
+designs are ebbed into the walls and ceiling.
+~
+0 1073741832 1 0 0 0 3696
+D2
+~
+~
+0 -1 24371 0
+R M 0 24219 1 24372
+R M 0 24202 181 24372
+R M 0 24218 1 24372
+S
+#24373
+&BWest Hall&W~
+The hall is decorated with several large plants sitting all about
+the hall. Light panels shower down a teal colored light and
+bounces off the grey durasteel walls and on the walls are elegant
+designs.
+~
+0 1073741832 1 0 0 0 3696
+D1
+~
+~
+0 -1 24367 0
+D3
+~
+~
+0 -1 24374 0
+R M 0 24202 181 24373
+R M 0 24203 225 24373
+R M 0 24203 225 24373
+R M 0 24202 181 24373
+R M 0 24202 181 24373
+S
+#24374
+&BWest Hall&W~
+The hall is decorated with several large plants sitting all about
+the hall. Light panels shower down a teal colored light and
+bounces off the grey durasteel walls and on the walls are elegant
+designs.
+~
+0 1073741832 1 0 0 0 3696
+D0
+~
+~
+0 -1 24375 0
+D1
+~
+~
+0 -1 24373 0
+R M 0 24202 181 24374
+S
+#24375
+&BThe Bar&W~
+The bar is shaped in a vague L with a large golden durasteel
+countertop. Small golden stools sit all along the bar to accomendate
+patrons. A few plants are scattered about here. the entire bar
+is lined with rodian shriv gemstones.
+~
+0 1073741832 1 0 0 0 3696
+D2
+~
+~
+0 -1 24374 0
+R M 0 24220 1 24375
+  R G 0 24253 1
+  R G 0 24254 1
+  R G 0 24255 1
+  R G 0 24256 1
+  R G 0 24257 1
+  R G 0 24258 1
+  R G 0 24259 1
+  R G 0 24260 1
+  R G 0 24263 1
+  R G 0 24262 1
+  R G 0 24261 1
+  R G 0 24266 1
+  R G 0 24265 1
+  R G 0 24264 1
+R M 0 24202 181 24375
+S
+#24376
+&BLarge Hall&W~
+The hall is decorated with several large plants sitting all about
+the hall. Light panels shower down a teal colored light and
+bounces off the grey durasteel walls and on the walls are elegant
+designs.
+~
+0 1073741832 1 0 0 0 3696
+D1
+~
+~
+0 -1 24377 0
+D3
+~
+~
+0 -1 24369 0
+R M 0 24203 225 24376
+R M 0 24203 225 24376
+S
+#24377
+&BLarge Hall&W~
+The hall is decorated with several large plants sitting all about
+the hall. Light panels shower down a teal colored light and
+bounces off the grey durasteel walls and on the walls are elegant
+designs.
+~
+0 1073741832 1 0 0 0 3696
+D0
+~
+~
+0 -1 24378 0
+D1
+~
+~
+3 -1 24381 0
+D2
+~
+~
+3 -1 24382 0
+D3
+~
+~
+0 -1 24376 0
+R M 0 24203 225 24377
+R D 0 24377 1 1
+R D 0 24377 2 1
+S
+#24378
+&BLarge Hall&W~
+The hall is decorated with several large plants sitting all about
+the hall. Light panels shower down a teal colored light and
+bounces off the grey durasteel walls and on the walls are elegant
+designs.
+~
+0 1073741832 1 0 0 0 3696
+D0
+~
+~
+3 -1 24379 0
+D1
+~
+~
+3 -1 24380 0
+D2
+~
+~
+0 -1 24377 0
+D3
+~
+~
+3 -1 24383 0
+R M 0 24203 225 24378
+R M 0 24202 181 24378
+R M 0 24202 181 24378
+R D 0 24378 0 1
+R D 0 24378 1 1
+R D 0 24378 3 1
+S
+#24379
+&BPrivate Booth&W~
+~
+0 1073741828 1 0 0 0 3696
+D2
+~
+~
+3 -1 24378 0
+R M 0 24202 181 24379
+R D 0 24379 2 1
+S
+#24380
+&BPrivate Booth&W~
+~
+0 1073741836 1 0 0 0 3696
+D3
+~
+~
+3 -1 24378 0
+R D 0 24380 3 1
+S
+#24381
+&BPrivate Booth&W~
+~
+0 1073741832 1 0 0 0 3696
+D3
+~
+~
+3 -1 24377 0
+R D 0 24381 3 1
+S
+#24382
+&BPrivate Booth&W~
+~
+0 1073741836 1 0 0 0 3696
+D0
+~
+~
+3 -1 24377 0
+R D 0 24382 0 1
+S
+#24383
+&BPrivate Booth&W~
+~
+0 1073741836 1 0 0 0 3696
+D1
+~
+~
+3 -1 24378 0
+R D 0 24383 1 1
+S
+#24499
+Floating in a void~
+~
+0 4 1 0 0 0 3696
+S
+#0
+
+
+#SHOPS
+ 24201    0  0  0  0  0   120  90         0 23    ; a visa officer
+ 24208    0  0  0  0  0   120  90         0 23    ; Dek, the chef droid
+ 24209    0  0  0  0  0   120  90         0 23    ; A Mandalorian Merchant
+ 24210    0  0  0  0  0   120  90         0 23    ; czerka corporation M-934 merchant droid
+ 24211    0  0  0  0  0   120  90         0 23    ; Arlaya
+ 24212    9  5 15  1  0   120  90         0 23    ; A Jawa pawn broker
+ 24214    0  0  0  0  0   120  90         0 23    ; female shopkeeper
+ 24215    0  0  0  0  0   120  90         0 23    ; 1B-8D merchant droid
+ 24216    0  0  0  0  0   120  90         0 23    ; czerka corporation M-934 merchant droid
+ 24217    0  0  0  0  0   120  90         0 23    ; A Supply Droid
+ 24220    0  0  0  0  0   120  90         0 23    ; A chiss bartender
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

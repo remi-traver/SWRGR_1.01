@@ -1,0 +1,875 @@
+#HEADER
+
+
+Name		MC-30 Frigate~
+Sname		MC-30~
+NumRooms	14
+Cost		188440
+Class		5
+Tractor		1
+primaryType	6
+primaryCount	6
+secondaryType	9
+secondaryCount	3
+RangeWeapons0	5
+RangeWeapons1	30
+RangeWeapons2	5
+Hull		145
+Shields		60
+Energy		5000
+Chaff		8
+Maxbombs	0
+Speed		110
+Hyperspeed	2
+Manuever	99
+Turrets		4
+Mods		5
+Clan		The New Republic~
+End
+
+#ROOMS
+
+#ROOM
+
+RoomNum		1
+Name		Cockpit of an MC-30 Frigate~
+Desc		This is the cockpit of an MC-30 Frigate. Being of Mon Calamari design, it is roomy and aesthetically pleasing. The captain's chair is in the center of the cockpit facing a viewscreen and control panel. The co-pilot's chair is directly to the right of the captain's chair and the navigator's station is to the left. There are two other seats for VIP's flanking the entrance to the cockpit.~
+Flags		indoors spacecraft prototype~
+Tunnel		5
+Exits0		0
+Exits1		0
+Exits2		2
+Exits3		0
+Exits4		0
+Exits5		0
+Exits6		0
+Exits7		0
+Exits8		0
+Exits9		0
+Exflags0	0
+Exflags1	0
+Exflags2	3
+Exflags3	0
+Exflags4	0
+Exflags5	0
+Exflags6	0
+Exflags7	0
+Exflags8	0
+Exflags9	0
+Keys0		0
+Keys1		0
+Keys2		0
+Keys3		0
+Keys4		0
+Keys5		0
+Keys6		0
+Keys7		0
+Keys8		0
+Keys9		0
+RoomType	1
+Rprog0		~
+Rprog1		~
+Rprog2		~
+Rprog3		~
+Rprog4		~
+Rprog5		~
+Rprog6		~
+Rprog7		~
+Rprog8		~
+Rprog9		~
+Reset0		~
+Reset1		~
+Reset2		~
+Reset3		~
+Reset4		~
+Reset5		~
+Reset6		~
+Reset7		~
+Reset8		~
+Reset9		~
+End
+
+#ROOM
+
+RoomNum		2
+Name		Passage in an MC-30 Frigate~
+Desc		This is a passage that that connects the cockpit to the rest of the ship. There is a cabin on either side of the hallway, one for the captain and one for the co-pilot. There is a passage leading aft(south) to the rest of the ship.~
+Flags		indoors spacecraft prototype~
+Tunnel		5
+Exits0		1
+Exits1		3
+Exits2		5
+Exits3		4
+Exits4		0
+Exits5		0
+Exits6		0
+Exits7		0
+Exits8		0
+Exits9		0
+Exflags0        3
+Exflags1        3
+Exflags2        0
+Exflags3        3
+Exflags4        0
+Exflags5        0
+Exflags6        0
+Exflags7        0
+Exflags8        0
+Exflags9        0
+Keys0           0
+Keys1           0
+Keys2           0
+Keys3           0
+Keys4           0
+Keys5           0
+Keys6           0
+Keys7           0
+Keys8           0
+Keys9           0
+RoomType        22
+Rprog0          ~
+Rprog1          ~
+Rprog2          ~
+Rprog3          ~
+Rprog4          ~
+Rprog5          ~
+Rprog6          ~
+Rprog7          ~
+Rprog8          ~
+Rprog9          ~
+Reset0          ~
+Reset1          ~
+Reset2          ~
+Reset3          ~
+Reset4          ~
+Reset5          ~
+Reset6          ~
+Reset7          ~
+Reset8          ~
+Reset9		~
+End
+
+#ROOM
+
+RoomNum		3
+Name		Captain's Quarters~
+Desc		The Mon Calamari sure know how to design a ship. This cabin is proof of that and more. Every square inch of available space was utilized to perfection so that every need is met and the occupant can remain comfortable. There is a bed, a desk and a full-sized refresher as well as an entertainment center.~
+Flags		indoors spacecraft hotel prototype~
+Tunnel		2
+Exits0		0
+Exits1		0
+Exits2		0
+Exits3		2
+Exits4		0
+Exits5		0
+Exits6		0
+Exits7		0
+Exits8		0
+Exits9		0
+Exflags0	0
+Exflags1	0
+Exflags2	0
+Exflags3	3
+Exflags4	0
+Exflags5	0
+Exflags6	0
+Exflags7	0
+Exflags8	0
+Exflags9	0
+Keys0		0
+Keys1		0
+Keys2		0
+Keys3		0
+Keys4		0
+Keys5		0
+Keys6		0
+Keys7		0
+Keys8		0
+Keys9		0
+RoomType	22
+Rprog0		~
+Rprog1		~
+Rprog2		~
+Rprog3		~
+Rprog4		~
+Rprog5		~
+Rprog6		~
+Rprog7		~
+Rprog8		~
+Rprog9		~
+Reset0		~
+Reset1		~
+Reset2		~
+Reset3		~
+Reset4		~
+Reset5		~
+Reset6		~
+Reset7		~
+Reset8		~
+Reset9		~
+End
+
+#ROOM
+
+RoomNum		4
+Name		Co-Pilot's Quarters~
+Desc		These quarters aren't quite as nice as the captain's quarters, but the Mon Calamari skill is still quite evident. There is a small bed with a smaller refresher than the captain's. There is a small entertainment center as well but it is nowhere near as fancy as the captain's... Still, it's better than the rest of the quarters.~
+Flags		indoors spacecraft hotel prototype~
+Tunnel		2
+Exits0		0
+Exits1		2
+Exits2		0
+Exits3		0
+Exits4		0
+Exits5		0
+Exits6		0
+Exits7		0
+Exits8		0
+Exits9		0
+Exflags0	0
+Exflags1	3
+Exflags2	0
+Exflags3	0
+Exflags4	0
+Exflags5	0
+Exflags6	0
+Exflags7	0
+Exflags8	0
+Exflags9	0
+Keys0		0
+Keys1		0
+Keys2		0
+Keys3		0
+Keys4		0
+Keys5		0
+Keys6		0
+Keys7		0
+Keys8		0
+Keys9		0
+RoomType	22
+Rprog0		~
+Rprog1		~
+Rprog2		~
+Rprog3		~
+Rprog4		~
+Rprog5		~
+Rprog6		~
+Rprog7		~
+Rprog8		~
+Rprog9		~
+Reset0		~
+Reset1		~
+Reset2		~
+Reset3		~
+Reset4		~
+Reset5		~
+Reset6		~
+Reset7		~
+Reset8		~
+Reset9		~
+End
+
+#ROOM
+
+RoomNum		5
+Name		Common Area of an MC-30 Frigate~
+Desc		This is the common area of the ship. It has all the tell-tale signs of Mon Calamari design. There are a couple form-plast chairs and a long comfortable acceleration couch arranged around a table in the center of the room. A small machine that dispenses a variety of drinks, and a small meal preperation counter are on the port-side bulkhead  next to the entrance to the port-side turrets. Exits lead away from this room to all parts of the ship. The entrance ramp is down a sloping ramp alongside the starboard bulkhead, and a ramp leading upward to the crew quarters is along the port bulkhead.~
+Flags		indoors spacecraft prototype~
+Tunnel		10
+Exits0		2
+Exits1		6
+Exits2		7
+Exits3		8
+Exits4		14
+Exits5		9
+Exits6		0
+Exits7		0
+Exits8		0
+Exits9		0
+Exflags0	0
+Exflags1	0
+Exflags2	0
+Exflags3	0
+Exflags4	0
+Exflags5	0
+Exflags6	0
+Exflags7	0
+Exflags8	0
+Exflags9	0
+Keys0		0
+Keys1		0
+Keys2		0
+Keys3		0
+Keys4		0
+Keys5		0
+Keys6		0
+Keys7		0
+Keys8		0
+Keys9		0
+RoomType	22
+Rprog0		~
+Rprog1		~
+Rprog2		~
+Rprog3		~
+Rprog4		~
+Rprog5		~
+Rprog6		~
+Rprog7		~
+Rprog8		~
+Rprog9		~
+Reset0		~
+Reset1		~
+Reset2		~
+Reset3		~
+Reset4		~
+Reset5		~
+Reset6		~
+Reset7		~
+Reset8		~
+Reset9		~
+End
+
+#ROOM
+
+RoomNum		6
+Name		Outside the Starboard Turrets~
+Desc		This is the small passage between the two starboard turrets. There is a ladder against the starboard bulkhead leading up and down to both turrets.~
+Flags		indoors spacecraft prototype~
+Tunnel		4
+Exits0		0
+Exits1		0
+Exits2		0
+Exits3		5
+Exits4		10
+Exits5		11
+Exits6		0
+Exits7		0
+Exits8		0
+Exits9		0
+Exflags0	0
+Exflags1	0
+Exflags2	0
+Exflags3	0
+Exflags4	0
+Exflags5	0
+Exflags6	0
+Exflags7	0
+Exflags8	0
+Exflags9	0
+Keys0		0
+Keys1		0
+Keys2		0
+Keys3		0
+Keys4		0
+Keys5		0
+Keys6		0
+Keys7		0
+Keys8		0
+Keys9		0
+RoomType	22
+Rprog0		~
+Rprog1		~
+Rprog2		~
+Rprog3		~
+Rprog4		~
+Rprog5		~
+Rprog6		~
+Rprog7		~
+Rprog8		~
+Rprog9		~
+Reset0		~
+Reset1		~
+Reset2		~
+Reset3		~
+Reset4		~
+Reset5		~
+Reset6		~
+Reset7		~
+Reset8		~
+Reset9		~
+End
+
+#ROOM
+
+RoomNum		7
+Name		Engine Maintenance and Repair Station~
+Desc		This is where internal access to the engine and other components of the ship is possible. Any repairs and or enhancements to the ship can be made from here. There is only one exit back to the common area of the ship.~
+Flags		indoors spacecraft prototype~
+Tunnel		3
+Exits0		5
+Exits1		0
+Exits2		0
+Exits3		0
+Exits4		0
+Exits5		0
+Exits6		0
+Exits7		0
+Exits8		0
+Exits9		0
+Exflags0	0
+Exflags1	0
+Exflags2	0
+Exflags3	0
+Exflags4	0
+Exflags5	0
+Exflags6	0
+Exflags7	0
+Exflags8	0
+Exflags9	0
+Keys0		0
+Keys1		0
+Keys2		0
+Keys3		0
+Keys4		0
+Keys5		0
+Keys6		0
+Keys7		0
+Keys8		0
+Keys9		0
+RoomType	7
+Rprog0		~
+Rprog1		~
+Rprog2		~
+Rprog3		~
+Rprog4		~
+Rprog5		~
+Rprog6		~
+Rprog7		~
+Rprog8		~
+Rprog9		~
+Reset0		~
+Reset1		~
+Reset2		~
+Reset3		~
+Reset4		~
+Reset5		~
+Reset6		~
+Reset7		~
+Reset8		~
+Reset9		~
+End
+
+#ROOM
+
+RoomNum		8
+Name		Outside the Port Turrets~
+Desc            This is the small passage between the two port turrets. There is a ladder against the port bulkhead leading up and down to both turrets.~
+Flags           indoors spacecraft prototype~
+Tunnel          4
+Exits0          0
+Exits1		5
+Exits2		0
+Exits3		0
+Exits4		12
+Exits5		13
+Exits6		0
+Exits7		0
+Exits8		0
+Exits9		0
+Exflags0        0
+Exflags1        0
+Exflags2        0
+Exflags3        0
+Exflags4        0
+Exflags5        0
+Exflags6        0
+Exflags7        0
+Exflags8        0
+Exflags9        0
+Keys0           0
+Keys1           0
+Keys2           0
+Keys3           0
+Keys4           0
+Keys5           0
+Keys6           0
+Keys7           0
+Keys8		0
+Keys9		0
+RoomType	22
+Rprog0          ~
+Rprog1          ~
+Rprog2          ~
+Rprog3          ~
+Rprog4          ~
+Rprog5          ~
+Rprog6          ~
+Rprog7          ~
+Rprog8          ~
+Rprog9          ~
+Reset0          ~
+Reset1          ~
+Reset2          ~
+Reset3          ~
+Reset4          ~
+Reset5          ~
+Reset6          ~
+Reset7          ~
+Reset8          ~
+Reset9          ~
+End
+
+#ROOM
+
+RoomNum		9
+Name		Entrance Ramp of an MC-30 Frigate~
+Desc		Walking up the entrance ramp of this frigate is enough to know that it is of Mon Calamari design. It has sweeping lines and no space is wasted. On most frigates of this size, even the average human has to duck to avoid cranial damage, but the Mon Calamari were nice enough to provide plenty of clearance. Further up the ramp is the common room of the ship.~
+Flags		indoors spacecraft prototype~
+Tunnel		10
+Exits0		0
+Exits1		0
+Exits2		0
+Exits3		0
+Exits4		5
+Exits5		0
+Exits6		0
+Exits7		0
+Exits8		0
+Exits9		0
+Exflags0        0
+Exflags1        0
+Exflags2        0
+Exflags3        0
+Exflags4        0
+Exflags5        0
+Exflags6        0
+Exflags7        0
+Exflags8        0
+Exflags9        0
+Keys0           0
+Keys1           0
+Keys2           0
+Keys3           0
+Keys4           0
+Keys5           0
+Keys6           0
+Keys7           0
+Keys8           0
+Keys9           0
+RoomType	2
+Rprog0          ~
+Rprog1          ~
+Rprog2          ~
+Rprog3          ~
+Rprog4          ~
+Rprog5          ~
+Rprog6          ~
+Rprog7          ~
+Rprog8          ~
+Rprog9          ~
+Reset0          ~
+Reset1          ~
+Reset2          ~
+Reset3          ~
+Reset4          ~
+Reset5          ~
+Reset6          ~
+Reset7          ~
+Reset8          ~
+Reset9          ~
+End
+
+#ROOM
+
+RoomNum		10
+Name		Upper Starboard Turret~
+Desc		This small pod extends slightly above the hull of the MC-30 Frigate. There is a chair with sturdy straps to keep the gunner from flying all over the place during intense battles. There are instruments and readout screens covering every square inch of the pod allowing the gunner to find their target easier. There is a ladder leading down out of the turret.~
+Flags		indoors spacecraft prototype~
+Tunnel		1
+Exits0		0
+Exits1		0
+Exits2		0
+Exits3		0
+Exits4		0
+Exits5		6
+Exits6		0
+Exits7		0
+Exits8		0
+Exits9		0
+Exflags0        0
+Exflags1        0
+Exflags2        0
+Exflags3        0
+Exflags4        0
+Exflags5        0
+Exflags6        0
+Exflags7        0
+Exflags8        0
+Exflags9        0
+Keys0           0
+Keys1           0
+Keys2           0
+Keys3           0
+Keys4           0
+Keys5           0
+Keys6           0
+Keys7           0
+Keys8           0
+Keys9           0
+RoomType	12
+Rprog0          ~
+Rprog1          ~
+Rprog2          ~
+Rprog3          ~
+Rprog4          ~
+Rprog5          ~
+Rprog6          ~
+Rprog7          ~
+Rprog8          ~
+Rprog9          ~
+Reset0          ~
+Reset1          ~
+Reset2          ~
+Reset3          ~
+Reset4          ~
+Reset5          ~
+Reset6		~
+Reset7		~
+Reset8		~
+Reset9		~
+End
+
+#ROOM
+
+RoomNum		11
+Name		Lower Starboard Turret~
+Desc            This small pod extends slightly below the hull of the MC-30 Frigate. There is a chair with sturdy straps to keep the gunner from flying all over the place during intense battles. There are instruments and readout screens covering every square inch of the pod allowing the gunner to find their target easier. There is a ladder leading up out of the turret.~
+Flags           indoors spacecraft prototype~
+Tunnel          1
+Exits0          0
+Exits1          0
+Exits2          0
+Exits3          0
+Exits4		6
+Exits5		0
+Exits6          0
+Exits7          0
+Exits8          0
+Exits9          0
+Exflags0        0
+Exflags1        0
+Exflags2        0
+Exflags3        0
+Exflags4        0
+Exflags5        0
+Exflags6        0
+Exflags7        0
+Exflags8        0
+Exflags9        0
+Keys0           0
+Keys1           0
+Keys2           0
+Keys3           0
+Keys4           0
+Keys5           0
+Keys6           0
+Keys7           0
+Keys8           0
+Keys9           0
+RoomType        13
+Rprog0          ~
+Rprog1          ~
+Rprog2          ~
+Rprog3          ~
+Rprog4          ~
+Rprog5          ~
+Rprog6          ~
+Rprog7          ~
+Rprog8          ~
+Rprog9		~
+Reset0          ~
+Reset1          ~
+Reset2          ~
+Reset3          ~
+Reset4          ~
+Reset5          ~
+Reset6          ~
+Reset7          ~
+Reset8          ~
+Reset9          ~
+End
+
+#ROOM
+
+RoomNum		12
+Name		Upper Port Turret~
+Desc            This small pod extends slightly above the hull of the MC-30 Frigate. There is a chair with sturdy straps to keep the gunner from flying all over the place during intense battles. There are instruments and readout screens covering every square inch of the pod allowing the gunner to find their target easier. There is a ladder leading down out of the turret.~
+Flags           indoors spacecraft prototype~
+Tunnel          1
+Exits0          0
+Exits1          0
+Exits2          0
+Exits3          0
+Exits4          0
+Exits5          8
+Exits6          0
+Exits7          0
+Exits8          0
+Exits9          0
+Exflags0        0
+Exflags1        0
+Exflags2        0
+Exflags3        0
+Exflags4        0
+Exflags5        0
+Exflags6        0
+Exflags7        0
+Exflags8	0
+Exflags9	0
+Keys0           0
+Keys1           0
+Keys2           0
+Keys3           0
+Keys4           0
+Keys5           0
+Keys6           0
+Keys7           0
+Keys8           0
+Keys9           0
+RoomType        14
+Rprog0          ~
+Rprog1          ~
+Rprog2          ~
+Rprog3          ~
+Rprog4          ~
+Rprog5          ~
+Rprog6          ~
+Rprog7		~
+Rprog8		~
+Rprog9		~
+Reset0          ~
+Reset1          ~
+Reset2          ~
+Reset3          ~
+Reset4          ~
+Reset5          ~
+Reset6          ~
+Reset7          ~
+Reset8          ~
+Reset9          ~
+End
+
+#ROOM
+
+RoomNum         13
+Name            Lower Port Turret~
+Desc            This small pod extends slightly below the hull of the MC-30 Frigate. There is a chair with sturdy straps to keep the gunner from flying all over the place during intense battles. There are instruments and readout screens covering every square inch of the pod allowing the gunner to find their target easier. There is a ladder leading up out of the turret.~
+Flags           indoors spacecraft prototype~
+Tunnel          1
+Exits0          0
+Exits1          0
+Exits2          0
+Exits3          0
+Exits4          8
+Exits5          0
+Exits6          0
+Exits7          0
+Exits8          0
+Exits9          0
+Exflags0        0
+Exflags1        0
+Exflags2        0
+Exflags3        0
+Exflags4        0
+Exflags5        0
+Exflags6        0
+Exflags7        0
+Exflags8        0
+Exflags9        0
+Keys0           0
+Keys1           0
+Keys2           0
+Keys3           0
+Keys4           0
+Keys5           0
+Keys6           0
+Keys7           0
+Keys8           0
+Keys9           0
+RoomType        15
+Rprog0          ~
+Rprog1          ~
+Rprog2          ~
+Rprog3          ~
+Rprog4          ~
+Rprog5          ~
+Rprog6          ~
+Rprog7          ~
+Rprog8          ~
+Rprog9          ~
+Reset0          ~
+Reset1          ~
+Reset2          ~
+Reset3          ~
+Reset4          ~
+Reset5          ~
+Reset6          ~
+Reset7          ~
+Reset8          ~
+Reset9          ~
+End
+
+#ROOM
+
+RoomNum		14
+Name		Crew Quarters~
+Desc		This is where the crew of the ship goes to rest. It's rather simplistic in nature but still bears the look of Mon Calamari craftsmanship. There are bunks set into the bulkheads on both sides of the room with a small sitting area against the aft bulkhead facing a large view-screen which can be set to display images from outside the ship, or to pick up holo-net channels. There is a sloping ramp leading down into the common area of the ship.~
+Flags		indoors spacecraft hotel prototype~
+Tunnel		10
+Exits0		0
+Exits1		0
+Exits2		0
+Exits3		0
+Exits4		0
+Exits5		5
+Exits6		0
+Exits7		0
+Exits8		0
+Exits9		0
+Exflags0        0
+Exflags1        0
+Exflags2        0
+Exflags3        0
+Exflags4        0
+Exflags5        0
+Exflags6        0
+Exflags7        0
+Exflags8        0
+Exflags9        0
+Keys0           0
+Keys1           0
+Keys2           0
+Keys3           0
+Keys4           0
+Keys5           0
+Keys6           0
+Keys7           0
+Keys8           0
+Keys9           0
+RoomType        22
+Rprog0          ~
+Rprog1          ~
+Rprog2          ~
+Rprog3          ~
+Rprog4          ~
+Rprog5          ~
+Rprog6          ~
+Rprog7          ~
+Rprog8          ~
+Rprog9          ~
+Reset0          ~
+Reset1          ~
+Reset2          ~
+Reset3          ~
+Reset4          ~
+Reset5          ~
+Reset6          ~
+Reset7          ~
+Reset8          ~
+Reset9		~
+End
+
+
+#ENDROOMS
+
+#END

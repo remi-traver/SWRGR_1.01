@@ -1,0 +1,39 @@
+https://muds.fandom.com/wiki/SWReality
+
+
+Assign_GSN not found
+
+sabotage - commented out
+
+
+Cmdtable adds - 
+
+
+do_freeships
+do_availships
+
+
+
+
+Skills - not able to link to skill code do_
+
+
+do_situational_awareness - need to add code magic.c
+
+
+
+add subclasses - seaerch code for bonuses
+medic
+survivor
+soldier
+mechanic
+doctor
+paramedic
+force sensitive
+jedi
+prodigy
+jedi hunter
+false prophet
+certified genius
+
+

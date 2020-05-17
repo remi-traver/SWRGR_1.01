@@ -1,0 +1,3273 @@
+; dlltool --export-all --output-def swreality.def o/imc.o o/act_comm.o o/act_info.o o/act_move.o o/act_obj.o o/act_wiz.o o/boards.o o/bounty.o o/build.o o/clans.o o/color.o o/comm.o o/comments.o o/const.o o/db.o o/dns.o o/fight.o o/handler.o o/hashstr.o o/hotboot.o o/interp.o o/magic.o o/makeobjs.o o/mccp.o o/misc.o o/mssp.o o/mud_comm.o o/mud_prog.o o/player.o o/reset.o o/save.o o/sha256.o o/shops.o o/skills.o o/space.o o/special.o o/swskills.o o/tables.o o/track.o o/update.o
+EXPORTS
+	wizlock @ 1 DATA
+	EXA_prog_trigger @ 2 DATA
+	MOBtrigger @ 3 DATA
+;	RelDestroy(relation_type, void*, void*)
+	_Z10RelDestroy13relation_typePvS0_ @ 4
+;	accept_new(int)
+	_Z10accept_newi @ 5
+;	act_string(char const*, char_data*, char_data*, void const*, void const*)
+	_Z10act_stringPKcP9char_dataS2_PKvS4_ @ 6
+;	actiondesc(char_data*, obj_data*, void*)
+	_Z10actiondescP9char_dataP8obj_dataPv @ 7
+;	add_social(social_type*)
+	_Z10add_socialP11social_type @ 8
+;	can_remove(char_data*, board_data*)
+	_Z10can_removeP9char_dataP10board_data @ 9
+;	capitalize(char const*)
+	_Z10capitalizePKc @ 10
+;	ch_slookup(char_data*, char const*)
+	_Z10ch_slookupP9char_dataPKc @ 11
+;	char_check()
+	_Z10char_checkv @ 12
+;	check_duck(char_data*, char_data*)
+	_Z10check_duckP9char_dataS0_ @ 13
+;	check_grip(char_data*, char_data*)
+	_Z10check_gripP9char_dataS0_ @ 14
+;	check_hash(char const*)
+	_Z10check_hashPKc @ 15
+;	check_save(int, int, char_data*, char_data*)
+	_Z10check_saveiiP9char_dataS0_ @ 16
+;	clean_room(room_index_data*)
+	_Z10clean_roomP15room_index_data @ 17
+;	clear_char(char_data*)
+	_Z10clear_charP9char_data @ 18
+;	close_area(area_data*)
+	_Z10close_areaP9area_data @ 19
+;	color_itom(char const*, char_data*)
+	_Z10color_itomPKcP9char_data @ 20
+;	color_mtoi(char const*)
+	_Z10color_mtoiPKc @ 21
+;	could_dual(char_data*)
+	_Z10could_dualP9char_data @ 22
+;	countlangs(int)
+	_Z10countlangsi @ 23
+;	damage_obj(obj_data*)
+	_Z10damage_objP8obj_data @ 24
+;	delete_mob(mob_index_data*)
+	_Z10delete_mobP14mob_index_data @ 25
+;	delete_obj(obj_index_data*)
+	_Z10delete_objP14obj_index_data @ 26
+;	dice_parse(char_data*, int, char const*)
+	_Z10dice_parseP9char_dataiPKc @ 27
+;	do_mp_cast(char_data*, char const*)
+	_Z10do_mp_castP9char_dataPKc @ 28
+;	do_mpaward(char_data*, char const*)
+	_Z10do_mpawardP9char_dataPKc @ 29
+;	do_mpsleep(char_data*, char const*)
+	_Z10do_mpsleepP9char_dataPKc @ 30
+;	drive_ship(char_data*, ship_data*, exit_data*, int)
+	_Z10drive_shipP9char_dataP9ship_dataP9exit_datai @ 31
+;	equip_char(char_data*, obj_data*, int)
+	_Z10equip_charP9char_dataP8obj_datai @ 32
+;	find_board(char_data*)
+	_Z10find_boardP9char_data @ 33
+;	find_fixer(char_data*)
+	_Z10find_fixerP9char_data @ 34
+;	find_quill(char_data*)
+	_Z10find_quillP9char_data @ 35
+;	find_skill(char_data*, char const*, bool)
+	_Z10find_skillP9char_dataPKcb @ 36
+;	find_spell(char_data*, char const*, bool)
+	_Z10find_spellP9char_dataPKcb @ 37
+;	found_prey(char_data*, char_data*)
+	_Z10found_preyP9char_dataS0_ @ 38
+;	fread_char(char_data*, __sFILE64*, bool, bool)
+	_Z10fread_charP9char_dataP9__sFILE64bb @ 39
+;	fread_clan(clan_data*, __sFILE64*)
+	_Z10fread_clanP9clan_dataP9__sFILE64 @ 40
+;	fread_line(__sFILE64*)
+	_Z10fread_lineP9__sFILE64 @ 41
+;	fread_ship(ship_data*, __sFILE64*)
+	_Z10fread_shipP9ship_dataP9__sFILE64 @ 42
+;	fread_word(__sFILE64*)
+	_Z10fread_wordP9__sFILE64 @ 43
+;	free_fight(char_data*)
+	_Z10free_fightP9char_data @ 44
+;	fwrite_obj(char_data*, obj_data*, __sFILE64*, int, short, bool)
+	_Z10fwrite_objP9char_dataP8obj_dataP9__sFILE64isb @ 45
+;	get_exflag(char const*)
+	_Z10get_exflagPKc @ 46
+;	get_mpflag(char const*)
+	_Z10get_mpflagPKc @ 47
+;	get_pcflag(char const*)
+	_Z10get_pcflagPKc @ 48
+;	get_planet(char const*)
+	_Z10get_planetPKc @ 49
+;	get_sclass(char const*)
+	_Z10get_sclassPKc @ 50
+;	get_spower(char const*)
+	_Z10get_spowerPKc @ 51
+;	group_gain(char_data*, char_data*)
+	_Z10group_gainP9char_dataS0_ @ 52
+;	hash_stats()
+	_Z10hash_statsv @ 53
+;	hide_tilde(char*)
+	_Z10hide_tildePc @ 54
+;	imc_addban(char const*)
+	_Z10imc_addbanPKc @ 55
+;	imc_delban(char const*)
+	_Z10imc_delbanPKc @ 56
+;	imc_nameof(char const*)
+	_Z10imc_nameofPKc @ 57
+;	imc_newban()
+	_Z10imc_newbanv @ 58
+;	imc_printf(char_data*, char const*, ...)
+	_Z10imc_printfP9char_dataPKcz @ 59
+;	imcchanwho(char_data*, char const*)
+	_Z10imcchanwhoP9char_dataPKc @ 60
+;	imccommand(char_data*, char const*)
+	_Z10imccommandP9char_dataPKc @ 61
+;	imcconnect(char_data*, char const*)
+	_Z10imcconnectP9char_dataPKc @ 62
+;	imcgetname(char const*)
+	_Z10imcgetnamePKc @ 63
+;	imcpermset(char_data*, char const*)
+	_Z10imcpermsetP9char_dataPKc @ 64
+;	imcrefresh(char_data*, char const*)
+	_Z10imcrefreshP9char_dataPKc @ 65
+;	imcstrlcat(char*, char const*, unsigned int)
+	_Z10imcstrlcatPcPKcj @ 66
+;	imcstrlcpy(char*, char const*, unsigned int)
+	_Z10imcstrlcpyPcPKcj @ 67
+;	is_fearing(char_data*, char_data*)
+	_Z10is_fearingP9char_dataS0_ @ 68
+;	is_hunting(char_data*, char_data*)
+	_Z10is_huntingP9char_dataS0_ @ 69
+;	is_note_to(char_data*, note_data*)
+	_Z10is_note_toP9char_dataP9note_data @ 70
+;	is_safe_nm(char_data*, char_data*)
+	_Z10is_safe_nmP9char_dataS0_ @ 71
+;	is_trapped(obj_data*)
+	_Z10is_trappedP8obj_data @ 72
+;	jedi_bonus(char_data*)
+	_Z10jedi_bonusP9char_data @ 73
+;	launch_bus(ship_data*)
+	_Z10launch_busP9ship_data @ 74
+;	launchship(ship_data*)
+	_Z10launchshipP9ship_data @ 75
+;	legal_loot(char_data*, char_data*)
+	_Z10legal_lootP9char_dataS0_ @ 76
+;	load_clans()
+	_Z10load_clansv @ 77
+;	load_flags(area_data*, __sFILE64*)
+	_Z10load_flagsP9area_dataP9__sFILE64 @ 78
+;	load_helps(__sFILE64*)
+	_Z10load_helpsP9__sFILE64 @ 79
+;	load_rooms(area_data*, __sFILE64*)
+	_Z10load_roomsP9area_dataP9__sFILE64 @ 80
+;	load_ships()
+	_Z10load_shipsv @ 81
+;	load_shops(__sFILE64*)
+	_Z10load_shopsP9__sFILE64 @ 82
+;	load_space()
+	_Z10load_spacev @ 83
+;	load_world(char_data*)
+	_Z10load_worldP9char_data @ 84
+;	log_printf(char const*, ...)
+	_Z10log_printfPKcz @ 85
+;	mail_count(char_data*)
+	_Z10mail_countP9char_data @ 86
+;	make_blood(char_data*)
+	_Z10make_bloodP9char_data @ 87
+;	make_reset(char, int, int, int, int)
+	_Z10make_resetciiii @ 88
+;	move_ships()
+	_Z10move_shipsv @ 89
+;	mssp_reply(descriptor_data*, char const*, char const*, ...)
+	_Z10mssp_replyP15descriptor_dataPKcS2_z @ 90
+;	mudstrlcat(char*, char const*, unsigned int)
+	_Z10mudstrlcatPcPKcj @ 91
+;	mudstrlcpy(char*, char const*, unsigned int)
+	_Z10mudstrlcpyPcPKcj @ 92
+;	obj_to_obj(obj_data*, obj_data*)
+	_Z10obj_to_objP8obj_dataS0_ @ 93
+;	obj_update()
+	_Z10obj_updatev @ 94
+;	pullorpush(char_data*, obj_data*, bool)
+	_Z10pullorpushP9char_dataP8obj_datab @ 95
+;	quick_link(char const*)
+	_Z10quick_linkPKc @ 96
+;	read_board(char const*, __sFILE64*)
+	_Z10read_boardPKcP9__sFILE64 @ 97
+;	remove_obj(char_data*, int, bool)
+	_Z10remove_objP9char_dataib @ 98
+;	reset_area(area_data*)
+	_Z10reset_areaP9area_data @ 99
+;	reset_room(room_index_data*)
+	_Z10reset_roomP15room_index_data @ 100
+;	ris_damage(char_data*, short, int)
+	_Z10ris_damageP9char_datasi @ 101
+;	save_clone(char_data*)
+	_Z10save_cloneP9char_data @ 102
+;	save_world(char_data*)
+	_Z10save_worldP9char_data @ 103
+;	send_timer(timerset*, char_data*)
+	_Z10send_timerP8timersetP9char_data @ 104
+;	show_tilde(char const*)
+	_Z10show_tildePKc @ 105
+;	show_title(descriptor_data*)
+	_Z10show_titleP15descriptor_data @ 106
+;	show_vnums(char_data*, int, int, bool, bool, char const*, char const*)
+	_Z10show_vnumsP9char_dataiibbPKcS2_ @ 107
+;	showaffect(char_data*, affect_data*)
+	_Z10showaffectP9char_dataP11affect_data @ 108
+;	skill_comp(skill_type**, skill_type**)
+	_Z10skill_compPP10skill_typeS1_ @ 109
+;	sort_exits(room_index_data*)
+	_Z10sort_exitsP15room_index_data @ 110
+;	speedbonus(ship_data*)
+	_Z10speedbonusP9ship_data @ 111
+;	str_prefix(char const*, char const*)
+	_Z10str_prefixPKcS0_ @ 112
+;	str_suffix(char const*, char const*)
+	_Z10str_suffixPKcS0_ @ 113
+;	tail_chain()
+	_Z10tail_chainv @ 114
+;	teleportch(char_data*, room_index_data*, bool)
+	_Z10teleportchP9char_dataP15room_index_datab @ 115
+;	to_channel(char const*, int, char const*, short)
+	_Z10to_channelPKciS0_s @ 116
+;	update_bus()
+	_Z10update_busv @ 117
+;	update_pos(char_data*)
+	_Z10update_posP9char_data @ 118
+;	valid_edge(room_index_data*, short)
+	_Z10valid_edgeP15room_index_datas @ 119
+;	write_ship(__sFILE64*, ship_data*)
+	_Z10write_shipP9__sFILE64P9ship_data @ 120
+;	xp_compute(char_data*, char_data*)
+	_Z10xp_computeP9char_dataS0_ @ 121
+;	add_command(cmd_type*)
+	_Z11add_commandP8cmd_type @ 122
+;	affect_join(char_data*, affect_data*)
+	_Z11affect_joinP9char_dataP11affect_data @ 123
+;	aggr_update()
+	_Z11aggr_updatev @ 124
+;	append_file(char_data*, char const*, char const*)
+	_Z11append_fileP9char_dataPKcS2_ @ 125
+;	area_update()
+	_Z11area_updatev @ 126
+;	assign_area(char_data*)
+	_Z11assign_areaP9char_data @ 127
+;	auth_update()
+	_Z11auth_updatev @ 128
+;	bfs_dequeue()
+	_Z11bfs_dequeuev @ 129
+;	bfs_enqueue(room_index_data*, char)
+	_Z11bfs_enqueueP15room_index_datac @ 130
+;	can_carry_n(char_data*)
+	_Z11can_carry_nP9char_data @ 131
+;	can_carry_w(char_data*)
+	_Z11can_carry_wP9char_data @ 132
+;	can_mmodify(char_data*, char_data*)
+	_Z11can_mmodifyP9char_dataS0_ @ 133
+;	can_omodify(char_data*, obj_data*)
+	_Z11can_omodifyP9char_dataP8obj_data @ 134
+;	can_outcast(clan_data*, char_data*, char_data*)
+	_Z11can_outcastP9clan_dataP9char_dataS2_ @ 135
+;	can_rmodify(char_data*, room_index_data*)
+	_Z11can_rmodifyP9char_dataP15room_index_data @ 136
+;	can_see_obj(char_data*, obj_data*)
+	_Z11can_see_objP9char_dataP8obj_data @ 137
+;	char_update()
+	_Z11char_updatev @ 138
+;	check_blind(char_data*)
+	_Z11check_blindP9char_data @ 139
+;	check_dodge(char_data*, char_data*)
+	_Z11check_dodgeP9char_dataS0_ @ 140
+;	check_mudof(char_data*, char const*)
+	_Z11check_mudofP9char_dataPKc @ 141
+;	check_multi(descriptor_data*, char const*)
+	_Z11check_multiP15descriptor_dataPKc @ 142
+;	check_parry(char_data*, char_data*)
+	_Z11check_parryP9char_dataS0_ @ 143
+;	check_pilot(char_data*, ship_data*)
+	_Z11check_pilotP9char_dataP9ship_data @ 144
+;	check_skill(char_data*, char const*, char const*)
+	_Z11check_skillP9char_dataPKcS2_ @ 145
+;	color_align(char const*, int, int)
+	_Z11color_alignPKcii @ 146
+;	compressEnd(descriptor_data*)
+	_Z11compressEndP15descriptor_data @ 147
+;	copy_buffer(char_data*)
+	_Z11copy_bufferP9char_data @ 148
+;	create_area()
+	_Z11create_areav @ 149
+;	dam_message(char_data*, char_data*, int, int)
+	_Z11dam_messageP9char_dataS0_ii @ 150
+;	damage_ship(ship_data*, int, int)
+	_Z11damage_shipP9ship_dataii @ 151
+;	delete_room(room_index_data*)
+	_Z11delete_roomP15room_index_data @ 152
+;	do_mpbounty(char_data*, char const*)
+	_Z11do_mpbountyP9char_dataPKc @ 153
+;	do_pcrename(char_data*, char const*)
+	_Z11do_pcrenameP9char_dataPKc @ 154
+;	echo_to_all(short, char const*, short)
+	_Z11echo_to_allsPKcs @ 155
+;	economy_has(area_data*, int)
+	_Z11economy_hasP9area_datai @ 156
+;	edit_buffer(char_data*, char*)
+	_Z11edit_bufferP9char_dataPc @ 157
+;	encumbrance(char_data*, short)
+	_Z11encumbranceP9char_datas @ 158
+;	extract_obj(obj_data*)
+	_Z11extract_objP8obj_data @ 159
+;	find_keeper(char_data*)
+	_Z11find_keeperP9char_data @ 160
+;	find_oreset(room_index_data*, char const*)
+	_Z11find_oresetP15room_index_dataPKc @ 161
+;	find_social(char const*)
+	_Z11find_socialPKc @ 162
+;	find_tongue(char_data*, char const*, bool)
+	_Z11find_tongueP9char_dataPKcb @ 163
+;	find_weapon(char_data*, char const*, bool)
+	_Z11find_weaponP9char_dataPKcb @ 164
+;	flag_string(int, char const* const*)
+	_Z11flag_stringiPKPKc @ 165
+;	fread_float(__sFILE64*)
+	_Z11fread_floatP9__sFILE64 @ 166
+;	fread_skill(__sFILE64*)
+	_Z11fread_skillP9__sFILE64 @ 167
+;	free_social(social_type*)
+	_Z11free_socialP11social_type @ 168
+;	fwrite_char(char_data*, __sFILE64*)
+	_Z11fwrite_charP9char_dataP9__sFILE64 @ 169
+;	gain_honour(char_data*, int)
+	_Z11gain_honourP9char_datai @ 170
+;	get_actflag(char const*)
+	_Z11get_actflagPKc @ 171
+;	get_eq_char(char_data*, int)
+	_Z11get_eq_charP9char_datai @ 172
+;	get_exit_to(room_index_data*, short, int)
+	_Z11get_exit_toP15room_index_datasi @ 173
+;	get_langnum(char const*)
+	_Z11get_langnumPKc @ 174
+;	get_npc_sex(char const*)
+	_Z11get_npc_sexPKc @ 175
+;	get_plrflag(char const*)
+	_Z11get_plrflagPKc @ 176
+;	get_risflag(char const*)
+	_Z11get_risflagPKc @ 177
+;	get_saction(char const*)
+	_Z11get_sactionPKc @ 178
+;	get_sdamage(char const*)
+	_Z11get_sdamagePKc @ 179
+;	get_secflag(char const*)
+	_Z11get_secflagPKc @ 180
+;	get_starget(char const*)
+	_Z11get_stargetPKc @ 181
+;	get_wearloc(char const*)
+	_Z11get_wearlocPKc @ 182
+;	herb_lookup(char const*)
+	_Z11herb_lookupPKc @ 183
+;	hunt_victim(char_data*)
+	_Z11hunt_victimP9char_data @ 184
+;	imc_addname(char**, char const*)
+	_Z11imc_addnamePPcPKc @ 185
+;	imc_freeban(imc_ban_data*)
+	_Z11imc_freebanP12imc_ban_data @ 186
+;	imc_getData(char*, char const*, char const*)
+	_Z11imc_getDataPcPKcS1_ @ 187
+;	imc_hasname(char const*, char const*)
+	_Z11imc_hasnamePKcS0_ @ 188
+;	imc_hotboot()
+	_Z11imc_hotbootv @ 189
+;	imc_startup(bool, int, bool)
+	_Z11imc_startupbib @ 190
+;	imc_to_char(char const*, char_data*)
+	_Z11imc_to_charPKcP9char_data @ 191
+;	imcchanlist(char_data*, char const*)
+	_Z11imcchanlistP9char_dataPKc @ 192
+;	init_socket(int)
+	_Z11init_socketi @ 193
+;	interpolate(int, int, int)
+	_Z11interpolateiii @ 194
+;	is_affected(char_data*, int)
+	_Z11is_affectedP9char_datai @ 195
+;	load_author(area_data*, __sFILE64*)
+	_Z11load_authorP9area_dataP9__sFILE64 @ 196
+;	load_boards()
+	_Z11load_boardsv @ 197
+;	load_mobile(__sFILE64*)
+	_Z11load_mobileP9__sFILE64 @ 198
+;	load_ranges(area_data*, __sFILE64*)
+	_Z11load_rangesP9area_dataP9__sFILE64 @ 199
+;	load_resets(area_data*, __sFILE64*)
+	_Z11load_resetsP9area_dataP9__sFILE64 @ 200
+;	load_senate()
+	_Z11load_senatev @ 201
+;	make_corpse(char_data*, char_data*)
+	_Z11make_corpseP9char_dataS0_ @ 202
+;	make_mobile(int, int, char const*)
+	_Z11make_mobileiiPKc @ 203
+;	make_object(int, int, char const*)
+	_Z11make_objectiiPKc @ 204
+;	make_scraps(obj_data*)
+	_Z11make_scrapsP8obj_data @ 205
+;	mob_act_add(char_data*)
+	_Z11mob_act_addP9char_data @ 206
+;	mprog_seval(char const*, char const*, char const*, char_data*)
+	_Z11mprog_sevalPKcS0_S0_P9char_data @ 207
+;	mprog_veval(int, char*, int, char_data*)
+	_Z11mprog_vevaliPciP9char_data @ 208
+;	ms_find_obj(char_data*)
+	_Z11ms_find_objP9char_data @ 209
+;	name_expand(char_data*)
+	_Z11name_expandP9char_data @ 210
+;	new_missile(ship_data*, ship_data*, char_data*, int)
+	_Z11new_missileP9ship_dataS0_P9char_datai @ 211
+;	note_attach(char_data*)
+	_Z11note_attachP9char_data @ 212
+;	note_remove(char_data*, board_data*, note_data*)
+	_Z11note_removeP9char_dataP10board_dataP9note_data @ 213
+;	number_bits(int)
+	_Z11number_bitsi @ 214
+;	number_door()
+	_Z11number_doorv @ 215
+;	obj_act_add(obj_data*)
+	_Z11obj_act_addP8obj_data @ 216
+;	obj_hitroll(obj_data*)
+	_Z11obj_hitrollP8obj_data @ 217
+;	obj_to_char(obj_data*, char_data*)
+	_Z11obj_to_charP8obj_dataP9char_data @ 218
+;	obj_to_room(obj_data*, room_index_data*)
+	_Z11obj_to_roomP8obj_dataP15room_index_data @ 219
+;	pfun_lookup(char const*)
+	_Z11pfun_lookupPKc @ 220
+;	process_dns(descriptor_data*)
+	_Z11process_dnsP15descriptor_data @ 221
+;	random_ansi(short)
+	_Z11random_ansis @ 222
+;	resolve_dns(descriptor_data*, long)
+	_Z11resolve_dnsP15descriptor_datal @ 223
+;	save_mobile(__sFILE64*, char_data*)
+	_Z11save_mobileP9__sFILE64P9char_data @ 224
+;	save_planet(planet_data*)
+	_Z11save_planetP11planet_data @ 225
+;	save_senate()
+	_Z11save_senatev @ 226
+;	saves_wands(int, char_data*)
+	_Z11saves_wandsiP9char_data @ 227
+;	set_cur_obj(obj_data*)
+	_Z11set_cur_objP8obj_data @ 228
+;	sha256_init(sha256_ctx*)
+	_Z11sha256_initP10sha256_ctx @ 229
+;	show_colors(char_data*)
+	_Z11show_colorsP9char_data @ 230
+;	slot_lookup(int)
+	_Z11slot_lookupi @ 231
+;	smash_tilde(char*)
+	_Z11smash_tildePc @ 232
+;	smush_tilde(char*)
+	_Z11smush_tildePc @ 233
+;	spec_lookup(char const*)
+	_Z11spec_lookupPKc @ 234
+;	spring_trap(char_data*, obj_data*)
+	_Z11spring_trapP9char_dataP8obj_data @ 235
+;	start_timer(timeval*)
+	_Z11start_timerP7timeval @ 236
+;	stop_hating(char_data*)
+	_Z11stop_hatingP9char_data @ 237
+;	stop_idling(char_data*)
+	_Z11stop_idlingP9char_data @ 238
+;	tele_update()
+	_Z11tele_updatev @ 239
+;	update_time(tm*)
+	_Z11update_timeP2tm @ 240
+;	wipe_resets(room_index_data*)
+	_Z11wipe_resetsP15room_index_data @ 241
+;	write_board(board_data*)
+	_Z11write_boardP10board_data @ 242
+;	add_follower(char_data*, char_data*)
+	_Z12add_followerP9char_dataS0_ @ 243
+;	affect_strip(char_data*, int)
+	_Z12affect_stripP9char_datai @ 244
+;	appraise_all(char_data*, char_data*, char const*)
+	_Z12appraise_allP9char_dataS0_PKc @ 245
+;	can_drop_obj(char_data*, obj_data*)
+	_Z12can_drop_objP9char_dataP8obj_data @ 246
+;	char_to_room(char_data*, room_index_data*)
+	_Z12char_to_roomP9char_dataP15room_index_data @ 247
+;	check_killer(char_data*, char_data*)
+	_Z12check_killerP9char_dataS0_ @ 248
+;	check_social(char_data*, char const*, char const*)
+	_Z12check_socialP9char_dataPKcS2_ @ 249
+;	check_switch(char_data*, bool)
+	_Z12check_switchP9char_datab @ 250
+;	clean_resets(room_index_data*)
+	_Z12clean_resetsP15room_index_data @ 251
+;	clear_vrooms()
+	_Z12clear_vroomsv @ 252
+;	clone_object(obj_data*)
+	_Z12clone_objectP8obj_data @ 253
+;	close_socket(descriptor_data*, bool)
+	_Z12close_socketP15descriptor_datab @ 254
+;	color_strlen(char const*)
+	_Z12color_strlenPKc @ 255
+;	create_money(int)
+	_Z12create_moneyi @ 256
+;	delete_reset(reset_data*)
+	_Z12delete_resetP10reset_data @ 257
+;	destroy_ship(ship_data*, char_data*)
+	_Z12destroy_shipP9ship_dataP9char_data @ 258
+;	die_follower(char_data*)
+	_Z12die_followerP9char_data @ 259
+;	do_rembounty(char_data*, char*)
+	_Z12do_rembountyP9char_dataPc @ 260
+;	drunk_speech(char const*, char_data*)
+	_Z12drunk_speechPKcP9char_data @ 261
+;	echo_to_room(short, room_index_data*, char const*)
+	_Z12echo_to_roomsP15room_index_dataPKc @ 262
+;	echo_to_ship(int, ship_data*, char const*)
+	_Z12echo_to_shipiP9ship_dataPKc @ 263
+;	extract_char(char_data*, bool)
+	_Z12extract_charP9char_datab @ 264
+;	extract_exit(room_index_data*, exit_data*)
+	_Z12extract_exitP15room_index_dataP9exit_data @ 265
+;	extract_room(room_index_data*)
+	_Z12extract_roomP15room_index_data @ 266
+;	extract_ship(ship_data*)
+	_Z12extract_shipP9ship_data @ 267
+;	find_command(char const*)
+	_Z12find_commandPKc @ 268
+;	flush_buffer(descriptor_data*, bool)
+	_Z12flush_bufferP15descriptor_datab @ 269
+;	fread_letter(__sFILE64*)
+	_Z12fread_letterP9__sFILE64 @ 270
+;	fread_number(__sFILE64*)
+	_Z12fread_numberP9__sFILE64 @ 271
+;	fread_planet(planet_data*, __sFILE64*)
+	_Z12fread_planetP11planet_dataP9__sFILE64 @ 272
+;	fread_social(__sFILE64*)
+	_Z12fread_socialP9__sFILE64 @ 273
+;	fread_string(__sFILE64*)
+	_Z12fread_stringP9__sFILE64 @ 274
+;	fread_to_eol(__sFILE64*)
+	_Z12fread_to_eolP9__sFILE64 @ 275
+;	free_command(cmd_type*)
+	_Z12free_commandP8cmd_type @ 276
+;	free_imcdata(bool)
+	_Z12free_imcdatab @ 277
+;	fwrite_skill(__sFILE64*, skill_type*)
+	_Z12fwrite_skillP9__sFILE64P10skill_type @ 278
+;	get_areaflag(char const*)
+	_Z12get_areaflagPKc @ 279
+;	get_curr_cha(char_data*)
+	_Z12get_curr_chaP9char_data @ 280
+;	get_curr_con(char_data*)
+	_Z12get_curr_conP9char_data @ 281
+;	get_curr_dex(char_data*)
+	_Z12get_curr_dexP9char_data @ 282
+;	get_curr_frc(char_data*)
+	_Z12get_curr_frcP9char_data @ 283
+;	get_curr_int(char_data*)
+	_Z12get_curr_intP9char_data @ 284
+;	get_curr_lck(char_data*)
+	_Z12get_curr_lckP9char_data @ 285
+;	get_curr_str(char_data*)
+	_Z12get_curr_strP9char_data @ 286
+;	get_curr_wis(char_data*)
+	_Z12get_curr_wisP9char_data @ 287
+;	get_exit_num(room_index_data*, short)
+	_Z12get_exit_numP15room_index_datas @ 288
+;	get_langflag(char const*)
+	_Z12get_langflagPKc @ 289
+;	get_npc_race(char const*)
+	_Z12get_npc_racePKc @ 290
+;	get_obj_here(char_data*, char const*)
+	_Z12get_obj_hereP9char_dataPKc @ 291
+;	get_obj_list(char_data*, char const*, obj_data*)
+	_Z12get_obj_listP9char_dataPKcP8obj_data @ 292
+;	get_obj_palm(char_data*, obj_data*, obj_data*)
+	_Z12get_obj_palmP9char_dataP8obj_dataS2_ @ 293
+;	get_obj_room(obj_index_data*, room_index_data*)
+	_Z12get_obj_roomP14obj_index_dataP15room_index_data @ 294
+;	get_obj_type(obj_index_data*)
+	_Z12get_obj_typeP14obj_index_data @ 295
+;	get_obj_wear(char_data*, char const*)
+	_Z12get_obj_wearP9char_dataPKc @ 296
+;	get_partflag(char const*)
+	_Z12get_partflagPKc @ 297
+;	get_saveflag(char const*)
+	_Z12get_saveflagPKc @ 298
+;	get_timerptr(char_data*, short)
+	_Z12get_timerptrP9char_datas @ 299
+;	get_trapflag(char const*)
+	_Z12get_trapflagPKc @ 300
+;	get_trigflag(char const*)
+	_Z12get_trigflagPKc @ 301
+;	get_vip_flag(char const*)
+	_Z12get_vip_flagPKc @ 302
+;	group_object(obj_data*, obj_data*)
+	_Z12group_objectP8obj_dataS0_ @ 303
+;	imc_freechan(imc_channel*)
+	_Z12imc_freechanP11imc_channel @ 304
+;	imc_funcname(void (*)(char_data*, char const*))
+	_Z12imc_funcnamePFvP9char_dataPKcE @ 305
+;	imc_function(char const*)
+	_Z12imc_functionPKc @ 306
+;	imc_initchar(char_data*)
+	_Z12imc_initcharP9char_data @ 307
+;	imc_isbanned(char const*)
+	_Z12imc_isbannedPKc @ 308
+;	imc_loadchar(char_data*, __sFILE64*, char const*)
+	_Z12imc_loadcharP9char_dataP9__sFILE64PKc @ 309
+;	imc_makename(char const*, char const*)
+	_Z12imc_makenamePKcS0_ @ 310
+;	imc_readbans()
+	_Z12imc_readbansv @ 311
+;	imc_readhelp(imc_help_table*, __sFILE64*)
+	_Z12imc_readhelpP14imc_help_tableP9__sFILE64 @ 312
+;	imc_recv_who(imc_packet*, char const*)
+	_Z12imc_recv_whoP10imc_packetPKc @ 313
+;	imc_savebans()
+	_Z12imc_savebansv @ 314
+;	imc_savechar(char_data*, __sFILE64*)
+	_Z12imc_savecharP9char_dataP9__sFILE64 @ 315
+;	imc_send_who(char const*, char const*, char const*)
+	_Z12imc_send_whoPKcS0_S0_ @ 316
+;	imc_shutdown(bool)
+	_Z12imc_shutdownb @ 317
+;	imc_to_pager(char const*, char_data*)
+	_Z12imc_to_pagerPKcP9char_data @ 318
+;	imcpermstats(char_data*, char const*)
+	_Z12imcpermstatsP9char_dataPKc @ 319
+;	imctemplates(char_data*, char const*)
+	_Z12imctemplatesP9char_dataPKc @ 320
+;	in_dns_cache(char*)
+	_Z12in_dns_cachePc @ 321
+;	ipv4_connect()
+	_Z12ipv4_connectv @ 322
+;	load_banlist()
+	_Z12load_banlistv @ 323
+;	load_corpses()
+	_Z12load_corpsesv @ 324
+;	load_economy(area_data*, __sFILE64*)
+	_Z12load_economyP9area_dataP9__sFILE64 @ 325
+;	load_mobiles(area_data*, __sFILE64*)
+	_Z12load_mobilesP9area_dataP9__sFILE64 @ 326
+;	load_objects(area_data*, __sFILE64*)
+	_Z12load_objectsP9area_dataP9__sFILE64 @ 327
+;	load_planets()
+	_Z12load_planetsv @ 328
+;	load_repairs(__sFILE64*)
+	_Z12load_repairsP9__sFILE64 @ 329
+;	load_socials()
+	_Z12load_socialsv @ 330
+;	load_version(area_data*, __sFILE64*)
+	_Z12load_versionP9area_dataP9__sFILE64 @ 331
+;	loose_honour(char_data*, int)
+	_Z12loose_honourP9char_datai @ 332
+;	make_wizlist()
+	_Z12make_wizlistv @ 333
+;	mprog_driver(char const*, char_data*, char_data*, obj_data*, void*, bool)
+	_Z12mprog_driverPKcP9char_dataS2_P8obj_dataPvb @ 334
+;	number_fuzzy(int)
+	_Z12number_fuzzyi @ 335
+;	number_range(int, int)
+	_Z12number_rangeii @ 336
+;	obj_from_obj(obj_data*)
+	_Z12obj_from_objP8obj_data @ 337
+;	off_shld_lvl(char_data*, char_data*)
+	_Z12off_shld_lvlP9char_dataS0_ @ 338
+;	one_argument(char const*, char*)
+	_Z12one_argumentPKcPc @ 339
+;	one_argument(char*, char*)
+	_Z12one_argumentPcS_ @ 340
+;	pager_output(descriptor_data*)
+	_Z12pager_outputP15descriptor_data @ 341
+;	pager_printf(char_data*, char const*, ...)
+	_Z12pager_printfP9char_dataPKcz @ 342
+;	player_count()
+	_Z12player_countv @ 343
+;	reboot_check(long)
+	_Z12reboot_checkl @ 344
+;	remove_timer(char_data*, short)
+	_Z12remove_timerP9char_datas @ 345
+;	reset_colors(char_data*)
+	_Z12reset_colorsP9char_data @ 346
+;	room_act_add(room_index_data*)
+	_Z12room_act_addP15room_index_data @ 347
+;	room_enqueue(room_index_data*)
+	_Z12room_enqueueP15room_index_data @ 348
+;	room_explode(obj_data*, char_data*, room_index_data*)
+	_Z12room_explodeP8obj_dataP9char_dataP15room_index_data @ 349
+;	room_is_dark(room_index_data*)
+	_Z12room_is_darkP15room_index_data @ 350
+;	save_banlist()
+	_Z12save_banlistv @ 351
+;	save_socials()
+	_Z12save_socialsv @ 352
+;	save_sysdata(system_data)
+	_Z12save_sysdata11system_data @ 353
+;	saves_breath(int, char_data*)
+	_Z12saves_breathiP9char_data @ 354
+;	send_to_char(char const*, char_data*)
+	_Z12send_to_charPKcP9char_data @ 355
+;	separate_obj(obj_data*)
+	_Z12separate_objP8obj_data @ 356
+;	set_cur_char(char_data*)
+	_Z12set_cur_charP9char_data @ 357
+;	set_fighting(char_data*, char_data*)
+	_Z12set_fightingP9char_dataS0_ @ 358
+;	set_supermob(obj_data*)
+	_Z12set_supermobP8obj_data @ 359
+;	sha256_crypt(char const*)
+	_Z12sha256_cryptPKc @ 360
+;	sha256_final(sha256_ctx*, unsigned char*)
+	_Z12sha256_finalP10sha256_ctxPh @ 361
+;	ship_in_room(room_index_data*, char const*)
+	_Z12ship_in_roomP15room_index_dataPKc @ 362
+;	ship_to_room(ship_data*, int)
+	_Z12ship_to_roomP9ship_datai @ 363
+;	shutdown_mud(char const*)
+	_Z12shutdown_mudPKc @ 364
+;	sith_penalty(char_data*)
+	_Z12sith_penaltyP9char_data @ 365
+;	skill_lookup(char const*)
+	_Z12skill_lookupPKc @ 366
+;	spell_affect(int, int, char_data*, void*)
+	_Z12spell_affectiiP9char_dataPv @ 367
+;	spell_attack(int, int, char_data*, void*)
+	_Z12spell_attackiiP9char_dataPv @ 368
+;	sprint_reset(reset_data*, short*)
+	_Z12sprint_resetP10reset_dataPs @ 369
+;	start_hating(char_data*, char_data*)
+	_Z12start_hatingP9char_dataS0_ @ 370
+;	stop_editing(char_data*)
+	_Z12stop_editingP9char_data @ 371
+;	stop_fearing(char_data*)
+	_Z12stop_fearingP9char_data @ 372
+;	stop_hunting(char_data*)
+	_Z12stop_huntingP9char_data @ 373
+;	talk_auction(char*)
+	_Z12talk_auctionPc @ 374
+;	talk_channel(char_data*, char const*, int, char const*)
+	_Z12talk_channelP9char_dataPKciS2_ @ 375
+;	times_killed(char_data*, char_data*)
+	_Z12times_killedP9char_dataS0_ @ 376
+;	unequip_char(char_data*, obj_data*)
+	_Z12unequip_charP9char_dataP8obj_data @ 377
+;	update_space()
+	_Z12update_spacev @ 378
+;	update_taxes()
+	_Z12update_taxesv @ 379
+;	who_fighting(char_data*)
+	_Z12who_fightingP9char_data @ 380
+;	add_obj_reset(room_index_data*, char, obj_data*, int, int)
+	_Z13add_obj_resetP15room_index_datacP8obj_dataii @ 381
+;	advance_level(char_data*, int)
+	_Z13advance_levelP9char_datai @ 382
+;	affect_modify(char_data*, affect_data*, bool)
+	_Z13affect_modifyP9char_dataP11affect_datab @ 383
+;	affect_remove(char_data*, affect_data*)
+	_Z13affect_removeP9char_dataP11affect_data @ 384
+;	align_compute(char_data*, char_data*)
+	_Z13align_computeP9char_dataS0_ @ 385
+;	boost_economy(area_data*, int)
+	_Z13boost_economyP9area_datai @ 386
+;	bsearch_skill(char const*, int, int)
+	_Z13bsearch_skillPKcii @ 387
+;	buffer_printf(descriptor_data*, char const*, ...)
+	_Z13buffer_printfP15descriptor_dataPKcz @ 388
+;	chance_attrib(char_data*, short, short)
+	_Z13chance_attribP9char_datass @ 389
+;	check_playing(descriptor_data*, char const*, bool)
+	_Z13check_playingP15descriptor_dataPKcb @ 390
+;	circle_follow(char_data*, char_data*)
+	_Z13circle_followP9char_dataS0_ @ 391
+;	compressStart(descriptor_data*)
+	_Z13compressStartP15descriptor_data @ 392
+;	create_mobile(mob_index_data*)
+	_Z13create_mobileP14mob_index_data @ 393
+;	create_object(obj_index_data*, int)
+	_Z13create_objectP14obj_index_datai @ 394
+;	de_equip_char(char_data*)
+	_Z13de_equip_charP9char_data @ 395
+;	decorate_room(room_index_data*)
+	_Z13decorate_roomP15room_index_data @ 396
+;	do_force_roll(char_data*)
+	_Z13do_force_rollP9char_data @ 397
+;	do_showplanet(char_data*, char const*)
+	_Z13do_showplanetP9char_dataPKc @ 398
+;	drunk_randoms(char_data*)
+	_Z13drunk_randomsP9char_data @ 399
+;	escape_string(char const*)
+	_Z13escape_stringPKc @ 400
+;	extract_timer(char_data*, timer_data*)
+	_Z13extract_timerP9char_dataP10timer_data @ 401
+;	find_location(char_data*, char const*)
+	_Z13find_locationP9char_dataPKc @ 402
+;	fread_command(__sFILE64*)
+	_Z13fread_commandP9__sFILE64 @ 403
+;	fread_comment(char_data*, __sFILE64*)
+	_Z13fread_commentP9char_dataP9__sFILE64 @ 404
+;	fread_sysdata(system_data*, __sFILE64*)
+	_Z13fread_sysdataP11system_dataP9__sFILE64 @ 405
+;	generate_exit(room_index_data*, exit_data**)
+	_Z13generate_exitP15room_index_dataPP9exit_data @ 406
+;	get_char_room(char_data*, char const*)
+	_Z13get_char_roomP9char_dataPKc @ 407
+;	get_exp_worth(char_data*)
+	_Z13get_exp_worthP9char_data @ 408
+;	get_mob_index(int)
+	_Z13get_mob_indexi @ 409
+;	get_obj_carry(char_data*, char const*)
+	_Z13get_obj_carryP9char_dataPKc @ 410
+;	get_obj_index(int)
+	_Z13get_obj_indexi @ 411
+;	get_obj_world(char_data*, char const*)
+	_Z13get_obj_worldP9char_dataPKc @ 412
+;	get_ship_here(char const*, space_data*)
+	_Z13get_ship_herePKcP10space_data @ 413
+;	get_skilltype(int)
+	_Z13get_skilltypei @ 414
+;	halucinations(char_data*)
+	_Z13halucinationsP9char_data @ 415
+;	imc_find_user(char const*)
+	_Z13imc_find_userPKc @ 416
+;	imc_newpacket(char const*, char const*, char const*)
+	_Z13imc_newpacketPKcS0_S0_ @ 417
+;	imc_readcolor(imc_color_table*, __sFILE64*)
+	_Z13imc_readcolorP15imc_color_tableP9__sFILE64 @ 418
+;	imc_recv_beep(imc_packet*, char const*)
+	_Z13imc_recv_beepP10imc_packetPKc @ 419
+;	imc_recv_tell(imc_packet*, char const*)
+	_Z13imc_recv_tellP10imc_packetPKc @ 420
+;	imc_savecolor()
+	_Z13imc_savecolorv @ 421
+;	imc_savehelps()
+	_Z13imc_savehelpsv @ 422
+;	imc_send_beep(char const*, char const*)
+	_Z13imc_send_beepPKcS0_ @ 423
+;	imc_send_tell(char const*, char const*, char const*, int)
+	_Z13imc_send_tellPKcS0_S0_i @ 424
+;	imccapitalize(char const*)
+	_Z13imccapitalizePKc @ 425
+;	imccenterline(char const*, int)
+	_Z13imccenterlinePKci @ 426
+;	imcdisconnect(char_data*, char const*)
+	_Z13imcdisconnectP9char_dataPKc @ 427
+;	imcfread_line(__sFILE64*)
+	_Z13imcfread_lineP9__sFILE64 @ 428
+;	imcfread_word(__sFILE64*)
+	_Z13imcfread_wordP9__sFILE64 @ 429
+;	imcrankbuffer(char_data*)
+	_Z13imcrankbufferP9char_data @ 430
+;	imcstr_prefix(char const*, char const*)
+	_Z13imcstr_prefixPKcS0_ @ 431
+;	in_hard_range(char_data*, area_data*)
+	_Z13in_hard_rangeP9char_dataP9area_data @ 432
+;	in_hash_table(char const*)
+	_Z13in_hash_tablePKc @ 433
+;	in_soft_range(char_data*, area_data*)
+	_Z13in_soft_rangeP9char_dataP9area_data @ 434
+;	init_supermob()
+	_Z13init_supermobv @ 435
+;	is_legal_kill(char_data*, char_data*)
+	_Z13is_legal_killP9char_dataS0_ @ 436
+;	is_same_group(char_data*, char_data*)
+	_Z13is_same_groupP9char_dataS0_ @ 437
+;	is_valid_vnum(int, short)
+	_Z13is_valid_vnumis @ 438
+;	load_bounties()
+	_Z13load_bountiesv @ 439
+;	load_char_obj(descriptor_data*, char*, bool, bool)
+	_Z13load_char_objP15descriptor_dataPcbb @ 440
+;	load_commands()
+	_Z13load_commandsv @ 441
+;	load_plr_home(char_data*)
+	_Z13load_plr_homeP9char_data @ 442
+;	load_resetmsg(area_data*, __sFILE64*)
+	_Z13load_resetmsgP9area_dataP9__sFILE64 @ 443
+;	load_specfuns()
+	_Z13load_specfunsv @ 444
+;	load_specials(__sFILE64*)
+	_Z13load_specialsP9__sFILE64 @ 445
+;	lower_economy(area_data*, int)
+	_Z13lower_economyP9area_datai @ 446
+;	make_poly_mob(char_data*, int)
+	_Z13make_poly_mobP9char_datai @ 447
+;	mobile_update()
+	_Z13mobile_updatev @ 448
+;	nanny_get_msp(descriptor_data*, char const*)
+	_Z13nanny_get_mspP15descriptor_dataPKc @ 449
+;	nifty_is_name(char const*, char const*)
+	_Z13nifty_is_namePKcS0_ @ 450
+;	obj_extracted(obj_data*)
+	_Z13obj_extractedP8obj_data @ 451
+;	obj_from_char(obj_data*)
+	_Z13obj_from_charP8obj_data @ 452
+;	obj_from_room(obj_data*)
+	_Z13obj_from_roomP8obj_data @ 453
+;	old_fold_area(area_data*, char const*, bool)
+	_Z13old_fold_areaP9area_dataPKcb @ 454
+;	one_argument2(char const*, char*)
+	_Z13one_argument2PKcPc @ 455
+;	re_equip_char(char_data*)
+	_Z13re_equip_charP9char_data @ 456
+;	read_from_dns(int, char*)
+	_Z13read_from_dnsiPc @ 457
+;	read_obj_file(char*, char*)
+	_Z13read_obj_filePcS_ @ 458
+;	remove_portal(obj_data*)
+	_Z13remove_portalP8obj_data @ 459
+;	rset_supermob(room_index_data*)
+	_Z13rset_supermobP15room_index_data @ 460
+;	save_char_obj(char_data*)
+	_Z13save_char_objP9char_data @ 461
+;	save_commands()
+	_Z13save_commandsv @ 462
+;	send_to_pager(char const*, char_data*)
+	_Z13send_to_pagerPKcP9char_data @ 463
+;	sha256_transf(sha256_ctx*, unsigned char const*, unsigned int)
+	_Z13sha256_transfP10sha256_ctxPKhj @ 464
+;	sha256_update(sha256_ctx*, unsigned char const*, unsigned int)
+	_Z13sha256_updateP10sha256_ctxPKhj @ 465
+;	simple_damage(char_data*, char_data*, int, int)
+	_Z13simple_damageP9char_dataS0_ii @ 466
+;	sound_to_room(room_index_data*, char const*)
+	_Z13sound_to_roomP15room_index_dataPKc @ 467
+;	sound_to_ship(ship_data*, char const*)
+	_Z13sound_to_shipP9ship_dataPKc @ 468
+;	spell_obj_inv(int, int, char_data*, void*)
+	_Z13spell_obj_inviiP9char_dataPv @ 469
+;	start_editing(char_data*, char const*)
+	_Z13start_editingP9char_dataPKc @ 470
+;	start_fearing(char_data*, char_data*)
+	_Z13start_fearingP9char_dataS0_ @ 471
+;	start_hunting(char_data*, char_data*)
+	_Z13start_huntingP9char_dataS0_ @ 472
+;	stop_fighting(char_data*, bool)
+	_Z13stop_fightingP9char_datab @ 473
+;	stop_follower(char_data*)
+	_Z13stop_followerP9char_data @ 474
+;	stop_watching(char_data*)
+	_Z13stop_watchingP9char_data @ 475
+;	transfer_char(char_data*, char_data*, room_index_data*)
+	_Z13transfer_charP9char_dataS0_P15room_index_data @ 476
+;	unlink_social(social_type*)
+	_Z13unlink_socialP11social_type @ 477
+;	update_userec(timeval*, timerset*)
+	_Z13update_userecP7timevalP8timerset @ 478
+;	verify_format(char const*, short)
+	_Z13verify_formatPKcs @ 479
+;	write_corpses(char_data*, char const*)
+	_Z13write_corpsesP9char_dataPKc @ 480
+;	DelOExtraProto(obj_index_data*, char const*)
+	_Z14DelOExtraProtoP14obj_index_dataPKc @ 481
+;	SetOExtraProto(obj_index_data*, char const*)
+	_Z14SetOExtraProtoP14obj_index_dataPKc @ 482
+;	add_to_wizlist(char*, int)
+	_Z14add_to_wizlistPci @ 483
+;	affect_to_char(char_data*, affect_data*)
+	_Z14affect_to_charP9char_dataP11affect_data @ 484
+;	append_to_file(char const*, char const*)
+	_Z14append_to_filePKcS0_ @ 485
+;	auction_update()
+	_Z14auction_updatev @ 486
+;	break_newlines(char*, char*)
+	_Z14break_newlinesPcS_ @ 487
+;	can_learn_lang(char_data*, int)
+	_Z14can_learn_langP9char_datai @ 488
+;	can_take_proto(char_data*)
+	_Z14can_take_protoP9char_data @ 489
+;	char_from_room(char_data*)
+	_Z14char_from_roomP9char_data @ 490
+;	check_bad_desc(int)
+	_Z14check_bad_desci @ 491
+;	check_for_trap(char_data*, obj_data*, int)
+	_Z14check_for_trapP9char_dataP8obj_datai @ 492
+;	check_reflexes(char_data*)
+	_Z14check_reflexesP9char_data @ 493
+;	check_switches(bool)
+	_Z14check_switchesb @ 494
+;	comment_remove(char_data*, char_data*, note_data*)
+	_Z14comment_removeP9char_dataS0_P9note_data @ 495
+;	count_obj_list(obj_index_data*, obj_data*)
+	_Z14count_obj_listP14obj_index_dataP8obj_data @ 496
+;	damage_ship_ch(ship_data*, int, int, char_data*)
+	_Z14damage_ship_chP9ship_dataiiP9char_data @ 497
+;	default_prompt(char_data*)
+	_Z14default_promptP9char_data @ 498
+;	disintigration(char_data*, char_data*, long)
+	_Z14disintigrationP9char_dataS0_l @ 499
+;	display_prompt(descriptor_data*)
+	_Z14display_promptP15descriptor_data @ 500
+;	echo_to_system(int, ship_data*, char const*, ship_data*)
+	_Z14echo_to_systemiP9ship_dataPKcS0_ @ 501
+;	extra_bit_name(int)
+	_Z14extra_bit_namei @ 502
+;	failed_casting(skill_type*, char_data*, char_data*, obj_data*)
+	_Z14failed_castingP10skill_typeP9char_dataS2_P8obj_data @ 503
+;	fix_area_exits(area_data*)
+	_Z14fix_area_exitsP9area_data @ 504
+;	free_mssp_info()
+	_Z14free_mssp_infov @ 505
+;	gain_addiction(char_data*)
+	_Z14gain_addictionP9char_data @ 506
+;	gain_condition(char_data*, int, int)
+	_Z14gain_conditionP9char_dataii @ 507
+;	get_attackflag(char const*)
+	_Z14get_attackflagPKc @ 508
+;	get_char_world(char_data*, char const*)
+	_Z14get_char_worldP9char_dataPKc @ 509
+;	get_obj_number(obj_data*)
+	_Z14get_obj_numberP8obj_data @ 510
+;	get_obj_weight(obj_data*)
+	_Z14get_obj_weightP8obj_data @ 511
+;	get_repaircost(char_data*, obj_data*)
+	_Z14get_repaircostP9char_dataP8obj_data @ 512
+;	get_room_index(int)
+	_Z14get_room_indexi @ 513
+;	get_ship_value(ship_data*)
+	_Z14get_ship_valueP9ship_data @ 514
+;	imc_act_string(char const*, char_data*, char_data*)
+	_Z14imc_act_stringPKcP9char_dataS2_ @ 515
+;	imc_char_login(char_data*)
+	_Z14imc_char_loginP9char_data @ 516
+;	imc_freepacket(imc_packet*)
+	_Z14imc_freepacketP10imc_packet @ 517
+;	imc_isignoring(char_data*, char const*)
+	_Z14imc_isignoringP9char_dataPKc @ 518
+;	imc_load_helps()
+	_Z14imc_load_helpsv @ 519
+;	imc_readucache(imcucache_data*, __sFILE64*)
+	_Z14imc_readucacheP14imcucache_dataP9__sFILE64 @ 520
+;	imc_recv_emote(imc_packet*, char const*)
+	_Z14imc_recv_emoteP10imc_packetPKc @ 521
+;	imc_recv_whois(imc_packet*, char const*)
+	_Z14imc_recv_whoisP10imc_packetPKc @ 522
+;	imc_removename(char**, char const*)
+	_Z14imc_removenamePPcPKc @ 523
+;	imc_send_whois(char const*, char const*)
+	_Z14imc_send_whoisPKcS0_ @ 524
+;	imcremoteadmin(char_data*, char const*)
+	_Z14imcremoteadminP9char_dataPKc @ 525
+;	immune_casting(skill_type*, char_data*, char_data*, obj_data*)
+	_Z14immune_castingP10skill_typeP9char_dataS2_P8obj_data @ 526
+;	is_name_prefix(char const*, char const*)
+	_Z14is_name_prefixPKcS0_ @ 527
+;	item_type_name(obj_data*)
+	_Z14item_type_nameP8obj_data @ 528
+;	knows_language(char_data*, int, char_data*)
+	_Z14knows_languageP9char_dataiS0_ @ 529
+;	load_area_file(area_data*, char const*)
+	_Z14load_area_fileP9area_dataPKc @ 530
+;	load_buildlist()
+	_Z14load_buildlistv @ 531
+;	load_clan_file(char const*)
+	_Z14load_clan_filePKc @ 532
+;	load_mssp_data()
+	_Z14load_mssp_datav @ 533
+;	load_obj_files()
+	_Z14load_obj_filesv @ 534
+;	load_ship_file(char const*)
+	_Z14load_ship_filePKc @ 535
+;	locate_targets(char_data*, char*, int, char_data**, obj_data**)
+	_Z14locate_targetsP9char_dataPciPS0_PP8obj_data @ 536
+;	magic_bit_name(int)
+	_Z14magic_bit_namei @ 537
+;	nanny_get_name(descriptor_data*, char const*)
+	_Z14nanny_get_nameP15descriptor_dataPKc @ 538
+;	nanny_stats_ok(descriptor_data*, char const*)
+	_Z14nanny_stats_okP15descriptor_dataPKc @ 539
+;	new_descriptor(int)
+	_Z14new_descriptori @ 540
+;	number_percent()
+	_Z14number_percentv @ 541
+;	obj_act_update()
+	_Z14obj_act_updatev @ 542
+;	obj_cast_spell(int, int, char_data*, char_data*, obj_data*)
+	_Z14obj_cast_spelliiP9char_dataS0_P8obj_data @ 543
+;	parse_who_tail(char*)
+	_Z14parse_who_tailPc @ 544
+;	recharge_ships()
+	_Z14recharge_shipsv @ 545
+;	repair_one_obj(char_data*, char_data*, obj_data*, char const*, int, char const*, char const*)
+	_Z14repair_one_objP9char_dataS0_P8obj_dataPKciS4_S4_ @ 546
+;	room_explode_1(obj_data*, char_data*, room_index_data*, int)
+	_Z14room_explode_1P8obj_dataP9char_dataP15room_index_datai @ 547
+;	room_explode_2(room_index_data*, int)
+	_Z14room_explode_2P15room_index_datai @ 548
+;	save_mssp_info()
+	_Z14save_mssp_infov @ 549
+;	send_mssp_data(descriptor_data*)
+	_Z14send_mssp_dataP15descriptor_data @ 550
+;	send_rip_title(char_data*)
+	_Z14send_rip_titleP9char_data @ 551
+;	set_bexit_flag(exit_data*, int)
+	_Z14set_bexit_flagP9exit_datai @ 552
+;	set_char_color(short, char_data*)
+	_Z14set_char_colorsP9char_data @ 553
+;	show_condition(char_data*, char_data*)
+	_Z14show_conditionP9char_dataS0_ @ 554
+;	show_high_hash(int)
+	_Z14show_high_hashi @ 555
+;	showstarsystem(char_data*, space_data*)
+	_Z14showstarsystemP9char_dataP10space_data @ 556
+;	skill_function(char const*)
+	_Z14skill_functionPKc @ 557
+;	spell_function(char const*)
+	_Z14spell_functionPKc @ 558
+;	start_watching(char_data*, room_index_data*)
+	_Z14start_watchingP9char_dataP15room_index_data @ 559
+;	subtract_times(timeval*, timeval*)
+	_Z14subtract_timesP7timevalS0_ @ 560
+;	unlink_command(cmd_type*)
+	_Z14unlink_commandP8cmd_type @ 561
+;	update_handler()
+	_Z14update_handlerv @ 562
+;	update_traffic()
+	_Z14update_trafficv @ 563
+;	weather_update()
+	_Z14weather_updatev @ 564
+;	write_to_pager(descriptor_data*, char const*, unsigned int)
+	_Z14write_to_pagerP15descriptor_dataPKcj @ 565
+;	affect_bit_name(int)
+	_Z15affect_bit_namei @ 566
+;	affect_loc_name(int)
+	_Z15affect_loc_namei @ 567
+;	bfs_clear_queue()
+	_Z15bfs_clear_queuev @ 568
+;	ch_printf_color(char_data*, char const*, ...)
+	_Z15ch_printf_colorP9char_dataPKcz @ 569
+;	check_reconnect(descriptor_data*, char const*, bool)
+	_Z15check_reconnectP15descriptor_dataPKcb @ 570
+;	clean_obj_queue()
+	_Z15clean_obj_queuev @ 571
+;	close_all_areas()
+	_Z15close_all_areasv @ 572
+;	deadvance_level(char_data*, int)
+	_Z15deadvance_levelP9char_datai @ 573
+;	dikutoimcgender(int)
+	_Z15dikutoimcgenderi @ 574
+;	echo_to_cockpit(int, ship_data*, char const*)
+	_Z15echo_to_cockpitiP9ship_dataPKc @ 575
+;	extract_missile(missile_data*)
+	_Z15extract_missileP12missile_data @ 576
+;	find_first_step(room_index_data*, room_index_data*, int)
+	_Z15find_first_stepP15room_index_dataS0_i @ 577
+;	find_next_esign(char const*, int)
+	_Z15find_next_esignPKci @ 578
+;	fread_fuss_area(area_data*, __sFILE64*)
+	_Z15fread_fuss_areaP9area_dataP9__sFILE64 @ 579
+;	fread_fuss_exit(__sFILE64*, room_index_data*)
+	_Z15fread_fuss_exitP9__sFILE64P15room_index_data @ 580
+;	fread_fuss_room(__sFILE64*, area_data*)
+	_Z15fread_fuss_roomP9__sFILE64P9area_data @ 581
+;	fread_mssp_info(__sFILE64*)
+	_Z15fread_mssp_infoP9__sFILE64 @ 582
+;	fwrite_comments(char_data*, __sFILE64*)
+	_Z15fwrite_commentsP9char_dataP9__sFILE64 @ 583
+;	get_defenseflag(char const*)
+	_Z15get_defenseflagPKc @ 584
+;	get_exit_number(room_index_data*, int)
+	_Z15get_exit_numberP15room_index_datai @ 585
+;	get_extra_descr(char const*, extra_descr_data*)
+	_Z15get_extra_descrPKcP16extra_descr_data @ 586
+;	get_wanted_flag(char const*)
+	_Z15get_wanted_flagPKc @ 587
+;	hotboot_recover()
+	_Z15hotboot_recoverv @ 588
+;	imc_addtopacket(imc_packet*, char const*, ...)
+	_Z15imc_addtopacketP10imc_packetPKcz @ 589
+;	imc_delete_info()
+	_Z15imc_delete_infov @ 590
+;	imc_find_social(char_data*, char const*, char const*, char const*, int)
+	_Z15imc_find_socialP9char_dataPKcS2_S2_i @ 591
+;	imc_findchannel(char const*)
+	_Z15imc_findchannelPKc @ 592
+;	imc_load_ucache()
+	_Z15imc_load_ucachev @ 593
+;	imc_loadhistory()
+	_Z15imc_loadhistoryv @ 594
+;	imc_new_channel(char const*, char const*, char const*, char const*, char const*, bool, int, char const*)
+	_Z15imc_new_channelPKcS0_S0_S0_S0_biS0_ @ 595
+;	imc_new_reminfo(char const*, char const*, char const*, char const*, char const*)
+	_Z15imc_new_reminfoPKcS0_S0_S0_S0_ @ 596
+;	imc_process_who(char*)
+	_Z15imc_process_whoPc @ 597
+;	imc_read_buffer()
+	_Z15imc_read_bufferv @ 598
+;	imc_read_config(int)
+	_Z15imc_read_configi @ 599
+;	imc_read_socket()
+	_Z15imc_read_socketv @ 600
+;	imc_readchannel(imc_channel*, __sFILE64*)
+	_Z15imc_readchannelP11imc_channelP9__sFILE64 @ 601
+;	imc_readcommand(imc_command_table*, __sFILE64*)
+	_Z15imc_readcommandP17imc_command_tableP9__sFILE64 @ 602
+;	imc_recv_ucache(imc_packet*, char const*)
+	_Z15imc_recv_ucacheP10imc_packetPKc @ 603
+;	imc_save_config()
+	_Z15imc_save_configv @ 604
+;	imc_save_ucache()
+	_Z15imc_save_ucachev @ 605
+;	imc_savehistory()
+	_Z15imc_savehistoryv @ 606
+;	imc_send_social(char_data*, char const*, int)
+	_Z15imc_send_socialP9char_dataPKci @ 607
+;	imc_sendmessage(imc_channel const*, char const*, char const*, int)
+	_Z15imc_sendmessagePK11imc_channelPKcS3_i @ 608
+;	imcfread_letter(__sFILE64*)
+	_Z15imcfread_letterP9__sFILE64 @ 609
+;	imcfread_number(__sFILE64*)
+	_Z15imcfread_numberP9__sFILE64 @ 610
+;	imcfread_to_eol(__sFILE64*)
+	_Z15imcfread_to_eolP9__sFILE64 @ 611
+;	imcone_argument(char const*, char*)
+	_Z15imcone_argumentPKcPc @ 612
+;	imcpager_printf(char_data*, char const*, ...)
+	_Z15imcpager_printfP9char_dataPKcz @ 613
+;	imctodikugender(int)
+	_Z15imctodikugenderi @ 614
+;	init_descriptor(descriptor_data*, int)
+	_Z15init_descriptorP15descriptor_datai @ 615
+;	is_name2_prefix(char const*, char const*)
+	_Z15is_name2_prefixPKcS0_ @ 616
+;	load_herb_table()
+	_Z15load_herb_tablev @ 617
+;	load_room_reset(room_index_data*, __sFILE64*)
+	_Z15load_room_resetP15room_index_dataP9__sFILE64 @ 618
+;	load_starsystem(char const*)
+	_Z15load_starsystemPKc @ 619
+;	load_systemdata(system_data*)
+	_Z15load_systemdataP11system_data @ 620
+;	log_printf_plus(short, short, char const*, ...)
+	_Z15log_printf_plusssPKcz @ 621
+;	log_string_plus(char const*, short, short)
+	_Z15log_string_plusPKcss @ 622
+;	make_bloodstain(char_data*)
+	_Z15make_bloodstainP9char_data @ 623
+;	mprog_file_read(mob_index_data*, char const*)
+	_Z15mprog_file_readP14mob_index_dataPKc @ 624
+;	mprog_translate(char, char*, char_data*, char_data*, obj_data*, void*, char_data*)
+	_Z15mprog_translatecPcP9char_dataS1_P8obj_dataPvS1_ @ 625
+;	nanny_read_motd(descriptor_data*, char const*)
+	_Z15nanny_read_motdP15descriptor_dataPKc @ 626
+;	number_argument(char const*, char*)
+	_Z15number_argumentPKcPc @ 627
+;	oprog_file_read(obj_index_data*, char const*)
+	_Z15oprog_file_readP14obj_index_dataPKc @ 628
+;	personal_lookup(char_data*, char const*)
+	_Z15personal_lookupP9char_dataPKc @ 629
+;	process_immline(char*, char*, char*, char*)
+	_Z15process_immlinePcS_S_S_ @ 630
+;	process_plrline(char*, char*, char*, char*)
+	_Z15process_plrlinePcS_S_S_ @ 631
+;	process_sorting(area_data*)
+	_Z15process_sortingP9area_data @ 632
+;	randomize_exits(room_index_data*, short)
+	_Z15randomize_exitsP15room_index_datas @ 633
+;	room_act_update()
+	_Z15room_act_updatev @ 634
+;	room_is_private(char_data*, room_index_data*)
+	_Z15room_is_privateP9char_dataP15room_index_data @ 635
+;	rprog_file_read(room_index_data*, char const*)
+	_Z15rprog_file_readP15room_index_dataPKc @ 636
+;	save_herb_table()
+	_Z15save_herb_tablev @ 637
+;	save_starsystem(space_data*)
+	_Z15save_starsystemP10space_data @ 638
+;	send_ansi_title(char_data*)
+	_Z15send_ansi_titleP9char_data @ 639
+;	send_rip_screen(char_data*)
+	_Z15send_rip_screenP9char_data @ 640
+;	set_pager_color(short, char_data*)
+	_Z15set_pager_colorsP9char_data @ 641
+;	set_pager_input(descriptor_data*, char*)
+	_Z15set_pager_inputP15descriptor_dataPc @ 642
+;	shift_alignment(char_data*, int)
+	_Z15shift_alignmentP9char_datai @ 643
+;	ship_from_pilot(char const*)
+	_Z15ship_from_pilotPKc @ 644
+;	uphold_supermob(int*, int, room_index_data**, obj_data*)
+	_Z15uphold_supermobPiiPP15room_index_dataP8obj_data @ 645
+;	violence_update()
+	_Z15violence_updatev @ 646
+;	write_area_list()
+	_Z15write_area_listv @ 647
+;	write_clan_list()
+	_Z15write_clan_listv @ 648
+;	write_ship_list()
+	_Z15write_ship_listv @ 649
+;	write_to_buffer(descriptor_data*, char const*, unsigned int)
+	_Z15write_to_bufferP15descriptor_dataPKcj @ 650
+;	ch_bsearch_skill(char_data*, char const*, int, int)
+	_Z16ch_bsearch_skillP9char_dataPKcii @ 651
+;	check_parse_name(char const*)
+	_Z16check_parse_namePKc @ 652
+;	clean_char_queue()
+	_Z16clean_char_queuev @ 653
+;	clean_room_queue()
+	_Z16clean_room_queuev @ 654
+;	do_mp_alignshift(char_data*, char const*)
+	_Z16do_mp_alignshiftP9char_dataPKc @ 655
+;	echo_to_room_dnr(int, room_index_data*, char const*)
+	_Z16echo_to_room_dnriP15room_index_dataPKc @ 656
+;	fread_flagstring(__sFILE64*)
+	_Z16fread_flagstringP9__sFILE64 @ 657
+;	fread_starsystem(space_data*, __sFILE64*)
+	_Z16fread_starsystemP10space_dataP9__sFILE64 @ 658
+;	fwrite_fuss_exit(__sFILE64*, exit_data*)
+	_Z16fwrite_fuss_exitP9__sFILE64P9exit_data @ 659
+;	fwrite_fuss_room(__sFILE64*, room_index_data*, bool)
+	_Z16fwrite_fuss_roomP9__sFILE64P15room_index_datab @ 660
+;	get_char_room_mp(char_data*, char const*)
+	_Z16get_char_room_mpP9char_dataPKc @ 661
+;	get_imcpermvalue(char const*)
+	_Z16get_imcpermvaluePKc @ 662
+;	get_langnum_save(char const*)
+	_Z16get_langnum_savePKc @ 663
+;	get_npc_position(char const*)
+	_Z16get_npc_positionPKc @ 664
+;	get_obj_list_rev(char_data*, char const*, obj_data*)
+	_Z16get_obj_list_revP9char_dataPKcP8obj_data @ 665
+;	get_waiting_desc(char_data*, char*)
+	_Z16get_waiting_descP9char_dataPc @ 666
+;	imc_adjust_perms(char_data*)
+	_Z16imc_adjust_permsP9char_data @ 667
+;	imc_assemble_who()
+	_Z16imc_assemble_whov @ 668
+;	imc_command_hook(char_data*, char const*, char const*)
+	_Z16imc_command_hookP9char_dataPKcS2_ @ 669
+;	imc_deny_channel(char_data*, char const*)
+	_Z16imc_deny_channelP9char_dataPKc @ 670
+;	imc_find_reminfo(char const*)
+	_Z16imc_find_reminfoPKc @ 671
+;	imc_firstrefresh()
+	_Z16imc_firstrefreshv @ 672
+;	imc_freechardata(char_data*)
+	_Z16imc_freechardataP9char_data @ 673
+;	imc_loadchannels()
+	_Z16imc_loadchannelsv @ 674
+;	imc_parse_packet(char const*)
+	_Z16imc_parse_packetPKc @ 675
+;	imc_prune_ucache()
+	_Z16imc_prune_ucachev @ 676
+;	imc_recv_chanwho(imc_packet*, char const*)
+	_Z16imc_recv_chanwhoP10imc_packetPKc @ 677
+;	imc_recv_isalive(imc_packet*, char const*)
+	_Z16imc_recv_isaliveP10imc_packetPKc @ 678
+;	imc_savecommands()
+	_Z16imc_savecommandsv @ 679
+;	imc_strip_colors(char const*)
+	_Z16imc_strip_colorsPKc @ 680
+;	imc_write_buffer(char const*)
+	_Z16imc_write_bufferPKc @ 681
+;	imc_write_packet(imc_packet*)
+	_Z16imc_write_packetP10imc_packet @ 682
+;	imc_write_socket()
+	_Z16imc_write_socketv @ 683
+;	improve_reflexes(char_data*, bool)
+	_Z16improve_reflexesP9char_datab @ 684
+;	load_planet_file(char const*)
+	_Z16load_planet_filePKc @ 685
+;	load_skill_table()
+	_Z16load_skill_tablev @ 686
+;	mprog_do_command(char const*, char_data*, char_data*, obj_data*, void*, char_data*, bool, bool)
+	_Z16mprog_do_commandPKcP9char_dataS2_P8obj_dataPvS2_bb @ 687
+;	mprog_do_ifcheck(char const*, char_data*, char_data*, obj_data*, void*, char_data*)
+	_Z16mprog_do_ifcheckPKcP9char_dataS2_P8obj_dataPvS2_ @ 688
+;	mprog_time_check(char_data*, char_data*, obj_data*, void*, int)
+	_Z16mprog_time_checkP9char_dataS0_P8obj_dataPvi @ 689
+;	mprog_write_prog(__sFILE64*, mob_prog_data*)
+	_Z16mprog_write_progP9__sFILE64P13mob_prog_data @ 690
+;	multiline_center(char*)
+	_Z16multiline_centerPc @ 691
+;	name_stamp_stats(char_data*)
+	_Z16name_stamp_statsP9char_data @ 692
+;	nanny_roll_stats(descriptor_data*, char const*)
+	_Z16nanny_roll_statsP15descriptor_dataPKc @ 693
+;	parse_who_header(char*)
+	_Z16parse_who_headerPc @ 694
+;	process_who_head(int)
+	_Z16process_who_headi @ 695
+;	process_who_tail(int)
+	_Z16process_who_taili @ 696
+;	read_from_buffer(descriptor_data*)
+	_Z16read_from_bufferP15descriptor_data @ 697
+;	release_supermob()
+	_Z16release_supermobv @ 698
+;	rprog_time_check(char_data*, char_data*, obj_data*, void*, int)
+	_Z16rprog_time_checkP9char_dataS0_P8obj_dataPvi @ 699
+;	save_reset_level(__sFILE64*, reset_data*, int)
+	_Z16save_reset_levelP9__sFILE64P10reset_datai @ 700
+;	save_skill_table()
+	_Z16save_skill_tablev @ 701
+;	saves_para_petri(int, char_data*)
+	_Z16saves_para_petriiP9char_data @ 702
+;	send_ascii_title(char_data*)
+	_Z16send_ascii_titleP9char_data @ 703
+;	ship_from_coseat(int)
+	_Z16ship_from_coseati @ 704
+;	ship_from_engine(int)
+	_Z16ship_from_enginei @ 705
+;	ship_from_hanger(int)
+	_Z16ship_from_hangeri @ 706
+;	ship_from_turret(int)
+	_Z16ship_from_turreti @ 707
+;	show_colorthemes(char_data*)
+	_Z16show_colorthemesP9char_data @ 708
+;	smash_tilde_copy(char const*)
+	_Z16smash_tilde_copyPKc @ 709
+;	sort_skill_table()
+	_Z16sort_skill_tablev @ 710
+;	spec_jedi_healer(char_data*)
+	_Z16spec_jedi_healerP9char_data @ 711
+;	spell_affectchar(int, int, char_data*, void*)
+	_Z16spell_affectchariiP9char_dataPv @ 712
+;	spell_create_mob(int, int, char_data*, void*)
+	_Z16spell_create_mobiiP9char_dataPv @ 713
+;	spell_create_obj(int, int, char_data*, void*)
+	_Z16spell_create_objiiP9char_dataPv @ 714
+;	spell_darkmatter(int, int, char_data*, void*)
+	_Z16spell_darkmatteriiP9char_dataPv @ 715
+;	wipe_area_resets(area_data*)
+	_Z16wipe_area_resetsP9area_data @ 716
+;	write_boards_txt()
+	_Z16write_boards_txtv @ 717
+;	descriptor_printf(descriptor_data*, char const*, ...)
+	_Z17descriptor_printfP15descriptor_dataPKcz @ 718
+;	economize_mobgold(char_data*)
+	_Z17economize_mobgoldP9char_data @ 719
+;	fread_fuss_affect(__sFILE64*, char const*)
+	_Z17fread_fuss_affectP9__sFILE64PKc @ 720
+;	fread_fuss_exdesc(__sFILE64*)
+	_Z17fread_fuss_exdescP9__sFILE64 @ 721
+;	fread_fuss_mobile(__sFILE64*, area_data*)
+	_Z17fread_fuss_mobileP9__sFILE64P9area_data @ 722
+;	fread_fuss_object(__sFILE64*, area_data*)
+	_Z17fread_fuss_objectP9__sFILE64P9area_data @ 723
+;	get_local_chanwho(imc_channel*)
+	_Z17get_local_chanwhoP11imc_channel @ 724
+;	get_reboot_string()
+	_Z17get_reboot_stringv @ 725
+;	imc_channel_mudof(char const*)
+	_Z17imc_channel_mudofPKc @ 726
+;	imc_load_commands()
+	_Z17imc_load_commandsv @ 727
+;	imc_make_skeleton(char const*)
+	_Z17imc_make_skeletonPKc @ 728
+;	imc_recv_whoreply(imc_packet*, char const*)
+	_Z17imc_recv_whoreplyP10imc_packetPKc @ 729
+;	imc_save_channels()
+	_Z17imc_save_channelsv @ 730
+;	imc_send_whoreply(char const*, char const*)
+	_Z17imc_send_whoreplyPKcS0_ @ 731
+;	imc_ucache_update(char const*, int)
+	_Z17imc_ucache_updatePKci @ 732
+;	imcformat_channel(char_data*, imc_channel*, int, bool)
+	_Z17imcformat_channelP9char_dataP11imc_channelib @ 733
+;	is_disintigration(char_data*)
+	_Z17is_disintigrationP9char_data @ 734
+;	is_valid_filename(char_data*, char const*, char const*)
+	_Z17is_valid_filenameP9char_dataPKcS2_ @ 735
+;	mobprog_file_read(mob_index_data*, char const*)
+	_Z17mobprog_file_readP14mob_index_dataPKc @ 736
+;	mprog_act_trigger(char const*, char_data*, char_data*, obj_data*, void*)
+	_Z17mprog_act_triggerPKcP9char_dataS2_P8obj_dataPv @ 737
+;	nanny_get_new_sex(descriptor_data*, char const*)
+	_Z17nanny_get_new_sexP15descriptor_dataPKc @ 738
+;	nanny_press_enter(descriptor_data*, char const*)
+	_Z17nanny_press_enterP15descriptor_dataPKc @ 739
+;	objprog_file_read(obj_index_data*, char const*)
+	_Z17objprog_file_readP14obj_index_dataPKc @ 740
+;	oprog_act_trigger(char const*, obj_data*, char_data*, obj_data*, void*)
+	_Z17oprog_act_triggerPKcP8obj_dataP9char_dataS2_Pv @ 741
+;	oprog_get_trigger(char_data*, obj_data*)
+	_Z17oprog_get_triggerP9char_dataP8obj_data @ 742
+;	oprog_sac_trigger(char_data*, obj_data*)
+	_Z17oprog_sac_triggerP9char_dataP8obj_data @ 743
+;	oprog_use_trigger(char_data*, obj_data*, char_data*, obj_data*, void*)
+	_Z17oprog_use_triggerP9char_dataP8obj_dataS0_S2_Pv @ 744
+;	oprog_zap_trigger(char_data*, obj_data*)
+	_Z17oprog_zap_triggerP9char_dataP8obj_data @ 745
+;	remove_area_names(char const*, char*)
+	_Z17remove_area_namesPKcPc @ 746
+;	remove_bexit_flag(exit_data*, int)
+	_Z17remove_bexit_flagP9exit_datai @ 747
+;	rprog_act_trigger(char const*, room_index_data*, char_data*, obj_data*, void*)
+	_Z17rprog_act_triggerPKcP15room_index_dataP9char_dataP8obj_dataPv @ 748
+;	saves_spell_staff(int, char_data*)
+	_Z17saves_spell_staffiP9char_data @ 749
+;	ship_from_cockpit(int)
+	_Z17ship_from_cockpiti @ 750
+;	ship_from_gunseat(int)
+	_Z17ship_from_gunseati @ 751
+;	ship_from_navseat(int)
+	_Z17ship_from_navseati @ 752
+;	show_char_to_char(char_data*, char_data*)
+	_Z17show_char_to_charP9char_dataS0_ @ 753
+;	show_list_to_char(obj_data*, char_data*, bool, bool)
+	_Z17show_list_to_charP8obj_dataP9char_databb @ 754
+;	sort_area_by_name(area_data*)
+	_Z17sort_area_by_nameP9area_data @ 755
+;	spell_area_attack(int, int, char_data*, void*)
+	_Z17spell_area_attackiiP9char_dataPv @ 756
+;	toggle_bexit_flag(exit_data*, int)
+	_Z17toggle_bexit_flagP9exit_datai @ 757
+;	update_imchistory(imc_channel*, char*)
+	_Z17update_imchistoryP11imc_channelPc @ 758
+;	update_room_reset(char_data*, bool)
+	_Z17update_room_resetP9char_datab @ 759
+;	validate_spec_fun(char const*)
+	_Z17validate_spec_funPKc @ 760
+;	write_planet_list()
+	_Z17write_planet_listv @ 761
+;	add_reinforcements(char_data*)
+	_Z18add_reinforcementsP9char_data @ 762
+;	extract_area_names(char const*, char*)
+	_Z18extract_area_namesPKcPc @ 763
+;	format_obj_to_char(obj_data*, char_data*, bool)
+	_Z18format_obj_to_charP8obj_dataP9char_datab @ 764
+;	fread_fuss_mobprog(__sFILE64*, mob_prog_data*, mob_index_data*)
+	_Z18fread_fuss_mobprogP9__sFILE64P13mob_prog_dataP14mob_index_data @ 765
+;	fread_fuss_objprog(__sFILE64*, mob_prog_data*, obj_index_data*)
+	_Z18fread_fuss_objprogP9__sFILE64P13mob_prog_dataP14obj_index_data @ 766
+;	fwrite_area_header(__sFILE64*, area_data*, bool)
+	_Z18fwrite_area_headerP9__sFILE64P9area_datab @ 767
+;	fwrite_fuss_affect(__sFILE64*, affect_data*)
+	_Z18fwrite_fuss_affectP9__sFILE64P11affect_data @ 768
+;	fwrite_fuss_exdesc(__sFILE64*, extra_descr_data*)
+	_Z18fwrite_fuss_exdescP9__sFILE64P16extra_descr_data @ 769
+;	fwrite_fuss_mobile(__sFILE64*, mob_index_data*, bool)
+	_Z18fwrite_fuss_mobileP9__sFILE64P14mob_index_datab @ 770
+;	fwrite_fuss_object(__sFILE64*, obj_index_data*, bool)
+	_Z18fwrite_fuss_objectP9__sFILE64P14obj_index_datab @ 771
+;	generate_itemlevel(area_data*, obj_index_data*)
+	_Z18generate_itemlevelP9area_dataP14obj_index_data @ 772
+;	get_disintigration(char const*)
+	_Z18get_disintigrationPKc @ 773
+;	get_obj_resistance(obj_data*)
+	_Z18get_obj_resistanceP8obj_data @ 774
+;	halucinated_object(int, bool)
+	_Z18halucinated_objectib @ 775
+;	imc_channel_nameof(char const*)
+	_Z18imc_channel_nameofPKc @ 776
+;	imc_delete_reminfo(imc_remoteinfo*)
+	_Z18imc_delete_reminfoP14imc_remoteinfo @ 777
+;	imc_load_templates()
+	_Z18imc_load_templatesv @ 778
+;	imc_process_finger(char const*, char const*)
+	_Z18imc_process_fingerPKcS0_ @ 779
+;	imc_purge_skeleton(char_data*)
+	_Z18imc_purge_skeletonP9char_data @ 780
+;	imc_recv_broadcast(imc_packet*, char const*)
+	_Z18imc_recv_broadcastP10imc_packetPKc @ 781
+;	imc_recv_iceupdate(imc_packet*, char const*)
+	_Z18imc_recv_iceupdateP10imc_packetPKc @ 782
+;	imc_send_keepalive(imc_packet*, char const*)
+	_Z18imc_send_keepaliveP10imc_packetPKc @ 783
+;	imc_server_connect()
+	_Z18imc_server_connectv @ 784
+;	initialize_economy()
+	_Z18initialize_economyv @ 785
+;	learn_from_failure(char_data*, int)
+	_Z18learn_from_failureP9char_datai @ 786
+;	learn_from_success(char_data*, int)
+	_Z18learn_from_successP9char_datai @ 787
+;	mprog_give_trigger(char_data*, char_data*, obj_data*)
+	_Z18mprog_give_triggerP9char_dataS0_P8obj_data @ 788
+;	mprog_hour_trigger(char_data*)
+	_Z18mprog_hour_triggerP9char_data @ 789
+;	mprog_name_to_type(char const*)
+	_Z18mprog_name_to_typePKc @ 790
+;	mprog_next_command(char*)
+	_Z18mprog_next_commandPc @ 791
+;	mprog_time_trigger(char_data*)
+	_Z18mprog_time_triggerP9char_data @ 792
+;	mprog_type_to_name(int)
+	_Z18mprog_type_to_namei @ 793
+;	nanny_get_new_race(descriptor_data*, char const*)
+	_Z18nanny_get_new_raceP15descriptor_dataPKc @ 794
+;	oprog_drop_trigger(char_data*, obj_data*)
+	_Z18oprog_drop_triggerP9char_dataP8obj_data @ 795
+;	oprog_pull_trigger(char_data*, obj_data*)
+	_Z18oprog_pull_triggerP9char_dataP8obj_data @ 796
+;	oprog_push_trigger(char_data*, obj_data*)
+	_Z18oprog_push_triggerP9char_dataP8obj_data @ 797
+;	oprog_wear_trigger(char_data*, obj_data*)
+	_Z18oprog_wear_triggerP9char_dataP8obj_data @ 798
+;	pager_printf_color(char_data*, char const*, ...)
+	_Z18pager_printf_colorP9char_dataPKcz @ 799
+;	process_compressed(descriptor_data*)
+	_Z18process_compressedP15descriptor_data @ 800
+;	roomprog_file_read(room_index_data*, char const*)
+	_Z18roomprog_file_readP15room_index_dataPKc @ 801
+;	rprog_hour_trigger(char_data*)
+	_Z18rprog_hour_triggerP9char_data @ 802
+;	rprog_rest_trigger(char_data*)
+	_Z18rprog_rest_triggerP9char_data @ 803
+;	rprog_time_trigger(char_data*)
+	_Z18rprog_time_triggerP9char_data @ 804
+;	saves_poison_death(int, char_data*)
+	_Z18saves_poison_deathiP9char_data @ 805
+;	send_to_char_color(char const*, char_data*)
+	_Z18send_to_char_colorPKcP9char_data @ 806
+;	send_to_desc_color(char const*, descriptor_data*)
+	_Z18send_to_desc_colorPKcP15descriptor_data @ 807
+;	ship_from_entrance(int)
+	_Z18ship_from_entrancei @ 808
+;	ship_to_starsystem(ship_data*, space_data*)
+	_Z18ship_to_starsystemP9ship_dataP10space_data @ 809
+;	show_ships_to_char(ship_data*, char_data*)
+	_Z18show_ships_to_charP9ship_dataP9char_data @ 810
+;	smash_tilde_static(char const*)
+	_Z18smash_tilde_staticPKc @ 811
+;	successful_casting(skill_type*, char_data*, char_data*, obj_data*)
+	_Z18successful_castingP10skill_typeP9char_dataS2_P8obj_data @ 812
+;	better_mental_state(char_data*, int)
+	_Z19better_mental_stateP9char_datai @ 813
+;	bsearch_skill_exact(char const*, int, int)
+	_Z19bsearch_skill_exactPKcii @ 814
+;	check_area_conflict(area_data*, int, int)
+	_Z19check_area_conflictP9area_dataii @ 815
+;	fread_fuss_areadata(__sFILE64*, area_data*)
+	_Z19fread_fuss_areadataP9__sFILE64P9area_data @ 816
+;	fread_fuss_roomprog(__sFILE64*, mob_prog_data*, room_index_data*)
+	_Z19fread_fuss_roomprogP9__sFILE64P13mob_prog_dataP15room_index_data @ 817
+;	fread_string_nohash(__sFILE64*)
+	_Z19fread_string_nohashP9__sFILE64 @ 818
+;	imc_display_channel(imc_channel*, char const*, char*, int)
+	_Z19imc_display_channelP11imc_channelPKcPci @ 819
+;	imc_recv_icedestroy(imc_packet*, char const*)
+	_Z19imc_recv_icedestroyP10imc_packetPKc @ 820
+;	imc_recv_pbroadcast(imc_packet*, char const*)
+	_Z19imc_recv_pbroadcastP10imc_packetPKc @ 821
+;	imc_recv_whoisreply(imc_packet*, char const*)
+	_Z19imc_recv_whoisreplyP10imc_packetPKc @ 822
+;	imc_send_whoisreply(char*, char*)
+	_Z19imc_send_whoisreplyPcS_ @ 823
+;	imc_startup_network(bool)
+	_Z19imc_startup_networkb @ 824
+;	mprog_bribe_trigger(char_data*, char_data*, int)
+	_Z19mprog_bribe_triggerP9char_dataS0_i @ 825
+;	mprog_death_trigger(char_data*, char_data*)
+	_Z19mprog_death_triggerP9char_dataS0_ @ 826
+;	mprog_entry_trigger(char_data*)
+	_Z19mprog_entry_triggerP9char_data @ 827
+;	mprog_fight_trigger(char_data*, char_data*)
+	_Z19mprog_fight_triggerP9char_dataS0_ @ 828
+;	mprog_greet_trigger(char_data*)
+	_Z19mprog_greet_triggerP9char_data @ 829
+;	mprog_keyword_check(char const*, char const*)
+	_Z19mprog_keyword_checkPKcS0_ @ 830
+;	mprog_percent_check(char_data*, char_data*, obj_data*, void*, int)
+	_Z19mprog_percent_checkP9char_dataS0_P8obj_dataPvi @ 831
+;	mprog_read_programs(__sFILE64*, mob_index_data*)
+	_Z19mprog_read_programsP9__sFILE64P14mob_index_data @ 832
+;	nanny_get_new_class(descriptor_data*, char const*)
+	_Z19nanny_get_new_classP15descriptor_dataPKc @ 833
+;	oprog_greet_trigger(char_data*)
+	_Z19oprog_greet_triggerP9char_data @ 834
+;	oprog_percent_check(char_data*, char_data*, obj_data*, void*, int)
+	_Z19oprog_percent_checkP9char_dataS0_P8obj_dataPvi @ 835
+;	oprog_read_programs(__sFILE64*, obj_index_data*)
+	_Z19oprog_read_programsP9__sFILE64P14obj_index_data @ 836
+;	queue_extracted_obj(obj_data*)
+	_Z19queue_extracted_objP8obj_data @ 837
+;	renumber_put_resets(room_index_data*)
+	_Z19renumber_put_resetsP15room_index_data @ 838
+;	rprog_death_trigger(char_data*, char_data*)
+	_Z19rprog_death_triggerP9char_dataS0_ @ 839
+;	rprog_enter_trigger(char_data*)
+	_Z19rprog_enter_triggerP9char_data @ 840
+;	rprog_leave_trigger(char_data*)
+	_Z19rprog_leave_triggerP9char_data @ 841
+;	rprog_percent_check(char_data*, char_data*, obj_data*, void*, int)
+	_Z19rprog_percent_checkP9char_dataS0_P8obj_dataPvi @ 842
+;	rprog_read_programs(__sFILE64*, room_index_data*)
+	_Z19rprog_read_programsP9__sFILE64P15room_index_data @ 843
+;	rprog_sleep_trigger(char_data*)
+	_Z19rprog_sleep_triggerP9char_data @ 844
+;	save_clan_storeroom(char_data*, clan_data*)
+	_Z19save_clan_storeroomP9char_dataP9clan_data @ 845
+;	send_to_pager_color(char const*, char_data*)
+	_Z19send_to_pager_colorPKcP9char_data @ 846
+;	ship_from_pilotseat(int)
+	_Z19ship_from_pilotseati @ 847
+;	show_char_to_char_0(char_data*, char_data*)
+	_Z19show_char_to_char_0P9char_dataS0_ @ 848
+;	show_char_to_char_1(char_data*, char_data*)
+	_Z19show_char_to_char_1P9char_dataS0_ @ 849
+;	worsen_mental_state(char_data*, int)
+	_Z19worsen_mental_stateP9char_datai @ 850
+;	write_to_descriptor(descriptor_data*, char const*, int)
+	_Z19write_to_descriptorP15descriptor_dataPKci @ 851
+;	check_area_conflicts(int, int)
+	_Z20check_area_conflictsii @ 852
+;	check_illegal_psteal(char_data*, char_data*)
+	_Z20check_illegal_pstealP9char_dataS0_ @ 853
+;	check_room_for_traps(char_data*, int)
+	_Z20check_room_for_trapsP9char_datai @ 854
+;	claim_disintigration(char_data*, char_data*)
+	_Z20claim_disintigrationP9char_dataS0_ @ 855
+;	imc_delete_templates()
+	_Z20imc_delete_templatesv @ 856
+;	imc_handle_autosetup(char*, char*, char*, char*, char*)
+	_Z20imc_handle_autosetupPcS_S_S_S_ @ 857
+;	imc_load_color_table()
+	_Z20imc_load_color_tablev @ 858
+;	imc_recv_closenotify(imc_packet*, char const*)
+	_Z20imc_recv_closenotifyP10imc_packetPKc @ 859
+;	imccheck_permissions(char_data*, int, int, bool)
+	_Z20imccheck_permissionsP9char_dataiib @ 860
+;	imcfread_config_file(__sFILE64*)
+	_Z20imcfread_config_fileP9__sFILE64 @ 861
+;	is_wielding_poisoned(char_data*)
+	_Z20is_wielding_poisonedP9char_data @ 862
+;	mprog_random_trigger(char_data*)
+	_Z20mprog_random_triggerP9char_data @ 863
+;	mprog_script_trigger(char_data*)
+	_Z20mprog_script_triggerP9char_data @ 864
+;	mprog_speech_trigger(char const*, char_data*)
+	_Z20mprog_speech_triggerPKcP9char_data @ 865
+;	mprog_wordlist_check(char const*, char_data*, char_data*, obj_data*, void*, int)
+	_Z20mprog_wordlist_checkPKcP9char_dataS2_P8obj_dataPvi @ 866
+;	nifty_is_name_prefix(char const*, char const*)
+	_Z20nifty_is_name_prefixPKcS0_ @ 867
+;	oprog_damage_trigger(char_data*, obj_data*)
+	_Z20oprog_damage_triggerP9char_dataP8obj_data @ 868
+;	oprog_random_trigger(obj_data*)
+	_Z20oprog_random_triggerP8obj_data @ 869
+;	oprog_remove_trigger(char_data*, obj_data*)
+	_Z20oprog_remove_triggerP9char_dataP8obj_data @ 870
+;	oprog_repair_trigger(char_data*, obj_data*)
+	_Z20oprog_repair_triggerP9char_dataP8obj_data @ 871
+;	oprog_script_trigger(obj_data*)
+	_Z20oprog_script_triggerP8obj_data @ 872
+;	oprog_speech_trigger(char const*, char_data*)
+	_Z20oprog_speech_triggerPKcP9char_data @ 873
+;	oprog_wordlist_check(char const*, char_data*, char_data*, obj_data*, void*, int, obj_data*)
+	_Z20oprog_wordlist_checkPKcP9char_dataS2_P8obj_dataPviS4_ @ 874
+;	process_who_template(char*, char*, char*, char*, char*, char*)
+	_Z20process_who_templatePcS_S_S_S_S_ @ 875
+;	queue_extracted_char(char_data*, bool)
+	_Z20queue_extracted_charP9char_datab @ 876
+;	read_from_descriptor(descriptor_data*)
+	_Z20read_from_descriptorP15descriptor_data @ 877
+;	rprog_random_trigger(char_data*)
+	_Z20rprog_random_triggerP9char_data @ 878
+;	rprog_rfight_trigger(char_data*)
+	_Z20rprog_rfight_triggerP9char_data @ 879
+;	rprog_script_trigger(room_index_data*)
+	_Z20rprog_script_triggerP15room_index_data @ 880
+;	rprog_speech_trigger(char const*, char_data*)
+	_Z20rprog_speech_triggerPKcP9char_data @ 881
+;	rprog_wordlist_check(char const*, char_data*, char_data*, obj_data*, void*, int, room_index_data*)
+	_Z20rprog_wordlist_checkPKcP9char_dataS2_P8obj_dataPviP15room_index_data @ 882
+;	save_disintigrations()
+	_Z20save_disintigrationsv @ 883
+;	ship_from_starsystem(ship_data*, space_data*)
+	_Z20ship_from_starsystemP9ship_dataP10space_data @ 884
+;	starsystem_from_name(char const*)
+	_Z20starsystem_from_namePKc @ 885
+;	starsystem_from_vnum(int)
+	_Z20starsystem_from_vnumi @ 886
+;	tiny_affect_loc_name(int)
+	_Z20tiny_affect_loc_namei @ 887
+;	imc_get_ucache_gender(char const*)
+	_Z21imc_get_ucache_genderPKc @ 888
+;	imc_load_who_template()
+	_Z21imc_load_who_templatev @ 889
+;	imc_recv_chanwhoreply(imc_packet*, char const*)
+	_Z21imc_recv_chanwhoreplyP10imc_packetPKc @ 890
+;	imc_recv_ucache_reply(imc_packet*, char const*)
+	_Z21imc_recv_ucache_replyP10imc_packetPKc @ 891
+;	imc_request_keepalive()
+	_Z21imc_request_keepalivev @ 892
+;	oprog_examine_trigger(char_data*, obj_data*)
+	_Z21oprog_examine_triggerP9char_dataP8obj_data @ 893
+;	remove_disintigration(bounty_data*)
+	_Z21remove_disintigrationP11bounty_data @ 894
+;	write_starsystem_list()
+	_Z21write_starsystem_listv @ 895
+;	imc_send_ucache_update(char const*, int)
+	_Z22imc_send_ucache_updatePKci @ 896
+;	imc_update_tellhistory(char_data*, char const*)
+	_Z22imc_update_tellhistoryP9char_dataPKc @ 897
+;	loot_coins_from_corpse(char_data*, obj_data*)
+	_Z22loot_coins_from_corpseP9char_dataP8obj_data @ 898
+;	mprog_hitprcnt_trigger(char_data*, char_data*)
+	_Z22mprog_hitprcnt_triggerP9char_dataS0_ @ 899
+;	nanny_confirm_new_name(descriptor_data*, char const*)
+	_Z22nanny_confirm_new_nameP15descriptor_dataPKc @ 900
+;	nanny_get_new_password(descriptor_data*, char const*)
+	_Z22nanny_get_new_passwordP15descriptor_dataPKc @ 901
+;	nanny_get_old_password(descriptor_data*, char const*)
+	_Z22nanny_get_old_passwordP15descriptor_dataPKc @ 902
+;	nanny_get_want_ripansi(descriptor_data*, char const*)
+	_Z22nanny_get_want_ripansiP15descriptor_dataPKc @ 903
+;	imc_delete_who_template()
+	_Z23imc_delete_who_templatev @ 904
+;	imc_finalize_connection(char*, char*)
+	_Z23imc_finalize_connectionPcS_ @ 905
+;	imc_recv_ucache_request(imc_packet*, char const*)
+	_Z23imc_recv_ucache_requestP10imc_packetPKc @ 906
+;	imc_send_ucache_request(char*)
+	_Z23imc_send_ucache_requestPc @ 907
+;	weapon_prof_bonus_check(char_data*, obj_data*, int*)
+	_Z23weapon_prof_bonus_checkP9char_dataP8obj_dataPi @ 908
+;	write_to_descriptor_old(int, char const*, int)
+	_Z23write_to_descriptor_oldiPKci @ 909
+;	check_for_area_conflicts(area_data*, int, int)
+	_Z24check_for_area_conflictsP9area_dataii @ 910
+;	imc_show_ucache_contents(char_data*, char const*)
+	_Z24imc_show_ucache_contentsP9char_dataPKc @ 911
+;	process_spell_components(char_data*, int)
+	_Z24process_spell_componentsP9char_datai @ 912
+;	imc_process_authentication(char const*)
+	_Z26imc_process_authenticationPKc @ 913
+;	nanny_confirm_new_password(descriptor_data*, char const*)
+	_Z26nanny_confirm_new_passwordP15descriptor_dataPKc @ 914
+;	imc_register_packet_handler(char const*, void (*)(imc_packet*, char const*))
+	_Z27imc_register_packet_handlerPKcPFvP10imc_packetS0_E @ 915
+;	imc_register_default_packets()
+	_Z28imc_register_default_packetsv @ 916
+;	show_visible_affects_to_char(char_data*, char_data*)
+	_Z28show_visible_affects_to_charP9char_dataS0_ @ 917
+;	act(short, char const*, char_data*, void const*, void const*, int)
+	_Z3actsPKcP9char_dataPKvS4_i @ 918
+;	bug(char const*, ...)
+	_Z3bugPKcz @ 919
+;	dice(int, int)
+	_Z4diceii @ 920
+;	trip(char_data*, char_data*)
+	_Z4tripP9char_dataS0_ @ 921
+;	umax(int, int)
+	_Z4umaxii @ 922
+;	umin(int, int)
+	_Z4uminii @ 923
+;	aoran(char const*)
+	_Z5aoranPKc @ 924
+;	nanny(descriptor_data*, char const*)
+	_Z5nannyP15descriptor_dataPKc @ 925
+;	paint(short, char_data*, char const*, ...)
+	_Z5paintsP9char_dataPKcz @ 926
+;	chance(char_data*, short)
+	_Z6chanceP9char_datas @ 927
+;	damage(char_data*, char_data*, int, int)
+	_Z6damageP9char_dataS0_ii @ 928
+;	disarm(char_data*, char_data*)
+	_Z6disarmP9char_dataS0_ @ 929
+;	imcafk(char_data*, char const*)
+	_Z6imcafkP9char_dataPKc @ 930
+;	imcban(char_data*, char const*)
+	_Z6imcbanP9char_dataPKc @ 931
+;	imcbug(char const*, ...)
+	_Z6imcbugPKcz @ 932
+;	imclog(char const*, ...)
+	_Z6imclogPKcz @ 933
+;	imcwho(char_data*, char const*)
+	_Z6imcwhoP9char_dataPKc @ 934
+;	mpedit(char_data*, mob_prog_data*, int, char const*)
+	_Z6mpeditP9char_dataP13mob_prog_dataiPKc @ 935
+;	rpedit(char_data*, mob_prog_data*, int, char const*)
+	_Z6rpeditP9char_dataP13mob_prog_dataiPKc @ 936
+;	toroom(room_index_data*, short)
+	_Z6toroomP15room_index_datas @ 937
+;	urange(int, int, int)
+	_Z6urangeiii @ 938
+;	add_dns(char const*, char const*)
+	_Z7add_dnsPKcS0_ @ 939
+;	advatoi(char const*)
+	_Z7advatoiPKc @ 940
+;	autofly(ship_data*)
+	_Z7autoflyP9ship_data @ 941
+;	boot_db(bool)
+	_Z7boot_dbb @ 942
+;	can_see(char_data*, char_data*)
+	_Z7can_seeP9char_dataS0_ @ 943
+;	do_note(char_data*, char const*, bool)
+	_Z7do_noteP9char_dataPKcb @ 944
+;	do_spar(char_data*, char*)
+	_Z7do_sparP9char_dataPc @ 945
+;	explode(obj_data*)
+	_Z7explodeP8obj_data @ 946
+;	get_age(char_data*)
+	_Z7get_ageP9char_data @ 947
+;	get_dir(char const*)
+	_Z7get_dirPKc @ 948
+;	get_exp(char_data*, int)
+	_Z7get_expP9char_datai @ 949
+;	get_obj(char_data*, obj_data*, obj_data*)
+	_Z7get_objP9char_dataP8obj_dataS2_ @ 950
+;	has_key(char_data*, int)
+	_Z7has_keyP9char_datai @ 951
+;	imcbeep(char_data*, char const*)
+	_Z7imcbeepP9char_dataPKc @ 952
+;	imchelp(char_data*, char const*)
+	_Z7imchelpP9char_dataPKc @ 953
+;	imcinfo(char_data*, char const*)
+	_Z7imcinfoP9char_dataPKc @ 954
+;	imclast(char_data*, char const*)
+	_Z7imclastP9char_dataPKc @ 955
+;	imclist(char_data*, char const*)
+	_Z7imclistP9char_dataPKc @ 956
+;	imctell(char_data*, char const*)
+	_Z7imctellP9char_dataPKc @ 957
+;	init_mm()
+	_Z7init_mmv @ 958
+;	is_name(char const*, char const*)
+	_Z7is_namePKcS0_ @ 959
+;	is_safe(char_data*, char_data*)
+	_Z7is_safeP9char_dataS0_ @ 960
+;	one_hit(char_data*, char_data*, int)
+	_Z7one_hitP9char_dataS0_i @ 961
+;	progbug(char const*, char_data*)
+	_Z7progbugPKcP9char_data @ 962
+;	str_cmp(char const*, char const*)
+	_Z7str_cmpPKcS0_ @ 963
+;	str_dup(char const*)
+	_Z7str_dupPKc @ 964
+;	add_char(char_data*)
+	_Z8add_charP9char_data @ 965
+;	add_help(help_data*)
+	_Z8add_helpP9help_data @ 966
+;	add_kill(char_data*, char_data*)
+	_Z8add_killP9char_dataS0_ @ 967
+;	apply_ac(obj_data*, int)
+	_Z8apply_acP8obj_datai @ 968
+;	boot_log(char const*, ...)
+	_Z8boot_logPKcz @ 969
+;	can_dual(char_data*)
+	_Z8can_dualP9char_data @ 970
+;	can_post(char_data*, board_data*)
+	_Z8can_postP9char_dataP10board_data @ 971
+;	can_read(char_data*, board_data*)
+	_Z8can_readP9char_dataP10board_data @ 972
+;	colorize(char const*, descriptor_data*)
+	_Z8colorizePKcP15descriptor_data @ 973
+;	do_watch(char_data*, char*)
+	_Z8do_watchP9char_dataPc @ 974
+;	dockship(ship_data*)
+	_Z8dockshipP9ship_data @ 975
+;	find_obj(char_data*, char const*, bool)
+	_Z8find_objP9char_dataPKcb @ 976
+;	fix_char(char_data*)
+	_Z8fix_charP9char_data @ 977
+;	free_obj(obj_data*)
+	_Z8free_objP8obj_data @ 978
+;	gain_exp(char_data*, int, int)
+	_Z8gain_expP9char_dataii @ 979
+;	get_clan(char const*)
+	_Z8get_clanPKc @ 980
+;	get_cost(char_data*, char_data*, obj_data*, bool)
+	_Z8get_costP9char_dataS0_P8obj_datab @ 981
+;	get_door(char const*)
+	_Z8get_doorPKc @ 982
+;	get_exit(room_index_data*, short)
+	_Z8get_exitP15room_index_datas @ 983
+;	get_help(char_data*, char const*)
+	_Z8get_helpP9char_dataPKc @ 984
+;	get_race(char_data*)
+	_Z8get_raceP9char_data @ 985
+;	get_ship(char const*)
+	_Z8get_shipPKc @ 986
+;	get_trap(obj_data*)
+	_Z8get_trapP8obj_data @ 987
+;	getcolor(char)
+	_Z8getcolorc @ 988
+;	help_fix(char const*)
+	_Z8help_fixPKc @ 989
+;	hit_gain(char_data*)
+	_Z8hit_gainP9char_data @ 990
+;	imc_loop()
+	_Z8imc_loopv @ 991
+;	imccedit(char_data*, char const*)
+	_Z8imcceditP9char_dataPKc @ 992
+;	imccolor(char_data*, char const*)
+	_Z8imccolorP9char_dataPKc @ 993
+;	imcdebug(char_data*, char const*)
+	_Z8imcdebugP9char_dataPKc @ 994
+;	imchedit(char_data*, char const*)
+	_Z8imcheditP9char_dataPKc @ 995
+;	imcinvis(char_data*, char const*)
+	_Z8imcinvisP9char_dataPKc @ 996
+;	imcreply(char_data*, char const*)
+	_Z8imcreplyP9char_dataPKc @ 997
+;	imcsetup(char_data*, char const*)
+	_Z8imcsetupP9char_dataPKc @ 998
+;	in_arena(char_data*)
+	_Z8in_arenaP9char_data @ 999
+;	is_name2(char const*, char const*)
+	_Z8is_name2PKcS0_ @ 1000
+;	isavowel(char)
+	_Z8isavowelc @ 1001
+;	land_bus(ship_data*, int)
+	_Z8land_busP9ship_datai @ 1002
+;	landship(ship_data*, char const*)
+	_Z8landshipP9ship_dataPKc @ 1003
+;	load_dns()
+	_Z8load_dnsv @ 1004
+;	obj_fall(obj_data*, bool)
+	_Z8obj_fallP8obj_datab @ 1005
+;	parsebet(int, char const*)
+	_Z8parsebetiPKc @ 1006
+;	raw_kill(char_data*, char_data*)
+	_Z8raw_killP9char_dataS0_ @ 1007
+;	rd_parse(char_data*, int, char*)
+	_Z8rd_parseP9char_dataiPc @ 1008
+;	ris_save(char_data*, int, int)
+	_Z8ris_saveP9char_dataii @ 1009
+;	save_dns()
+	_Z8save_dnsv @ 1010
+;	scramble(char const*, int)
+	_Z8scramblePKci @ 1011
+;	str_free(char const*)
+	_Z8str_freePKc @ 1012
+;	strip_cr(char const*)
+	_Z8strip_crPKc @ 1013
+;	strlower(char const*)
+	_Z8strlowerPKc @ 1014
+;	strupper(char const*)
+	_Z8strupperPKc @ 1015
+;	teleport(char_data*, int, int)
+	_Z8teleportP9char_dataii @ 1016
+;	wear_obj(char_data*, obj_data*, bool, short)
+	_Z8wear_objP9char_dataP8obj_databs @ 1017
+;	wordwrap(char*, short)
+	_Z8wordwrapPcs @ 1018
+;	DelOExtra(obj_data*, char const*)
+	_Z9DelOExtraP8obj_dataPKc @ 1019
+;	DelRExtra(room_index_data*, char const*)
+	_Z9DelRExtraP15room_index_dataPKc @ 1020
+;	RelCreate(relation_type, void*, void*)
+	_Z9RelCreate13relation_typePvS0_ @ 1021
+;	SetOExtra(obj_data*, char const*)
+	_Z9SetOExtraP8obj_dataPKc @ 1022
+;	SetRExtra(room_index_data*, char const*)
+	_Z9SetRExtraP15room_index_dataPKc @ 1023
+;	add_reset(room_index_data*, char, int, int, int, int)
+	_Z9add_resetP15room_index_dataciiii @ 1024
+;	add_timer(char_data*, short, short, void (*)(char_data*, char const*), int)
+	_Z9add_timerP9char_datassPFvS0_PKcEi @ 1025
+;	can_layer(char_data*, obj_data*, short)
+	_Z9can_layerP9char_dataP8obj_datas @ 1026
+;	can_medit(char_data*, mob_index_data*)
+	_Z9can_meditP9char_dataP14mob_index_data @ 1027
+;	can_oedit(char_data*, obj_index_data*)
+	_Z9can_oeditP9char_dataP14obj_index_data @ 1028
+;	ch_printf(char_data*, char const*, ...)
+	_Z9ch_printfP9char_dataPKcz @ 1029
+;	char_died(char_data*)
+	_Z9char_diedP9char_data @ 1030
+;	check_dns()
+	_Z9check_dnsv @ 1031
+;	check_mud(char_data*, char const*)
+	_Z9check_mudP9char_dataPKc @ 1032
+;	check_pos(char_data*, short)
+	_Z9check_posP9char_datas @ 1033
+;	clean_mob(mob_index_data*)
+	_Z9clean_mobP14mob_index_data @ 1034
+;	clean_obj(obj_index_data*)
+	_Z9clean_objP14obj_index_data @ 1035
+;	color_str(short, char_data*)
+	_Z9color_strsP9char_data @ 1036
+;	colorcode(char const*, char*, descriptor_data*, int, int*)
+	_Z9colorcodePKcPcP15descriptor_dataiPi @ 1037
+;	death_cry(char_data*)
+	_Z9death_cryP9char_data @ 1038
+;	empty_obj(obj_data*, obj_data*, room_index_data*)
+	_Z9empty_objP8obj_dataS0_P15room_index_data @ 1039
+;	end_timer(timeval*)
+	_Z9end_timerP7timeval @ 1040
+;	exit_comp(exit_data**, exit_data**)
+	_Z9exit_compPP9exit_dataS1_ @ 1041
+;	exp_level(short)
+	_Z9exp_levels @ 1042
+;	find_door(char_data*, char const*, bool)
+	_Z9find_doorP9char_dataPKcb @ 1043
+;	fix_exits()
+	_Z9fix_exitsv @ 1044
+;	fold_area(area_data*, char const*, bool)
+	_Z9fold_areaP9area_dataPKcb @ 1045
+;	fread_dns(dns_data*, __sFILE64*)
+	_Z9fread_dnsP8dns_dataP9__sFILE64 @ 1046
+;	fread_obj(char_data*, __sFILE64*, short)
+	_Z9fread_objP9char_dataP9__sFILE64s @ 1047
+;	free_char(char_data*)
+	_Z9free_charP9char_data @ 1048
+;	free_desc(descriptor_data*)
+	_Z9free_descP15descriptor_data @ 1049
+;	free_note(note_data*)
+	_Z9free_noteP9note_data @ 1050
+;	game_loop()
+	_Z9game_loopv @ 1051
+;	get_aflag(char const*)
+	_Z9get_aflagPKc @ 1052
+;	get_atype(char const*)
+	_Z9get_atypePKc @ 1053
+;	get_board(obj_data*)
+	_Z9get_boardP8obj_data @ 1054
+;	get_color(char const*)
+	_Z9get_colorPKc @ 1055
+;	get_cover(char_data*)
+	_Z9get_coverP9char_data @ 1056
+;	get_oflag(char const*)
+	_Z9get_oflagPKc @ 1057
+;	get_otype(char const*)
+	_Z9get_otypePKc @ 1058
+;	get_rflag(char const*)
+	_Z9get_rflagPKc @ 1059
+;	get_sflag(char const*)
+	_Z9get_sflagPKc @ 1060
+;	get_skill(char const*)
+	_Z9get_skillPKc @ 1061
+;	get_ssave(char const*)
+	_Z9get_ssavePKc @ 1062
+;	get_taxes(planet_data*)
+	_Z9get_taxesP11planet_data @ 1063
+;	get_timer(char_data*, short)
+	_Z9get_timerP9char_datas @ 1064
+;	get_trust(char_data*)
+	_Z9get_trustP9char_data @ 1065
+;	get_wflag(char const*)
+	_Z9get_wflagPKc @ 1066
+;	grab_word(char*, char*)
+	_Z9grab_wordPcS_ @ 1067
+;	hash_dump(int)
+	_Z9hash_dumpi @ 1068
+;	imc_mudof(char const*)
+	_Z9imc_mudofPKc @ 1069
+;	imc_other(char_data*, char const*)
+	_Z9imc_otherP9char_dataPKc @ 1070
+;	imcconfig(char_data*, char const*)
+	_Z9imcconfigP9char_dataPKc @ 1071
+;	imcfinger(char_data*, char const*)
+	_Z9imcfingerP9char_dataPKc @ 1072
+;	imcignore(char_data*, char const*)
+	_Z9imcignoreP9char_dataPKc @ 1073
+;	imclisten(char_data*, char const*)
+	_Z9imclistenP9char_dataPKc @ 1074
+;	imclocate(char_data*, char const*)
+	_Z9imclocateP9char_dataPKc @ 1075
+;	imcstrrep(char const*, char const*, char const*)
+	_Z9imcstrrepPKcS0_S0_ @ 1076
+;	instaroom(char_data*, room_index_data*, bool)
+	_Z9instaroomP9char_dataP15room_index_datab @ 1077
+;	interpret(char_data*, char const*)
+	_Z9interpretP9char_dataPKc @ 1078
+;	is_facing(ship_data*, ship_data*)
+	_Z9is_facingP9ship_dataS0_ @ 1079
+;	is_hating(char_data*, char_data*)
+	_Z9is_hatingP9char_dataS0_ @ 1080
+;	is_immune(char_data*, short)
+	_Z9is_immuneP9char_datas @ 1081
+;	is_number(char const*)
+	_Z9is_numberPKc @ 1082
+;	is_rental(char_data*, ship_data*)
+	_Z9is_rentalP9char_dataP9ship_data @ 1083
+;	is_wizvis(char_data*, char_data*)
+	_Z9is_wizvisP9char_dataS0_ @ 1084
+;	level_exp(char_data*, int)
+	_Z9level_expP9char_datai @ 1085
+;	load_area(__sFILE64*, int)
+	_Z9load_areaP9__sFILE64i @ 1086
+;	load_ship(__sFILE64*)
+	_Z9load_shipP9__sFILE64 @ 1087
+;	make_exit(room_index_data*, room_index_data*, short)
+	_Z9make_exitP15room_index_dataS0_s @ 1088
+;	make_fire(room_index_data*, short)
+	_Z9make_fireP15room_index_datas @ 1089
+;	make_room(int, area_data*)
+	_Z9make_roomiP9area_data @ 1090
+;	make_trap(int, int, int, int)
+	_Z9make_trapiiii @ 1091
+;	mana_gain(char_data*)
+	_Z9mana_gainP9char_data @ 1092
+;	max_fight(char_data*)
+	_Z9max_fightP9char_data @ 1093
+;	max_level(char_data*, int)
+	_Z9max_levelP9char_datai @ 1094
+;	mob_snipe(char_data*, char_data*)
+	_Z9mob_snipeP9char_dataS0_ @ 1095
+;	move_char(char_data*, exit_data*, int)
+	_Z9move_charP9char_dataP9exit_datai @ 1096
+;	move_gain(char_data*)
+	_Z9move_gainP9char_data @ 1097
+;	multi_hit(char_data*, char_data*, int)
+	_Z9multi_hitP9char_dataS0_i @ 1098
+;	number_mm()
+	_Z9number_mmv @ 1099
+;	obj_short(obj_data*)
+	_Z9obj_shortP8obj_data @ 1100
+;	prune_dns()
+	_Z9prune_dnsv @ 1101
+;	read_note(char*, __sFILE64*)
+	_Z9read_notePcP9__sFILE64 @ 1102
+;	rent_ship(char_data*, ship_data*)
+	_Z9rent_shipP9char_dataP9ship_data @ 1103
+;	resetship(ship_data*)
+	_Z9resetshipP9ship_data @ 1104
+;	save_clan(clan_data*)
+	_Z9save_clanP9clan_data @ 1105
+;	save_home(char_data*)
+	_Z9save_homeP9char_data @ 1106
+;	save_ship(ship_data*)
+	_Z9save_shipP9ship_data @ 1107
+;	say_spell(char_data*, int)
+	_Z9say_spellP9char_datai @ 1108
+;	set_alarm(long)
+	_Z9set_alarml @ 1109
+;	set_title(char_data*, char const*)
+	_Z9set_titleP9char_dataPKc @ 1110
+;	show_file(char_data*, char const*)
+	_Z9show_fileP9char_dataPKc @ 1111
+;	show_hash(int)
+	_Z9show_hashi @ 1112
+;	show_mssp(char_data*)
+	_Z9show_msspP9char_data @ 1113
+;	sort_area(area_data*, bool)
+	_Z9sort_areaP9area_datab @ 1114
+;	split_obj(obj_data*, int)
+	_Z9split_objP8obj_datai @ 1115
+;	str_alloc(char const*)
+	_Z9str_allocPKc @ 1116
+;	str_infix(char const*, char const*)
+	_Z9str_infixPKcS0_ @ 1117
+;	towizfile(char const*)
+	_Z9towizfilePKc @ 1118
+;	translate(char_data*, char_data*, char const*)
+	_Z9translateP9char_dataS0_PKc @ 1119
+;	wherehome(char_data*)
+	_Z9wherehomeP9char_data @ 1120
+;	will_fall(char_data*, int)
+	_Z9will_fallP9char_datai @ 1121
+;	__gnu_cxx::__promote_2<int, double, __gnu_cxx::__promote<int, std::__is_integer<int>::__value>::__type, __gnu_cxx::__promote<double, std::__is_integer<double>::__value>::__type>::__type std::pow<int, double>(int, double)
+	_ZSt3powIidEN9__gnu_cxx11__promote_2IT_T0_NS0_9__promoteIS2_XsrSt12__is_integerIS2_E7__valueEE6__typeENS4_IS3_XsrS5_IS3_E7__valueEE6__typeEE6__typeES2_S3_ @ 1122
+;	std::sqrt(float)
+	_ZSt4sqrtf @ 1123
+	a_flags @ 1124 DATA
+	a_types @ 1125 DATA
+	ability_name @ 1126 DATA
+	act_flags @ 1127 DATA
+	area_flags @ 1128 DATA
+	attack_flags @ 1129 DATA
+	attack_table @ 1130 DATA
+	auction @ 1131 DATA
+	boot_time @ 1132 DATA
+	bus2_planet @ 1133 DATA
+	bus_planet @ 1134 DATA
+	bus_pos @ 1135 DATA
+	cha_app @ 1136 DATA
+	command_hash @ 1137 DATA
+	con_app @ 1138 DATA
+	control @ 1139 DATA
+	corus_shuttle @ 1140 DATA
+	cur_char @ 1141 DATA
+	cur_char_died @ 1142 DATA
+	cur_obj @ 1143 DATA
+	cur_obj_extracted @ 1144 DATA
+	cur_obj_serial @ 1145 DATA
+	cur_qchars @ 1146 DATA
+	cur_qobjs @ 1147 DATA
+	cur_room @ 1148 DATA
+	current_time @ 1149 DATA
+	d_next @ 1150 DATA
+	default_packets_registered @ 1151 DATA
+	default_set @ 1152 DATA
+	defense_flags @ 1153 DATA
+	deflect @ 1154 DATA
+	dex_app @ 1155 DATA
+	dir_name @ 1156 DATA
+	do_aassign @ 1157
+	do_abdicate @ 1158
+	do_accelerate @ 1159
+	do_add_patrol @ 1160
+	do_addbounty @ 1161
+	do_addpilot @ 1162
+	do_addsenator @ 1163
+	do_advance @ 1164
+	do_affected @ 1165
+	do_afk @ 1166
+	do_aid @ 1167
+	do_allow @ 1168
+	do_allships @ 1169
+	do_allspeeders @ 1170
+	do_ammo @ 1171
+	do_ansi @ 1172
+	do_answer @ 1173
+	do_apply @ 1174
+	do_appoint @ 1175
+	do_appraise @ 1176
+	do_areas @ 1177
+	do_arm @ 1178
+	do_aset @ 1179
+	do_ask @ 1180
+	do_astat @ 1181
+	do_at @ 1182
+	do_auction @ 1183
+	do_authorize @ 1184
+	do_autopilot @ 1185
+	do_autorecharge @ 1186
+	do_autotrack @ 1187
+	do_availships @ 1188
+	do_avtalk @ 1189
+	do_award @ 1190
+	do_backstab @ 1191
+	do_balzhur @ 1192
+	do_bamfin @ 1193
+	do_bamfout @ 1194
+	do_ban @ 1195
+	do_bank @ 1196
+	do_bash @ 1197
+	do_bashdoor @ 1198
+	do_beep @ 1199
+	do_beg @ 1200
+	do_berserk @ 1201
+	do_besiege @ 1202
+	do_bestow @ 1203
+	do_bestowarea @ 1204
+	do_bind @ 1205
+	do_bio @ 1206
+	do_bite @ 1207
+	do_blackjack @ 1208
+	do_board @ 1209
+	do_boards @ 1210
+	do_bodybag @ 1211
+	do_bomb @ 1212
+	do_bounties @ 1213
+	do_brandish @ 1214
+	do_brew @ 1215
+	do_bribe @ 1216
+	do_bset @ 1217
+	do_bstat @ 1218
+	do_bug @ 1219
+	do_burn @ 1220
+	do_bury @ 1221
+	do_buy @ 1222
+	do_buyhome @ 1223
+	do_buyship @ 1224
+	do_cache @ 1225
+	do_calculate @ 1226
+	do_capture @ 1227
+	do_cast @ 1228
+	do_cedit @ 1229
+	do_chaff @ 1230
+	do_changes @ 1231
+	do_channels @ 1232
+	do_chat @ 1233
+	do_cheap @ 1234
+	do_check_vnums @ 1235
+	do_circle @ 1236
+	do_clan_donate @ 1237
+	do_clan_withdraw @ 1238
+	do_clanbuyship @ 1239
+	do_clans @ 1240
+	do_clansellship @ 1241
+	do_clantalk @ 1242
+	do_claw @ 1243
+	do_climb @ 1244
+	do_cloak @ 1245
+	do_clone @ 1246
+	do_close @ 1247
+	do_closebay @ 1248
+	do_closehatch @ 1249
+	do_cmdtable @ 1250
+	do_color @ 1251
+	do_commands @ 1252
+	do_comment @ 1253
+	do_compare @ 1254
+	do_compress @ 1255
+	do_config @ 1256
+	do_consider @ 1257
+	do_copyship @ 1258
+	do_credits @ 1259
+	do_cset @ 1260
+	do_demote @ 1261
+	do_deny @ 1262
+	do_description @ 1263
+	do_destro @ 1264
+	do_destroy @ 1265
+	do_detach @ 1266
+	do_detrap @ 1267
+	do_dig @ 1268
+	do_disabled @ 1269
+	do_disarm @ 1270
+	do_disconnect @ 1271
+	do_disguise @ 1272
+	do_dismount @ 1273
+	do_dmesg @ 1274
+	do_docking @ 1275
+	do_down @ 1276
+	do_drag @ 1277
+	do_drink @ 1278
+	do_drive @ 1279
+	do_drop @ 1280
+	do_east @ 1281
+	do_eat @ 1282
+	do_echo @ 1283
+	do_elite_guard @ 1284
+	do_elite_patrol @ 1285
+	do_emote @ 1286
+	do_empower @ 1287
+	do_empty @ 1288
+	do_enlist @ 1289
+	do_enter @ 1290
+	do_equipment @ 1291
+	do_examine @ 1292
+	do_exits @ 1293
+	do_feed @ 1294
+	do_fill @ 1295
+	do_fire @ 1296
+	do_first_aid @ 1297
+	do_fixchar @ 1298
+	do_flee @ 1299
+	do_flushpoison @ 1300
+	do_fly @ 1301
+	do_foldarea @ 1302
+	do_follow @ 1303
+	do_for @ 1304
+	do_force @ 1305
+	do_force_rollaward @ 1306
+	do_forceclose @ 1307
+	do_form_password @ 1308
+	do_fquit @ 1309
+	do_freeships @ 1310
+	do_freeze @ 1311
+	do_gather_intelligence @ 1312
+	do_gemcutting @ 1313
+	do_get @ 1314
+	do_give @ 1315
+	do_glance @ 1316
+	do_gold @ 1317
+	do_goto @ 1318
+	do_gouge @ 1319
+	do_group @ 1320
+	do_gtell @ 1321
+	do_guilds @ 1322
+	do_guildtalk @ 1323
+	do_hail @ 1324
+	do_hedit @ 1325
+	do_hell @ 1326
+	do_help @ 1327
+	do_hide @ 1328
+	do_hijack @ 1329
+	do_hitall @ 1330
+	do_hlist @ 1331
+	do_holylight @ 1332
+	do_homepage @ 1333
+	do_hotboot @ 1334
+	do_hset @ 1335
+	do_hyperspace @ 1336
+	do_i103 @ 1337
+	do_i104 @ 1338
+	do_i105 @ 1339
+	do_ide @ 1340
+	do_idea @ 1341
+	do_immortalize @ 1342
+	do_immtalk @ 1343
+	do_induct @ 1344
+	do_info @ 1345
+	do_installarea @ 1346
+	do_instaroom @ 1347
+	do_instazone @ 1348
+	do_interdict @ 1349
+	do_inventory @ 1350
+	do_invis @ 1351
+	do_jail @ 1352
+	do_jumpvector @ 1353
+	do_kick @ 1354
+	do_kill @ 1355
+	do_land @ 1356
+	do_languages @ 1357
+	do_last @ 1358
+	do_launch @ 1359
+	do_leave @ 1360
+	do_leaveship @ 1361
+	do_level @ 1362
+	do_light @ 1363
+	do_list @ 1364
+	do_litterbug @ 1365
+	do_loadarea @ 1366
+	do_loadup @ 1367
+	do_lock @ 1368
+	do_log @ 1369
+	do_look @ 1370
+	do_low_purge @ 1371
+	do_mailroom @ 1372
+	do_make @ 1373
+	do_makearmor @ 1374
+	do_makeblade @ 1375
+	do_makeblaster @ 1376
+	do_makebludgeon @ 1377
+	do_makeboard @ 1378
+	do_makeclan @ 1379
+	do_makecomlink @ 1380
+	do_makecontainer @ 1381
+	do_makedoublelightsaber @ 1382
+	do_makeforcepike @ 1383
+	do_makegrenade @ 1384
+	do_makejewelry @ 1385
+	do_makelandmine @ 1386
+	do_makelight @ 1387
+	do_makelightsaber @ 1388
+	do_makeplanet @ 1389
+	do_makerepair @ 1390
+	do_makeshield @ 1391
+	do_makeship @ 1392
+	do_makeshop @ 1393
+	do_makespice @ 1394
+	do_makestarsystem @ 1395
+	do_makesword @ 1396
+	do_makewizlist @ 1397
+	do_mass_propeganda @ 1398
+	do_mcreate @ 1399
+	do_mdelete @ 1400
+	do_memory @ 1401
+	do_mfind @ 1402
+	do_mine @ 1403
+	do_minvoke @ 1404
+	do_mlist @ 1405
+	do_mount @ 1406
+	do_mp_close_passage @ 1407
+	do_mp_damage @ 1408
+	do_mp_deposit @ 1409
+	do_mp_open_passage @ 1410
+	do_mp_practice @ 1411
+	do_mp_restore @ 1412
+	do_mp_slay @ 1413
+	do_mp_withdraw @ 1414
+	do_mpadvance @ 1415
+	do_mpapply @ 1416
+	do_mpapplyb @ 1417
+	do_mpasound @ 1418
+	do_mpat @ 1419
+	do_mpdream @ 1420
+	do_mpecho @ 1421
+	do_mpechoaround @ 1422
+	do_mpechoat @ 1423
+	do_mpedit @ 1424
+	do_mpforce @ 1425
+	do_mpgain @ 1426
+	do_mpgoto @ 1427
+	do_mpinvis @ 1428
+	do_mpjunk @ 1429
+	do_mpkill @ 1430
+	do_mpmload @ 1431
+	do_mpnothing @ 1432
+	do_mpoload @ 1433
+	do_mppkset @ 1434
+	do_mppurge @ 1435
+	do_mpstat @ 1436
+	do_mptransfer @ 1437
+	do_mrange @ 1438
+	do_mset @ 1439
+	do_mstat @ 1440
+	do_murde @ 1441
+	do_murder @ 1442
+	do_music @ 1443
+	do_mwhere @ 1444
+	do_name @ 1445
+	do_negotiate @ 1446
+	do_newbiechat @ 1447
+	do_newbieset @ 1448
+	do_newclan @ 1449
+	do_newscore @ 1450
+	do_newzones @ 1451
+	do_noemote @ 1452
+	do_noresolve @ 1453
+	do_north @ 1454
+	do_northeast @ 1455
+	do_northwest @ 1456
+	do_notell @ 1457
+	do_noteroom @ 1458
+	do_notitle @ 1459
+	do_ocreate @ 1460
+	do_odelete @ 1461
+	do_ofind @ 1462
+	do_oinvoke @ 1463
+	do_oldchanges @ 1464
+	do_oldscore @ 1465
+	do_olist @ 1466
+	do_ooc @ 1467
+	do_opedit @ 1468
+	do_open @ 1469
+	do_openbay @ 1470
+	do_openhatch @ 1471
+	do_opstat @ 1472
+	do_orange @ 1473
+	do_order @ 1474
+	do_orders @ 1475
+	do_ordertalk @ 1476
+	do_oset @ 1477
+	do_ostat @ 1478
+	do_ot @ 1479
+	do_outcast @ 1480
+	do_overdrive @ 1481
+	do_overthrow @ 1482
+	do_owhere @ 1483
+	do_pager @ 1484
+	do_palm @ 1485
+	do_pardon @ 1486
+	do_password @ 1487
+	do_peace @ 1488
+	do_peek @ 1489
+	do_pick @ 1490
+	do_pickshiplock @ 1491
+	do_planets @ 1492
+	do_pluogus @ 1493
+	do_poison_weapon @ 1494
+	do_postguard @ 1495
+	do_practice @ 1496
+	do_prompt @ 1497
+	do_propeganda @ 1498
+	do_pull @ 1499
+	do_punch @ 1500
+	do_purge @ 1501
+	do_push @ 1502
+	do_put @ 1503
+	do_qpbuy @ 1504
+	do_quaff @ 1505
+	do_quest @ 1506
+	do_qui @ 1507
+	do_quit @ 1508
+	do_radar @ 1509
+	do_rank @ 1510
+	do_rat @ 1511
+	do_rdelete @ 1512
+	do_reboo @ 1513
+	do_reboot @ 1514
+	do_recall @ 1515
+	do_recharge @ 1516
+	do_recho @ 1517
+	do_recite @ 1518
+	do_redit @ 1519
+	do_refuel @ 1520
+	do_regoto @ 1521
+	do_reinforcements @ 1522
+	do_reload @ 1523
+	do_remoteopenbay @ 1524
+	do_remove @ 1525
+	do_rempilot @ 1526
+	do_remsenator @ 1527
+	do_rent @ 1528
+	do_repair @ 1529
+	do_repairitem @ 1530
+	do_repairset @ 1531
+	do_repairship @ 1532
+	do_repairshops @ 1533
+	do_repairstat @ 1534
+	do_reply @ 1535
+	do_report @ 1536
+	do_rescue @ 1537
+	do_researchtarget @ 1538
+	do_reset @ 1539
+	do_resetship @ 1540
+	do_resign @ 1541
+	do_rest @ 1542
+	do_restore @ 1543
+	do_restoretime @ 1544
+	do_restrict @ 1545
+	do_retire @ 1546
+	do_retran @ 1547
+	do_return @ 1548
+	do_revert @ 1549
+	do_rip @ 1550
+	do_rlist @ 1551
+	do_roster @ 1552
+	do_rpedit @ 1553
+	do_rpstat @ 1554
+	do_rset @ 1555
+	do_rstat @ 1556
+	do_sabotage @ 1557
+	do_sacrifice @ 1558
+	do_save @ 1559
+	do_savearea @ 1560
+	do_say @ 1561
+	do_scan @ 1562
+	do_score @ 1563
+	do_scrapattack @ 1564
+	do_scribe @ 1565
+	do_seal @ 1566
+	do_search @ 1567
+	do_sedit @ 1568
+	do_seduce @ 1569
+	do_sell @ 1570
+	do_sellship @ 1571
+	do_senate @ 1572
+	do_set_boot_time @ 1573
+	do_setblaster @ 1574
+	do_setclan @ 1575
+	do_setmssp @ 1576
+	do_setplanet @ 1577
+	do_setship @ 1578
+	do_setstarsystem @ 1579
+	do_ships @ 1580
+	do_shiptalk @ 1581
+	do_shops @ 1582
+	do_shopset @ 1583
+	do_shopstat @ 1584
+	do_shout @ 1585
+	do_shove @ 1586
+	do_showclan @ 1587
+	do_showship @ 1588
+	do_showstarsystem @ 1589
+	do_shutdow @ 1590
+	do_shutdown @ 1591
+	do_silence @ 1592
+	do_sit @ 1593
+	do_sla @ 1594
+	do_slay @ 1595
+	do_sleep @ 1596
+	do_slice @ 1597
+	do_slide @ 1598
+	do_slist @ 1599
+	do_slookup @ 1600
+	do_smalltalk @ 1601
+	do_smoke @ 1602
+	do_sneak @ 1603
+	do_snipe @ 1604
+	do_snoop @ 1605
+	do_sober @ 1606
+	do_socials @ 1607
+	do_sound @ 1608
+	do_south @ 1609
+	do_southeast @ 1610
+	do_southwest @ 1611
+	do_spacetalk @ 1612
+	do_speak @ 1613
+	do_special_forces @ 1614
+	do_speeders @ 1615
+	do_split @ 1616
+	do_sset @ 1617
+	do_stand @ 1618
+	do_starsystems @ 1619
+	do_status @ 1620
+	do_steal @ 1621
+	do_sting @ 1622
+	do_stun @ 1623
+	do_style @ 1624
+	do_subclass @ 1625
+	do_subclasses @ 1626
+	do_suicide @ 1627
+	do_switch @ 1628
+	do_systemtalk @ 1629
+	do_tail @ 1630
+	do_takedrug @ 1631
+	do_tamp @ 1632
+	do_target @ 1633
+	do_teach @ 1634
+	do_tell @ 1635
+	do_throw @ 1636
+	do_time @ 1637
+	do_timecmd @ 1638
+	do_title @ 1639
+	do_torture @ 1640
+	do_trace_comlink @ 1641
+	do_track @ 1642
+	do_tractorbeam @ 1643
+	do_train @ 1644
+	do_trajectory @ 1645
+	do_transfer @ 1646
+	do_transship @ 1647
+	do_trust @ 1648
+	do_tuck @ 1649
+	do_typo @ 1650
+	do_unbind @ 1651
+	do_unfoldarea @ 1652
+	do_unhell @ 1653
+	do_unlock @ 1654
+	do_unsilence @ 1655
+	do_up @ 1656
+	do_use @ 1657
+	do_users @ 1658
+	do_value @ 1659
+	do_vassign @ 1660
+	do_version @ 1661
+	do_visible @ 1662
+	do_vnums @ 1663
+	do_vsearch @ 1664
+	do_wake @ 1665
+	do_wartalk @ 1666
+	do_wear @ 1667
+	do_weather @ 1668
+	do_west @ 1669
+	do_where @ 1670
+	do_who @ 1671
+	do_whois @ 1672
+	do_wimpy @ 1673
+	do_wizhelp @ 1674
+	do_wizlist @ 1675
+	do_wizlock @ 1676
+	do_yell @ 1677
+	do_zap @ 1678
+	do_zones @ 1679
+	dual_flip @ 1680 DATA
+	exc_set @ 1681 DATA
+	extracted_char_queue @ 1682 DATA
+	extracted_obj_queue @ 1683 DATA
+	fBootDb @ 1684 DATA
+	fLogAll @ 1685 DATA
+	falling @ 1686 DATA
+	file_ver @ 1687 DATA
+	first_area @ 1688 DATA
+	first_area_name @ 1689 DATA
+	first_asort @ 1690 DATA
+	first_ban @ 1691 DATA
+	first_board @ 1692 DATA
+	first_bounty @ 1693 DATA
+	first_bsort @ 1694 DATA
+	first_build @ 1695 DATA
+	first_cache @ 1696 DATA
+	first_char @ 1697 DATA
+	first_clan @ 1698 DATA
+	first_descriptor @ 1699 DATA
+	first_disintigration @ 1700 DATA
+	first_guard @ 1701 DATA
+	first_help @ 1702 DATA
+	first_imc_ban @ 1703 DATA
+	first_imc_channel @ 1704 DATA
+	first_imc_color @ 1705 DATA
+	first_imc_command @ 1706 DATA
+	first_imc_help @ 1707 DATA
+	first_imcucache @ 1708 DATA
+	first_missile @ 1709 DATA
+	first_object @ 1710 DATA
+	first_phandler @ 1711 DATA
+	first_planet @ 1712 DATA
+	first_relation @ 1713 DATA
+	first_repair @ 1714 DATA
+	first_rinfo @ 1715 DATA
+	first_senator @ 1716 DATA
+	first_ship @ 1717 DATA
+	first_shop @ 1718 DATA
+	first_specfun @ 1719 DATA
+	first_starsystem @ 1720 DATA
+	first_teleport @ 1721 DATA
+	first_wiz @ 1722 DATA
+	fpArea @ 1723 DATA
+	frc_app @ 1724 DATA
+	gch_prev @ 1725 DATA
+	global_objcode @ 1726 DATA
+	global_retcode @ 1727 DATA
+	gobj_prev @ 1728 DATA
+	gsn_adarian @ 1729 DATA
+	gsn_addpatrol @ 1730 DATA
+	gsn_aid @ 1731 DATA
+	gsn_aqua_breath @ 1732 DATA
+	gsn_aware @ 1733 DATA
+	gsn_backstab @ 1734 DATA
+	gsn_bash @ 1735 DATA
+	gsn_bashdoor @ 1736 DATA
+	gsn_beg @ 1737 DATA
+	gsn_berserk @ 1738 DATA
+	gsn_besiege @ 1739 DATA
+	gsn_bind @ 1740 DATA
+	gsn_bite @ 1741 DATA
+	gsn_blackjack @ 1742 DATA
+	gsn_blasters @ 1743 DATA
+	gsn_blindness @ 1744 DATA
+	gsn_bludgeons @ 1745 DATA
+	gsn_bowcasters @ 1746 DATA
+	gsn_brew @ 1747 DATA
+	gsn_bribe @ 1748 DATA
+	gsn_burn @ 1749 DATA
+	gsn_capitalships @ 1750 DATA
+	gsn_chadra_fan @ 1751 DATA
+	gsn_charm_person @ 1752 DATA
+	gsn_cheap @ 1753 DATA
+	gsn_chill_touch @ 1754 DATA
+	gsn_circle @ 1755 DATA
+	gsn_claw @ 1756 DATA
+	gsn_climb @ 1757 DATA
+	gsn_cloak @ 1758 DATA
+	gsn_combat_reflexes @ 1759 DATA
+	gsn_common @ 1760 DATA
+	gsn_curse @ 1761 DATA
+	gsn_defel @ 1762 DATA
+	gsn_deflect @ 1763 DATA
+	gsn_detrap @ 1764 DATA
+	gsn_dig @ 1765 DATA
+	gsn_disarm @ 1766 DATA
+	gsn_disguise @ 1767 DATA
+	gsn_docking @ 1768 DATA
+	gsn_dodge @ 1769 DATA
+	gsn_doublelightsaber_crafting @ 1770 DATA
+	gsn_dual_wield @ 1771 DATA
+	gsn_duck @ 1772 DATA
+	gsn_duinuogwuin @ 1773 DATA
+	gsn_eliteguard @ 1774 DATA
+	gsn_elitepatrol @ 1775 DATA
+	gsn_enhanced_damage @ 1776 DATA
+	gsn_evade @ 1777 DATA
+	gsn_ewok @ 1778 DATA
+	gsn_feed @ 1779 DATA
+	gsn_fifth_attack @ 1780 DATA
+	gsn_fireball @ 1781 DATA
+	gsn_first_aid @ 1782 DATA
+	gsn_first_skill @ 1783 DATA
+	gsn_first_spell @ 1784 DATA
+	gsn_first_tongue @ 1785 DATA
+	gsn_first_weapon @ 1786 DATA
+	gsn_flamethrowers @ 1787 DATA
+	gsn_flexible_arms @ 1788 DATA
+	gsn_flushpoison @ 1789 DATA
+	gsn_force_pikes @ 1790 DATA
+	gsn_force_reflexes @ 1791 DATA
+	gsn_fourth_attack @ 1792 DATA
+	gsn_frigates @ 1793 DATA
+	gsn_gamorrean @ 1794 DATA
+	gsn_gather_intelligence @ 1795 DATA
+	gsn_gemcutting @ 1796 DATA
+	gsn_gouge @ 1797 DATA
+	gsn_grenades @ 1798 DATA
+	gsn_grip @ 1799 DATA
+	gsn_hide @ 1800 DATA
+	gsn_hijack @ 1801 DATA
+	gsn_hitall @ 1802 DATA
+	gsn_hutt @ 1803 DATA
+	gsn_invis @ 1804 DATA
+	gsn_jail @ 1805 DATA
+	gsn_jawa @ 1806 DATA
+	gsn_kick @ 1807 DATA
+	gsn_lightning_bolt @ 1808 DATA
+	gsn_lightsaber_crafting @ 1809 DATA
+	gsn_lightsabers @ 1810 DATA
+	gsn_makearmor @ 1811 DATA
+	gsn_makeblade @ 1812 DATA
+	gsn_makeblaster @ 1813 DATA
+	gsn_makebludgeon @ 1814 DATA
+	gsn_makecomlink @ 1815 DATA
+	gsn_makecontainer @ 1816 DATA
+	gsn_makeforcepike @ 1817 DATA
+	gsn_makegrenade @ 1818 DATA
+	gsn_makejewelry @ 1819 DATA
+	gsn_makelandmine @ 1820 DATA
+	gsn_makelight @ 1821 DATA
+	gsn_makeshield @ 1822 DATA
+	gsn_makesword @ 1823 DATA
+	gsn_mass_invis @ 1824 DATA
+	gsn_masspropeganda @ 1825 DATA
+	gsn_midships @ 1826 DATA
+	gsn_mine @ 1827 DATA
+	gsn_mon_calamari @ 1828 DATA
+	gsn_mount @ 1829 DATA
+	gsn_navigation @ 1830 DATA
+	gsn_negotiate @ 1831 DATA
+	gsn_noghri @ 1832 DATA
+	gsn_overdrive @ 1833 DATA
+	gsn_palm @ 1834 DATA
+	gsn_parry @ 1835 DATA
+	gsn_peek @ 1836 DATA
+	gsn_pick_lock @ 1837 DATA
+	gsn_pickshiplock @ 1838 DATA
+	gsn_poison @ 1839 DATA
+	gsn_poison_weapon @ 1840 DATA
+	gsn_possess @ 1841 DATA
+	gsn_postguard @ 1842 DATA
+	gsn_propeganda @ 1843 DATA
+	gsn_punch @ 1844 DATA
+	gsn_quarren @ 1845 DATA
+	gsn_reinforcements @ 1846 DATA
+	gsn_repairitem @ 1847 DATA
+	gsn_rescue @ 1848 DATA
+	gsn_researchtarget @ 1849 DATA
+	gsn_rodian @ 1850 DATA
+	gsn_sabotage @ 1851 DATA
+	gsn_scan @ 1852 DATA
+	gsn_scrapattack @ 1853 DATA
+	gsn_scribe @ 1854 DATA
+	gsn_seal @ 1855 DATA
+	gsn_search @ 1856 DATA
+	gsn_second_attack @ 1857 DATA
+	gsn_seduce @ 1858 DATA
+	gsn_shieldwork @ 1859 DATA
+	gsn_shipmaintenance @ 1860 DATA
+	gsn_shipsystems @ 1861 DATA
+	gsn_sleep @ 1862 DATA
+	gsn_slice @ 1863 DATA
+	gsn_slide @ 1864 DATA
+	gsn_slugthrowers @ 1865 DATA
+	gsn_smalltalk @ 1866 DATA
+	gsn_sneak @ 1867 DATA
+	gsn_snipe @ 1868 DATA
+	gsn_spacecombat @ 1869 DATA
+	gsn_spacecombat2 @ 1870 DATA
+	gsn_spacecombat3 @ 1871 DATA
+	gsn_specialforces @ 1872 DATA
+	gsn_spice_refining @ 1873 DATA
+	gsn_starfighters @ 1874 DATA
+	gsn_steal @ 1875 DATA
+	gsn_sting @ 1876 DATA
+	gsn_stun @ 1877 DATA
+	gsn_supercapitalships @ 1878 DATA
+	gsn_swords @ 1879 DATA
+	gsn_tail @ 1880 DATA
+	gsn_talonous_arms @ 1881 DATA
+	gsn_third_attack @ 1882 DATA
+	gsn_throw @ 1883 DATA
+	gsn_top_sn @ 1884 DATA
+	gsn_torture @ 1885 DATA
+	gsn_trace_comlink @ 1886 DATA
+	gsn_track @ 1887 DATA
+	gsn_tractorbeams @ 1888 DATA
+	gsn_trandoshan @ 1889 DATA
+	gsn_tuck @ 1890 DATA
+	gsn_twilek @ 1891 DATA
+	gsn_unarmed @ 1892 DATA
+	gsn_verpine @ 1893 DATA
+	gsn_vibro_blades @ 1894 DATA
+	gsn_vibroaxes @ 1895 DATA
+	gsn_weaponsystems @ 1896 DATA
+	gsn_whip @ 1897 DATA
+	gsn_wookiee @ 1898 DATA
+	help_greeting @ 1899 DATA
+	herb_table @ 1900 DATA
+	imc_sequencenumber @ 1901 DATA
+	imc_time @ 1902 DATA
+	imcconnect_attempts @ 1903 DATA
+	imcpacketdebug @ 1904 DATA
+	imcucache_clock @ 1905 DATA
+	imcwait @ 1906 DATA
+	in_set @ 1907 DATA
+	int_app @ 1908 DATA
+	lang_array @ 1909 DATA
+	lang_names @ 1910 DATA
+	lang_names_save @ 1911 DATA
+	last_area @ 1912 DATA
+	last_area_name @ 1913 DATA
+	last_asort @ 1914 DATA
+	last_ban @ 1915 DATA
+	last_board @ 1916 DATA
+	last_bounty @ 1917 DATA
+	last_bsort @ 1918 DATA
+	last_build @ 1919 DATA
+	last_cache @ 1920 DATA
+	last_char @ 1921 DATA
+	last_clan @ 1922 DATA
+	last_descriptor @ 1923 DATA
+	last_disintigration @ 1924 DATA
+	last_guard @ 1925 DATA
+	last_help @ 1926 DATA
+	last_imc_ban @ 1927 DATA
+	last_imc_channel @ 1928 DATA
+	last_imc_color @ 1929 DATA
+	last_imc_command @ 1930 DATA
+	last_imc_help @ 1931 DATA
+	last_imcucache @ 1932 DATA
+	last_missile @ 1933 DATA
+	last_object @ 1934 DATA
+	last_phandler @ 1935 DATA
+	last_planet @ 1936 DATA
+	last_relation @ 1937 DATA
+	last_repair @ 1938 DATA
+	last_restore_all_time @ 1939 DATA
+	last_rinfo @ 1940 DATA
+	last_senator @ 1941 DATA
+	last_ship @ 1942 DATA
+	last_shop @ 1943 DATA
+	last_specfun @ 1944 DATA
+	last_starsystem @ 1945 DATA
+	last_teleport @ 1946 DATA
+	last_wiz @ 1947 DATA
+	lastplayercmd @ 1948 DATA
+	lck_app @ 1949 DATA
+	liq_table @ 1950 DATA
+	loading_char @ 1951 DATA
+	log_buf @ 1952 DATA
+	main @ 1953
+	maxdesc @ 1954 DATA
+	mob_act_list @ 1955 DATA
+	mob_index_hash @ 1956 DATA
+	movement_loss @ 1957 DATA
+	mssp_info @ 1958 DATA
+	mud_down @ 1959 DATA
+	mud_start_time @ 1960 DATA
+	new_boot_struct @ 1961 DATA
+	new_boot_time @ 1962 DATA
+	new_boot_time_t @ 1963 DATA
+	newdesc @ 1964 DATA
+	npc_race @ 1965 DATA
+	num_descriptors @ 1966 DATA
+	nummobsloaded @ 1967 DATA
+	numobjsloaded @ 1968 DATA
+	o_flags @ 1969 DATA
+	o_types @ 1970 DATA
+	obj_act_list @ 1971 DATA
+	obj_index_hash @ 1972 DATA
+	out_set @ 1973 DATA
+	pAbort @ 1974 DATA
+	part_flags @ 1975 DATA
+	pc_flags @ 1976 DATA
+	physicalobjects @ 1977 DATA
+	planet_flags @ 1978 DATA
+	plr_flags @ 1979 DATA
+	port @ 1980 DATA
+	quitting_char @ 1981 DATA
+	r_flags @ 1982 DATA
+	race_table @ 1983 DATA
+	reboot_time @ 1984 DATA
+	rev_dir @ 1985 DATA
+	ris_flags @ 1986 DATA
+	room_act_list @ 1987 DATA
+	room_index_hash @ 1988 DATA
+	save_equipment @ 1989 DATA
+	saving_char @ 1990 DATA
+	sector_name @ 1991 DATA
+	set_boot_time @ 1992 DATA
+	set_boot_time_struct @ 1993 DATA
+	sha256_h0 @ 1994 DATA
+	sha256_k @ 1995 DATA
+	skill_notfound @ 1996
+	skill_table @ 1997 DATA
+	skill_tname @ 1998 DATA
+	social_index @ 1999 DATA
+	spec_auth @ 2000
+	spec_clan_guard @ 2001
+	spec_customs_alcohol @ 2002
+	spec_customs_smut @ 2003
+	spec_customs_spice @ 2004
+	spec_customs_weapons @ 2005
+	spec_dark_jedi @ 2006
+	spec_fido @ 2007
+	spec_guardian @ 2008
+	spec_janitor @ 2009
+	spec_jedi @ 2010
+	spec_new_republic_trooper @ 2011
+	spec_newbie_pilot @ 2012
+	spec_poison @ 2013
+	spec_police @ 2014
+	spec_police_attack @ 2015
+	spec_police_fine @ 2016
+	spec_police_jail @ 2017
+	spec_stormtrooper @ 2018
+	spec_thief @ 2019
+	spell_acetum_primus @ 2020
+	spell_acid_blast @ 2021
+	spell_acid_breath @ 2022
+	spell_animate_dead @ 2023
+	spell_astral_walk @ 2024
+	spell_black_fist @ 2025
+	spell_black_hand @ 2026
+	spell_black_lightning @ 2027
+	spell_blindness @ 2028
+	spell_burning_hands @ 2029
+	spell_call_lightning @ 2030
+	spell_cause_critical @ 2031
+	spell_cause_light @ 2032
+	spell_cause_serious @ 2033
+	spell_caustic_fount @ 2034
+	spell_change_sex @ 2035
+	spell_charm_person @ 2036
+	spell_chill_touch @ 2037
+	spell_colour_spray @ 2038
+	spell_control_weather @ 2039
+	spell_create_food @ 2040
+	spell_create_water @ 2041
+	spell_cure_addiction @ 2042
+	spell_cure_blindness @ 2043
+	spell_cure_poison @ 2044
+	spell_detect_poison @ 2045
+	spell_dispel_evil @ 2046
+	spell_dispel_magic @ 2047
+	spell_disruption @ 2048
+	spell_dream @ 2049
+	spell_earthquake @ 2050
+	spell_enchant_weapon @ 2051
+	spell_energy_drain @ 2052
+	spell_ethereal_fist @ 2053
+	spell_faerie_fire @ 2054
+	spell_faerie_fog @ 2055
+	spell_farsight @ 2056
+	spell_fire_breath @ 2057
+	spell_fireball @ 2058
+	spell_flamestrike @ 2059
+	spell_frost_breath @ 2060
+	spell_galvanic_whip @ 2061
+	spell_gas_breath @ 2062
+	spell_gate @ 2063
+	spell_hand_of_chaos @ 2064
+	spell_harm @ 2065
+	spell_helical_flow @ 2066
+	spell_identify @ 2067
+	spell_invis @ 2068
+	spell_knock @ 2069
+	spell_know_alignment @ 2070
+	spell_lightning_bolt @ 2071
+	spell_lightning_breath @ 2072
+	spell_locate_object @ 2073
+	spell_magic_missile @ 2074
+	spell_magnetic_thrust @ 2075
+	spell_midas_touch @ 2076
+	spell_mind_wrack @ 2077
+	spell_mind_wrench @ 2078
+	spell_mist_walk @ 2079
+	spell_notfound @ 2080
+	spell_null @ 2081
+	spell_pass_door @ 2082
+	spell_plant_pass @ 2083
+	spell_poison @ 2084
+	spell_polymorph @ 2085
+	spell_portal @ 2086
+	spell_possess @ 2087
+	spell_quantum_spike @ 2088
+	spell_recharge @ 2089
+	spell_remove_curse @ 2090
+	spell_remove_invis @ 2091
+	spell_remove_trap @ 2092
+	spell_revive @ 2093
+	spell_scorching_surge @ 2094
+	spell_shocking_grasp @ 2095
+	spell_sleep @ 2096
+	spell_smaug @ 2097
+	spell_solar_flight @ 2098
+	spell_sonic_resonance @ 2099
+	spell_spectral_furor @ 2100
+	spell_spiral_blast @ 2101
+	spell_suggest @ 2102
+	spell_sulfurous_spray @ 2103
+	spell_summon @ 2104
+	spell_teleport @ 2105
+	spell_transport @ 2106
+	spell_ventriloquate @ 2107
+	spell_weaken @ 2108
+	spell_word_of_recall @ 2109
+	spice_table @ 2110 DATA
+	start_compress2_str @ 2111 DATA
+	strArea @ 2112 DATA
+	str_app @ 2113 DATA
+	str_boot_time @ 2114 DATA
+	string_hash @ 2115 DATA
+	subclasses @ 2116 DATA
+	supermob @ 2117 DATA
+	supermob_obj @ 2118 DATA
+	sysdata @ 2119 DATA
+	target_name @ 2120 DATA
+	this_imcmud @ 2121 DATA
+	time_info @ 2122 DATA
+	timechar @ 2123 DATA
+	top_affect @ 2124 DATA
+	top_area @ 2125 DATA
+	top_ed @ 2126 DATA
+	top_exit @ 2127 DATA
+	top_help @ 2128 DATA
+	top_herb @ 2129 DATA
+	top_mob_index @ 2130 DATA
+	top_obj_index @ 2131 DATA
+	top_repair @ 2132 DATA
+	top_reset @ 2133 DATA
+	top_room @ 2134 DATA
+	top_shop @ 2135 DATA
+	top_sn @ 2136 DATA
+	top_vroom @ 2137 DATA
+	trap_door @ 2138 DATA
+	trap_flags @ 2139 DATA
+	trig_flags @ 2140 DATA
+	turbocar_stop @ 2141 DATA
+	vroom_hash @ 2142 DATA
+	w_flags @ 2143 DATA
+	weapon_table @ 2144 DATA
+	wear_locs @ 2145 DATA
+	weather_info @ 2146 DATA
+	where_name @ 2147 DATA
+	whot @ 2148 DATA
+	will_compress2_str @ 2149 DATA
+	wis_app @ 2150 DATA
+	DONT_UPPER @ 2151 DATA

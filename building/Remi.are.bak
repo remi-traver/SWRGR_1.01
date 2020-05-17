@@ -1,0 +1,95 @@
+#FUSSAREA
+#AREADATA
+Version      1
+Name         {PROTO} Remi's area in progress~
+Author       Remi~
+Ranges       0 0 0 0
+#ENDAREADATA
+
+#MOBILE
+Vnum       33000
+Keywords   first mob~
+Short      a newly created first mob~
+Long       Some god abandoned a newly created first mob here.
+~
+Race       Human~
+Position   aggressive~
+DefPos     aggressive~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    10 10 10 10 10 10 10 0
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum       33500
+Keywords   last mob~
+Short      a newly created last mob~
+Long       Some god abandoned a newly created last mob here.
+~
+Race       Human~
+Position   aggressive~
+DefPos     aggressive~
+Gender     neuter~
+Actflags   npc prototype~
+Stats1     0 1 0 0 0 0
+Stats2     0 0 0
+Stats3     0 0 0
+Stats4     0 0 1 0 0
+Attribs    10 10 10 10 10 10 10 0
+Saves      0 0 0 0 0
+#ENDMOBILE
+
+#OBJECT
+Vnum     33000
+Keywords first obj~
+Type     trash~
+Short    a first obj~
+Long     A first obj is here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33001
+Keywords Sniper Rifle~
+Type     weapon~
+Short    a Sniper Rifle~
+Long     A Sniper Rifle is here.~
+Flags    prototype~
+WFlags   wield~
+Values   100 5 12 7 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#OBJECT
+Vnum     33500
+Keywords last obj~
+Type     trash~
+Short    a last obj~
+Long     A last obj is here.~
+Flags    prototype~
+Values   0 0 0 0 0 0
+Stats    1 0 0 0 0
+#ENDOBJECT
+
+#ROOM
+Vnum     33000
+Name     Floating in a void~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ROOM
+Vnum     33500
+Name     Floating in a void~
+Sector   city~
+Flags    nomob prototype~
+#ENDROOM
+
+#ENDAREA

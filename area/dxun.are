@@ -1,0 +1,6724 @@
+#AREA   Dxun.are~
+
+
+
+#AUTHOR Revan~
+
+#RANGES
+1 36 1 36
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 6554359
+
+#MOBILES
+#23101
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#23102
+canook~
+a canook~
+A canook is standing here.
+~
+~
+65569 0 0 Z
+4 0 90 0d10+40 0d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 3
+13 14 0 0 0 0 0 2
+0 0 0 0 0 0 0 0
+#23103
+small boma~
+a small boma~
+A small boma is here.
+~
+~
+65569 0 0 Z
+25 0 38 5d10+250 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 4
+20 20 0 0 0 0 0 2
+0 0 0 0 0 0 0 0
+> death_prog 80~
+mpoload 23106
+~
+|
+#23104
+a large boma~
+a large boma~
+A large boma is here.
+~
+~
+65569 128 0 Z
+29 0 28 5d10+290 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 6
+20 40 0 0 0 0 0 2
+0 0 0 0 0 0 0 0
+> death_prog 70~
+mpoload 23105
+~
+|
+#23105
+maalraas~
+a maalraas~
+A maalraas is prowling here.
+~
+~
+65569 0 0 Z
+23 0 -160 4d10+230 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 3
+23 23 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 90~
+mpoload 23107
+~
+|
+#23106
+Drexl~
+a Drexl~
+A Drexl is flying here.
+~
+~
+65537 524288 0 Z
+20 0 -280 4d10+200 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 4
+20 30 0 0 0 0 0 2
+0 0 0 0 0 0 0 0
+> death_prog 60~
+mpoload 23104
+~
+|
+#23107
+Zakkeg~
+a Zekkeg~
+A zekkeg is prowling here.
+~
+~
+65569 128 0 Z
+30 0 -300 6d10+300 3d4+2
+0 0
+8 8 0
+25 10 10 25 25 10 10
+0 0 0 0 0
+0 0 0 0 1 1 6
+40 40 0 0 0 0 0 2
+0 0 0 0 0 0 0 0
+> death_prog 100~
+mpoload 23108
+~
+|
+#23108
+Sith Master~
+a sith lord~
+A long robed figure stands here.
+~
+~
+2097187 4194304 0 Z
+30 0 -200 6d10+300 3d4+2
+0 0
+8 8 0
+10 10 10 25 25 10 10
+0 0 0 0 0
+0 0 0 0 1 1 8
+35 35 0 0 0 0 48 3
+0 0 0 0 0 0 0 0
+#23109
+freedon nadd~
+Spirit of Freedon Nadd~
+Spirit of Freedon Nadd is hovering here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+mpclosepassage 23240 0
+mpclosepassage 23241 0
+mpecho the spirit of freedon nod flys into the pool of red water.
+mpgoto 6300
+~
+|
+#23110
+Security Guard~
+a security guard~
+A security guard is standing here.
+~
+~
+3 512 0 Z
+20 0 -100 4d10+500 2d4+50
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 4
+20 20 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if clan($n) == the hunters guild
+mpechoat $n &GA security guard salutes you.
+mpechoaround $n $n is saluted by a security guard.
+else
+mpecho a guard says "you don't belong here"
+mpkill $n
+endif
+~
+|
+#23111
+rebexan MSE-6 "mouse" droid~
+rebexan MSE-6 "mouse" droid~
+A small "mouse" droid moves about here.
+~
+~
+65537 0 0 Z
+10 0 75 2d10+100 1d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+21 0 0 0 1 0 0
+2 2 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> rand_prog 40~
+mpecho a mouse droid emits a series of high pitched beeps.
+~
+> death_prog 100~
+mpoload 23116
+~
+|
+#23112
+a chef droid~
+A Chef Droid~
+A Chef Droid stands here, serving food to the workers.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+21 0 0 0 1 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#23113
+75M target~
+a humanoid target~
+A humanoid target is standing here at the 75M mark.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+21 0 0 0 1 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+mpmload 23113
+~
+|
+#23114
+50M target~
+a humanoid target~
+A humanoid target is standing here at the 50M mark.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+21 0 0 0 1 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+mpmload 23114
+~
+|
+#23115
+supply droid~
+supply droid~
+A supply droid is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+21 0 0 0 1 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#23116
+supply droid~
+supply droid~
+A supply droid is standing here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+21 0 0 0 1 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#23117
+key dispenser~
+a key dispenser~
+A key dispenser is sitting here.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+21 0 0 0 1 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> speech_prog p key~
+if clan($n) == the hunters guild
+mpecho a keycard is spat out.
+mpoload 23132
+drop all
+else
+mpecho the dispenser buzzes loudly.
+endif
+~
+|
+#23118
+A salvager~
+A Salvager~
+A man stands here tearing apart whats left of the freighter.
+~
+~
+3 0 0 Z
+20 0 50 4d10+200 2d4+2
+1000 0
+8 8 0
+18 10 10 18 18 10 10
+0 0 0 0 0
+0 0 0 0 1 1 4
+4 4 0 0 0 0 48 0
+1024 0 0 0 0 0 0 0
+#23500
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#23101
+first obj~
+a first obj~
+A first obj is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#23102
+Yt-1300 freighter~
+a Yt-1300 freighter~
+A Yt-1300 freighter lies in ruins here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#23103
+computer terminal~
+a small computer terminal~
+A small computer terminal is hanging from the ship here.~
+~
+80 0 0
+0 0 0 236
+1 0 0
+E
+computer terminal~
+The terminal is barely hanging on to its place in the ship..only
+several thin wires are holding it. sparks are flying from the
+terminal as it is being operated .
+~
+> exa_prog 100~
+mpechoat $n Burned into the screen are navigation coordinates of some sort of landing zone on a barren piece of rock..the letters i and v can be made out.
+~
+|
+#23104
+drexl tail~
+a drexl tail~
+A drexl tail is here.~
+~
+13 0 16385
+0 0 0 0
+1 1 0
+#23105
+large boma ear~
+a large boma ear~
+A large boma ear is here.~
+~
+13 0 16385
+0 0 0 0
+1 1 0
+#23106
+small boma ear~
+a small boma ear~
+A small boma ear is here.~
+~
+13 0 16385
+0 0 0 0
+1 1 0
+#23107
+maalraas claw~
+a maalraas claw~
+A maalraas claw is here.~
+~
+13 0 16385
+0 0 0 0
+1 1 0
+#23108
+Zakkeg Horn~
+a zekkeg horn~
+A zakkeg horn is laying here.~
+~
+13 0 16385
+0 0 0 0
+1 1 0
+#23109
+orbalisks orbalisk~
+a group of Orbalisks~
+A group of orbalisks are laying here.~
+~
+9 0 526841
+36 36 0 0
+1 0 0
+A
+27 64
+A
+13 -50
+A
+1 2
+A
+18 3
+#23110
+small computer terminal~
+a small computer terminal~
+A small computer terminal is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+small computer terminal~
+a single line is printed on the screen and reads as follows:
+"9 are we when taken all 3,last one gone then 6 remain, None
+survive our first less 5" 
+~
+> speech_prog p 513~
+mpopenpassage 23240 23241 0
+mpecho a loud clanging can be heard.
+mpmload 23109
+mptransfer freedon 23244
+mppurge terminal
+~
+|
+#23111
+computer terminal~
+a small computer terminal~
+A small computer terminal is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+computer terminal~
+a small line of text is on the screen and reads as follows "what
+flys without wings, hits without hands, and sees without eyes"
+
+~
+> speech_prog p avalanche~
+mpopenpassage 23241 23242 0
+mpecho a loud clanging can be heard.
+mppurge terminal
+~
+> speech_prog p White Dragon~
+mpopenpassage 23241 23242 0
+mpecho a large clanging can be heard.
+mppurge terminal
+~
+|
+#23112
+lightsaber closer~
+lightsaber~
+A lightsaber is hovering here.~
+~
+13 0 1
+0 0 0 0
+1 0 0
+> greet_prog 100~
+mpclosepassage 23241 0
+mpclosepassage 23240 0
+mpecho the lightsaber returns to the sith master's hand.
+mppurge lightsaber
+~
+|
+#23114
+Large coffin~
+a Large coffin~
+A coffin lays here partially burried.~
+~
+15 0 0
+4 5 0 0
+1 0 0
+#23115
+rotten corpse~
+a rotting corpse~
+A rotten corpse is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#23116
+an advanced power cell~
+an advanced power cell~
+An advanced power cell is here~
+~
+65 0 16385
+5000 0 0 0
+1 20 2
+#23117
+glass of Tarul wine~
+a glass of Tarul wine~
+A glass of Tarul wine is sitting here.~
+~
+17 1073750016 16385
+5 5 2 0
+1 30 3
+> use_prog 100~
+mpechoaround $n $n drinks some tarul wine.
+mpechoat $n you drink some tarul wine.
+~
+|
+#23118
+coruscant game fowl~
+A plate of coruscant game fowl~
+A plate of coruscant game fowl~
+~
+19 8192 1
+20 20 0 0
+2 30 3
+#23119
+Felbar~
+a bowl of felbar~
+A bowl of felbar is here.~
+~
+19 8192 1
+20 20 0 0
+2 45 4
+#23120
+Gufta~
+a plate of gufta~
+A plate of gufta is here.~
+~
+19 8192 1
+20 20 0 0
+2 32 3
+#23121
+Likryt Stew~
+a bowl of likryt stew~
+A bowl of likryt stew is here.~
+~
+19 8192 1
+20 20 0 0
+2 45 4
+#23122
+bottle of Dodbri Whiskey~
+a bottle of Dodbri Whiskey~
+A bottle of Dodbri Whiskey is sitting here.~
+~
+17 8192 16385
+5 5 5 0
+1 91 9
+> use_prog 100~
+mpechoaround $n $n drinks some dodbri whiskey.
+mpechoat $n you drink some dodbri whiskey.
+~
+|
+#23123
+bottle of Chadian Rum~
+a bottle of Chadian Rum~
+A bottle of Chadian Rum is sitting here.~
+~
+17 8192 16385
+5 5 7 0
+1 57 5
+> use_prog 100~
+mpechoat $n you drink some chadian rum.
+mpechoaround $n $n drinks some chadian rum.
+~
+|
+#23124
+bottle of Shesharilian vodka~
+a bottle of Shesharilian vodka~
+A bottle of Shesharilian vodka is sitting here.~
+~
+17 8192 16385
+5 5 8 0
+1 65 6
+> use_prog 100~
+mpechoat $n you drink some shesharillian vodka.
+mpechoaround $n $n drinks some shesharillian vodka.
+~
+|
+#23125
+a small canteen~
+a small canteen~
+A belt sized canteen was dropped here.~
+~
+17 8192 1
+10 10 0 0
+1 10 1
+#23126
+blastech e-11 blaster rifle~
+a Blastech E-11 blaster rifle~
+A Blastech E-11 blaster rifle was left here.~
+~
+5 8192 8193
+0 20 20 6 1000 1000
+10 190 19
+A
+18 2
+#23127
+an ammo cell~
+An Ammo Cell~
+An Ammo Cell has been left here.~
+~
+57 0 16385
+1000 0 0 0
+1 30 3
+#23128
+a grenade~
+a grenade~
+A grenade .... run!!!!~
+~
+82 8192 16385
+50 50 0 0
+1 50 5
+#23129
+a beacon~
+a beacon~
+A small electronic device was dropped here.~
+~
+92 8192 1
+0 0 0 0
+1 160 16
+#23130
+a pair of binders~
+a pair of binders~
+A pair of binders was dropped here.~
+~
+95 8192 4194305
+0 0 0 0
+1 137 13
+#23131
+a bug~
+a bug~
+A small electronic device was dropped here.~
+~
+91 8192 1
+0 0 0 0
+1 150 15
+#23132
+Black Detention Level Keycard~
+&za black detention level keycard&W~
+A black keycard is laying here.~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#23133
+Drowning chamber lever~
+drowning chamber lever~
+&RThe Drowning Chamber Lever&W~
+~
+37 4096 0
+0 0 0 0
+1 0 0
+> push_prog 100~
+mpopenpassage 23400 23402 0
+mpopenpassage 23402 23400 2
+mpecho the drowning pool doors open.
+~
+> pull_prog 100~
+mpclosepassage 23400 0
+mpclosepassage 23402 2
+mpecho the drowning pool doors close.
+~
+|
+#23134
+Gas Chamber Control Lever~
+Gas Chamber Control Lever~
+&GGas Chamber Control Lever&W~
+~
+37 4096 0
+0 0 0 0
+1 0 0
+> push_prog 100~
+mpopenpassage 23400 23404 7
+mpopenpassage 23404 23400 8
+mpecho the gas chamber's doors open.
+~
+> pull_prog 100~
+mpecho the gas chamber doors slide closed
+mpclosepassage 23400 7
+mpclosepassage 23404 8
+~
+|
+#23135
+Hell's Kitchen Control Lever~
+hell's kitchen control lever~
+&rHell's Kitchen Control Lever&W~
+~
+37 4096 0
+0 0 0 0
+1 0 0
+> push_prog 100~
+mpecho hells kitchen's doors open up.
+mpopenpassage 23400 23405 3
+mpopenpassage 23405 23400 1
+~
+> pull_prog 100~
+mpecho hells kitchen's doors close.
+mpclosepassage 23400 3
+mpclosepassage 23405 1
+~
+|
+#23136
+Electrical Storm Control Lever~
+Electrical Storm Control Lever~
+&CE&Blectrical &CS&Btorm &CC&Bontrol &CL&Bever&W~
+~
+37 4096 0
+0 0 0 0
+1 0 0
+> push_prog 100~
+mpecho the electrical storm chamber's doors open.
+mpopenpassage 23400 23406 9
+mpopenpassage 23406 23400 6
+~
+> pull_prog 100~
+mpecho the electrical storm chamber's doors close.
+mpclosepassage 23400 9
+mpclosepassage 23406 6
+~
+|
+#23137
+a security key dispenser~
+a Security Key Dispenser~
+A security key dispenser is sitting here.~
+~
+13 2 0
+0 0 0 0
+1 0 0
+> speech_prog p key~
+if clan($n) == the hunters guild
+mpoload 23132
+mpecho a keycard is spat out.
+else
+mpecho the machine buzzes loudly
+endif
+~
+|
+#23500
+last obj~
+a last obj~
+A last obj is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#23101
+Floating in a void~
+~
+0 4 1 0 0 0 16992
+S
+#23102
+Large Clearing~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 52 1 0 0 0 16992
+D2
+~
+~
+0 -1 23193 0
+D6
+~
+~
+0 -1 23103 0
+S
+#23103
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D6
+~
+~
+0 -1 23104 0
+D9
+~
+~
+0 -1 23102 0
+R M 0 23106 28 23103
+R M 0 23103 43 23103
+S
+#23104
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D6
+~
+~
+0 -1 23105 0
+D9
+~
+~
+0 -1 23103 0
+R M 0 23102 36 23104
+R M 0 23105 38 23104
+S
+#23105
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23106 0
+D9
+~
+~
+0 -1 23104 0
+R M 0 23102 36 23105
+R M 0 23105 38 23105
+R M 0 23106 28 23105
+S
+#23106
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23107 0
+D2
+~
+~
+0 -1 23105 0
+R M 0 23102 36 23106
+R M 0 23102 36 23106
+R M 0 23102 36 23106
+S
+#23107
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D2
+~
+~
+0 -1 23106 0
+D6
+~
+~
+0 -1 23108 0
+R M 0 23106 28 23107
+R M 0 23103 43 23107
+R M 0 23106 28 23107
+R M 0 23103 43 23107
+R M 0 23106 28 23107
+S
+#23108
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D6
+~
+~
+0 -1 23109 0
+D9
+~
+~
+0 -1 23107 0
+R M 0 23102 36 23108
+R M 0 23102 36 23108
+S
+#23109
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D6
+~
+~
+0 -1 23110 0
+D9
+~
+~
+0 -1 23108 0
+R M 0 23102 36 23109
+R M 0 23104 19 23109
+S
+#23110
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23111 0
+D9
+~
+~
+0 -1 23109 0
+R M 0 23106 28 23110
+R M 0 23103 43 23110
+S
+#23111
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23112 0
+D2
+~
+~
+0 -1 23110 0
+R M 0 23103 43 23111
+R M 0 23103 43 23111
+R M 0 23105 38 23111
+R M 0 23105 38 23111
+R M 0 23106 28 23111
+R M 0 23102 36 23111
+S
+#23112
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D2
+~
+~
+0 -1 23111 0
+D7
+~
+~
+0 -1 23113 0
+R M 0 23106 28 23112
+R M 0 23102 36 23112
+S
+#23113
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D6
+~
+~
+0 -1 23114 0
+D8
+~
+~
+0 -1 23112 0
+R M 0 23106 28 23113
+S
+#23114
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D6
+~
+~
+0 -1 23115 0
+D9
+~
+~
+0 -1 23113 0
+S
+#23115
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23116 0
+D9
+~
+~
+0 -1 23114 0
+R M 0 23105 38 23115
+S
+#23116
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D2
+~
+~
+0 -1 23115 0
+D7
+~
+~
+0 -1 23117 0
+R M 0 23103 43 23116
+S
+#23117
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D7
+~
+~
+0 -1 23118 0
+D8
+~
+~
+0 -1 23116 0
+R M 0 23106 28 23117
+R M 0 23103 43 23117
+R M 0 23105 38 23117
+S
+#23118
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D3
+~
+~
+0 -1 23119 0
+D8
+~
+~
+0 -1 23117 0
+R M 0 23105 38 23118
+R M 0 23105 38 23118
+S
+#23119
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D1
+~
+~
+0 -1 23118 0
+D3
+~
+~
+0 -1 23120 0
+R M 0 23103 43 23119
+S
+#23120
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23121 0
+D1
+~
+~
+0 -1 23119 0
+R M 0 23105 38 23120
+S
+#23121
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23122 0
+D2
+~
+~
+0 -1 23120 0
+R M 0 23105 38 23121
+S
+#23122
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23123 0
+D2
+~
+~
+0 -1 23121 0
+R M 0 23105 38 23122
+S
+#23123
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23138 0
+D1
+~
+~
+0 -1 23139 0
+D2
+~
+~
+0 -1 23122 0
+D3
+~
+~
+0 -1 23124 0
+R M 0 23105 38 23123
+R M 0 23104 19 23123
+S
+#23124
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D1
+~
+~
+0 -1 23123 0
+D7
+~
+~
+0 -1 23125 0
+R M 0 23106 28 23124
+R M 0 23102 36 23124
+S
+#23125
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D6
+~
+~
+0 -1 23126 0
+D8
+~
+~
+0 -1 23124 0
+S
+#23126
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D7
+~
+~
+0 -1 23127 0
+D9
+~
+~
+0 -1 23125 0
+R M 0 23106 28 23126
+R M 0 23106 28 23126
+S
+#23127
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D7
+~
+~
+0 -1 23128 0
+D8
+~
+~
+0 -1 23126 0
+R M 0 23103 43 23127
+S
+#23128
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23129 0
+D8
+~
+~
+0 -1 23127 0
+R M 0 23106 28 23128
+S
+#23129
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D2
+~
+~
+0 -1 23128 0
+D6
+~
+~
+0 -1 23130 0
+R M 0 23105 38 23129
+R M 0 23103 43 23129
+R M 0 23106 28 23129
+S
+#23130
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D6
+~
+~
+0 -1 23131 0
+D9
+~
+~
+0 -1 23129 0
+R M 0 23106 28 23130
+R M 0 23105 38 23130
+R M 0 23103 43 23130
+S
+#23131
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D1
+~
+~
+0 -1 23132 0
+D7
+~
+~
+0 -1 23161 0
+D9
+~
+~
+0 -1 23130 0
+R M 0 23102 36 23131
+R M 0 23106 28 23131
+S
+#23132
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D3
+~
+~
+0 -1 23131 0
+D6
+~
+~
+0 -1 23160 0
+D8
+~
+~
+0 -1 23133 0
+R M 0 23105 38 23132
+R M 0 23102 36 23132
+R M 0 23105 38 23132
+R M 0 23105 38 23132
+R M 0 23103 43 23132
+S
+#23133
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D7
+~
+~
+0 -1 23132 0
+D8
+~
+~
+0 -1 23134 0
+R M 0 23106 28 23133
+S
+#23134
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D2
+~
+~
+0 -1 23135 0
+D7
+~
+~
+0 -1 23133 0
+R M 0 23102 36 23134
+S
+#23135
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23134 0
+D2
+~
+~
+0 -1 23136 0
+S
+#23136
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23135 0
+D9
+~
+~
+0 -1 23137 0
+S
+#23137
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D6
+~
+~
+0 -1 23136 0
+D8
+~
+~
+0 -1 23138 0
+R M 0 23102 36 23137
+R M 0 23103 43 23137
+S
+#23138
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D2
+~
+~
+0 -1 23123 0
+D7
+~
+~
+0 -1 23137 0
+R M 0 23106 28 23138
+R M 0 23103 43 23138
+R M 0 23103 43 23138
+S
+#23139
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D1
+~
+~
+0 -1 23140 0
+D3
+~
+~
+0 -1 23123 0
+R M 0 23103 43 23139
+R M 0 23102 36 23139
+S
+#23140
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D3
+~
+~
+0 -1 23139 0
+D6
+~
+~
+0 -1 23141 0
+S
+#23141
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D6
+~
+~
+0 -1 23142 0
+D9
+~
+~
+0 -1 23140 0
+R M 0 23106 28 23141
+R M 0 23102 36 23141
+R M 0 23107 5 23141
+S
+#23142
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23143 0
+D9
+~
+~
+0 -1 23141 0
+R M 0 23106 28 23142
+R M 0 23105 38 23142
+R M 0 23106 28 23142
+S
+#23143
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D2
+~
+~
+0 -1 23142 0
+D6
+~
+~
+0 -1 23144 0
+S
+#23144
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D7
+~
+~
+0 -1 23145 0
+D9
+~
+~
+0 -1 23143 0
+R M 0 23102 36 23144
+S
+#23145
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D7
+~
+~
+0 -1 23146 0
+D8
+~
+~
+0 -1 23144 0
+R M 0 23106 28 23145
+S
+#23146
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D6
+~
+~
+0 -1 23147 0
+D8
+~
+~
+0 -1 23145 0
+S
+#23147
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D3
+~
+~
+0 -1 23277 0
+D6
+~
+~
+0 -1 23148 0
+D9
+~
+~
+0 -1 23146 0
+S
+#23148
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23149 0
+D9
+~
+~
+0 -1 23147 0
+R M 0 23106 28 23148
+S
+#23149
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23150 0
+D2
+~
+~
+0 -1 23148 0
+R M 0 23105 38 23149
+R M 0 23102 36 23149
+R M 0 23102 36 23149
+R M 0 23104 19 23149
+S
+#23150
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D2
+~
+~
+0 -1 23149 0
+D7
+~
+~
+0 -1 23151 0
+R M 0 23106 28 23150
+R M 0 23106 28 23150
+S
+#23151
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D7
+~
+~
+0 -1 23152 0
+D8
+~
+~
+0 -1 23150 0
+R M 0 23102 36 23151
+S
+#23152
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D3
+~
+~
+0 -1 23153 0
+D8
+~
+~
+0 -1 23151 0
+S
+#23153
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D1
+~
+~
+0 -1 23152 0
+D2
+~
+~
+0 -1 23154 0
+D7
+~
+~
+0 -1 23177 0
+S
+#23154
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23153 0
+D9
+~
+~
+0 -1 23155 0
+R M 0 23105 38 23154
+S
+#23155
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D6
+~
+~
+0 -1 23154 0
+D9
+~
+~
+0 -1 23156 0
+R M 0 23102 36 23155
+R M 0 23102 36 23155
+S
+#23156
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D6
+~
+~
+0 -1 23155 0
+D9
+~
+~
+0 -1 23157 0
+R M 0 23102 36 23156
+S
+#23157
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D1
+~
+~
+0 -1 23158 0
+D6
+~
+~
+0 -1 23156 0
+R M 0 23102 36 23157
+S
+#23158
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D2
+~
+~
+0 -1 23159 0
+D3
+~
+~
+0 -1 23157 0
+R M 0 23105 38 23158
+S
+#23159
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23158 0
+D2
+~
+~
+0 -1 23160 0
+S
+#23160
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23159 0
+D9
+~
+~
+0 -1 23132 0
+S
+#23161
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D7
+~
+~
+0 -1 23162 0
+D8
+~
+~
+0 -1 23131 0
+R M 0 23106 28 23161
+R M 0 23105 38 23161
+R M 0 23102 36 23161
+S
+#23162
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23163 0
+D8
+~
+~
+0 -1 23161 0
+S
+#23163
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23164 0
+D2
+~
+~
+0 -1 23162 0
+R M 0 23102 36 23163
+S
+#23164
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D2
+~
+~
+0 -1 23163 0
+D6
+~
+~
+0 -1 23165 0
+R M 0 23103 43 23164
+S
+#23165
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23166 0
+D9
+~
+~
+0 -1 23164 0
+S
+#23166
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D2
+~
+~
+0 -1 23165 0
+D7
+~
+~
+0 -1 23167 0
+S
+#23167
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23168 0
+D8
+~
+~
+0 -1 23166 0
+S
+#23168
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 4 1 0 0 0 16992
+D1
+~
+~
+0 -1 23170 0
+D2
+~
+~
+0 -1 23167 0
+D7
+~
+~
+0 -1 23169 0
+R O 0 152 1 23168
+R O 0 130 1 23168
+S
+#23169
+Crash Site~
+Trees have been uprooted as what remains of a Yt-1300 freighter
+lies in ruins here.Heavy scoring on the hull can be seen through
+some of the branches that fell on it. Sparks are flying from
+parts.The moon has been scarred by the ships crash as even the
+dirt has been removed.
+~
+0 48 1 0 0 0 16992
+D8
+~
+~
+0 -1 23168 0
+R M 0 23118 1 23169
+R O 0 23102 1 23169
+R O 0 23103 1 23169
+S
+#23170
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D3
+~
+~
+0 -1 23168 0
+D8
+~
+~
+0 -1 23171 0
+S
+#23171
+&gJungle Path&W~
+The path is a faint brown color outlined by hills. tracks of
+all sizes sit near the path here. faint animal cries can be
+heard in the distance. A fain breeze whooshes past the trees
+as the light can barely be seen through the trees.
+~
+0 0 1 0 0 0 16992
+D6
+~
+~
+0 -1 23172 0
+D7
+~
+~
+0 -1 23170 0
+S
+#23172
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23173 0
+D8
+~
+~
+0 -1 23177 0
+D9
+~
+~
+0 -1 23171 0
+R M 0 23105 38 23172
+S
+#23173
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23174 0
+D2
+~
+~
+0 -1 23172 0
+R M 0 23105 38 23173
+S
+#23174
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D2
+~
+~
+0 -1 23173 0
+D7
+~
+~
+0 -1 23175 0
+R M 0 23102 36 23174
+R M 0 23103 43 23174
+R M 0 23106 28 23174
+R M 0 23105 38 23174
+R M 0 23102 36 23174
+S
+#23175
+&gJungle Path&W~
+The path is a faint brown color outlined by hills. tracks of
+all sizes sit near the path here. faint animal cries can be
+heard in the distance. A fain breeze whooshes past the trees
+as the light can barely be seen through the trees.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23176 0
+D8
+~
+~
+0 -1 23174 0
+R M 0 23105 38 23175
+R M 0 23105 38 23175
+S
+#23176
+&gDead End&W~
+the path ends here and ends in a fairly " V " shaped hill. Animal
+cries can be heard as the faint breeze brushes with the trees
+overhead. light can barely get through the trees.
+~
+0 4 1 0 0 0 16992
+D2
+~
+~
+0 -1 23175 0
+> speech_prog p open~
+if clan($n) == the hunters guild
+mpechoat $n your voice opens the blastdoors and everyone enters.
+mptransfer all 23411
+endif
+~
+|
+S
+#23177
+&gJungle Path&W~
+The path is surrounded by high hills covered in trees. Light
+can barely be seen through the treetops. the sounds of faint
+animal crys can be heard.The path itself is well traveled upon.
+~
+0 0 1 0 0 0 16992
+D7
+~
+~
+0 -1 23172 0
+D8
+~
+~
+0 -1 23153 0
+S
+#23178
+&zLarge Opening&W~
+The opening leads out to the fresh air and a large clearing.Loud
+animal cries can be heard nearby. Shadows can be seen back in
+the tunnel. the faint smell fading as well as the grey rock
+face.
+~
+0 0 1 0 0 0 16992
+D1
+~
+~
+0 -1 23255 0
+D7
+~
+~
+0 -1 23179 0
+R M 0 23105 38 23178
+R M 0 23103 43 23178
+S
+#23179
+&gLarge Clearing&W~
+The clearing is clear of trees and free from any major disruptions.animals
+of all kinds appear like they were summoned here to be like
+guardians to the structure made of mandalorian iron to the north.The
+structure itself stands over 100 meters tall and almost blocks
+the sun.
+~
+0 0 1 0 0 0 16992
+D7
+~
+~
+0 -1 23180 0
+D8
+~
+~
+0 -1 23178 0
+S
+#23180
+&gLarge Clearing&W~
+The clearing is clear of trees and free from any major disruptions.animals
+of all kinds appear like they were summoned here to be like
+guardians to the structure made of mandalorian iron to the north.
+The structure itself stands over 100 meters tall and almost
+blocks the sun.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23181 0
+D8
+~
+~
+0 -1 23179 0
+S
+#23181
+&gLarge Clearing&W~
+The clearing is clear of trees and free from any major disruptions.animals
+of all kinds appear like they were summoned here to be like
+guardians to the structure made of mandalorian iron to the north.
+The structure itself stands over 100 meters tall and almost
+blocks the sun.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23182 0
+D1
+~
+~
+0 -1 23189 0
+D2
+~
+~
+0 -1 23180 0
+D3
+~
+~
+0 -1 23183 0
+R M 0 23102 36 23181
+S
+#23182
+&gLarge Clearing&W~
+The clearing is clear of trees and free from any major disruptions.animals
+of all kinds appear like they were summoned here to be like
+guardians to the structure made of mandalorian iron to the north.
+The structure itself stands over 100 meters tall and almost
+blocks the sun.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23186 0
+D1
+~
+~
+0 -1 23188 0
+D2
+~
+~
+0 -1 23181 0
+D3
+~
+~
+0 -1 23184 0
+D6
+~
+~
+0 -1 23187 0
+D7
+~
+~
+0 -1 23185 0
+D8
+~
+~
+0 -1 23189 0
+D9
+~
+~
+0 -1 23183 0
+R M 0 23103 43 23182
+S
+#23183
+&gLarge Clearing&W~
+The clearing is clear of trees and free from any major disruptions.animals
+of all kinds appear like they were summoned here to be like
+guardians to the structure made of mandalorian iron to the north.
+The structure itself stands over 100 meters tall and almost
+blocks the sun.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23184 0
+D1
+~
+~
+0 -1 23181 0
+D6
+~
+~
+0 -1 23182 0
+R M 0 23102 36 23183
+R M 0 23105 38 23183
+R M 0 23104 19 23183
+R M 0 23105 38 23183
+S
+#23184
+&gLarge Clearing&W~
+The clearing is clear of trees and free from any major disruptions.animals
+of all kinds appear like they were summoned here to be like
+guardians to the structure made of mandalorian iron to the north.
+The structure itself stands over 100 meters tall and almost
+blocks the sun.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23185 0
+D1
+~
+~
+0 -1 23182 0
+D2
+~
+~
+0 -1 23183 0
+R M 0 23105 38 23184
+S
+#23185
+&gLarge Clearing&W~
+The clearing is clear of trees and free from any major disruptions.animals
+of all kinds appear like they were summoned here to be like
+guardians to the structure made of mandalorian iron to the north.
+The structure itself stands over 100 meters tall and almost
+blocks the sun.
+~
+0 0 1 0 0 0 16992
+D1
+~
+~
+0 -1 23186 0
+D2
+~
+~
+0 -1 23184 0
+D8
+~
+~
+0 -1 23182 0
+S
+#23186
+&gLarge Clearing&W~
+The clearing is clear of trees and free from any major disruptions.animals
+of all kinds appear like they were summoned here to be like
+guardians to the structure made of mandalorian iron to the north.
+The structure itself stands over 100 meters tall and almost
+blocks the sun.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23195 0
+D1
+~
+~
+0 -1 23187 0
+D2
+~
+~
+0 -1 23182 0
+D3
+~
+~
+0 -1 23185 0
+R M 0 23102 36 23186
+R M 0 23105 38 23186
+S
+#23187
+&gLarge Clearing&W~
+The clearing is clear of trees and free from any major disruptions.animals
+of all kinds appear like they were summoned here to be like
+guardians to the structure made of mandalorian iron to the north.
+The structure itself stands over 100 meters tall and almost
+blocks the sun.
+~
+0 0 1 0 0 0 16992
+D2
+~
+~
+0 -1 23188 0
+D3
+~
+~
+0 -1 23186 0
+D9
+~
+~
+0 -1 23182 0
+R M 0 23104 19 23187
+R M 0 23102 36 23187
+S
+#23188
+&gLarge Clearing&W~
+The clearing is clear of trees and free from any major disruptions.animals
+of all kinds appear like they were summoned here to be like
+guardians to the structure made of mandalorian iron to the north.
+The structure itself stands over 100 meters tall and almost
+blocks the sun.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23187 0
+D2
+~
+~
+0 -1 23189 0
+D3
+~
+~
+0 -1 23182 0
+R M 0 23102 36 23188
+R M 0 23103 43 23188
+S
+#23189
+&gLarge Clearing&W~
+The clearing is clear of trees and free from any major disruptions.animals
+of all kinds appear like they were summoned here to be like
+guardians to the structure made of mandalorian iron to the north.
+The structure itself stands over 100 meters tall and almost
+blocks the sun.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23188 0
+D1
+~
+~
+0 -1 23190 0
+D3
+~
+~
+0 -1 23181 0
+D7
+~
+~
+0 -1 23182 0
+S
+#23190
+&gLarge Clearing&W~
+The clearing is clear of trees and free from any major disruptions.animals
+of all kinds appear like they were summoned here to be like
+guardians to the structure made of mandalorian iron to the north.
+The structure itself stands over 100 meters tall and almost
+blocks the sun.
+~
+0 0 1 0 0 0 16992
+D1
+~
+~
+0 -1 23191 0
+D3
+~
+~
+0 -1 23189 0
+S
+#23191
+&gLarge Clearing&W~
+The clearing is clear of trees and free from any major disruptions.animals
+of all kinds appear like they were summoned here to be like
+guardians to the structure made of mandalorian iron to the north.
+The structure itself stands over 100 meters tall and almost
+blocks the sun.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23192 0
+D2
+~
+~
+0 -1 23194 0
+D3
+~
+~
+0 -1 23190 0
+R M 0 23104 19 23191
+R M 0 23105 38 23191
+S
+#23192
+&CCommand Tent&W~
+~
+0 0 1 0 0 0 16992
+D2
+~
+~
+0 -1 23191 0
+S
+#23193
+&C A Large Tent~
+~
+0 8388608 1 0 0 0 16992
+D0
+~
+~
+0 -1 23102 0
+R M 0 23105 38 23193
+R M 0 23103 43 23193
+R M 0 23104 19 23193
+R M 0 23105 38 23193
+S
+#23194
+&CCommunications Tent&W~
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23191 0
+R M 0 23102 36 23194
+S
+#23195
+&zTomb Ramp&W~
+Rippled mandalorian iron makes up the ramp with the outer area
+of the tomb enclosing the ramp. Smoke can be seen and sounds
+of animals can be heard.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23196 0
+D2
+~
+~
+0 -1 23186 0
+S
+#23196
+&zTomb Ramp&W~
+Rippled mandalorian iron makes up the ramp with the outer area
+of the tomb enclosing the ramp. Smoke can be seen and sounds
+of animals can be heard.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23197 0
+D2
+~
+~
+0 -1 23195 0
+R M 0 23105 38 23196
+S
+#23197
+&zOutside the Tomb&W~
+a small fire has been set here and lit, smoke eminating from
+it. the rippled mandalorian iron floor appears to have been
+reinforced to support heavier loads.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+0 -1 23200 0
+D1
+~
+~
+0 -1 23199 0
+D2
+~
+~
+0 -1 23196 0
+D3
+~
+~
+0 -1 23198 0
+R M 0 23105 38 23197
+S
+#23198
+&zOutside the Tomb&W~
+a small fire has been set here and lit, smoke eminating from
+it. the rippled mandalorian iron floor appears to have been
+reinforced to support heavier loads.
+~
+0 0 1 0 0 0 16992
+D1
+~
+~
+0 -1 23197 0
+R M 0 23103 43 23198
+S
+#23199
+&zOutside the Tomb&W~
+a small fire has been set here and lit, smoke eminating from
+it. the rippled mandalorian iron floor appears to have been
+reinforced to support heavier loads.
+~
+0 0 1 0 0 0 16992
+D3
+~
+~
+0 -1 23197 0
+R M 0 23102 36 23199
+R M 0 23103 43 23199
+S
+#23200
+&zTomb Entrance&W~
+Reinforced mandalorian pillars stand here. each carrying the
+same unknown glyph. large mandalorian iron doors stand here
+elegantly decorated in a sith design.
+~
+0 0 1 0 0 0 16992
+D0
+~
+~
+3 -1 23201 0
+D2
+~
+~
+0 -1 23197 0
+R M 0 23105 38 23200
+R M 0 23104 19 23200
+R M 0 23103 43 23200
+R D 0 23200 0 1
+S
+#23201
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 12 1 0 0 0 16992
+D0
+~
+~
+0 -1 23202 0
+D2
+~
+~
+3 -1 23200 0
+R D 0 23201 2 1
+S
+#23202
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 12 1 0 0 0 16992
+D0
+~
+~
+0 -1 23203 0
+D2
+~
+~
+0 -1 23201 0
+S
+#23203
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 12 1 0 0 0 16992
+D0
+~
+~
+0 -1 23234 0
+D1
+~
+~
+0 -1 23219 0
+D2
+~
+~
+0 -1 23202 0
+D3
+~
+~
+0 -1 23204 0
+S
+#23204
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 12 1 0 0 0 16992
+D1
+~
+~
+0 -1 23203 0
+D3
+~
+~
+0 -1 23205 0
+S
+#23205
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 12 1 0 0 0 16992
+D1
+~
+~
+0 -1 23204 0
+D7
+~
+~
+0 -1 23206 0
+S
+#23206
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 12 1 0 0 0 16992
+D7
+~
+~
+0 -1 23207 0
+D8
+~
+~
+0 -1 23205 0
+S
+#23207
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23208 0
+D8
+~
+~
+0 -1 23206 0
+R M 0 23104 19 23207
+S
+#23208
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23209 0
+D2
+~
+~
+0 -1 23207 0
+R M 0 23103 43 23208
+S
+#23209
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23210 0
+D2
+~
+~
+0 -1 23208 0
+S
+#23210
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23211 0
+D1
+~
+~
+0 -1 23212 0
+D2
+~
+~
+0 -1 23209 0
+D3
+~
+~
+0 -1 23218 0
+R M 0 23104 19 23210
+S
+#23211
+&WComputer Console Room&W~
+A large computer terminal is here encompasses by solid walls...some
+componets are sparking due to lack of maintanance but it seems
+in somewhat operatble condition.a large terminal sits in the
+north wall with a large screen above it.
+&Y(OOC: Spell out the keyword)&W
+~
+0 8 1 0 0 0 16992
+D2
+~
+~
+0 -1 23210 0
+R O 0 23110 1 23211
+S
+#23212
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23213 0
+D3
+~
+~
+0 -1 23210 0
+R M 0 23103 43 23212
+S
+#23213
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23214 0
+D2
+~
+~
+0 -1 23212 0
+S
+#23214
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D2
+~
+~
+0 -1 23213 0
+D3
+~
+~
+0 -1 23215 0
+S
+#23215
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D1
+~
+~
+0 -1 23214 0
+D3
+~
+~
+0 -1 23216 0
+R M 0 23103 43 23215
+S
+#23216
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D1
+~
+~
+0 -1 23215 0
+D2
+~
+~
+0 -1 23217 0
+R M 0 23103 43 23216
+S
+#23217
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23216 0
+D2
+~
+~
+0 -1 23218 0
+S
+#23218
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23217 0
+D1
+~
+~
+0 -1 23210 0
+S
+#23219
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 8 1 0 0 0 16992
+D1
+~
+~
+0 -1 23220 0
+D3
+~
+~
+0 -1 23203 0
+R M 0 23103 43 23219
+S
+#23220
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 8 1 0 0 0 16992
+D3
+~
+~
+0 -1 23219 0
+D6
+~
+~
+0 -1 23221 0
+R M 0 23103 43 23220
+S
+#23221
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 8 1 0 0 0 16992
+D6
+~
+~
+0 -1 23222 0
+D9
+~
+~
+0 -1 23220 0
+S
+#23222
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23223 0
+D9
+~
+~
+0 -1 23221 0
+S
+#23223
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23224 0
+D2
+~
+~
+0 -1 23222 0
+R M 0 23104 19 23223
+S
+#23224
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23225 0
+D2
+~
+~
+0 -1 23223 0
+S
+#23225
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23226 0
+D1
+~
+~
+0 -1 23227 0
+D2
+~
+~
+0 -1 23224 0
+D3
+~
+~
+0 -1 23233 0
+R M 0 23103 43 23225
+R M 0 23103 43 23225
+S
+#23226
+&WComputer Console Room&W~
+A large computer terminal is here encompasses by solid walls...some
+componets are sparking due to lack of maintanance but it seems
+in somewhat operatble condition.a large terminal sits in the
+north wall with a large screen above it.
+&Y(OOC: Spell out the keyword)&W
+~
+0 8 1 0 0 0 16992
+D2
+~
+~
+0 -1 23225 0
+R M 0 23103 43 23226
+R O 0 23111 1 23226
+S
+#23227
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23228 0
+D3
+~
+~
+0 -1 23225 0
+S
+#23228
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23229 0
+D2
+~
+~
+0 -1 23227 0
+R M 0 23104 19 23228
+S
+#23229
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D2
+~
+~
+0 -1 23228 0
+D3
+~
+~
+0 -1 23230 0
+R M 0 23103 43 23229
+S
+#23230
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D1
+~
+~
+0 -1 23229 0
+D3
+~
+~
+0 -1 23231 0
+R M 0 23103 43 23230
+S
+#23231
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D1
+~
+~
+0 -1 23230 0
+D2
+~
+~
+0 -1 23232 0
+S
+#23232
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23231 0
+D2
+~
+~
+0 -1 23233 0
+S
+#23233
+&zLarge Circular Shaped Room&W~
+the circular room surround a small center room. high up on the
+walls are red gems imbued into them, light eminates from these
+strange gems.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23232 0
+D1
+~
+~
+0 -1 23225 0
+R M 0 23104 19 23233
+R M 0 23104 19 23233
+S
+#23234
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23235 0
+D2
+~
+~
+0 -1 23203 0
+R M 0 23104 19 23234
+R M 0 23103 43 23234
+S
+#23235
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23236 0
+D2
+~
+~
+0 -1 23234 0
+R M 0 23103 43 23235
+R M 0 23103 43 23235
+S
+#23236
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23237 0
+D2
+~
+~
+0 -1 23235 0
+R M 0 23104 19 23236
+S
+#23237
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23238 0
+D2
+~
+~
+0 -1 23236 0
+R M 0 23103 43 23237
+R M 0 23103 43 23237
+R M 0 23104 19 23237
+R M 0 23104 19 23237
+S
+#23238
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23240 0
+D2
+~
+~
+0 -1 23237 0
+R M 0 23103 43 23238
+S
+#23239
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23240 0
+D2
+~
+~
+0 -1 23238 0
+S
+#23240
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 12 1 0 0 0 16992
+D2
+~
+~
+0 -1 23239 0
+S
+#23241
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 12 1 0 0 0 16992
+D2
+~
+~
+0 -1 23240 0
+S
+#23242
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 12 1 0 0 0 16992
+D0
+~
+~
+0 -1 23243 0
+D2
+~
+~
+0 -1 23241 0
+S
+#23243
+&zLarge Corridor&W~
+large circular white panels sit in the walls each with several
+red light panels dimly lighting up the tomb. shadows dart about
+the area and vanishing.
+~
+0 12 1 0 0 0 16992
+D0
+~
+~
+0 -1 23244 0
+D2
+~
+~
+0 -1 23242 0
+S
+#23244
+&zLarge Hall&W~
+The room is lit with a dim red glow from large red gems imbued
+high into the walls. in the middle of the room is a large pool
+with erie red water. Large pillars surround the pool with rippled
+surfaces.
+~
+0 12 1 0 0 0 16992
+D1
+~
+~
+0 -1 23254 0
+D2
+~
+~
+0 -1 23243 0
+D3
+~
+~
+0 -1 23245 0
+R M 0 23108 1 23244
+S
+#23245
+&zLarge Hall&W~
+The room is lit with a dim red glow from large red gems imbued
+high into the walls. in the middle of the room is a large pool
+with erie red water. Large pillars surround the pool with rippled
+surfaces.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23246 0
+D1
+~
+~
+0 -1 23244 0
+R M 0 23104 19 23245
+R M 0 23107 5 23245
+S
+#23246
+&zLarge Hall&W~
+The room is lit with a dim red glow from large red gems imbued
+high into the walls. in the middle of the room is a large pool
+with erie red water. Large pillars surround the pool with rippled
+surfaces.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23247 0
+D2
+~
+~
+0 -1 23245 0
+S
+#23247
+&zLarge Hall&W~
+The room is lit with a dim red glow from large red gems imbued
+high into the walls. in the middle of the room is a large pool
+with erie red water. Large pillars surround the pool with rippled
+surfaces.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23248 0
+D2
+~
+~
+0 -1 23246 0
+R M 0 23107 5 23247
+S
+#23248
+&zLarge Hall&W~
+The room is lit with a dim red glow from large red gems imbued
+high into the walls. in the middle of the room is a large pool
+with erie red water. Large pillars surround the pool with rippled
+surfaces.
+~
+0 8 1 0 0 0 16992
+D1
+~
+~
+0 -1 23249 0
+D2
+~
+~
+0 -1 23247 0
+S
+#23249
+&zLarge Hall&W~
+The room is lit with a dim red glow from large red gems imbued
+high into the walls. in the middle of the room is a large pool
+with erie red water. Large pillars surround the pool with rippled
+surfaces.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23250 0
+D1
+~
+~
+0 -1 23251 0
+D3
+~
+~
+0 -1 23248 0
+S
+#23250
+&zTomb of Freedon Nadd&W~
+A large coffin like structure sits here and embed in the front
+is the name of Freedon Nadd.  large elegant designs surround
+the coffin and some are distorted from time.
+~
+0 12 1 0 0 0 16992
+D2
+~
+~
+0 -1 23249 0
+R O 0 23114 1 23250
+  R P 0 23115 2 23114
+  R P 0 23109 1 23114
+S
+#23251
+&zLarge Hall&W~
+The room is lit with a dim red glow from large red gems imbued
+high into the walls. in the middle of the room is a large pool
+with erie red water. Large pillars surround the pool with rippled
+surfaces.
+~
+0 8 1 0 0 0 16992
+D2
+~
+~
+0 -1 23252 0
+D3
+~
+~
+0 -1 23249 0
+S
+#23252
+&zLarge Hall&W~
+The room is lit with a dim red glow from large red gems imbued
+high into the walls. in the middle of the room is a large pool
+with erie red water. Large pillars surround the pool with rippled
+surfaces.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23251 0
+D2
+~
+~
+0 -1 23253 0
+R M 0 23107 5 23252
+S
+#23253
+&zLarge Hall&W~
+The room is lit with a dim red glow from large red gems imbued
+high into the walls. in the middle of the room is a large pool
+with erie red water. Large pillars surround the pool with rippled
+surfaces.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23252 0
+D2
+~
+~
+0 -1 23254 0
+S
+#23254
+&zLarge Hall&W~
+The room is lit with a dim red glow from large red gems imbued
+high into the walls. in the middle of the room is a large pool
+with erie red water. Large pillars surround the pool with rippled
+surfaces.
+~
+0 8 1 0 0 0 16992
+D0
+~
+~
+0 -1 23253 0
+D3
+~
+~
+0 -1 23244 0
+R M 0 23107 5 23254
+S
+#23255
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D3
+~
+~
+0 -1 23178 0
+D8
+~
+~
+0 -1 23256 0
+S
+#23256
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23273 0
+D1
+~
+~
+0 -1 23269 0
+D2
+~
+~
+0 -1 23257 0
+D3
+~
+~
+0 -1 23272 0
+D6
+~
+~
+0 -1 23269 0
+D7
+~
+~
+0 -1 23255 0
+D8
+~
+~
+0 -1 23269 0
+D9
+~
+~
+0 -1 23275 0
+S
+#23257
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23256 0
+D1
+~
+~
+0 -1 23267 0
+D2
+~
+~
+0 -1 23258 0
+D3
+~
+~
+0 -1 23272 0
+D6
+~
+~
+0 -1 23272 0
+D7
+~
+~
+0 -1 23275 0
+D8
+~
+~
+0 -1 23270 0
+D9
+~
+~
+0 -1 23270 0
+S
+#23258
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23257 0
+D1
+~
+~
+0 -1 23259 0
+D2
+~
+~
+0 -1 23272 0
+D3
+~
+~
+0 -1 23273 0
+D6
+~
+~
+0 -1 23267 0
+D7
+~
+~
+0 -1 23275 0
+D8
+~
+~
+0 -1 23268 0
+D9
+~
+~
+0 -1 23272 0
+S
+#23259
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23261 0
+D1
+~
+~
+0 -1 23264 0
+D2
+~
+~
+0 -1 23261 0
+D3
+~
+~
+0 -1 23258 0
+D6
+~
+~
+0 -1 23265 0
+D7
+~
+~
+0 -1 23264 0
+D8
+~
+~
+0 -1 23260 0
+D9
+~
+~
+0 -1 23265 0
+S
+#23260
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23261 0
+D1
+~
+~
+0 -1 23264 0
+D2
+~
+~
+0 -1 23261 0
+D3
+~
+~
+0 -1 23262 0
+D6
+~
+~
+0 -1 23265 0
+D7
+~
+~
+0 -1 23259 0
+D8
+~
+~
+0 -1 23264 0
+D9
+~
+~
+0 -1 23263 0
+S
+#23261
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23262 0
+D1
+~
+~
+0 -1 23275 0
+D2
+~
+~
+0 -1 23260 0
+D3
+~
+~
+0 -1 23274 0
+D6
+~
+~
+0 -1 23261 0
+D7
+~
+~
+0 -1 23272 0
+D8
+~
+~
+0 -1 23262 0
+D9
+~
+~
+0 -1 23263 0
+S
+#23262
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23263 0
+D1
+~
+~
+0 -1 23275 0
+D2
+~
+~
+0 -1 23269 0
+D3
+~
+~
+0 -1 23272 0
+D6
+~
+~
+0 -1 23274 0
+D7
+~
+~
+0 -1 23261 0
+D8
+~
+~
+0 -1 23271 0
+D9
+~
+~
+0 -1 23271 0
+S
+#23263
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23265 0
+D1
+~
+~
+0 -1 23264 0
+D2
+~
+~
+0 -1 23262 0
+D3
+~
+~
+0 -1 23259 0
+D6
+~
+~
+0 -1 23270 0
+D7
+~
+~
+0 -1 23270 0
+D8
+~
+~
+0 -1 23269 0
+D9
+~
+~
+0 -1 23270 0
+S
+#23264
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23261 0
+D1
+~
+~
+0 -1 23272 0
+D2
+~
+~
+0 -1 23269 0
+D3
+~
+~
+0 -1 23263 0
+D6
+~
+~
+0 -1 23265 0
+D7
+~
+~
+0 -1 23270 0
+D8
+~
+~
+0 -1 23261 0
+D9
+~
+~
+0 -1 23260 0
+S
+#23265
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23272 0
+D1
+~
+~
+0 -1 23272 0
+D2
+~
+~
+0 -1 23259 0
+D3
+~
+~
+0 -1 23269 0
+D6
+~
+~
+0 -1 23274 0
+D7
+~
+~
+0 -1 23271 0
+D8
+~
+~
+0 -1 23266 0
+D9
+~
+~
+0 -1 23264 0
+S
+#23266
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23275 0
+D1
+~
+~
+0 -1 23268 0
+D2
+~
+~
+0 -1 23267 0
+D3
+~
+~
+0 -1 23264 0
+D6
+~
+~
+0 -1 23272 0
+D7
+~
+~
+0 -1 23265 0
+D8
+~
+~
+0 -1 23264 0
+D9
+~
+~
+0 -1 23262 0
+S
+#23267
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23266 0
+D1
+~
+~
+0 -1 23273 0
+D2
+~
+~
+0 -1 23268 0
+D3
+~
+~
+0 -1 23272 0
+D6
+~
+~
+0 -1 23271 0
+D7
+~
+~
+0 -1 23270 0
+D8
+~
+~
+0 -1 23268 0
+D9
+~
+~
+0 -1 23270 0
+S
+#23268
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23267 0
+D1
+~
+~
+0 -1 23262 0
+D2
+~
+~
+0 -1 23261 0
+D3
+~
+~
+0 -1 23269 0
+D6
+~
+~
+0 -1 23269 0
+D7
+~
+~
+0 -1 23272 0
+D8
+~
+~
+0 -1 23272 0
+D9
+~
+~
+0 -1 23270 0
+S
+#23269
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23262 0
+D1
+~
+~
+0 -1 23268 0
+D2
+~
+~
+0 -1 23270 0
+D3
+~
+~
+0 -1 23271 0
+D6
+~
+~
+0 -1 23271 0
+D7
+~
+~
+0 -1 23273 0
+D8
+~
+~
+0 -1 23270 0
+D9
+~
+~
+0 -1 23268 0
+S
+#23270
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23269 0
+D1
+~
+~
+0 -1 23274 0
+D2
+~
+~
+0 -1 23271 0
+D3
+~
+~
+0 -1 23265 0
+D6
+~
+~
+0 -1 23270 0
+D7
+~
+~
+0 -1 23269 0
+D8
+~
+~
+0 -1 23264 0
+D9
+~
+~
+0 -1 23270 0
+S
+#23271
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23270 0
+D1
+~
+~
+0 -1 23272 0
+D2
+~
+~
+0 -1 23271 0
+D3
+~
+~
+0 -1 23272 0
+D6
+~
+~
+0 -1 23263 0
+D7
+~
+~
+0 -1 23274 0
+D8
+~
+~
+0 -1 23268 0
+D9
+~
+~
+0 -1 23268 0
+S
+#23272
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23268 0
+D1
+~
+~
+0 -1 23262 0
+D2
+~
+~
+0 -1 23272 0
+D3
+~
+~
+0 -1 23271 0
+D6
+~
+~
+0 -1 23273 0
+D7
+~
+~
+0 -1 23264 0
+D8
+~
+~
+0 -1 23275 0
+D9
+~
+~
+0 -1 23260 0
+S
+#23273
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23260 0
+D1
+~
+~
+0 -1 23269 0
+D2
+~
+~
+0 -1 23272 0
+D3
+~
+~
+0 -1 23272 0
+D6
+~
+~
+0 -1 23274 0
+D7
+~
+~
+0 -1 23269 0
+D8
+~
+~
+0 -1 23269 0
+D9
+~
+~
+0 -1 23272 0
+S
+#23274
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23269 0
+D1
+~
+~
+0 -1 23272 0
+D2
+~
+~
+0 -1 23267 0
+D3
+~
+~
+0 -1 23270 0
+D6
+~
+~
+0 -1 23275 0
+D7
+~
+~
+0 -1 23265 0
+D8
+~
+~
+0 -1 23269 0
+D9
+~
+~
+0 -1 23273 0
+S
+#23275
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D0
+~
+~
+0 -1 23276 0
+D1
+~
+~
+0 -1 23273 0
+D2
+~
+~
+0 -1 23268 0
+D3
+~
+~
+0 -1 23274 0
+D6
+~
+~
+0 -1 23264 0
+D7
+~
+~
+0 -1 23270 0
+D8
+~
+~
+0 -1 23262 0
+D9
+~
+~
+0 -1 23274 0
+S
+#23276
+&gCave Tunnel&W~
+the cave itself seems to be a maze. where it appears to be lined
+with tunnels making it near impossible to properly navigate
+and some sort of interferance prevents outside communication
+The rock is rippled in texture as strange creatures not aggrivated
+by your presence move about.
+~
+0 65548 1 0 0 0 16992
+D2
+~
+~
+0 -1 23275 0
+D6
+~
+~
+0 -1 23277 0
+S
+#23277
+&zCave Opening&W~
+The opening is wide enough for several people to fit into. the
+corse stone weakened from time but still seems to be in good
+shape.The sounds of animals can be heard deep in the caves and
+shadows seem to move all about.
+~
+0 0 1 0 0 0 16992
+D1
+~
+~
+0 -1 23147 0
+D9
+~
+~
+0 -1 23276 0
+S
+#23278
+Hidden Landing Bay~
+~
+0 4 1 0 0 0 16992
+D1
+~
+~
+0 -1 23279 0
+D2
+~
+~
+0 -1 23281 0
+D3
+~
+~
+0 -1 23283 0
+D8
+~
+~
+0 -1 23280 0
+D9
+~
+~
+0 -1 23282 0
+S
+#23279
+Hidden Landing Bay~
+~
+0 4 1 0 0 0 16992
+D2
+~
+~
+0 -1 23280 0
+D3
+~
+~
+0 -1 23278 0
+S
+#23280
+Hidden Landing Bay~
+~
+0 4 1 0 0 0 16992
+D0
+~
+~
+0 -1 23279 0
+D3
+~
+~
+0 -1 23281 0
+D7
+~
+~
+0 -1 23278 0
+S
+#23281
+Hidden Landing Bay~
+~
+0 4 1 0 0 0 16992
+D0
+~
+~
+0 -1 23278 0
+D1
+~
+~
+0 -1 23280 0
+D2
+~
+~
+0 -1 23284 0
+D3
+~
+~
+0 -1 23282 0
+S
+#23282
+Hidden Landing Bay~
+~
+0 4 1 0 0 0 16992
+D0
+~
+~
+0 -1 23283 0
+D1
+~
+~
+0 -1 23281 0
+D6
+~
+~
+0 -1 23278 0
+S
+#23283
+Hidden Landing Bay~
+~
+0 4 1 0 0 0 16992
+D1
+~
+~
+0 -1 23278 0
+D2
+~
+~
+0 -1 23282 0
+S
+#23284
+&zDark Corridor&W~
+~
+0 4 1 0 0 0 16992
+D0
+~
+~
+0 -1 23281 0
+D2
+~
+~
+0 -1 23286 0
+D3
+~
+~
+0 -1 23285 0
+S
+#23285
+&zTurbolift&W~
+~
+0 4 1 0 0 0 16992
+D1
+~
+~
+0 -1 23284 0
+S
+#23286
+&zDark Corridor&W~
+~
+0 4 1 0 0 0 16992
+D0
+~
+~
+0 -1 23284 0
+D2
+~
+~
+0 -1 23287 0
+S
+#23287
+&zDark Corridor&W~
+~
+0 4 1 0 0 0 16992
+D0
+~
+~
+0 -1 23286 0
+D3
+~
+~
+0 -1 23288 0
+S
+#23288
+&zMain Barracks&W~
+~
+0 4 1 0 0 0 16992
+D1
+~
+~
+0 -1 23287 0
+D2
+~
+~
+0 -1 23289 0
+S
+#23289
+&zMain Barracks&W~
+~
+0 4 1 0 0 0 16992
+D0
+~
+~
+0 -1 23288 0
+D1
+~
+~
+0 -1 23290 0
+D2
+~
+~
+0 -1 23292 0
+D3
+~
+~
+0 -1 23294 0
+D8
+~
+~
+0 -1 23291 0
+D9
+~
+~
+0 -1 23293 0
+S
+#23290
+&zBarracks Dormitory&W~
+~
+0 4 1 0 0 0 16992
+D3
+~
+~
+0 -1 23289 0
+S
+#23291
+&zBarracks Dormitory&W~
+~
+0 4 1 0 0 0 16992
+D7
+~
+~
+0 -1 23289 0
+S
+#23292
+&zBarracks Dormitory&W~
+~
+0 4 1 0 0 0 16992
+D0
+~
+~
+0 -1 23289 0
+S
+#23293
+&zBarracks Dormitory&W~
+~
+0 4 1 0 0 0 16992
+D6
+~
+~
+0 -1 23289 0
+S
+#23294
+&zBarracks Dormitory&W~
+~
+0 4 1 0 0 0 16992
+D1
+~
+~
+0 -1 23289 0
+S
+#23295
+&zLarge Corridor&W~
+~
+0 4 1 0 0 0 16992
+D0
+~
+~
+0 -1 23302 0
+D1
+~
+~
+0 -1 23308 0
+D2
+~
+~
+0 -1 23296 0
+D3
+~
+~
+0 -1 23285 0
+S
+#23296
+&zLarge Corridor&W~
+~
+0 4 1 0 0 0 16992
+D0
+~
+~
+0 -1 23295 0
+D1
+~
+~
+0 -1 23301 0
+D2
+~
+~
+0 -1 23297 0
+D3
+~
+~
+0 -1 23300 0
+S
+#23297
+&zLarge Corridor&W~
+~
+0 4 1 0 0 0 16992
+D0
+~
+~
+0 -1 23296 0
+D1
+~
+~
+0 -1 23299 0
+D3
+~
+~
+0 -1 23298 0
+S
+#23298
+&zSmall Office&W~
+~
+0 4 1 0 0 0 16992
+D1
+~
+~
+0 -1 23297 0
+S
+#23299
+&zSmall Office&W~
+~
+0 4 1 0 0 0 16992
+D3
+~
+~
+0 -1 23297 0
+S
+#23300
+&zSmall Office&W~
+~
+0 4 1 0 0 0 16992
+D1
+~
+~
+0 -1 23296 0
+S
+#23301
+&zSmall Office&W~
+~
+0 1073741824 1 0 0 0 16992
+D3
+~
+~
+0 -1 23296 0
+S
+#23302
+&zLarge Corridor&W~
+~
+0 4 1 0 0 0 16992
+D0
+~
+~
+0 -1 23303 0
+D1
+~
+~
+0 -1 23307 0
+D2
+~
+~
+0 -1 23295 0
+D3
+~
+~
+0 -1 23306 0
+S
+#23303
+&zLarge Corridor&W~
+~
+0 1073741824 1 0 0 0 16992
+D1
+~
+~
+0 -1 23305 0
+D2
+~
+~
+0 -1 23302 0
+D3
+~
+~
+0 -1 23304 0
+S
+#23304
+&zSmall Office&W~
+~
+0 1073741824 1 0 0 0 16992
+D1
+~
+~
+0 -1 23303 0
+S
+#23305
+&zSmall Office&W~
+~
+0 1073741824 1 0 0 0 16992
+D3
+~
+~
+0 -1 23303 0
+S
+#23306
+&zSmall Office&W~
+~
+0 1073741824 1 0 0 0 16992
+D1
+~
+~
+0 -1 23302 0
+S
+#23307
+&zSmall Office&W~
+~
+0 1073741824 1 0 0 0 16992
+D3
+~
+~
+0 -1 23302 0
+S
+#23308
+&zSmall Office&W~
+~
+0 1073741824 1 0 0 0 16992
+D3
+~
+~
+0 -1 23295 0
+S
+#23309
+Hidden Landing Bay~
+The large bay is open at the north end with large blast doors
+that can close to close off the bay. The landing bay is large
+enough to accomendate lots of fighters and  medium ships. Large
+droids move about refueling and resupplying ships. Small "mouse"
+droids move about cleaning the area.
+~
+0 1082130488 1 -2147482556 0 0 16992
+D1
+~
+~
+0 -1 23310 0
+D2
+~
+~
+0 -1 23312 0
+D3
+~
+~
+0 -1 23314 0
+D8
+~
+~
+0 -1 23311 0
+D9
+~
+~
+0 -1 23313 0
+S
+#23310
+Hidden Landing Bay~
+The large bay is open at the north end with large blast doors
+that can close to close off the bay. The landing bay is large
+enough to accomendate lots of fighters and  medium ships. Large
+droids move about refueling and resupplying ships. Small "mouse"
+droids move about cleaning the area.
+~
+0 1073741832 1 0 0 0 16992
+D2
+~
+~
+0 -1 23311 0
+D3
+~
+~
+0 -1 23309 0
+R M 0 23110 25 23310
+S
+#23311
+Hidden Landing Bay~
+The large bay is open at the north end with large blast doors
+that can close to close off the bay. The landing bay is large
+enough to accomendate lots of fighters and  medium ships. Large
+droids move about refueling and resupplying ships. Small "mouse"
+droids move about cleaning the area.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23310 0
+D3
+~
+~
+0 -1 23312 0
+D7
+~
+~
+0 -1 23309 0
+S
+#23312
+Hidden Landing Bay~
+The large bay is open at the north end with large blast doors
+that can close to close off the bay. The landing bay is large
+enough to accomendate lots of fighters and  medium ships. Large
+droids move about refueling and resupplying ships. Small "mouse"
+droids move about cleaning the area.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23309 0
+D1
+~
+~
+0 -1 23311 0
+D2
+~
+~
+0 -1 23315 0
+D3
+~
+~
+0 -1 23313 0
+R M 0 23110 25 23312
+S
+#23313
+Hidden Landing Bay~
+The large bay is open at the north end with large blast doors
+that can close to close off the bay. The landing bay is large
+enough to accomendate lots of fighters and  medium ships. Large
+droids move about refueling and resupplying ships. Small "mouse"
+droids move about cleaning the area.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23314 0
+D1
+~
+~
+0 -1 23312 0
+D6
+~
+~
+0 -1 23309 0
+S
+#23314
+Hidden Landing Bay~
+The large bay is open at the north end with large blast doors
+that can close to close off the bay. The landing bay is large
+enough to accomendate lots of fighters and  medium ships. Large
+droids move about refueling and resupplying ships. Small "mouse"
+droids move about cleaning the area.
+~
+0 1073741832 1 0 0 0 16992
+D1
+~
+~
+0 -1 23309 0
+D2
+~
+~
+0 -1 23313 0
+R M 0 23110 25 23314
+S
+#23315
+&zDark Corridor&W~
+The dark corridor is dimly lit by the hunter's guild insignia
+shaped light panels on both sides of the wall. The corridor
+is made from blackened durasteel and has several unuseable weapons
+sitting on small display racks on the walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23312 0
+D2
+~
+~
+0 -1 23316 0
+S
+#23316
+&zDark Corridor&W~
+The dark corridor is dimly lit by the hunter's guild insignia
+shaped light panels on both sides of the wall. The corridor
+is made from blackened durasteel and has several unuseable weapons
+sitting on small display racks on the walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23315 0
+D2
+~
+~
+0 -1 23317 0
+S
+#23317
+&zDark Corridor&W~
+The dark corridor is dimly lit by the hunter's guild insignia
+shaped light panels on both sides of the wall. The corridor
+is made from blackened durasteel and has several unuseable weapons
+sitting on small display racks on the walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23316 0
+D2
+~
+~
+0 -1 23318 0
+D3
+~
+~
+0 -1 23322 0
+S
+#23318
+&CMedical Entrance&W~
+A large console sits here monitoring the bacta tank and it's
+occupants. Small bio beds sit along the walls some with wounded
+people of all kinds of races. A small staff of doctors and nurses
+rush about tending to the wounded.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23317 0
+D2
+~
+~
+0 -1 23319 0
+D3
+~
+~
+0 -1 23321 0
+S
+#23319
+&CMedical Corridor&W~
+A large console sits here monitoring the bacta tank and it's
+occupants. Small bio beds sit along the walls some with wounded
+people of all kinds of races. A small staff of doctors and nurses
+rush about tending to the wounded.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23318 0
+D3
+~
+~
+0 -1 23320 0
+S
+#23320
+&BKolto Tank&W~
+The large tank is filled with Kolto a slightly better form of
+bacta. it slightly tingles the skin as people float inside it.Cords
+also sit in the tank allowing the patient to be completly be
+submerged and still able to breathe.
+~
+0 1073741832 1 0 0 0 16992
+D1
+~
+~
+0 -1 23319 0
+> rand_prog 100~
+mpechoat $n the kolto heals some of your wounds..and heals you 50 points.
+mprestore $n 50
+~
+|
+S
+#23321
+&BKolto Tank&W~
+The large tank is filled with Kolto a slightly better form of
+bacta. it slightly tingles the skin as people float inside it.
+Cords also sit in the tank allowing the patient to be completly
+be submerged and still able to breathe.
+~
+0 1073741832 1 0 0 0 16992
+D1
+~
+~
+0 -1 23318 0
+> rand_prog 100~
+mpechoat $n the kolto heals some of your wounds..and heals you 100 points.
+mprestore $n 100
+~
+|
+S
+#23322
+&zTurbolift&W~
+The turbolift is blacked durasteel a small guardrail is mounted
+on the wall of the turbolift about waist high. It is lit only
+by a couple small light panels in the ceiling. The lift has
+enough room for several people.  A small list reads as follows:
+
+&Y|| &W------------------------------------------------&Y||
+&Y|| &CSection Name            &Y|| &CFloor number &Y||      &Y||&W
+&Y|| &bMain Entrance           &Y||      &c1       &Y||      &Y||&W
+&Y|| &bMedical Bay             &Y||      &c0       &Y||      &Y||&W
+&Y|| &bHangar Bay              &Y||      &c0       &Y||      &Y||&W
+&Y|| &bDining Hall             &Y||      &c-1      &Y||      &Y||&W
+&Y|| &bBarracks                &Y||      &c-1      &Y||      &Y||&W
+&Y|| &bTraining Supplies       &Y||      &c-2      &Y||      &Y||&W
+&Y|| &bGeneral Supplies        &Y||      &c-2      &Y||      &Y||&W
+&Y|| &bRanged Weapon Training  &Y||      &c-2      &Y||      &Y||&W
+&Y|| &bGrenade Training        &Y||      &c-2      &Y||      &Y||&W
+&Y|| &bHunter's Strip          &Y||      &c-3      &Y||      &Y||&W
+&Y|| &bExcution Chamber        &Y||      &c-4      &Y||      &Y||&W
+&Y|| &bMeeting Atrium          &Y||      &c-4      &Y||      &Y||&W
+&Y|| &bDetention block         &Y||      &c-5      &Y||      &Y||&W
+&Y|| &W------------------------------------------------&Y||
+~
+0 1073741836 1 0 0 0 16992
+> speech_prog p -1~
+mpecho the turbolift begins to move.
+mpsleep 10
+mpecho the lift slows to a stop and the doors open.
+mptransfer $n 23323
+~
+> speech_prog p 0~
+mpecho the turbolift begins to move.
+mpsleep 10
+mpecho the lift slows to a stop and the doors open.
+mptransfer $n 23317
+~
+> speech_prog p -2~
+mpecho the turbolift begins to move.
+mpsleep 10
+mpecho the lift slows to a stop and the doors open.
+mptransfer $n 23341
+~
+> speech_prog p -3~
+mpecho the turbolift begins to move.
+mpsleep 10
+mpecho the lift slows to a stop and the doors open.
+mptransfer $n 23356
+~
+> speech_prog p -4~
+mpecho the turbolift begins to move.
+mpsleep 10
+mpecho the lift slows to a stop and the doors open.
+mptransfer $n 23378
+~
+> speech_prog p -5~
+mpecho the turbolift begins to move.
+mpsleep 10
+mpecho the lift slows to a stop and the doors open.
+mptransfer $n 23386
+~
+> speech_prog p 1~
+mpecho the turbolift begins to move.
+mpsleep 10
+mpecho the lift slows to a stop and the doors open.
+mptransfer $n 23408
+~
+|
+S
+#23323
+&zSubLevel 1 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23333 0
+D2
+~
+~
+0 -1 23324 0
+D3
+~
+~
+0 -1 23322 0
+S
+#23324
+&BBarracks Entrance&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.To the south are a pair of doors leading off
+into the barracks.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23323 0
+D2
+~
+~
+0 -1 23325 0
+S
+#23325
+&BBarracks Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23324 0
+D1
+~
+~
+0 -1 23326 0
+R M 0 23110 25 23325
+S
+#23326
+&BBarracks Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D1
+~
+~
+0 -1 23327 0
+D3
+~
+~
+0 -1 23325 0
+S
+#23327
+&BBarracks Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D1
+~
+~
+0 -1 23328 0
+D2
+~
+~
+0 -1 23332 0
+D3
+~
+~
+0 -1 23326 0
+R M 0 23110 25 23327
+R M 0 23110 25 23327
+R M 0 23110 25 23327
+S
+#23328
+&BBarracks Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23329 0
+D2
+~
+~
+0 -1 23330 0
+D3
+~
+~
+0 -1 23327 0
+S
+#23329
+&CBarracks Dormitory&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D2
+~
+~
+0 -1 23328 0
+S
+#23330
+&CBarracks Dormitory&W~
+The room has a couple bunk beds on both walls. At the foot of
+each bunk is two footlockers for people put items into to protect
+them. a large hunter's guild insignia sits in the far wall giving
+the room it's light.
+~
+0 1082130440 1 0 0 0 16992
+D0
+~
+~
+0 -1 23328 0
+S
+#23331
+&CBarracks Dormitory&W~
+The room has a couple bunk beds on both walls. At the foot of
+each bunk is two footlockers for people put items into to protect
+them. a large hunter's guild insignia sits in the far wall giving
+the room it's light.
+~
+0 1073742348 1 0 0 0 16992
+S
+#23332
+&CBarracks Dormitory&W~
+The room has a couple bunk beds on both walls. At the foot of
+each bunk is two footlockers for people put items into to protect
+them. a large hunter's guild insignia sits in the far wall giving
+the room it's light.
+~
+0 1082130440 1 0 0 0 16992
+D0
+~
+~
+0 -1 23327 0
+S
+#23333
+&zSublevel 1 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23334 0
+D2
+~
+~
+0 -1 23323 0
+S
+#23334
+&zSublevel 1 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D2
+~
+~
+0 -1 23333 0
+D6
+~
+~
+0 -1 23335 0
+S
+#23335
+&zEntrance To Dining Hall&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls. To the north is a large durasteel blastdoor
+small lights sit above the door indicating the dining hall.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23336 0
+D9
+~
+~
+0 -1 23334 0
+S
+#23336
+&zGroup of Tables&W~
+Each of the tables in the room have several circles inside each
+other. The tables are surrounded by several chairs. several
+waitresses in skimpy outfits move abot serving customers.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23338 0
+D2
+~
+~
+0 -1 23335 0
+D6
+~
+~
+0 -1 23339 0
+D7
+~
+~
+0 -1 23337 0
+S
+#23337
+&zGroup of Tables&W~
+Each of the tables in the room have several circles inside each
+other. The tables are surrounded by several chairs. several
+waitresses in skimpy outfits move abot serving customers.
+~
+0 1073741832 1 0 0 0 16992
+D1
+~
+~
+0 -1 23338 0
+D8
+~
+~
+0 -1 23336 0
+S
+#23338
+&zCentral Cafeteria&W~
+A large circular pen sits in the middle of the room. on the inner
+wall shelves componets to prepare food and some alcoholic mixed
+drinks. large bottles sit on the couter of the pen. several
+workers are standing inside taking orders and sending them out.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23340 0
+D1
+~
+~
+0 -1 23339 0
+D2
+~
+~
+0 -1 23336 0
+D3
+~
+~
+0 -1 23337 0
+R M 0 23112 1 23338
+  R G 0 23118 1
+  R G 0 23119 1
+  R G 0 23120 1
+  R G 0 23121 1
+  R G 0 23125 1
+  R G 0 23124 1
+  R G 0 23123 1
+  R G 0 23122 1
+S
+#23339
+&zGroup of Tables&W~
+Each of the tables in the room have several circles inside each
+other. The tables are surrounded by several chairs. several
+waitresses in skimpy outfits move abot serving customers.
+~
+0 1073741832 1 0 0 0 16992
+D3
+~
+~
+0 -1 23338 0
+D9
+~
+~
+0 -1 23336 0
+S
+#23340
+&zGroup of Tables&W~
+Each of the tables in the room have several circles inside each
+other. The tables are surrounded by several chairs. several
+waitresses in skimpy outfits move abot serving customers.
+~
+0 1073741832 1 0 0 0 16992
+D2
+~
+~
+0 -1 23338 0
+S
+#23341
+&zSublevel 2 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23343 0
+D2
+~
+~
+0 -1 23342 0
+D3
+~
+~
+0 -1 23322 0
+S
+#23342
+&gGeneral Supplies&W~
+The small shop has a few items a hunter is always in need for.
+and each of them coming in a wide arrange of styles and colors
+to give each hunter their own flair. A small counter sits here
+and behind it a lone supply droid minds the supply depot.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23341 0
+R M 0 23116 1 23342
+  R G 0 23129 1
+  R G 0 23130 1
+  R G 0 23131 1
+S
+#23343
+&zSublevel 2 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D1
+~
+~
+0 -1 23345 0
+D2
+~
+~
+0 -1 23341 0
+D3
+~
+~
+0 -1 23344 0
+R M 0 23110 25 23343
+R M 0 23110 25 23343
+S
+#23344
+&gTraining Supplies&W~
+The walls are shelved with basic arms for training purposes.
+and several racks are lined with ammo cells. A large counter
+sits here and a tall supply droid stands behind it. On the counter
+are some low yield training grenades for training purposes.
+~
+0 1073758216 1 0 0 0 16992
+D1
+~
+~
+0 -1 23343 0
+S
+#23345
+&zTraining Hall Corridor&W~
+The corridor is long and narrow and to the southern side a 75
+meter firing range is set up. Farther up grenades can be heard
+going off. the entire corridor is lit up by long narrow vertical
+light panels in the wall 
+~
+0 1073741832 1 0 0 0 16992
+D1
+~
+~
+0 -1 23349 0
+D2
+~
+~
+0 -1 23346 0
+D3
+~
+~
+0 -1 23343 0
+S
+#23346
+&gFiring Position #1&W~
+A small narrow slit in the south is your only field of fire.and
+to the left of the slot is a small electronic display showing
+where you hit the holographic humanoid targets. a small table
+is set up nearby to handle ammo cells.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23345 0
+D2
+~
+~
+33556480 -1 23347 0
+S
+#23347
+&rFiring Range 50M~
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+33556480 -1 23346 0
+D2
+~
+~
+0 -1 23348 0
+R M 0 23114 3 23347
+S
+#23348
+&rFiring Range 75M~
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23347 0
+R M 0 23113 3 23348
+S
+#23349
+&zTraining Hall Corridor&W~
+The corridor is long and narrow and to the southern side a 75
+meter firing range is set up. Farther up grenades can be heard
+going off. the entire corridor is lit up by long narrow vertical
+light panels in the wall 
+~
+0 1073741832 1 0 0 0 16992
+D2
+~
+~
+0 -1 23350 0
+D3
+~
+~
+0 -1 23345 0
+D6
+~
+~
+0 -1 23353 0
+R M 0 23110 25 23349
+S
+#23350
+&gFiring Position #2&W~
+A small narrow slit in the south is your only field of fire.
+and to the left of the slot is a small electronic display showing
+where you hit the holographic humanoid targets. a small table
+is set up nearby to handle ammo cells.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23349 0
+D2
+~
+~
+33556480 -1 23351 0
+S
+#23351
+&rFiring Range 50M&W~
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+33556480 -1 23350 0
+D2
+~
+~
+0 -1 23352 0
+R M 0 23114 3 23351
+S
+#23352
+&rFiring Range 75M&W~
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23351 0
+R M 0 23113 3 23352
+S
+#23353
+&zTraining Hall Corridor&W~
+The corridor is long and narrow and to the southern side a 75
+meter firing range is set up. Farther up grenades can be heard
+going off. the entire corridor is lit up by long narrow vertical
+light panels in the wall 
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23354 0
+D9
+~
+~
+0 -1 23349 0
+S
+#23354
+&gGrenade Throwing Zone&W~
+This room is U shaped and to the north lies a large cavern and
+a few targets are set up. a small table is set up nearby for
+storage of non active grenades. a waist high wall protects the
+thrower moderatly from blasts.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+33556480 -1 23355 0
+D2
+~
+~
+0 -1 23353 0
+S
+#23355
+&r Grenade Throwing Range&W~
+~
+0 1073741832 1 0 0 0 16992
+D2
+~
+~
+33556480 -1 23354 0
+R M 0 23113 3 23355
+R M 0 23114 3 23355
+S
+#23356
+&BHunter's Moon Strip&W~
+The strip is brightly lit from light panels in the ceiling shaped
+in the hunter's guild insignia. Bounty hunters of all races
+are moving about here in search of supplies for their next hunt.
+A few potted plants sit about here.
+~
+0 1073741832 1 0 0 0 16992
+D1
+~
+~
+0 -1 23364 0
+D2
+~
+~
+0 -1 23357 0
+D3
+~
+~
+0 -1 23322 0
+D6
+~
+~
+0 -1 23363 0
+S
+#23357
+&BHunter's Moon Strip&W~
+The strip is brightly lit from light panels in the ceiling shaped
+in the hunter's guild insignia. Bounty hunters of all races
+are moving about here in search of supplies for their next hunt.A
+few potted plants sit about here.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23356 0
+D1
+~
+~
+0 -1 23365 0
+D3
+~
+~
+0 -1 23366 0
+D8
+~
+~
+0 -1 23358 0
+S
+#23358
+&BHunter's Moon Strip&W~
+The strip is brightly lit from light panels in the ceiling shaped
+in the hunter's guild insignia. Bounty hunters of all races
+are moving about here in search of supplies for their next hunt.A
+few potted plants sit about here.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23367 0
+D1
+~
+~
+0 -1 23359 0
+D2
+~
+~
+0 -1 23368 0
+D7
+~
+~
+0 -1 23357 0
+S
+#23359
+&BHunter's Moon Strip&W~
+The strip is brightly lit from light panels in the ceiling shaped
+in the hunter's guild insignia. Bounty hunters of all races
+are moving about here in search of supplies for their next hunt.A
+few potted plants sit about here.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23369 0
+D2
+~
+~
+0 -1 23370 0
+D3
+~
+~
+0 -1 23358 0
+D6
+~
+~
+0 -1 23360 0
+R M 0 23110 25 23359
+S
+#23360
+&BHunter's Moon Strip&W~
+The strip is brightly lit from light panels in the ceiling shaped
+in the hunter's guild insignia. Bounty hunters of all races
+are moving about here in search of supplies for their next hunt.A
+few potted plants sit about here.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23361 0
+D1
+~
+~
+0 -1 23371 0
+D3
+~
+~
+0 -1 23371 0
+D9
+~
+~
+0 -1 23359 0
+S
+#23361
+&BHunter's Moon Strip&W~
+The strip is brightly lit from light panels in the ceiling shaped
+in the hunter's guild insignia. Bounty hunters of all races
+are moving about here in search of supplies for their next hunt.A
+few potted plants sit about here.
+~
+0 1073741832 1 0 0 0 16992
+D1
+~
+~
+0 -1 23373 0
+D2
+~
+~
+0 -1 23360 0
+D3
+~
+~
+0 -1 23372 0
+D7
+~
+~
+0 -1 23362 0
+S
+#23362
+&BHunter's Moon Strip&W~
+The strip is brightly lit from light panels in the ceiling shaped
+in the hunter's guild insignia. Bounty hunters of all races
+are moving about here in search of supplies for their next hunt.A
+few potted plants sit about here.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23374 0
+D2
+~
+~
+0 -1 23375 0
+D3
+~
+~
+0 -1 23363 0
+D8
+~
+~
+0 -1 23361 0
+S
+#23363
+&BHunter's Moon Strip&W~
+The strip is brightly lit from light panels in the ceiling shaped
+in the hunter's guild insignia. Bounty hunters of all races
+are moving about here in search of supplies for their next hunt.A
+few potted plants sit about here.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23376 0
+D1
+~
+~
+0 -1 23362 0
+D2
+~
+~
+0 -1 23377 0
+D9
+~
+~
+0 -1 23356 0
+S
+#23364
+&RHG &bSupplies~
+~
+0 1073741836 1 3 0 0 16992
+D3
+~
+~
+0 -1 23356 0
+S
+#23365
+&zEmpty Shop&W~
+~
+0 1073741836 1 1 0 0 16992
+D3
+~
+~
+0 -1 23357 0
+S
+#23366
+&zEmpty Shop&W~
+~
+0 1073741836 1 1 0 0 16992
+D1
+~
+~
+0 -1 23357 0
+S
+#23367
+&zEmpty Shop&W~
+~
+0 1073741836 1 1 0 0 16992
+D2
+~
+~
+0 -1 23358 0
+S
+#23368
+&zEmpty Shop&W~
+~
+0 1073741836 1 1 0 0 16992
+D0
+~
+~
+0 -1 23358 0
+S
+#23369
+&zEmpty Shop&W~
+~
+0 1073741836 1 1 0 0 16992
+D2
+~
+~
+0 -1 23359 0
+S
+#23370
+&zEmpty Shop&W~
+~
+0 1073741836 1 1 0 0 16992
+D0
+~
+~
+0 -1 23359 0
+S
+#23371
+&zEmpty Shop&W~
+~
+0 1073741832 1 1 0 0 16992
+D1
+~
+~
+0 -1 23360 0
+D3
+~
+~
+0 -1 23360 0
+S
+#23372
+&zEmpty Shop&W~
+~
+0 1073741832 1 1 0 0 16992
+D1
+~
+~
+0 -1 23361 0
+S
+#23373
+&zEmpty Shop&W~
+~
+0 1073741832 1 1 0 0 16992
+D3
+~
+~
+0 -1 23361 0
+S
+#23374
+&zEmpty Shop&W~
+~
+0 1073741832 1 1 0 0 16992
+D2
+~
+~
+0 -1 23362 0
+S
+#23375
+&zEmpty Shop&W~
+~
+0 1073741832 1 1 0 0 16992
+D0
+~
+~
+0 -1 23362 0
+S
+#23376
+&zEmpty Shop&W~
+~
+0 1073741832 1 1 0 0 16992
+D2
+~
+~
+0 -1 23363 0
+S
+#23377
+&zEmpty Shop&W~
+~
+0 1073741832 1 1 0 0 16992
+D0
+~
+~
+0 -1 23363 0
+S
+#23378
+&zSublevel 4 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741836 1 0 0 0 16992
+D1
+~
+~
+0 -1 23385 0
+D3
+~
+~
+0 -1 23322 0
+D6
+~
+~
+0 -1 23379 0
+R M 0 23110 25 23378
+R M 0 23110 25 23378
+R M 0 23110 25 23378
+S
+#23379
+&zSublevel 4 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741836 1 0 0 0 16992
+D0
+~
+~
+0 -1 23380 0
+D9
+~
+~
+0 -1 23378 0
+R M 0 23110 25 23379
+R M 0 23110 25 23379
+S
+#23380
+&zSublevel 4 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23381 0
+D2
+~
+~
+0 -1 23379 0
+S
+#23381
+&zSublevel 4 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23383 0
+D1
+~
+~
+0 -1 23384 0
+D2
+~
+~
+0 -1 23380 0
+D3
+~
+~
+0 -1 23382 0
+R M 0 23110 25 23381
+R M 0 23110 25 23381
+R M 0 23110 25 23381
+R M 0 23110 25 23381
+R M 0 23110 25 23381
+S
+#23382
+&gLarge Office&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741836 1 0 0 0 16992
+D1
+~
+~
+0 -1 23381 0
+S
+#23383
+&gHead Hunter's Office&W~
+A large insignia sits in the far wall overlooking a large chair
+and desk. trophies of all kinds sit and stand about the room.
+Unuseable weapons of all sizes sit mounted on the walls. 
+~
+0 8388616 1 0 0 0 16992
+D2
+~
+~
+0 -1 23381 0
+S
+#23384
+&gLarge Office&W~
+A small insignia is embed into the blackened durasteel wall.
+Small unuseable weapons sit mounted on the walls. In the middle
+of the room is a fairly large desk and chair. 
+~
+0 1073741836 1 0 0 0 16992
+D3
+~
+~
+0 -1 23381 0
+S
+#23385
+&GMeeting Atrium&W~
+A large Blackened durasteel table sits in the middle of the room,
+with a large number of chairs surrounding it. In the middle
+of the table is a fairly large centerpiece. the room is lit
+up from pillars of light surrounding the room in a fairly bright
+light.
+~
+0 1073741836 1 0 0 0 16992
+D3
+~
+~
+0 -1 23378 0
+S
+#23386
+&zSublevel 5 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23394 0
+D2
+~
+~
+0 -1 23387 0
+D3
+~
+~
+0 -1 23322 0
+R M 0 23111 6 23386
+S
+#23387
+&zSublevel 5 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23386 0
+D6
+~
+~
+0 -1 23407 0
+D8
+~
+~
+0 -1 23388 0
+S
+#23388
+&zSublevel 5 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+7 23132 23393 0
+D1
+~
+~
+0 -1 23389 0
+D7
+~
+~
+0 -1 23387 0
+R M 0 23111 6 23388
+R M 0 23111 6 23388
+R D 0 23388 0 2
+S
+#23389
+&zSublevel 5 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+7 23132 23392 0
+D1
+~
+~
+0 -1 23390 0
+D3
+~
+~
+0 -1 23388 0
+R D 0 23389 0 2
+S
+#23390
+&zSublevel 5 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+7 23132 23391 0
+D3
+~
+~
+0 -1 23389 0
+R M 0 23111 6 23390
+R D 0 23390 0 2
+S
+#23391
+&OHolding Cell&W~
+~
+0 1082130440 1 0 0 0 16992
+D2
+~
+~
+1 23132 23390 0
+R D 0 23391 2 0
+S
+#23392
+&OHolding Cell&W~
+~
+0 1082130440 1 0 0 0 16992
+D2
+~
+~
+7 23132 23389 0
+R D 0 23392 2 2
+S
+#23393
+&BForcer Holding Cell&W~
+~
+0 1082130568 1 0 0 0 16992
+D2
+~
+~
+1 23132 23388 0
+R D 0 23393 2 0
+S
+#23394
+&zSublevel 5 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23396 0
+D1
+~
+~
+3 -1 23395 0
+D2
+~
+~
+0 -1 23386 0
+R D 0 23394 1 1
+S
+#23395
+&YN&Po&Gi&Ws&Re &GT&Co&br&Rt&Ou&br&ce &zC&ph&ra&Gm&Pb&ge&rr&W~
+~
+0 1073741832 1 0 0 0 16992
+D3
+~
+~
+3 -1 23394 0
+R D 0 23395 3 1
+> rand_prog 100~
+if clan($n) == the hunters guild
+mpechoat $n your training ignores the effect of the chamber.
+else
+mpechoat $n the noise hurts your ears.
+mpdamage $n 10
+endif
+~
+|
+S
+#23396
+&zSublevel 5 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23398 0
+D1
+~
+~
+7 23132 23397 0
+D2
+~
+~
+0 -1 23394 0
+R D 0 23396 1 2
+S
+#23397
+&OInterrogation Room&W~
+~
+0 1073741832 1 0 0 0 16992
+D3
+~
+~
+7 23132 23396 0
+R D 0 23397 3 2
+S
+#23398
+&zSublevel 5 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D2
+~
+~
+0 -1 23396 0
+D7
+~
+~
+0 -1 23399 0
+R M 0 23111 6 23398
+R M 0 23111 6 23398
+S
+#23399
+&zSublevel 5 Corridor&W~
+The corridor is narrow and dimly lit. The blackened durasteel
+walls have a few unusable weapons on them. Light is only cast
+from the hunter's guild insignia shaped light panels in the
+ceiling and walls.
+~
+0 1073741832 1 0 0 0 16992
+D7
+~
+~
+0 -1 23400 0
+D8
+~
+~
+0 -1 23398 0
+S
+#23400
+&zExecution Hall&W~
+The hall has several large doors around the room leading off
+to some form of execution. in the eastern wall is some sort
+of control room. a large hunter's guild insignia is ebbed into
+the ceiling.
+~
+0 1073741836 1 0 0 0 16992
+D0
+~
+~
+4096 -1 23402 0
+D1
+~
+~
+0 -1 23401 0
+D3
+~
+~
+4096 -1 23405 0
+D7
+~
+~
+4096 -1 23404 0
+D8
+~
+~
+0 -1 23399 0
+D9
+~
+~
+4096 -1 23406 0
+S
+#23401
+&zExecution Control Room&W~
+The room contains many control consoles and chairs. however only
+four levers are worth note as they are each labeled. A small
+insignia is above the door to the execution hall.
+~
+0 1073741832 1 0 0 0 16992
+D3
+~
+~
+0 -1 23400 0
+R O 0 23133 1 23401
+R O 0 23134 1 23401
+R O 0 23135 1 23401
+R O 0 23136 1 23401
+S
+#23402
+&BDrowning Chamber outer&W~
+~
+0 1073741832 1 0 0 0 16992
+D2
+~
+~
+4096 -1 23400 0
+D5
+~
+~
+0 -1 23403 0
+S
+#23403
+&BDrowning Chamber&W~
+~
+0 1073741832 1 0 0 0 16992
+D4
+~
+~
+0 -1 23402 0
+> rand_prog 100~
+if isaffected($n) ==aqua_breath
+else
+mpechoat $n your lungs start to burn.
+mpdamage $n 100
+endif
+~
+|
+S
+#23404
+&GGas Chamber&W~
+~
+0 1073741836 1 0 0 0 16992
+D8
+~
+~
+4096 -1 23400 0
+> rand_prog 100~
+mpechoat $n the poison wracks your body.
+mpdamage $n 140
+~
+|
+S
+#23405
+&W "&RH&Oe&Yll's &RK&Oi&Ytchen&W"~
+~
+0 1073741836 1 0 0 0 16992
+D1
+~
+~
+4096 -1 23400 0
+> rand_prog 100~
+mpechoat $n flames jet out of the wall and singe some of your body.
+mpdamage $n 100
+~
+|
+S
+#23406
+&CElectrical Storm Room&W~
+~
+0 1073741836 1 0 0 0 16992
+D6
+~
+~
+4096 -1 23400 0
+> rand_prog 100~
+mpechoat $n a large lightning bolt flys down and strikes you.
+mpdamage $n 500
+~
+|
+S
+#23407
+&zSecurity Office&W~
+The office is extremly small and is only ment for a few guards.
+a large machine sits against the back wall under the hunter's
+guild insignia.
+&Y(ooc: say key to get a dentention keycard)&W
+~
+0 1073741832 1 0 0 0 16992
+D9
+~
+~
+0 -1 23387 0
+R M 0 23117 1 23407
+S
+#23408
+&zMain Corridor&W~
+~
+0 1073741832 1 0 0 0 16992
+D2
+~
+~
+0 -1 23409 0
+D3
+~
+~
+0 -1 23322 0
+S
+#23409
+&zMain Corridor&W~
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23408 0
+D2
+~
+~
+0 -1 23410 0
+R M 0 23110 25 23409
+R M 0 23110 25 23409
+S
+#23410
+&zMain Corridor&W~
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23409 0
+D2
+~
+~
+0 -1 23411 0
+S
+#23411
+&zMain Corridor&W~
+~
+0 1073741832 1 0 0 0 16992
+D0
+~
+~
+0 -1 23410 0
+D2
+~
+~
+0 -1 23176 0
+R M 0 23110 25 23411
+R M 0 23110 25 23411
+S
+#23500
+Floating in a void~
+~
+0 4 1 0 0 0 16992
+S
+#0
+
+
+#SHOPS
+ 23112    0  0  0  0  0   120  90         0 23    ; A Chef Droid
+ 23115    0  0  0  0  0   120  90         0 23    ; supply droid
+ 23116    0  0  0  0  0   120  90         0 23    ; supply droid
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$
